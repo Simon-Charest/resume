@@ -9,6 +9,9 @@ function main() {
     const express = require('express');
     const app = express();
     const resumePath = path.join(__dirname, '..', 'data', 'resume.json');
+    
+    // Serve static files from the assets directory
+    app.use('/assets', express.static(path.join(__dirname, '../assets')));
 
     // Set the view engine to EJS
     app.set('view engine', 'ejs');

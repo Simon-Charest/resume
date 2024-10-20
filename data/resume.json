@@ -2,6 +2,8 @@
 {
     "Intro":
     {
+        "Background photo": "background_photo.jpeg",
+        "Profile photo": "profile_photo.jpeg",
         "First name": "Simon",
         "Last name": "Charest",
         "Additional name": null,

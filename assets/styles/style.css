@@ -1,0 +1,19 @@
+body { font-family: Arial, sans-serif; margin: 20px; background-color: #333; color: #ccc; }
+h1 { color: #fff; }
+h2 { margin-top: 20px; }
+a { color: #0cc; text-decoration: none; }
+a:hover { color: #c00; text-decoration: underline; }
+a:visited { color: #99c; }
+ul { list-style-type: none; padding: 0; }
+li { margin: 5px 0; }
+pre { white-space: pre-wrap; }
+.background-photo {
+    width: 800px;
+    height: 200px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}

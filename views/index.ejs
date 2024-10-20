@@ -4,17 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        h1 { color: #333; }
-        h2 { margin-top: 20px; }
-        ul { list-style-type: none; padding: 0; }
-        li { margin: 5px 0; }
-        pre { white-space: pre-wrap; }
-    </style>
+    <link rel="stylesheet" href="/assets/styles/style.css">
+</head>
 </head>
 <body>
     <h1>Resume of <%= resume["Intro"]["First name"] %> <%= resume["Intro"]["Last name"] %></h1>
+
+    <h2>Photos</h2>
+    <p><img src="/assets/images/<%= resume["Intro"]["Background photo"] %>" alt="Background Photo" class="background-photo"></p>
+    <p><img src="/assets/images/<%= resume["Intro"]["Profile photo"] %>" alt="Profile Photo" class="profile-photo"></p>
 
     <h2>Intro</h2>
     <p><strong>Headline:</strong> <%= resume["Intro"]["Headline"] %></p>
