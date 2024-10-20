@@ -1,5 +1,5 @@
 const PORT = 3000;
-const HOSTNAME = "127.0.0.1";
+const HOSTNAME = "0.0.0.0";
 
 function main() {
     const fs = require('fs');
@@ -22,7 +22,7 @@ function main() {
             if (err) {
                 console.error('Error reading JSON file:', err);
                 res.status(500).send('Internal Server Error');
-                
+
                 return;
             }
 

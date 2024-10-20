@@ -2,8 +2,13 @@ body {
     background-color: #ccc;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    padding-left: 25%;
-    padding-right: 25%;
+}
+
+@media (min-width: 1024px) {
+    body {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,8 +49,14 @@ a:active {
     border-radius: 50%;
     height: 150px;
     position: absolute;
-    top: 150px;
+    top: 10px;
     left: 10px;
+}
+
+@media (min-width: 1024px) {
+    .profile-photo {
+        top: 150px;
+    }
 }
 
 .icon {
