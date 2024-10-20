@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        h2 { margin-top: 20px; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin: 5px 0; }
+        pre { white-space: pre-wrap; }
+    </style>
+</head>
+<body>
+    <h1>Resume of <%= resume["Intro"]["First name"] %> <%= resume["Intro"]["Last name"] %></h1>
+
+    <h2>Intro</h2>
+    <p><strong>Headline:</strong> <%= resume["Intro"]["Headline"] %></p>
+    <p><strong>Primary Position:</strong> <%= resume["Intro"]["Primary position"]["Title"] %> at <%= resume["Intro"]["Primary position"]["Company name"] %></p>
+    <p><strong>Industry:</strong> <%= resume["Intro"]["Industry"] %></p>
+    <p><strong>Education:</strong> <%= resume["Intro"]["Education"]["School"] %></p>
+    <p><strong>Location:</strong> <%= resume["Intro"]["Location"]["City"] %>, <%= resume["Intro"]["Location"]["Country"] %></p>
+    <p><strong>Contact Info:</strong></p>
+    <ul>
+        <li><a href="mailto:<%= resume["Intro"]["Contact info"]["Email"] %>">Email: <%= resume["Intro"]["Contact info"]["Email"] %></a></li>
+        <li><a href="tel:<%= resume["Intro"]["Contact info"]["Phone"] || 'N/A' %>">Phone: <%= resume["Intro"]["Contact info"]["Phone"] || 'N/A' %></a></li>
+        <li><a href="<%= resume["Intro"]["Contact info"]["Profile URL"] %>">LinkedIn Profile</a></li>
+        <li>Website: <a href="<%= resume["Intro"]["Website"][0]["Website URL"] %>"><%= resume["Intro"]["Website"][0]["Website URL"] %></a></li>
+    </ul>
+
+    <h2>About</h2>
+    <ul>
+        <% resume["About"].forEach(item => { %>
+            <li><%= item %></li>
+        <% }); %>
+    </ul>
+
+    <h2>Skills</h2>
+    <ul>
+        <% resume["Skills"].forEach(skill => { %>
+            <li><%= skill %></li>
+        <% }); %>
+    </ul>
+
+    <h2>Experience</h2>
+    <p><strong>Title:</strong> <%= resume["Experience"]["Title"] %></p>
+    <p><strong>Company:</strong> <%= resume["Experience"]["Company name"] %></p>
+    <p><strong>Location:</strong> <%= resume["Experience"]["Location"] %></p>
+    <p><strong>Employment Type:</strong> <%= resume["Experience"]["Employment Type"] %></p>
+    <p><strong>Start Date:</strong> <%= resume["Experience"]["Start date"] %></p>
+    <p><strong>Description:</strong></p>
+    <ul>
+        <% resume["Experience"]["Description"].forEach(desc => { %>
+            <li><%= desc %></li>
+        <% }); %>
+    </ul>
+    <h3>Skills:</h3>
+    <ul>
+        <% resume["Experience"]["Skills"].forEach(skill => { %>
+            <li><%= skill %></li>
+        <% }); %>
+    </ul>
+    <h3>Media:</h3>
+    <ul>
+        <% resume["Experience"]["Media"].forEach(media => { %>
+            <% for (const title in media) { %>
+                <li><a href="<%= media[title] %>"><%= title %></a></li>
+            <% } %>
+        <% }); %>
+    </ul>
+</body>
+</html>
