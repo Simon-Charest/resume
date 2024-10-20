@@ -1,19 +1,75 @@
-body { font-family: Arial, sans-serif; margin: 20px; background-color: #333; color: #ccc; }
-h1 { color: #fff; }
-h2 { margin-top: 20px; }
-a { color: #0cc; text-decoration: none; }
-a:hover { color: #c00; text-decoration: underline; }
-a:visited { color: #99c; }
-ul { list-style-type: none; padding: 0; }
-li { margin: 5px 0; }
-pre { white-space: pre-wrap; }
-.background-photo {
-    width: 800px;
-    height: 200px;
-    object-fit: cover; /* Ensures the image covers the area without distortion */
+body {
+    background-color: #ccc;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding-left: 25%;
+    padding-right: 25%;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin: 0;
+}
+
+a, a:visited {
+    color: #007fcc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #007fcc;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #003fcc;
+}
+
+/* Classes */
+
+.banner {
+    background-image: url('/assets/images/<%= resume["Intro"]["Background photo"] %>');
+    position: relative;
+    padding-bottom: 75px;
+}
+
+.background-photo {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
+
 .profile-photo {
-    width: 200px;
-    height: 200px;
-    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border: 5px solid #fff;
+    border-radius: 50%;
+    height: 150px;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+}
+
+.intro, .about, .experience, .education, .skills, .courses, .languages, .interests {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 15px;
+}
+
+.intro ul {
+    list-style-type: none;
+}
+
+.two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ul {
+    padding-left: 20px;
 }

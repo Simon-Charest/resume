@@ -22,6 +22,7 @@ function main() {
             if (err) {
                 console.error('Error reading JSON file:', err);
                 res.status(500).send('Internal Server Error');
+                
                 return;
             }
 
