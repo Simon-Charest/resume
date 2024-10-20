@@ -65,12 +65,10 @@
 
     <div class="experience">
         <h3>Experience</h3>
-        <p><strong>Title:</strong> <%= resume["Experience"]["Title"] %></p>
-        <p><strong>Company:</strong> <%= resume["Experience"]["Company name"] %></p>
-        <p><strong>Location:</strong> <%= resume["Experience"]["Location"] %></p>
-        <p><strong>Employment Type:</strong> <%= resume["Experience"]["Employment Type"] %></p>
-        <p><strong>Start Date:</strong> <%= resume["Experience"]["Start date"] %></p>
-        <h3>Description:</h3>
+        <p><strong><%= resume["Experience"]["Title"] %></strong></p>
+        <p><%= resume["Experience"]["Company name"] %> - <%= resume["Experience"]["Employment Type"] %></p>
+        <p><%= resume["Experience"]["Start date"] %> - <%= resume["Experience"]["End date"] || "Present" %></p>
+        <p><%= resume["Experience"]["Location"] %> - <%= resume["Experience"]["Location type"] %></p>
         <ul>
             <% resume["Experience"]["Description"].forEach(desc => { %>
                 <li><%= desc %></li>
