@@ -12,6 +12,7 @@ sudo ufw allow 3000
 sudo ufw enable
 ```
 2. Run Node.js solution:
+
 a) As an application:
 ```
 node src/index.js
