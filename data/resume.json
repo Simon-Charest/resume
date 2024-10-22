@@ -1,63 +1,102 @@
 
 {
-    "Icon":
-    {
-        "LinkedIn": "linked_in.png",
-        "Website": "website.png",
-        "Phone": "phone.png",
-        "Address": "address.png",
-        "Email": "email.png",
-        "Birthday": "birthday.png",
-        "TopSkills": "top_skills.png"
+    "global": {
+        "seeMore": {"en-ca": "See more...", "fr-ca": "Voir plus..."},
+
+        "contactInfo": {"en-ca": "Contact Info", "fr-ca": "Coordonnées"},
+        "profile": {"en-ca": "Profile", "fr-ca": "Profil"},
+        "websites": {"en-ca": "Websites", "fr-ca": "Sites web"},
+        "company": {"en-ca": "Company", "fr-ca": "Entreprise"},
+        "portfolio": {"en-ca": "Portfolio", "fr-ca": "Portfolio"},
+        "phone": {"en-ca": "Phone", "fr-ca": "Téléphone"},
+        "mobile": {"en-ca": "Mobile", "fr-ca": "Cellulaire"},
+        "address": {"en-ca": "Address", "fr-ca": "Adresse"},
+        "email": {"en-ca": "Email", "fr-ca": "Courriel"},
+        "birthday": {"en-ca": "Birthday", "fr-ca": "Anniversaire"},
+        
+        "about": {"en-ca": "About", "fr-ca": "À propos"},
+        "topSkills": {"en-ca": "Top Skills", "fr-ca": "Compétences clés"},
+        
+        "experience": {"en-ca": "Experience", "fr-ca": "Expérience"},
+        "skills": {"en-ca": "Media", "fr-ca": "Expérience"},
+        "media": {"en-ca": "Media", "fr-ca": "Médias"}
     },
-    "Intro":
-    {
-        "Background photo": "background_photo.jpeg",
-        "Profile photo": "profile_photo.jpeg",
-        "Industry photo": "vigiteck.jpeg",
-        "School photo": "cvm.jpeg",
-        "First name": "Simon",
-        "Last name": "Charest",
-        "Organization": "SLCTI inc.",
-        "Additional name": null,
-        "Name pronunciation": null,
-        "Pronouns": null,
-        "Headline": "Développeur",
-        "Primary position": {
-            "Title": "Développeur",
-            "Company name": "Groupe Vigiteck inc.",
-            "Website": "https://www.vigiteck.com/"
+
+    "images": {
+        "background": "background_photo.jpeg",
+        "profile": "profile_photo.jpeg"
+    },
+
+    "icon": {
+        "LinkedIn": "linked_in.png",
+        "website": "website.png",
+        "phone": "phone.png",
+        "address": "address.png",
+        "email": "email.png",
+        "birthday": "birthday.png",
+        "skill": "skill.png"
+    },
+
+    "intro": {
+        "backgroundPhoto": "background_photo.jpeg",
+        "profilePhoto": "profile_photo.jpeg",
+        "industryPhoto": "vigiteck.jpeg",
+        "schoolPhoto": "cvm.jpeg",
+        "firstName": "Simon",
+        "lastName": "Charest",
+        "organization": {"en-ca": "SLCIT Inc.", "fr-ca": "SLCTI inc."},
+        "additionalName": "Laguë",
+        "namePronunciation":  {"en-ca": "saɪmən ʃɑrɛ", "fr-ca": "simõ ʃaɾɛ"},
+        "pronouns": {"en-ca": "He/Him", "fr-ca": "Il/lui"},
+        "headline": {"en-ca": "Developer", "fr-ca": "Développeur"},
+        "primaryPosition": {
+            "title": {"en-ca": "Developer", "fr-ca": "Développeur"},
+            "companyName": {"en-ca": "Vigiteck Group Inc.", "fr-ca": "Groupe Vigiteck inc."},
+            "website": "https://www.vigiteck.com/"
         },
-        "Industry": "Computer Software",
-        "Education": {
-            "School": "Cégep du Vieux-Montréal",
-            "Website": "https://www.cvm.qc.ca/"
+        "industry": {"en-ca": "Computer Software", "fr-ca": "Logiciels informatiques"},
+        "education": {
+            "school": {"en-ca": "Old Montreal College", "fr-ca": "Cégep du Vieux-Montréal"},
+            "website": "https://www.cvm.qc.ca/"
         },
-        "Location": {
-            "Country": "Canada",
-            "Postal Code": null,
-            "City": "Montreal, Quebec"
+        "location": {
+            "city": {"en-ca": "Montreal", "fr-ca": "Montréal"},
+            "province": {"en-ca": "Quebec", "fr-ca": "Québec"},
+            "country": {"en-ca": "Canada", "fr-ca": "Canada"}
         },
-        "Contact info": {
-            "Profile URL": "https://www.linkedin.com/in/simoncharest",
-            "Email": "simoncharest@gmail.com",
-            "Phone": "+1 514-653-0623",
-            "Address": "Montréal, Québec",
-            "Birthday": null,
-            "Websites": [
+        "contactInfo": {
+            "profileURL": "https://www.linkedin.com/in/simoncharest/",
+            "email": "simoncharest@gmail.com",
+            "phone": {
+                "number": "+1 514-653-0623",
+                "type": "Mobile"
+            },
+            "address": {
+                "apartment": null,
+                "civicNumber": null,
+                "streetName": null,
+                "roadType": null,
+                "postalCode": "H2A",
+                "city": {"en-ca": "Montreal", "fr-ca": "Montréal"},
+                "province": {"en-ca": "Quebec", "fr-ca": "Québec"},
+                "country": {"en-ca": "Canada", "fr-ca": "Canada"}
+            },
+            "birthday": null,
+            "websites": [
                 {
-                    "Website URL": "http://slcit.mooo.com/",
-                    "Website type": "Company"
+                    "url": "http://slcti.mooo.com/",
+                    "type": "Company"
                 },
                 {
-                    "Website URL": "https://github.com/Simon-Charest/",
-                    "Website type": "Portfolio"
+                    "url": "https://github.com/Simon-Charest/",
+                    "type": "Portfolio"
                 }
             ],
-            "Instant Messaging": null
+            "instantMessaging": null
         }
     },
-    "About": [
+
+    "about": [
         {"Intérêts particuliers": "Python, SQL, Git, PowerShell, Node.js, .NET, analyse, renseignement, enquêtes, sécurité, jeux vidéo, principes agiles, etc."},
         {"Disponibilité": "Ouvert à des missions de consultation en tant qu'entrepreneur incorporé, à temps plein ou partiel."},
         {"Modalités de travail préférées": "Grande préférence pour le télétravail, avec possibilité de travail en présentiel ponctuel."},
@@ -69,30 +108,33 @@
         {"Traits distinctifs": "Créativité dans la recherche de solutions originales et capacité à penser de manière innovante. Compétences avancées en analyse et synthèse, avec une aptitude à simplifier et schématiser des concepts complexes."},
         {"Historique de programmation": "Premières expériences de programmation remontant à 1988, à l'âge de 8 ans, avec le langage BASIC sur un ordinateur TI-99/4A."}
     ],
-    "Skills": [
+
+    "skills": [
         "Python",
         "SQL",
         "PowerShell",
         "Git",
         "C#"
     ],
-    "Experience":
-    {
-        "Title": "Associé, directeur TI et développeur",
-        "Employment Type": "Contract Full-time",
-        "Company name": "Groupe Vigiteck inc.",
-        "Location": "Montréal, Québec, Canada",
-        "Location type": "Remote",
-        "I am currently working for this role": true,
-        "Start date": "2024-02",
-        "End date": null,
-        "Description": [
-            "Activités : Développement et support de solutions logicielles, analyse, enquêtes, renseignement, etc.",
-            "Projets : WhosThatGuy ™, D-Analyst ™, Pyaudit : Un projet Python permettant d'importer des données de journal d'audit unifié de Microsoft 365 dans une base de données relationnelle indexée, d'identifier les adresses IP, d'exécuter des requêtes et de générer des rapports, y compris des graphiques, Pymage : Un outil de traitement d'images basé sur Python exploitant OpenCV., Site web (https://www.vigiteck.com/), etc.",
-            "Formation : PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)."
+    
+    "experience": {
+        "title": "Associé, directeur TI et développeur",
+        "employmentType": "Contract Full-time",
+        "companyName": "Groupe Vigiteck inc.",
+        "location": {
+            "city": "Montréal, Québec, Canada",
+            "type": "Remote"
+        },
+        "currentRole": true,
+        "startDate": "2024-02",
+        "endDate": null,
+        "description": [
+            {"Activités": "Développement et support de solutions logicielles, analyse, enquêtes, renseignement, etc."},
+            {"Projets": "WhosThatGuy ™, D-Analyst ™, Pyaudit : Un projet Python permettant d'importer des données de journal d'audit unifié de Microsoft 365 dans une base de données relationnelle indexée, d'identifier les adresses IP, d'exécuter des requêtes et de générer des rapports, y compris des graphiques, Pymage : Un outil de traitement d'images basé sur Python exploitant OpenCV., Site web (https://www.vigiteck.com/), etc."},
+            {"Formation": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)."}
         ],
-        "Profile headline": "Développeur",
-        "Skills": [
+        "profileHeadline": "Développeur",
+        "skills": [
             "Python",
             "pandas",
             "Pytest",
@@ -110,7 +152,7 @@
             "Neo4j",
             "WordPress"
         ],
-        "Media": [
+        "media": [
             {"L'application Temu testée par des experts en cybersécurité | Décrypteurs": "https://www.youtube.com/watch?v=m5rpJbaqs6w&t=284s"}
         ]
     }

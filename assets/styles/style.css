@@ -1,7 +1,7 @@
 body {
     background-color: #ccc;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     margin: 0 auto;
     width: 50%;
 }
@@ -24,7 +24,15 @@ a:active {
     color: #003fcc;
 }
 
-/* Classes */
+/* Sections */
+
+.language {
+    text-align: right;
+}
+
+.language a {
+    color: black;
+}
 
 .background {
     position: relative;
@@ -44,13 +52,6 @@ a:active {
     top: 50%;
     left: 1%;
     width: 15%;
-}
-
-.icon {
-    width: 25px;
-    height: 25px;
-    padding-right: 5px;
-    padding-bottom: 5px;
 }
 
 .profile,
@@ -82,6 +83,8 @@ a:active {
     grid-template-columns: 1fr 1fr;
 }
 
+/* Elements */
+
 .intro ul,
 .contact-info ul {
     padding-left: 0;
@@ -90,4 +93,39 @@ a:active {
 .intro li,
 .contact-info li {
     display: flex;
+}
+
+.horizontal-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.horizontal-list li {
+    margin-right: 1.5em;
+}
+
+/* Icons */
+
+.icon {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+/* Collapsible */
+
+.collapsible-content {
+    display: none;
+}
+
+.collapsible-button {
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.collapsible-button:hover {
+    color: #007fcc;
+    text-decoration: underline;
 }
