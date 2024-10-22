@@ -2,11 +2,20 @@
 A resume created using Node.js.
 
 ## Usage
-1. Run Node.js solution:
+
+1. Install and configure prerequisites:
+```bash
+sudo apt install nodejs npm
+npm install package.json
+npm audit fix --force
+sudo ufw allow 3000
+sudo ufw enable
+```
+2. Run Node.js solution:
 ```
 node src/index.js
 ```
-2. Open solution: [http://127.0.0.1:3000/](http://127.0.0.1:3000/).
+3. Open solution: [http://127.0.0.1:3000/](http://127.0.0.1:3000/).
 
 ## Contact
 ### SLCIT Inc.
