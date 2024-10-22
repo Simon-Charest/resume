@@ -2,13 +2,8 @@ body {
     background-color: #ccc;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-}
-
-@media (min-width: 1024px) {
-    body {
-        padding-left: 25%;
-        padding-right: 25%;
-    }
+    margin: 0 auto;
+    width: 50%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,13 +11,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-a, a:visited {
+a {
     color: #007fcc;
     text-decoration: none;
 }
 
 a:hover {
-    color: #007fcc;
     text-decoration: underline;
 }
 
@@ -32,8 +26,7 @@ a:active {
 
 /* Classes */
 
-.banner {
-    background-image: url('/assets/images/<%= resume["Intro"]["Background photo"] %>');
+.background {
     position: relative;
     padding-bottom: 75px;
 }
@@ -47,24 +40,27 @@ a:active {
 .profile-photo {
     border: 5px solid #fff;
     border-radius: 50%;
-    height: 150px;
     position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
-@media (min-width: 1024px) {
-    .profile-photo {
-        top: 150px;
-    }
+    top: 50%;
+    left: 1%;
+    width: 15%;
 }
 
 .icon {
-    height: 25px;
     width: 25px;
+    height: 25px;
+    padding-right: 5px;
+    padding-bottom: 5px;
 }
 
-.intro, .about, .experience, .education, .skills, .courses, .languages, .interests {
+.profile,
+.about,
+.experience,
+.education,
+.skills,
+.courses,
+.languages,
+.interests {
     background: white;
     border-radius: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -72,15 +68,26 @@ a:active {
     padding: 15px;
 }
 
-.intro ul {
-    list-style-type: none;
+.profile {
+    padding: 0;
 }
 
-.two-columns {
+.intro,
+.contact-info {
+    padding: 15px;
+}
+
+.intro {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-ul {
-    padding-left: 20px;
+.intro ul,
+.contact-info ul {
+    padding-left: 0;
+}
+
+.intro li,
+.contact-info li {
+    display: flex;
 }

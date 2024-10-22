@@ -1,98 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= resume["Intro"]["First name"] %> <%= resume["Intro"]["Last name"] %> | <%= resume["Intro"]["Organization"] %></title>
-    <link rel="stylesheet" href="/assets/styles/style.css">
-</head>
-<body>
-    
-    <div class="intro">
-        <div class="banner">
-            <img src="/assets/images/<%= resume['Intro']['Background photo'] %>" alt="Background Photo" class="background-photo">
-            <img src="/assets/images/<%= resume['Intro']['Profile photo'] %>" alt="Profile Photo" class="profile-photo">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><%= resume["Intro"]["First name"] %> <%= resume["Intro"]["Last name"] %> | <%= resume["Intro"]["Organization"] %></title>
+        <link rel="stylesheet" href="/assets/styles/style.css">
+    </head>
+    <body>
+        <div class="profile">
+            <div class="background">
+                <img src="/assets/images/<%= resume['Intro']['Background photo'] %>" alt="Background Photo" class="background-photo">
+                <img src="/assets/images/<%= resume['Intro']['Profile photo'] %>" alt="Profile Photo" class="profile-photo">
+            </div>
+
+            <div class="intro">
+                <div>
+                    <h1><%= resume["Intro"]["First name"] %> <%= resume["Intro"]["Last name"] %></h1>
+                    <h2><%= resume["Intro"]["Primary position"]["Title"] %></h2>
+                    <p><%= resume["Intro"]["Location"]["City"] %>, <%= resume["Intro"]["Location"]["Country"] %></p>
+                </div>
+                <div>
+                    <ul>
+                        <li><img src="/assets/images/<%= resume['Intro']['Industry photo'] %>" class="icon">&nbsp;<a href="<%= resume['Intro']['Primary position']['Website'] %>"><%= resume["Intro"]["Primary position"]["Company name"] %></a></li>
+                        <li><img src="/assets/images/<%= resume['Intro']['School photo'] %>" class="icon">&nbsp;<a href="<%= resume['Intro']['Education']['Website'] %>"><%= resume["Intro"]["Education"]["School"] %></a></li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="contact-info">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><img src="/assets/icons/<%= resume['Icon']['LinkedIn'] %>" class="icon"><strong>Profile:</strong>&nbsp;<a href="<%= resume['Intro']['Contact info']['Profile URL'] %>"><%= resume["Intro"]["Contact info"]["Profile URL"] %></a></li>
+                    <li><img src="/assets/icons/<%= resume['Icon']['Website'] %>" class="icon"><strong>Websites:</strong>&nbsp;
+                        <ul>
+                            <% resume['Intro']['Contact info']['Websites'].forEach(item => { %>
+                                <li><a href="<%= item['Website URL'] %>"><%= item["Website URL"] %></a>&nbsp;(<%= item["Website type"] %>)</li>
+                            <% }); %>
+                        </ul>
+                    </li>
+                    <li><img src="/assets/icons/<%= resume['Icon']['Phone'] %>" class="icon"><strong>Phone:</strong>&nbsp;<a href="tel:<%= resume['Intro']['Contact info']['Phone'] %>"><%= resume["Intro"]["Contact info"]["Phone"] %></a></li>
+                    <li><img src="/assets/icons/<%= resume['Icon']['Address'] %>" class="icon"><strong>Address:</strong>&nbsp;<a href="https://www.google.ca/maps/place/<%= resume['Intro']['Contact info']['Address'] %>"><%= resume["Intro"]["Contact info"]["Address"] %></a></li>
+                    <li><img src="/assets/icons/<%= resume['Icon']['Email'] %>" class="icon"><strong>Email:</strong>&nbsp;<a href="mailto:<%= resume['Intro']['Contact info']['Email'] %>"><%= resume["Intro"]["Contact info"]["Email"] %></a></li>
+                    <% if (resume["Intro"]["Contact info"]["Birthday"]) { %>
+                        <li><img src="/assets/icons/<%= resume['Icon']['Birthday'] %>" class="icon">Birthday:&nbsp;<%= resume["Intro"]["Contact info"]["Birthday"] %></li>
+                    <% } %>
+                </ul>
+            </div>
         </div>
 
-        <div class="two-columns">
-            <div>
-                <h1><%= resume["Intro"]["First name"] %> <%= resume["Intro"]["Last name"] %></h1>
-                <h2><%= resume["Intro"]["Primary position"]["Title"] %></h2>
-                <p><%= resume["Intro"]["Location"]["City"] %>, <%= resume["Intro"]["Location"]["Country"] %></p>
-            </div>
-            <div>
-                <p><img src="/assets/images/<%= resume['Intro']['Industry photo'] %>" class="icon"> <%= resume["Intro"]["Primary position"]["Company name"] %></p>
-                <p><img src="/assets/images/<%= resume['Intro']['School photo'] %>" class="icon"> <%= resume["Intro"]["Education"]["School"] %></p>
-            </div>
-        </div>
-    
-        <div class="contact-info">
-            <h3>Contact Info</h3>
+        <div class="about">
+            <h3>About</h3>
             <ul>
-                <li><img src="/assets/icons/<%= resume['Icon']['LinkedIn'] %>" class="icon"> Profile: <a href="<%= resume['Intro']['Contact info']['Profile URL'] %>"><%= resume["Intro"]["Contact info"]["Profile URL"] %></a></li>
-                <li><img src="/assets/icons/<%= resume['Icon']['Website'] %>" class="icon"> Websites:
-                    <ul>
-                        <% resume['Intro']['Contact info']['Websites'].forEach(item => { %>
-                            <li><a href="<%= item['Website URL'] %>"><%= item["Website URL"] %></a> (<%= item["Website type"] %>)</li>
-                        <% }); %>
-                    </ul>
-                </li>
-                <li><img src="/assets/icons/<%= resume['Icon']['Phone'] %>" class="icon"> Phone: <a href="tel:<%= resume['Intro']['Contact info']['Phone'] %>"><%= resume["Intro"]["Contact info"]["Phone"] %></a></li>
-                <li><img src="/assets/icons/<%= resume['Icon']['Address'] %>" class="icon"> Address: <a href="https://www.google.ca/maps/place/<%= resume['Intro']['Contact info']['Address'] %>"><%= resume["Intro"]["Contact info"]["Address"] %></a></li>
-                <li><img src="/assets/icons/<%= resume['Icon']['Email'] %>" class="icon"> Email: <a href="mailto:<%= resume['Intro']['Contact info']['Email'] %>"><%= resume["Intro"]["Contact info"]["Email"] %></a></li>
-                <% if (resume["Intro"]["Contact info"]["Birthday"]) { %>
-                    <li><img src="/assets/icons/<%= resume['Icon']['Birthday'] %>" class="icon"> Birthday: <%= resume["Intro"]["Contact info"]["Birthday"] %></li>
-                <% } %>
+                <% resume["About"].forEach(item => { %>
+                    <% Object.entries(item).forEach(([key, value]) => { %>
+                        <li>
+                            <strong><%= key %>:</strong> <%= value %>
+                        </li>
+                    <% }); %>
+                <% }); %>
+            </ul>
+
+            <h3><img src="/assets/icons/<%= resume['Icon']['TopSkills'] %>" class="icon"> Top skills</h3>
+            <ul>
+                <% resume["Skills"].forEach(skill => { %>
+                    <li><%= skill %></li>
+                <% }); %>
             </ul>
         </div>
-    </div>
 
-    <div class="about">
-        <h3>About</h3>
-        <ul>
-            <% resume["About"].forEach(item => { %>
-                <li><%= item %></li>
-            <% }); %>
-        </ul>
-
-        <h3><img src="/assets/icons/<%= resume['Icon']['TopSkills'] %>" class="icon"> Top skills</h3>
-        <ul>
-            <% resume["Skills"].forEach(skill => { %>
-                <li><%= skill %></li>
-            <% }); %>
-        </ul>
-    </div>
-
-    <div class="experience">
-        <h3>Experience</h3>
-        <p><strong><%= resume["Experience"]["Title"] %></strong></p>
-        <p><%= resume["Experience"]["Company name"] %> - <%= resume["Experience"]["Employment Type"] %></p>
-        <p><%= resume["Experience"]["Start date"] %> - <%= resume["Experience"]["End date"] || "Present" %></p>
-        <p><%= resume["Experience"]["Location"] %> - <%= resume["Experience"]["Location type"] %></p>
-        <ul>
-            <% resume["Experience"]["Description"].forEach(desc => { %>
-                <li><%= desc %></li>
-            <% }); %>
-        </ul>
-        <h3>Skills:</h3>
-        <ul>
-            <% resume["Experience"]["Skills"].forEach(skill => { %>
-                <li><%= skill %></li>
-            <% }); %>
-        </ul>
-        <h3>Media:</h3>
-        <ul>
-            <% resume["Experience"]["Media"].forEach(media => { %>
-                <% for (const title in media) { %>
-                    <li><a href="<%= media[title] %>"><%= title %></a></li>
-                <% } %>
-            <% }); %>
-        </ul>
-    </div>
-    <script>
-        document.querySelectorAll('a').forEach(link => {
-            link.setAttribute('target', '_blank');
-        });
-    </script>
-</body>
+        <div class="experience">
+            <h3>Experience</h3>
+            <p><strong><%= resume["Experience"]["Title"] %></strong></p>
+            <p><%= resume["Experience"]["Company name"] %> - <%= resume["Experience"]["Employment Type"] %></p>
+            <p><%= resume["Experience"]["Start date"] %> - <%= resume["Experience"]["End date"] || "Present" %></p>
+            <p><%= resume["Experience"]["Location"] %> - <%= resume["Experience"]["Location type"] %></p>
+            <ul>
+                <% resume["Experience"]["Description"].forEach(desc => { %>
+                    <li><%= desc %></li>
+                <% }); %>
+            </ul>
+            <h3>Skills:</h3>
+            <ul>
+                <% resume["Experience"]["Skills"].forEach(skill => { %>
+                    <li><%= skill %></li>
+                <% }); %>
+            </ul>
+            <h3>Media:</h3>
+            <ul>
+                <% resume["Experience"]["Media"].forEach(media => { %>
+                    <% for (const title in media) { %>
+                        <li><a href="<%= media[title] %>"><%= title %></a></li>
+                    <% } %>
+                <% }); %>
+            </ul>
+        </div>
+        <script>
+            document.querySelectorAll('a').forEach(link => {
+                link.setAttribute('target', '_blank');
+            });
+        </script>
+    </body>
 </html>
