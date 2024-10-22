@@ -12,8 +12,13 @@ sudo ufw allow 3000
 sudo ufw enable
 ```
 2. Run Node.js solution:
+a) As an application:
 ```
 node src/index.js
+```
+b) As a service:
+```bash
+sudo systemctl restart resume.service
 ```
 3. Open solution: [http://127.0.0.1:3000/](http://127.0.0.1:3000/).
 
