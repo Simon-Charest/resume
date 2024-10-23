@@ -6,6 +6,12 @@ body {
     width: 50%;
 }
 
+@media (max-width: 600px) {
+    body {
+        width: 95%;
+    }
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: #333;
     margin: 0;
@@ -128,4 +134,10 @@ a:active {
 .collapsible-button:hover {
     color: #007fcc;
     text-decoration: underline;
+}
+
+.copyright {
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
 }

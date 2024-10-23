@@ -48,11 +48,11 @@
                 <button class="collapsible-button"><%= resume["global"]["seeMore"][lang] %></button>
                 <div class="collapsible-content">
                     <ul>
-                        <li><img src="/assets/icons/<%= resume['icon']['LinkedIn'] %>" class="icon"><strong><%= resume["global"]["profile"][lang] %></strong>&nbsp;<a href="<%= resume['intro']['contactInfo']['profileURL'] %>"><%= resume["intro"]["contactInfo"]["profileURL"] %></a></li>
+                        <li><img src="/assets/icons/<%= resume['icon']['LinkedIn'] %>" class="icon"><strong><%= resume["global"]["profile"][lang] %></strong>&nbsp;<a href="<%= resume['intro']['contactInfo']['profile']['url'] %>"><%= resume["intro"]["contactInfo"]["profile"]["name"] %></a></li>
                         <li><img src="/assets/icons/<%= resume['icon']['website'] %>" class="icon"><strong><%= resume["global"]["websites"][lang] %></strong>&nbsp;
                             <ul>
                                 <% resume['intro']['contactInfo']['websites'].forEach(item => { %>
-                                    <li><a href="<%= item['url'] %>"><%= item["url"] %></a>&nbsp;(<%= item["type"] %>)</li>
+                                    <li><a href="<%= item['url'] %>"><%= item["name"][lang] %></a>&nbsp;(<%= item["type"][lang] %>)</li>
                                 <% }); %>
                             </ul>
                         </li>
@@ -83,8 +83,8 @@
                             // Filter out empty strings and join with a comma
                             const addressString = parts.filter(part => part).join(', ');
                         %>
-                        <li><img src="/assets/icons/<%= resume['icon']['address'] %>" class="icon"><strong><%= resume["global"]["address"][lang] %></strong>&nbsp;<a href="https://www.google.ca/maps/place/<%= addressString %>"><%= addressString %></a></li>
-                        <li><img src="/assets/icons/<%= resume['icon']['email'] %>" class="icon"><strong><%= resume["global"]["email"][lang] %></strong>&nbsp;<a href="mailto:<%= resume['intro']['contactInfo']['email'] %>"><%= resume["intro"]["contactInfo"]["email"] %></a></li>
+                        <li><img src="/assets/icons/<%= resume['icon']['address'] %>" class="icon"><strong><%= resume["global"]["address"][lang] %></strong>&nbsp;<a href="https://www.google.ca/maps/place/<%= addressString %>"><%= resume["global"]["GoogleMaps"] %></a></li>
+                        <li><img src="/assets/icons/<%= resume['icon']['email'] %>" class="icon"><strong><%= resume["global"]["email"][lang] %></strong>&nbsp;<a href="mailto:<%= resume['intro']['contactInfo']['email']['url'] %>"><%= resume["intro"]["contactInfo"]["email"]["name"] %></a></li>
                         <% if (resume["intro"]["contactInfo"]["Birthday"]) { %>
                             <li><img src="/assets/icons/<%= resume['icon']['birthday'] %>" class="icon"><%= resume["global"]["birthday"][lang] %>&nbsp;<%= resume["intro"]["contactInfo"]["birthday"] %></li>
                         <% } %>
@@ -121,7 +121,7 @@
             <p><strong><%= resume["experience"]["title"] %></strong></p>
             <p><%= resume["experience"]["companyName"] %> - <%= resume["experience"]["employmentType"] %></p>
             <p><%= resume["experience"]["startDate"] %> - <%= resume["experience"]["endDate"] || "Present" %></p>
-            <p><%= resume["experience"]["location"] %> - <%= resume["experience"]["locationType"] %></p>
+            <p><%= resume["experience"]["location"]["city"] %> - <%= resume["experience"]["location"]["type"] %></p>
             <button class="collapsible-button"><%= resume["global"]["seeMore"][lang] %></button>
             <div class="collapsible-content">
                 <ul>
@@ -134,7 +134,7 @@
                     <% }); %>
                 </ul>
             </div>
-            <h3><img src="/assets/icons/<%= resume['icon']['Skill'] %>" class="icon"> Skills</h3>
+            <h3><img src="/assets/icons/<%= resume['icon']['skill'] %>" class="icon"> Skills</h3>
             <ul class="horizontal-list">
                 <% resume["experience"]["skills"].forEach(skill => { %>
                     <li><%= skill %></li>
@@ -149,6 +149,10 @@
                 <% }); %>
             </ul>
         </div>
+        <div class="education">
+            En développement.
+        </div>
+        <p class="copyright"><%= resume["global"]["copyright"][lang] %></div></p>
         <script>
             document.querySelectorAll('a').forEach(link => {
                 const href = link.getAttribute('href');

@@ -11,15 +11,18 @@
         "phone": {"en-ca": "Phone", "fr-ca": "Téléphone"},
         "mobile": {"en-ca": "Mobile", "fr-ca": "Cellulaire"},
         "address": {"en-ca": "Address", "fr-ca": "Adresse"},
+        "GoogleMaps": "Google Maps",
         "email": {"en-ca": "Email", "fr-ca": "Courriel"},
         "birthday": {"en-ca": "Birthday", "fr-ca": "Anniversaire"},
         
         "about": {"en-ca": "About", "fr-ca": "À propos"},
         "topSkills": {"en-ca": "Top Skills", "fr-ca": "Compétences clés"},
-        
+
         "experience": {"en-ca": "Experience", "fr-ca": "Expérience"},
-        "skills": {"en-ca": "Media", "fr-ca": "Expérience"},
-        "media": {"en-ca": "Media", "fr-ca": "Médias"}
+        "skills": {"en-ca": "Skills", "fr-ca": "Compétences"},
+        "media": {"en-ca": "Media", "fr-ca": "Médias"},
+
+        "copyright": {"en-ca": "© SLCIT Inc. All rights reserved.", "fr-ca": "© SLCTI inc. Tous droits réservés."}
     },
 
     "images": {
@@ -38,8 +41,8 @@
     },
 
     "intro": {
-        "backgroundPhoto": "background_photo.jpeg",
-        "profilePhoto": "profile_photo.jpeg",
+        "backgroundPhoto": "background.jpeg",
+        "profilePhoto": "profile.jpeg",
         "industryPhoto": "vigiteck.jpeg",
         "schoolPhoto": "cvm.jpeg",
         "firstName": "Simon",
@@ -65,8 +68,14 @@
             "country": {"en-ca": "Canada", "fr-ca": "Canada"}
         },
         "contactInfo": {
-            "profileURL": "https://www.linkedin.com/in/simoncharest/",
-            "email": "simoncharest@gmail.com",
+            "profile": {
+                "name": "LinkedIn",
+                "url": "https://www.linkedin.com/in/simoncharest/"
+            },
+            "email": {
+                "name": "Gmail",
+                "url": "simoncharest@gmail.com"
+            },
             "phone": {
                 "number": "+1 514-653-0623",
                 "type": "Mobile"
@@ -84,12 +93,14 @@
             "birthday": null,
             "websites": [
                 {
+                    "name": {"en-ca": "SLCIT Inc.", "fr-ca": "SLCIT inc."},
                     "url": "http://slcti.mooo.com/",
-                    "type": "Company"
+                    "type": {"en-ca": "Company", "fr-ca": "Entreprise"}
                 },
                 {
+                    "name": {"en-ca": "GitHub", "fr-ca": "GitHub"},
                     "url": "https://github.com/Simon-Charest/",
-                    "type": "Portfolio"
+                    "type": {"en-ca": "Portfolio", "fr-ca": "Portfolio"}
                 }
             ],
             "instantMessaging": null
