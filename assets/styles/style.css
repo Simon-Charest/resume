@@ -97,6 +97,10 @@ hr {
     grid-template-columns: 1fr 1fr;
 }
 
+.experience-item {
+    display: flex;
+}
+
 /* Elements */
 
 .intro ul,
@@ -121,10 +125,24 @@ hr {
 /* Icons */
 
 .icon {
-    width: 25px;
-    height: 25px;
-    padding: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
     vertical-align: middle;
+}
+
+.icon-16x16 {
+    width: 16px;
+    height: 16px;
+}
+
+.icon-32x32 {
+    width: 32px;
+    height: 32px;
+}
+
+.icon-48x48 {
+    width: 48px;
+    height: 48px;
 }
 
 /* Collapsible */
@@ -155,4 +173,8 @@ hr {
     font-size: small;
     font-weight: bold;
     text-align: center;
+}
+
+.gray {
+    color: gray;
 }

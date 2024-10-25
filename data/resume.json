@@ -1,23 +1,5 @@
 
 {
-    "icons": {
-        "LinkedIn": "linked_in.png",
-        "website": "website.png",
-        "phone": "phone.png",
-        "address": "address.png",
-        "email": "email.png",
-        "birthday": "birthday.png",
-        "skill": "skill.png"
-    },
-    
-    "images": {
-        "background": "background.jpeg",
-        "profile": "profile.jpeg",
-        "industry": "vigiteck.jpeg",
-        "school": "cvm.jpeg",
-        "slcti": "slcti.png"
-    },
-
     "globals": {
         "seeMore": {"en-ca": "See more...", "fr-ca": "Voir plus..."},
         "seeLess": {"en-ca": "See less...", "fr-ca": "Voir moins..."},
@@ -39,24 +21,25 @@
 
         "experience": {"en-ca": "Experience", "fr-ca": "Expérience"},
         "present": {"en-ca": "Present", "fr-ca": "Aujourd'hui"},
+        "agencies": {"en-ca": "Agencies", "fr-ca": "Agences"},
         "skills": {"en-ca": "Skills", "fr-ca": "Compétences"},
         "media": {"en-ca": "Media", "fr-ca": "Médias"},
 
-        "copyright": {"en-ca": "© SLCIT Inc. All rights reserved.", "fr-ca": "© SLCTI inc. Tous droits réservés."},
+        "copyright": {"en-ca": "© SLCIT. All rights reserved.", "fr-ca": "© SLCTI. Tous droits réservés."},
         "inDevelopment": {"en-ca": "In development...", "fr-ca": "En développement..."}
     },
 
     "intro": {
         "firstName": "Simon",
         "lastName": "Charest",
-        "organization": {"en-ca": "SLCIT Inc.", "fr-ca": "SLCTI inc."},
+        "organization": {"en-ca": "SLCIT", "fr-ca": "SLCTI"},
         "additionalName": "Laguë",
         "namePronunciation":  {"en-ca": "saɪmən ʃɑrɛ", "fr-ca": "simõ ʃaɾɛ"},
         "pronouns": {"en-ca": "He/Him", "fr-ca": "Il/lui"},
         "headline": {"en-ca": "Developer", "fr-ca": "Développeur"},
         "primaryPosition": {
             "title": {"en-ca": "Developer", "fr-ca": "Développeur"},
-            "companyName": {"en-ca": "Vigiteck Group Inc.", "fr-ca": "Groupe Vigiteck inc."},
+            "companyName": {"en-ca": "Vigiteck Group", "fr-ca": "Groupe Vigiteck"},
             "website": "https://www.vigiteck.com/"
         },
         "industry": {"en-ca": "Computer Software", "fr-ca": "Logiciels informatiques"},
@@ -95,8 +78,8 @@
             "birthday": null,
             "websites": [
                 {
-                    "name": {"en-ca": "SLCIT Inc.", "fr-ca": "SLCIT inc."},
-                    "url": "http://slcti.mooo.com/",
+                    "name": {"en-ca": "SLCIT", "fr-ca": "SLCIT"},
+                    "url": "http://slcti.8bit.ca/",
                     "type": {"en-ca": "Company", "fr-ca": "Entreprise"}
                 },
                 {
@@ -192,16 +175,35 @@
     
     "experience": [
         {
-            "icon": "vigiteck.jpeg",
-            "title": {"en-ca": "Partner, CTO and Developer", "fr-ca": "Associé, directeur TI et développeur"},
-            "employmentType": {"en-ca": "Contract Full-time", "fr-ca": "Contrat à temps plein"},
-            "companyName": {"en-ca": "Vigiteck Group Inc.", "fr-ca": "Groupe Vigiteck inc."},
+            "icon": "slcti.png",
+            "title": {"en-ca": "Founder and CEO", "fr-ca": "Fondateur et président"},
+            "employmentType": {"en-ca": "Self-employed", "fr-ca": "Propriétaire"},
+            "company": {
+                "name": {"en-ca": "SLCIT", "fr-ca": "SLCTI"},
+                "url": {"en-ca": "http://slcti.8bit.ca/?lang=en-ca", "fr-ca": "http://slcti.8bit.ca/?lang=fr-ca"}
+            },
             "location": {
                 "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
                 "type": {"en-ca": "Remote", "fr-ca": "À distance"}
             },
-            "currentRole": true,
-            "startDate": "2024-02",
+            "startDate": "2018-11-01",
+            "endDate": null,
+            "description": null
+        },
+        {
+            "icon": "vigiteck.jpeg",
+            "title": {"en-ca": "Partner, CTO and Developer", "fr-ca": "Associé et directeur TI"},
+            "employmentType": {"en-ca": "Contract Full-time", "fr-ca": "Associé à temps plein"},
+            "companyName": {"en-ca": "Vigiteck Group", "fr-ca": "Groupe Vigiteck"},
+            "company": {
+                "name": {"en-ca": "Vigiteck Group", "fr-ca": "Groupe Vigiteck"},
+                "url": {"en-ca": "https://www.vigiteck.com/", "fr-ca": "https://www.vigiteck.com/"}
+            },
+            "location": {
+                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
+                "type": {"en-ca": "Remote", "fr-ca": "À distance"}
+            },
+            "startDate": "2024-02-01",
             "endDate": null,
             "description": [
                 {
@@ -256,17 +258,145 @@
             ]
         },
         {
-            "icon": "slcti.png",
-            "title": {"en-ca": "CEO", "fr-ca": "Président"},
-            "employmentType": {"en-ca": "Self-employed", "fr-ca": "Travailleur indépendant"},
-            "companyName": {"en-ca": "SLCIT Inc. · Self-employed", "fr-ca": "SLCTI inc."},
+            "icon": "psp.jpeg",
+            "title": {"en-ca": "Senior Developer - Python", "fr-ca": "Développeur Senior - Python"},
+            "employmentType": {"en-ca": "Full-time Consultant", "fr-ca": "Consultant à temps plein"},
+            "company": {
+                "name": {"en-ca": "PSP Investments", "fr-ca": "Investissements PSP"},
+                "url": {"en-ca": "https://www.investpsp.com/en/", "fr-ca": "https://www.investpsp.com/fr/"}
+            },
+            "agencies": [
+                {
+                    "name": {"en-ca": "Suitalent", "fr-ca": "Suitalent"},
+                    "url": {"en-ca": "https://logient.com/en/", "fr-ca": "https://logient.com/fr/"}
+                },
+                {
+                    "name": {"en-ca": "Procom", "fr-ca": "Procom"},
+                    "url": {"en-ca": "https://procomservices.com/en-us/", "fr-ca": "https://procomservices.com/fr-ca/"}
+                }
+            ],
+            "location": {
+                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
+                "type": {"en-ca": "Hybrid", "fr-ca": "Hybride"}
+            },
+            "startDate": "2022-11-01",
+            "endDate": "2023-10-31",
+            "description": null
+        },
+        {
+            "icon": "forensik.jpeg",
+            "title": {"en-ca": "Senior Automation Programmer", "fr-ca": "Programmeur senior automatisation"},
+            "employmentType": {"en-ca": "Full-time Permanent", "fr-ca": "Permanent à temps plein"},
+            "company": {
+                "name": {"en-ca": "Forensik | In Fidem | Eviden | Atos", "fr-ca": "Forensik | In Fidem | Eviden | Atos"},
+                "url": {"en-ca": "https://eviden.com/", "fr-ca": "https://eviden.com/fr-fr/"}
+            },
+            "agencies": null,
             "location": {
                 "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
                 "type": {"en-ca": "Remote", "fr-ca": "À distance"}
             },
-            "currentRole": true,
-            "startDate": "2018-11",
-            "endDate": null,
+            "startDate": "2020-10-01",
+            "endDate": "2022-09-30",
+            "description": [
+                {
+                    "Name": {"en-ca": "Structure", "fr-ca": "Structure"},
+                    "Description": {
+                        "en-ca": "An In Fidem | Eviden | Atos company.",
+                        "fr-ca": "Une entreprise d'In Fidem | Eviden | Atos."
+                    }
+                }
+            ]
+        },
+        {
+            "icon": "belron.jpeg",
+            "title": {"en-ca": "Back-end Developer", "fr-ca": "Développeur back-end"},
+            "employmentType": {"en-ca": "Full-time Consultant", "fr-ca": "Consultant à temps plein"},
+            "company": {
+                "name": {"en-ca": "Belron Canada", "fr-ca": "Belron Canada"},
+                "url": {"en-ca": "https://www.belroncanada.com/", "fr-ca": "https://www.belroncanada.com/fr/"}
+            },
+            "agencies": [
+                {
+                    "name": {"en-ca": "FX Innovation", "fr-ca": "FX Innovation"},
+                    "url": {"en-ca": "https://www.fxinnovation.com/en/", "fr-ca": "https://www.fxinnovation.com/fr/"}
+                }
+            ],
+            "location": {
+                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
+                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+            },
+            "startDate": "2018-11-01",
+            "endDate": "2020-06-30",
+            "description": null
+        },
+        {
+            "icon": "logibec.jpeg",
+            "title": {"en-ca": "Programmer Analyst", "fr-ca": "Analyste programmeur"},
+            "employmentType": {"en-ca": "Full-time Permanent", "fr-ca": "Permanent à temps plein"},
+            "company": {
+                "name": {"en-ca": "Logibec", "fr-ca": "Logibec"},
+                "url": {"en-ca": "https://lgisolutions.com/en/", "fr-ca": "https://lgisolutions.com/fr/"}
+            },
+            "location": {
+                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
+                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+            },
+            "startDate": "2017-10-01",
+            "endDate": "2018-09-30",
+            "description": null
+        },
+        {
+            "title": {"en-ca": "Webmaster", "fr-ca": "Webmestre"},
+            "employmentType": {"en-ca": "Full-time Consultant", "fr-ca": "Consultant à temps plein"},
+            "company": {
+                "name": {"en-ca": "Commission of Inquiry on the Protection of Journalistic Source Confidentiality | Chamberland Commission", "fr-ca": "Commission d'enquête sur la protection de la confidentialité des sources journalistiques | Commission Chamberland"},
+                "url": null
+            },
+            "location": {
+                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
+                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+            },
+            "startDate": "2017-01-01",
+            "endDate": "2017-12-31",
+            "description": null
+        },
+        {
+            "icon": "datacandy.png",
+            "title": {"en-ca": "PHP Developer", "fr-ca": "Développeur PHP"},
+            "employmentType": {"en-ca": "Full-time Permanent", "fr-ca": "Permanent à temps plein"},
+            "company": {
+                "name": {"en-ca": "Funbox | DataCandy | Paystone", "fr-ca": "Funbox | DataCandy | Paystone"},
+                "url": {"en-ca": "https://www.paystone.com/ ", "fr-ca": "https://www.paystone.com/fr/home/"}
+            },
+            "location": {
+                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
+                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+            },
+            "startDate": "2016-01-01",
+            "endDate": "2016-12-31",
+            "agencies": [
+                {
+                    "name": {"en-ca": "Arobas Personnel", "fr-ca": "Arobas Personnel"},
+                    "url": {"en-ca": "https://www.arobaspersonnel.com/en/home.html", "fr-ca": "https://www.arobaspersonnel.com/fr/accueil.html"}
+                }
+            ],
+            "description": null
+        },
+        {
+            "icon": "upac.png",
+            "title": {"en-ca": "Information Technology Analyst", "fr-ca": "Analyste de l'informatique"},
+            "employmentType": {"en-ca": "Full-time Permanent", "fr-ca": "Permanent à temps plein"},
+            "company": {
+                "name": {"en-ca": "Permanent Anti-Corruption Unit", "fr-ca": "Unité permanente anticorruption"},
+                "url": {"en-ca": "https://upac.gouv.qc.ca/en/", "fr-ca": "https://upac.gouv.qc.ca/"}
+            },
+            "location": {
+                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
+                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+            },
+            "startDate": "2013-09-01",
+            "endDate": "2015-12-31",
             "description": null
         }
     ]
