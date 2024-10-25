@@ -32,6 +32,12 @@ a:active {
     color: #003fcc;
 }
 
+hr {
+    background-color: lightgray;
+    border: none;
+    height: 1px;
+}
+
 /* Sections */
 
 .language {
@@ -130,12 +136,17 @@ a:active {
 .collapsible-button {
     background-color: white;
     border: 0;
+    color: #007fcc;
     cursor: pointer;
+    padding-bottom: 25px;
 }
 
 .collapsible-button:hover {
-    color: #007fcc;
     text-decoration: underline;
+}
+
+.collapsible-button:active {
+    color: #003fcc;
 }
 
 /* Copyright */

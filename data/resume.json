@@ -1,6 +1,24 @@
 
 {
-    "global": {
+    "icons": {
+        "LinkedIn": "linked_in.png",
+        "website": "website.png",
+        "phone": "phone.png",
+        "address": "address.png",
+        "email": "email.png",
+        "birthday": "birthday.png",
+        "skill": "skill.png"
+    },
+    
+    "images": {
+        "background": "background.jpeg",
+        "profile": "profile.jpeg",
+        "industry": "vigiteck.jpeg",
+        "school": "cvm.jpeg",
+        "slcti": "slcti.png"
+    },
+
+    "globals": {
         "seeMore": {"en-ca": "See more...", "fr-ca": "Voir plus..."},
         "seeLess": {"en-ca": "See less...", "fr-ca": "Voir moins..."},
 
@@ -28,26 +46,7 @@
         "inDevelopment": {"en-ca": "In development...", "fr-ca": "En développement..."}
     },
 
-    "images": {
-        "background": "background.jpeg",
-        "profile": "profile.jpeg"
-    },
-
-    "icon": {
-        "LinkedIn": "linked_in.png",
-        "website": "website.png",
-        "phone": "phone.png",
-        "address": "address.png",
-        "email": "email.png",
-        "birthday": "birthday.png",
-        "skill": "skill.png"
-    },
-
     "intro": {
-        "backgroundPhoto": "background.jpeg",
-        "profilePhoto": "profile.jpeg",
-        "industryPhoto": "vigiteck.jpeg",
-        "schoolPhoto": "cvm.jpeg",
         "firstName": "Simon",
         "lastName": "Charest",
         "organization": {"en-ca": "SLCIT Inc.", "fr-ca": "SLCTI inc."},
@@ -191,67 +190,84 @@
         "C#"
     ],
     
-    "experience": {
-        "title": {"en-ca": "Partner, CTO and Developer", "fr-ca": "Associé, directeur TI et développeur"},
-        "employmentType": {"en-ca": "Contract Full-time", "fr-ca": "Contrat à temps plein"},
-        "companyName": {"en-ca": "Vigiteck Group Inc.", "fr-ca": "Groupe Vigiteck inc."},
-        "location": {
-            "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
-            "type": {"en-ca": "Remote", "fr-ca": "À distance"}
-        },
-        "currentRole": true,
-        "startDate": "2024-02",
-        "endDate": null,
-        "description": [
-            {
-                "Name": {"en-ca": "Activities", "fr-ca": "Activités"},
-                "Description": {
-                    "en-ca": "Development and support of software solutions, analysis, investigations, intelligence, etc.",
-                    "fr-ca": "Développement et support de solutions logicielles, analyse, enquêtes, renseignement, etc."
-                }
+    "experience": [
+        {
+            "icon": "vigiteck.jpeg",
+            "title": {"en-ca": "Partner, CTO and Developer", "fr-ca": "Associé, directeur TI et développeur"},
+            "employmentType": {"en-ca": "Contract Full-time", "fr-ca": "Contrat à temps plein"},
+            "companyName": {"en-ca": "Vigiteck Group Inc.", "fr-ca": "Groupe Vigiteck inc."},
+            "location": {
+                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
+                "type": {"en-ca": "Remote", "fr-ca": "À distance"}
             },
-            {
-                "Name": {"en-ca": "Projects", "fr-ca": "Projets"},
-                "Description": {
-                    "en-ca": "WhosThatGuy ™, D-Analyst ™, Pyaudit: A Python project that imports unified audit log data from Microsoft 365 into an indexed relational database, identifies IP addresses, executes queries, and generates reports, including graphs. Pymage: An image processing tool based on Python that leverages OpenCV. Website: (https://www.vigiteck.com/), etc.",
-                    "fr-ca":  "WhosThatGuy ™, D-Analyst ™, Pyaudit : Un projet Python permettant d'importer des données de journal d'audit unifié de Microsoft 365 dans une base de données relationnelle indexée, d'identifier les adresses IP, d'exécuter des requêtes et de générer des rapports, y compris des graphiques, Pymage : Un outil de traitement d'images basé sur Python exploitant OpenCV., Site web (https://www.vigiteck.com/), etc."
-                }
-            },
-            {
-                "Name": {"en-ca": "Training", "fr-ca": "Formation"},
-                "Description": {
-                    "en-ca": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/).",
-                    "fr-ca":  "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)."
-                }
-            }
-        ],
-        "profileHeadline": {"en-ca": "Developer", "fr-ca":  "Développeur"},
-        "skills": [
-            "Python",
-            "pandas",
-            "Pytest",
-            "SQL",
-            "Git",
-            "Chart.js",
-            "Cytospace.js",
-            "OpenCV",
-            "Microsoft 365",
-            "JSON",
-            "CSV",
-            "Microsoft Excel",
-            "Java",
-            "Neo4j",
-            "WordPress"
-        ],
-        "media": [
-            {
-                "title":
+            "currentRole": true,
+            "startDate": "2024-02",
+            "endDate": null,
+            "description": [
                 {
-                    "en-ca": "The Temu app tested by cybersecurity experts (French)",
-                    "fr-ca": "L'application Temu testée par des experts en cybersécurité | Décrypteurs"
+                    "Name": {"en-ca": "Activities", "fr-ca": "Activités"},
+                    "Description": {
+                        "en-ca": "Development and support of software solutions, analysis, investigations, intelligence, etc.",
+                        "fr-ca": "Développement et support de solutions logicielles, analyse, enquêtes, renseignement, etc."
+                    }
                 },
-                "url": "https://www.youtube.com/watch?v=m5rpJbaqs6w&t=284s"
-            }
-        ]
-    }
+                {
+                    "Name": {"en-ca": "Projects", "fr-ca": "Projets"},
+                    "Description": {
+                        "en-ca": "WhosThatGuy ™, D-Analyst ™, Pyaudit: A Python project that imports unified audit log data from Microsoft 365 into an indexed relational database, identifies IP addresses, executes queries, and generates reports, including graphs. Pymage: An image processing tool based on Python that leverages OpenCV. Website: (https://www.vigiteck.com/), etc.",
+                        "fr-ca":  "WhosThatGuy ™, D-Analyst ™, Pyaudit : Un projet Python permettant d'importer des données de journal d'audit unifié de Microsoft 365 dans une base de données relationnelle indexée, d'identifier les adresses IP, d'exécuter des requêtes et de générer des rapports, y compris des graphiques, Pymage : Un outil de traitement d'images basé sur Python exploitant OpenCV., Site web (https://www.vigiteck.com/), etc."
+                    }
+                },
+                {
+                    "Name": {"en-ca": "Training", "fr-ca": "Formation"},
+                    "Description": {
+                        "en-ca": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/).",
+                        "fr-ca":  "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)."
+                    }
+                }
+            ],
+            "profileHeadline": {"en-ca": "Developer", "fr-ca":  "Développeur"},
+            "skills": [
+                "Python",
+                "pandas",
+                "Pytest",
+                "SQL",
+                "Git",
+                "Chart.js",
+                "Cytospace.js",
+                "OpenCV",
+                "Microsoft 365",
+                "JSON",
+                "CSV",
+                "Microsoft Excel",
+                "Java",
+                "Neo4j",
+                "WordPress"
+            ],
+            "media": [
+                {
+                    "title":
+                    {
+                        "en-ca": "The Temu app tested by cybersecurity experts (French)",
+                        "fr-ca": "L'application Temu testée par des experts en cybersécurité | Décrypteurs"
+                    },
+                    "url": "https://www.youtube.com/watch?v=m5rpJbaqs6w&t=284s"
+                }
+            ]
+        },
+        {
+            "icon": "slcti.png",
+            "title": {"en-ca": "CEO", "fr-ca": "Président"},
+            "employmentType": {"en-ca": "Self-employed", "fr-ca": "Travailleur indépendant"},
+            "companyName": {"en-ca": "SLCIT Inc. · Self-employed", "fr-ca": "SLCTI inc."},
+            "location": {
+                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
+                "type": {"en-ca": "Remote", "fr-ca": "À distance"}
+            },
+            "currentRole": true,
+            "startDate": "2018-11",
+            "endDate": null,
+            "description": null
+        }
+    ]
 }
