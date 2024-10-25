@@ -1,7 +1,7 @@
-const PROTOCOL = "http";
-const HOSTNAME = "0.0.0.0";
+const PROTOCOL = 'http';
+const HOSTNAME = '0.0.0.0';
 const PORT = process.env.PORT || 3000;
-const DEFAULT_LANGUAGE = "fr-ca";
+const DEFAULT_LANGUAGE = 'fr-ca';
 
 function main() {
     const fs = require('fs');
@@ -20,7 +20,7 @@ function main() {
 
         // Set cookie
         res.cookie('lang', lang, { maxAge: 900000, httpOnly: true });
-        
+
         // Set the language in res.locals for use in routes
         res.locals.lang = lang;
         
