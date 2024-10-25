@@ -13,7 +13,7 @@ sudo ufw enable
 ```
 2. Run Node.js solution:
 ```
-node src/index.js
+node src/server.js
 ```
 3. Open solution: [http://localhost:3000/](http://localhost:3000/).
 
