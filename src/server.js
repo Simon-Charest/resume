@@ -15,9 +15,15 @@ function main() {
 
     // Middleware to set the language
     app.use((req, res, next) => {
-        const lang = req.query.lang || req.cookies.lang || DEFAULT_LANGUAGE; // Default language
-        res.cookie('lang', lang, { maxAge: 900000, httpOnly: true }); // Set cookie
-        res.locals.lang = lang; // Set the language in res.locals for use in routes
+        // Set default language
+        const lang = req.query.lang || req.cookies.lang || DEFAULT_LANGUAGE;
+
+        // Set cookie
+        res.cookie('lang', lang, { maxAge: 900000, httpOnly: true });
+        
+        // Set the language in res.locals for use in routes
+        res.locals.lang = lang;
+        
         next();
     });
 
@@ -33,29 +39,15 @@ function main() {
             if (err) {
                 console.error('Error reading JSON file:', err);
                 res.status(500).send('Internal Server Error');
+                
                 return;
             }
 
             const resumeData = JSON.parse(data);
-            const lang = res.locals.lang;
-
-            // Prepare content based on the selected language
-            const content = {
-                "en-ca": {
-                    title: "Welcome",
-                    message: "This is an English message."
-                },
-                "fr-ca": {
-                    title: "Bienvenue",
-                    message: "Ceci est un message en français."
-                }
-            };
-
+            
             // Render the index.ejs template and pass the resume data and content
             res.render('index', {
-                resume: resumeData,
-                title: content[lang].title,
-                message: content[lang].message
+                resume: resumeData
             });
         });
     });

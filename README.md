@@ -22,7 +22,8 @@ node src/index.js
 - Simon Charest, Founder and Developer;
     - [Website](http://slcit.8bit.ca);
     - [LinkedIn](https://www.linkedin.com/in/simoncharest/);
-    - [Gmail](mailto:simoncharest@gmail.com).
+    - [Gmail](mailto:simoncharest@gmail.com);
+    - [GitHub](https://github.com/Simon-Charest/).
 
 ## Acknowledgments
 - [ChatGPT](https://chat.openai.com/).
