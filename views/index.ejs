@@ -174,8 +174,37 @@
                 <% }); %>      
             </div>
             <div class="education">
+                <h3><%= resume.globals.education[lang] %></h3>
+                <% resume.education.forEach(item => { %>
+                    <div class="experience-item">
+                        <img src="/assets/images/<%= item.icon || 'school.png' %>" class="icon icon-48x48">
+                        <div>
+                            <p>
+                                <strong><%= item.title[lang] %></strong>
+                                <% if (item.degree) { %>
+                                    <br /><%= item.degree[lang] %>
+                                <% } %>
+                                <br /><% if (item.school.url) { %><a href="<%= item.school.url[lang] %>"><% } %><%= item.school.name[lang] %><% if (item.school.url) { %></a><% } %>
+                                <span class="gray">
+                                    <br /><%= item.startDate.slice(0, 4) %> - <%= item.endDate ? item.endDate.slice(0, 4) : resume.globals.present[lang] %>
+                                    <br /><%= item.location.city[lang] %>
+                                    <% if (item.relationships && item.relationships.length > 0) { %>
+                                        <br /><%= resume.globals.relationships[lang] %>:
+                                        <% item.relationships.forEach((relationship, index) => { %>
+                                            <a href="<%= relationship.url[lang] %>"><%= relationship.name[lang] %></a> (<%= relationship.type[lang] %>)<% if (index < item.relationships.length - 1) { %>, <% } %>
+                                        <% }); %>
+                                    <% } %>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                <% }); %>
+            </div>
+
+            <div class="interests">
                 <p class="copyright"><%= resume.globals.inDevelopment[lang] %></p>
             </div>
+
             <p class="copyright"><%= resume.globals.copyright[lang] %></p>
             <script>
                 /* Convert plain text links to HTML */

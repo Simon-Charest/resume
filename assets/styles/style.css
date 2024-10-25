@@ -101,6 +101,10 @@ hr {
     display: flex;
 }
 
+.gray {
+    color: gray;
+}
+
 /* Elements */
 
 .intro ul,
@@ -173,8 +177,4 @@ hr {
     font-size: small;
     font-weight: bold;
     text-align: center;
-}
-
-.gray {
-    color: gray;
 }
