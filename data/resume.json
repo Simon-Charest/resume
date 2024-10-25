@@ -22,6 +22,7 @@
         "experience": {"en-ca": "Experience", "fr-ca": "Expérience"},
         "present": {"en-ca": "Present", "fr-ca": "Aujourd'hui"},
         "agencies": {"en-ca": "Agencies", "fr-ca": "Agences"},
+        "clients": {"en-ca": "Clients", "fr-ca": "Clients"},
         "skills": {"en-ca": "Skills", "fr-ca": "Compétences"},
         "media": {"en-ca": "Media", "fr-ca": "Médias"},
 
@@ -347,11 +348,12 @@
             "description": null
         },
         {
+            "icon": null,
             "title": {"en-ca": "Webmaster", "fr-ca": "Webmestre"},
             "employmentType": {"en-ca": "Full-time Consultant", "fr-ca": "Consultant à temps plein"},
             "company": {
                 "name": {"en-ca": "Commission of Inquiry on the Protection of Journalistic Source Confidentiality | Chamberland Commission", "fr-ca": "Commission d'enquête sur la protection de la confidentialité des sources journalistiques | Commission Chamberland"},
-                "url": null
+                "url": {"en-ca": "https://www.paystone.com/ ", "fr-ca": "https://www.bibliotheque.assnat.qc.ca/guides/fr/les-commissions-d-enquete-au-quebec-depuis-1867/7735-commission-chamberland-2017"}
             },
             "location": {
                 "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
@@ -397,6 +399,96 @@
             },
             "startDate": "2013-09-01",
             "endDate": "2015-12-31",
+            "description": null
+        },
+        {
+            "icon": "msp.jpeg",
+            "title": {"en-ca": "Computer Technician", "fr-ca": "Technicien en informatique"},
+            "employmentType": {"en-ca": "Full-time Permanent", "fr-ca": "Permanent à temps plein"},
+            "company": {
+                "name": {"en-ca": "Ministry of Public Security", "fr-ca": "Ministère de la Sécurité publique"},
+                "url": {"en-ca": "https://www.quebec.ca/en/government/ministere/public-security/", "fr-ca": "https://www.quebec.ca/gouvernement/ministere/securite-publique/"}
+            },
+            "location": {
+                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
+                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+            },
+            "startDate": "2011-09-01",
+            "endDate": "2013-09-30",
+            "clients": [
+                {
+                    "name": {"en-ca": "Permanent Anti-Corruption Unit", "fr-ca": "Unité permanente anticorruption"},
+                    "url": {"en-ca": "https://upac.gouv.qc.ca/en/", "fr-ca": "https://upac.gouv.qc.ca/"}
+                }
+            ],
+            "description": null
+        },
+        {
+            "icon": "sq.jpeg",
+            "title": {"en-ca": "Computer Technician", "fr-ca": "Technicien en informatique"},
+            "employmentType": {"en-ca": "Full-time Permanent", "fr-ca": "Permanent à temps plein"},
+            "company": {
+                "name": {"en-ca": "Quebec Provincial Police", "fr-ca": "Sûreté du Québec"},
+                "url": {"en-ca": "https://www.sq.gouv.qc.ca/en/", "fr-ca": "https://www.sq.gouv.qc.ca/"}
+            },
+            "location": {
+                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
+                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+            },
+            "startDate": "2006-06-26",
+            "endDate": "2011-08-31",
+            "description": null
+        },
+        {
+            "icon": "technomedia.png",
+            "title": {"en-ca": "Programmer Analyst", "fr-ca": "Analyste programmeur"},
+            "employmentType": {"en-ca": "Full-time Permanent", "fr-ca": "Permanent à temps plein"},
+            "company": {
+                "name": {"en-ca": "Technomedia | Cegid", "fr-ca": "Technomedia | Cegid"},
+                "url": {"en-ca": "https://www.cegid.com/en/", "fr-ca": "https://www.cegid.com/fr/"}
+            },
+            "location": {
+                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
+                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+            },
+            "startDate": "2005-07-01",
+            "endDate": "2006-05-31",
+            "description": null
+        },
+        {
+            "icon": null,
+            "title": {"en-ca": "Programmer Analyst", "fr-ca": "Analyste Programmeur"},
+            "employmentType": {"en-ca": "Full-time Consultant", "fr-ca": "Consultant à temps plein"},
+            "company": {
+                "name": {"en-ca": "Sytran Technology | Biorunner", "fr-ca": "Technologie Sytran | Biorunner"},
+                "url": null
+            },
+            "agencies": [{
+                "name": {"en-ca": "Qualicode Software", "fr-ca": "Qualicode Logiciel"},
+                "url": {"en-ca": "https://qualicodesoftware.com/", "fr-ca": "https://qualicodelogiciel.com/"}
+            }],
+            "location": {
+                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
+                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+            },
+            "startDate": "2005-01-01",
+            "endDate": "2005-06-30",
+            "description": null
+        },
+        {
+            "icon": "qualicode.jpeg",
+            "title": {"en-ca": "Programmer", "fr-ca": "Programmeur"},
+            "employmentType": {"en-ca": "Full-time Permanent", "fr-ca": "Permanent à temps plein"},
+            "company": {
+                "name": {"en-ca": "Qualicode Software", "fr-ca": "Qualicode Logiciel"},
+                "url": {"en-ca": "https://qualicodesoftware.com/", "fr-ca": "https://qualicodelogiciel.com/"}
+            },
+            "location": {
+                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
+                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+            },
+            "startDate": "2004-06-01",
+            "endDate": "2004-12-31",
             "description": null
         }
     ]

@@ -126,11 +126,16 @@
                                 <span class="gray">
                                     <br /><%= item.startDate.slice(0, 7) %> - <%= item.endDate ? item.endDate.slice(0, 7) : resume.globals.present[lang] %> · <%= formatLength(calculateLength(item.startDate, item.endDate), lang) %>
                                     <br /><%= item.location.city[lang] %> - <%= item.location.type[lang] %>
-                                
                                     <% if (item.agencies && item.agencies.length > 0) { %>
                                         <br /><strong><%= resume.globals.agencies[lang] %></strong>:
                                         <% item.agencies.forEach((agency, index) => { %>
                                             <a href="<%= agency.url[lang] %>"><%= agency.name[lang] %></a><% if (index < item.agencies.length - 1) { %>, <% } %>
+                                        <% }); %>
+                                    <% } %>
+                                    <% if (item.clients && item.clients.length > 0) { %>
+                                        <br /><strong><%= resume.globals.clients[lang] %></strong>:
+                                        <% item.clients.forEach((client, index) => { %>
+                                            <a href="<%= client.url[lang] %>"><%= client.name[lang] %></a><% if (index < item.clients.length - 1) { %>, <% } %>
                                         <% }); %>
                                     <% } %>
                                 </span>
