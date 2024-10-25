@@ -2,6 +2,7 @@
 {
     "global": {
         "seeMore": {"en-ca": "See more...", "fr-ca": "Voir plus..."},
+        "seeLess": {"en-ca": "See less...", "fr-ca": "Voir moins..."},
 
         "contactInfo": {"en-ca": "Contact Info", "fr-ca": "Coordonnées"},
         "profile": {"en-ca": "Profile", "fr-ca": "Profil"},
@@ -19,15 +20,17 @@
         "topSkills": {"en-ca": "Top Skills", "fr-ca": "Compétences clés"},
 
         "experience": {"en-ca": "Experience", "fr-ca": "Expérience"},
+        "present": {"en-ca": "Present", "fr-ca": "Aujourd'hui"},
         "skills": {"en-ca": "Skills", "fr-ca": "Compétences"},
         "media": {"en-ca": "Media", "fr-ca": "Médias"},
 
-        "copyright": {"en-ca": "© SLCIT Inc. All rights reserved.", "fr-ca": "© SLCTI inc. Tous droits réservés."}
+        "copyright": {"en-ca": "© SLCIT Inc. All rights reserved.", "fr-ca": "© SLCTI inc. Tous droits réservés."},
+        "inDevelopment": {"en-ca": "In development...", "fr-ca": "En développement..."}
     },
 
     "images": {
-        "background": "background_photo.jpeg",
-        "profile": "profile_photo.jpeg"
+        "background": "background.jpeg",
+        "profile": "profile.jpeg"
     },
 
     "icon": {
@@ -108,16 +111,76 @@
     },
 
     "about": [
-        {"Intérêts particuliers": "Python, SQL, Git, PowerShell, Node.js, .NET, analyse, renseignement, enquêtes, sécurité, jeux vidéo, principes agiles, etc."},
-        {"Disponibilité": "Ouvert à des missions de consultation en tant qu'entrepreneur incorporé, à temps plein ou partiel."},
-        {"Modalités de travail préférées": "Grande préférence pour le télétravail, avec possibilité de travail en présentiel ponctuel."},
-        {"Préférences de rôle": "Développeur. Très peu d'intérêt pour les fonctions de gestion telles que scrum master, tech lead, team lead, product owner, project manager, etc."},
-        {"Expérience professionnelle": "Plus de vingt ans d'expérience en tant qu'analyste-programmeur spécialisé dans le développement de systèmes sur mesure."},
-        {"Domaines d'expertise": "Sécurité publique, renseignement, enquêtes, vérification comptable, administration, gestion, ressources humaines, finances, formation, comptabilité, santé, etc."},
-        {"Réalisation de projets": "Conception et développement de solutions variées, notamment des systèmes de gestion de dossiers, d'analyse de données téléphoniques et géographiques, des algorithmes de cryptage, des moteurs de recherche, etc."},
-        {"Approche de travail": "Habitué à travailler de manière autonome, depuis l'analyse des besoins clients jusqu'à la livraison complète de solutions, parfois développées intégralement \"from scratch\". Expertise couvrant l'ensemble du cycle de développement : analyse, documentation, conception de bases de données, programmation, tests, déploiement, formation, support, etc."},
-        {"Traits distinctifs": "Créativité dans la recherche de solutions originales et capacité à penser de manière innovante. Compétences avancées en analyse et synthèse, avec une aptitude à simplifier et schématiser des concepts complexes."},
-        {"Historique de programmation": "Premières expériences de programmation remontant à 1988, à l'âge de 8 ans, avec le langage BASIC sur un ordinateur TI-99/4A."}
+        {
+            "Name": {"en-ca": "Special Interests", "fr-ca": "Intérêts particuliers"},
+            "Description": {
+                "en-ca": "Python, SQL, Git, PowerShell, Node.js, .NET, analysis, intelligence, investigations, security, video games, agile principles, etc.",
+                "fr-ca": "Python, SQL, Git, PowerShell, Node.js, .NET, analyse, renseignement, enquêtes, sécurité, jeux vidéo, principes agiles, etc."
+            }
+        },
+        {
+            "Name": {"en-ca": "Availability", "fr-ca": "Disponibilité"},
+            "Description": {
+                "en-ca": "Open to consulting assignments as an incorporated contractor, full-time or part-time.",
+                "fr-ca": "Ouvert à des missions de consultation en tant qu'entrepreneur incorporé, à temps plein ou partiel."
+            }
+        },
+        {
+            "Name": {"en-ca": "Preferred Work Arrangements", "fr-ca": "Modalités de travail préférées"},
+            "Description": {
+                "en-ca": "Strong preference for remote work, with the possibility of occasional in-person work.",
+                "fr-ca": "Grande préférence pour le télétravail, avec possibilité de travail en présentiel ponctuel."
+            }
+        },
+        {
+            "Name": {"en-ca": "Role Preferences", "fr-ca": "Préférences de rôle"},
+            "Description": {
+                "en-ca": "Developer. Very little interest in management roles such as scrum master, tech lead, team lead, product owner, project manager, etc.",
+                "fr-ca": "Développeur. Très peu d'intérêt pour les fonctions de gestion telles que scrum master, tech lead, team lead, product owner, project manager, etc."
+            }
+        },
+        {
+            "Name": {"en-ca": "Professional Experience", "fr-ca": "Expérience professionnelle"},
+            "Description": {
+                "en-ca": "Over twenty years of experience as a systems analyst-programmer specializing in custom system development.",
+                "fr-ca": "Plus de vingt ans d'expérience en tant qu'analyste-programmeur spécialisé dans le développement de systèmes sur mesure."
+            }
+        },
+        {
+            "Name": {"en-ca": "Areas of Expertise", "fr-ca": "Domaines d'expertise"},
+            "Description": {
+                "en-ca": "Public safety, intelligence, investigations, auditing, administration, management, human resources, finance, training, accounting, health, etc.",
+                "fr-ca": "Sécurité publique, renseignement, enquêtes, vérification comptable, administration, gestion, ressources humaines, finances, formation, comptabilité, santé, etc."
+            }
+        },
+        {
+            "Name": {"en-ca": "Project Accomplishments", "fr-ca": "Réalisation de projets"},
+            "Description": {
+                "en-ca": "Design and development of various solutions, including case management systems, telephone and geographical data analysis, encryption algorithms, search engines, etc.",
+                "fr-ca": "Conception et développement de solutions variées, notamment des systèmes de gestion de dossiers, d'analyse de données téléphoniques et géographiques, des algorithmes de cryptage, des moteurs de recherche, etc."
+            }
+        },
+        {
+            "Name": {"en-ca": "Work Approach", "fr-ca": "Approche de travail"},
+            "Description": {
+                "en-ca": "Accustomed to working independently, from analyzing client needs to delivering complete solutions, sometimes developed entirely 'from scratch'. Expertise covering the entire development cycle: analysis, documentation, database design, programming, testing, deployment, training, support, etc.",
+                "fr-ca": "Habitué à travailler de manière autonome, depuis l'analyse des besoins clients jusqu'à la livraison complète de solutions, parfois développées intégralement 'from scratch'. Expertise couvrant l'ensemble du cycle de développement : analyse, documentation, conception de bases de données, programmation, tests, déploiement, formation, support, etc."
+            }
+        },
+        {
+            "Name": {"en-ca": "Distinctive Traits", "fr-ca": "Traits distinctifs"},
+            "Description": {
+                "en-ca": "Creativity in finding original solutions and the ability to think innovatively. Advanced skills in analysis and synthesis, with an aptitude for simplifying and schematizing complex concepts.",
+                "fr-ca": "Créativité dans la recherche de solutions originales et capacité à penser de manière innovante. Compétences avancées en analyse et synthèse, avec une aptitude à simplifier et schématiser des concepts complexes."
+            }
+        },
+        {
+            "Name": {"en-ca": "Programming History", "fr-ca": "Historique de programmation"},
+            "Description": {
+                "en-ca": "First programming experiences dating back to 1988, at the age of 8, with the BASIC language on a TI-99/4A computer.",
+                "fr-ca": "Premières expériences de programmation remontant à 1988, à l'âge de 8 ans, avec le langage BASIC sur un ordinateur TI-99/4A."
+            }
+        }
     ],
 
     "skills": [
@@ -129,29 +192,46 @@
     ],
     
     "experience": {
-        "title": "Associé, directeur TI et développeur",
-        "employmentType": "Contract Full-time",
-        "companyName": "Groupe Vigiteck inc.",
+        "title": {"en-ca": "Partner, CTO and Developer", "fr-ca": "Associé, directeur TI et développeur"},
+        "employmentType": {"en-ca": "Contract Full-time", "fr-ca": "Contrat à temps plein"},
+        "companyName": {"en-ca": "Vigiteck Group Inc.", "fr-ca": "Groupe Vigiteck inc."},
         "location": {
-            "city": "Montréal, Québec, Canada",
-            "type": "Remote"
+            "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
+            "type": {"en-ca": "Remote", "fr-ca": "À distance"}
         },
         "currentRole": true,
         "startDate": "2024-02",
         "endDate": null,
         "description": [
-            {"Activités": "Développement et support de solutions logicielles, analyse, enquêtes, renseignement, etc."},
-            {"Projets": "WhosThatGuy ™, D-Analyst ™, Pyaudit : Un projet Python permettant d'importer des données de journal d'audit unifié de Microsoft 365 dans une base de données relationnelle indexée, d'identifier les adresses IP, d'exécuter des requêtes et de générer des rapports, y compris des graphiques, Pymage : Un outil de traitement d'images basé sur Python exploitant OpenCV., Site web (https://www.vigiteck.com/), etc."},
-            {"Formation": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)."}
+            {
+                "Name": {"en-ca": "Activities", "fr-ca": "Activités"},
+                "Description": {
+                    "en-ca": "Development and support of software solutions, analysis, investigations, intelligence, etc.",
+                    "fr-ca": "Développement et support de solutions logicielles, analyse, enquêtes, renseignement, etc."
+                }
+            },
+            {
+                "Name": {"en-ca": "Projects", "fr-ca": "Projets"},
+                "Description": {
+                    "en-ca": "WhosThatGuy ™, D-Analyst ™, Pyaudit: A Python project that imports unified audit log data from Microsoft 365 into an indexed relational database, identifies IP addresses, executes queries, and generates reports, including graphs. Pymage: An image processing tool based on Python that leverages OpenCV. Website: (https://www.vigiteck.com/), etc.",
+                    "fr-ca":  "WhosThatGuy ™, D-Analyst ™, Pyaudit : Un projet Python permettant d'importer des données de journal d'audit unifié de Microsoft 365 dans une base de données relationnelle indexée, d'identifier les adresses IP, d'exécuter des requêtes et de générer des rapports, y compris des graphiques, Pymage : Un outil de traitement d'images basé sur Python exploitant OpenCV., Site web (https://www.vigiteck.com/), etc."
+                }
+            },
+            {
+                "Name": {"en-ca": "Training", "fr-ca": "Formation"},
+                "Description": {
+                    "en-ca": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/).",
+                    "fr-ca":  "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)."
+                }
+            }
         ],
-        "profileHeadline": "Développeur",
+        "profileHeadline": {"en-ca": "Developer", "fr-ca":  "Développeur"},
         "skills": [
             "Python",
             "pandas",
             "Pytest",
             "SQL",
             "Git",
-            "Géolocalisation",
             "Chart.js",
             "Cytospace.js",
             "OpenCV",
@@ -164,7 +244,14 @@
             "WordPress"
         ],
         "media": [
-            {"L'application Temu testée par des experts en cybersécurité | Décrypteurs": "https://www.youtube.com/watch?v=m5rpJbaqs6w&t=284s"}
+            {
+                "title":
+                {
+                    "en-ca": "The Temu app tested by cybersecurity experts (French)",
+                    "fr-ca": "L'application Temu testée par des experts en cybersécurité | Décrypteurs"
+                },
+                "url": "https://www.youtube.com/watch?v=m5rpJbaqs6w&t=284s"
+            }
         ]
     }
 }

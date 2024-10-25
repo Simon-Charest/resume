@@ -1,3 +1,5 @@
+/* Base elements */
+
 body {
     background-color: #ccc;
     font-family: Arial, sans-serif;
@@ -135,6 +137,8 @@ a:active {
     color: #007fcc;
     text-decoration: underline;
 }
+
+/* Copyright */
 
 .copyright {
     font-size: small;
