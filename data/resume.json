@@ -21,8 +21,7 @@
 
         "experience": {"en-ca": "Experience", "fr-ca": "Expérience"},
         "present": {"en-ca": "Present", "fr-ca": "Aujourd'hui"},
-        "agencies": {"en-ca": "Agencies", "fr-ca": "Agences"},
-        "clients": {"en-ca": "Clients", "fr-ca": "Clients"},
+        "relationships": {"en-ca": "Relationships", "fr-ca": "Relations"},
         "skills": {"en-ca": "Skills", "fr-ca": "Compétences"},
         "media": {"en-ca": "Media", "fr-ca": "Médias"},
 
@@ -169,9 +168,12 @@
     "skills": [
         "Python",
         "SQL",
+        "Node.js",
+        "PHP",
+        "C#",
+        "VB",
         "PowerShell",
-        "Git",
-        "C#"
+        "Git"
     ],
     
     "experience": [
@@ -261,17 +263,19 @@
         {
             "icon": "psp.jpeg",
             "title": {"en-ca": "Senior Developer - Python", "fr-ca": "Développeur Senior - Python"},
-            "employmentType": {"en-ca": "Full-time Consultant", "fr-ca": "Consultant à temps plein"},
+            "employmentType": {"en-ca": "Contract Full-time", "fr-ca": "Contrat à temps plein"},
             "company": {
                 "name": {"en-ca": "PSP Investments", "fr-ca": "Investissements PSP"},
                 "url": {"en-ca": "https://www.investpsp.com/en/", "fr-ca": "https://www.investpsp.com/fr/"}
             },
-            "agencies": [
+            "relationships": [
                 {
+                    "type": {"en-ca": "Employment agency", "fr-ca": "Agence de placement"},
                     "name": {"en-ca": "Suitalent", "fr-ca": "Suitalent"},
                     "url": {"en-ca": "https://logient.com/en/", "fr-ca": "https://logient.com/fr/"}
                 },
                 {
+                    "type": {"en-ca": "Employment agency", "fr-ca": "Agence de placement"},
                     "name": {"en-ca": "Procom", "fr-ca": "Procom"},
                     "url": {"en-ca": "https://procomservices.com/en-us/", "fr-ca": "https://procomservices.com/fr-ca/"}
                 }
@@ -292,33 +296,26 @@
                 "name": {"en-ca": "Forensik | In Fidem | Eviden | Atos", "fr-ca": "Forensik | In Fidem | Eviden | Atos"},
                 "url": {"en-ca": "https://eviden.com/", "fr-ca": "https://eviden.com/fr-fr/"}
             },
-            "agencies": null,
+            "relationships": null,
             "location": {
                 "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
                 "type": {"en-ca": "Remote", "fr-ca": "À distance"}
             },
             "startDate": "2020-10-01",
             "endDate": "2022-09-30",
-            "description": [
-                {
-                    "Name": {"en-ca": "Structure", "fr-ca": "Structure"},
-                    "Description": {
-                        "en-ca": "An In Fidem | Eviden | Atos company.",
-                        "fr-ca": "Une entreprise d'In Fidem | Eviden | Atos."
-                    }
-                }
-            ]
+            "description": null
         },
         {
             "icon": "belron.jpeg",
             "title": {"en-ca": "Back-end Developer", "fr-ca": "Développeur back-end"},
-            "employmentType": {"en-ca": "Full-time Consultant", "fr-ca": "Consultant à temps plein"},
+            "employmentType": {"en-ca": "Contract Full-time", "fr-ca": "Contrat à temps plein"},
             "company": {
                 "name": {"en-ca": "Belron Canada", "fr-ca": "Belron Canada"},
                 "url": {"en-ca": "https://www.belroncanada.com/", "fr-ca": "https://www.belroncanada.com/fr/"}
             },
-            "agencies": [
+            "relationships": [
                 {
+                    "type": {"en-ca": "Employment agency", "fr-ca": "Agence de placement"},
                     "name": {"en-ca": "FX Innovation", "fr-ca": "FX Innovation"},
                     "url": {"en-ca": "https://www.fxinnovation.com/en/", "fr-ca": "https://www.fxinnovation.com/fr/"}
                 }
@@ -350,7 +347,7 @@
         {
             "icon": null,
             "title": {"en-ca": "Webmaster", "fr-ca": "Webmestre"},
-            "employmentType": {"en-ca": "Full-time Consultant", "fr-ca": "Consultant à temps plein"},
+            "employmentType": {"en-ca": "Contract Full-time", "fr-ca": "Contrat à temps plein"},
             "company": {
                 "name": {"en-ca": "Commission of Inquiry on the Protection of Journalistic Source Confidentiality | Chamberland Commission", "fr-ca": "Commission d'enquête sur la protection de la confidentialité des sources journalistiques | Commission Chamberland"},
                 "url": {"en-ca": "https://www.paystone.com/ ", "fr-ca": "https://www.bibliotheque.assnat.qc.ca/guides/fr/les-commissions-d-enquete-au-quebec-depuis-1867/7735-commission-chamberland-2017"}
@@ -377,8 +374,9 @@
             },
             "startDate": "2016-01-01",
             "endDate": "2016-12-31",
-            "agencies": [
+            "relationships": [
                 {
+                    "type": {"en-ca": "Employment agency", "fr-ca": "Agence de placement"},
                     "name": {"en-ca": "Arobas Personnel", "fr-ca": "Arobas Personnel"},
                     "url": {"en-ca": "https://www.arobaspersonnel.com/en/home.html", "fr-ca": "https://www.arobaspersonnel.com/fr/accueil.html"}
                 }
@@ -415,8 +413,9 @@
             },
             "startDate": "2011-09-01",
             "endDate": "2013-09-30",
-            "clients": [
+            "relationships": [
                 {
+                    "type": {"en-ca": "Client", "fr-ca": "Client"},
                     "name": {"en-ca": "Permanent Anti-Corruption Unit", "fr-ca": "Unité permanente anticorruption"},
                     "url": {"en-ca": "https://upac.gouv.qc.ca/en/", "fr-ca": "https://upac.gouv.qc.ca/"}
                 }
@@ -458,12 +457,13 @@
         {
             "icon": null,
             "title": {"en-ca": "Programmer Analyst", "fr-ca": "Analyste Programmeur"},
-            "employmentType": {"en-ca": "Full-time Consultant", "fr-ca": "Consultant à temps plein"},
+            "employmentType": {"en-ca": "Contract Full-time", "fr-ca": "Contrat à temps plein"},
             "company": {
                 "name": {"en-ca": "Sytran Technology | Biorunner", "fr-ca": "Technologie Sytran | Biorunner"},
                 "url": null
             },
-            "agencies": [{
+            "relationships": [{
+                "type": {"en-ca": "Partner", "fr-ca": "Partenaire"},
                 "name": {"en-ca": "Qualicode Software", "fr-ca": "Qualicode Logiciel"},
                 "url": {"en-ca": "https://qualicodesoftware.com/", "fr-ca": "https://qualicodelogiciel.com/"}
             }],
