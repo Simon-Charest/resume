@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <title><%= resume.intro.firstName %> <%= resume.intro.lastName %> | <%= resume.intro.organization[lang] %></title>
+        <title><%= resume.intro.firstName %> <%= resume.intro.lastName %> | <%= resume.intro.organization[lang] %>x</title>
         
         <link rel="icon" href="/assets/icons/favicon-16x16.ico" sizes="16x16" type="image/x-icon">
         <link rel="icon" href="/assets/icons/favicon-32x32.ico" sizes="32x32" type="image/x-icon">
@@ -159,34 +159,13 @@
 
                     if (content.style.display === "block") {
                         content.style.display = "none";
+                        button.textContent = "<%= resume.global.seeMore[lang] %>";
                     }
                     
                     else {
                         content.style.display = "block";
+                        button.textContent = "<%= resume.global.seeLess[lang] %>";
                     }
-                });
-            });
-
-            document.addEventListener("DOMContentLoaded", () => {
-                const buttons = document.querySelectorAll('.collapsible-button');
-
-                buttons.forEach(button => {
-                    button.addEventListener('click', () => {
-                        const content = button.nextElementSibling; // Get the next sibling (the content)
-                        const isCollapsed = button.getAttribute('data-collapsed') === 'true';
-
-                        if (isCollapsed) {
-                            button.textContent = "<%= resume.global.seeLess[lang] %>"; // Update to See Less
-                            content.style.display = "block"; // Show the content
-                        }
-                        
-                        else {
-                            button.textContent = "<%= resume.global.seeMore[lang] %>"; // Update to See More
-                            content.style.display = "none"; // Hide the content
-                        }
-
-                        button.setAttribute('data-collapsed', !isCollapsed); // Toggle the collapsed state
-                    });
                 });
             });
 
