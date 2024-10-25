@@ -27,7 +27,12 @@ exit
 Usage: .\deploy.ps1
 #>
 
+
 git add *
 git commit -m "Automated deployment"
 git push
-ssh USERNAME@DOMAIN "cd DIRECTORY && git pull && sudo systemctl daemon-reload && sudo systemctl restart resume.service"
+ssh USERNAME@HOST "cd DIRECTORY &&
+git pull &&
+npm install package.json &&
+sudo systemctl daemon-reload &&
+sudo systemctl restart resume.service"
