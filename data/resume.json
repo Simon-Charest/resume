@@ -80,7 +80,7 @@
             "birthday": null,
             "websites": [
                 {
-                    "name": {"en-ca": "SLCIT", "fr-ca": "SLCIT"},
+                    "name": {"en-ca": "SLCIT", "fr-ca": "SLCTI"},
                     "url": "http://slcti.8bit.ca/",
                     "type": {"en-ca": "Company", "fr-ca": "Entreprise"}
                 },
