@@ -27,8 +27,10 @@
 
         "education": {"en-ca": "Education", "fr-ca": "Éducation"},
 
-        "copyright": {"en-ca": "© SLCIT. All rights reserved.", "fr-ca": "© SLCTI. Tous droits réservés."},
-        "inDevelopment": {"en-ca": "In development...", "fr-ca": "En développement..."}
+        "languages": {"en-ca": "Languages", "fr-ca": "Langues"},
+
+        "inDevelopment": {"en-ca": "In development...", "fr-ca": "En développement..."},
+        "copyright": {"en-ca": "© SLCIT. All rights reserved.", "fr-ca": "© SLCTI. Tous droits réservés."}
     },
 
     "intro": {
@@ -608,6 +610,29 @@
             "startDate": "1985-09-01",
             "endDate": "1992-06-30",
             "description": null
+        }
+    ],
+
+    "languages": [
+        {
+            "icon": "fr_ca.png",
+            "name": {"en-ca": "French", "fr-ca": "Français"},
+            "proficiency": {"en-ca": "Native or bilingual proficiency", "fr-ca": "Compétence native ou bilingue"}
+        },
+        {
+            "icon": "en_ca.png",
+            "name": {"en-ca": "English", "fr-ca": "Anglais"},
+            "proficiency": {"en-ca": "Full professional proficiency", "fr-ca": "Maîtrise professionnelle complète"}
+        },
+        {
+            "icon": "es_es.png",
+            "name": {"en-ca": "Spanish", "fr-ca": "Espagnol"},
+            "proficiency": {"en-ca": "Elementary proficiency", "fr-ca": "Compétence élémentaire"}
+        },
+        {
+            "icon": "it_it.png",
+            "name": {"en-ca": "Italian", "fr-ca": "Italien"},
+            "proficiency": {"en-ca": "Elementary proficiency", "fr-ca": "Compétence élémentaire"}
         }
     ]
 }

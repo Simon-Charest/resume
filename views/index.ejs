@@ -6,9 +6,9 @@
             
             <title><%= resume.intro.firstName %> <%= resume.intro.lastName %> | <%= resume.intro.organization[lang] %></title>
             
-            <link rel="icon" href="/assets/icons/favicon-16x16.ico" sizes="16x16" type="image/x-icon">
-            <link rel="icon" href="/assets/icons/favicon-32x32.ico" sizes="32x32" type="image/x-icon">
-            <link rel="icon" href="/assets/icons/favicon-48x48.png" sizes="48x48" type="image/png">
+            <link rel="icon" href="/assets/icons/favicon_16x16.ico" sizes="16x16" type="image/x-icon">
+            <link rel="icon" href="/assets/icons/favicon_32x32.ico" sizes="32x32" type="image/x-icon">
+            <link rel="icon" href="/assets/icons/favicon_48x48.png" sizes="48x48" type="image/png">
 
             <link rel="stylesheet" href="/assets/styles/style.css">
         </head>
@@ -100,10 +100,18 @@
                         </ul>
                     </div>
                 </div>
-            
-                <div class="contact-info">
-                    
-                </div>
+            </div>
+
+            <div class="in-development">
+                <p class="copyright">
+                    <img src="/assets/icons/<%= icons.in_development %>" class="icon icon-32x32">
+                    <img src="/assets/icons/<%= icons.in_development %>" class="icon icon-32x32">
+                    <img src="/assets/icons/<%= icons.in_development %>" class="icon icon-32x32">
+                    <%= resume.globals.inDevelopment[lang] %>
+                    <img src="/assets/icons/<%= icons.in_development %>" class="icon icon-32x32">
+                    <img src="/assets/icons/<%= icons.in_development %>" class="icon icon-32x32">
+                    <img src="/assets/icons/<%= icons.in_development %>" class="icon icon-32x32">
+                </p>
             </div>
 
             <div class="about">
@@ -129,37 +137,38 @@
 
             <div class="experience">
                 <h3><%= resume.globals.experience[lang] %></h3>
-                <% resume.experience.forEach(item => { %>
+                <% resume.experience.forEach((item, index) => { %>
                     <div class="experience-item">
                         <img src="/assets/images/<%= item.icon || 'company.png' %>" class="icon icon-48x48">
                         <div>
                             <p>
                                 <strong><%= item.title[lang] %></strong>
-                                <br /><% if (item.company.url) { %><a href="<%= item.company.url[lang] %>"><% } %><%= item.company.name[lang] %><% if (item.company.url) { %></a><% } %> · <%= item.employmentType[lang] %>
+                                <br><% if (item.company.url) { %><a href="<%= item.company.url[lang] %>"><% } %><%= item.company.name[lang] %><% if (item.company.url) { %></a><% } %> · <%= item.employmentType[lang] %>
                                 <span class="gray">
-                                    <br /><%= item.startDate.slice(0, 7) %> - <%= item.endDate ? item.endDate.slice(0, 7) : resume.globals.present[lang] %> · <%= formatLength(calculateLength(item.startDate, item.endDate), lang) %>
-                                    <br /><%= item.location.city[lang] %> - <%= item.location.type[lang] %>
+                                    <br><%= item.startDate.slice(0, 7) %> - <%= item.endDate ? item.endDate.slice(0, 7) : resume.globals.present[lang] %> · <%= formatLength(calculateLength(item.startDate, item.endDate), lang) %>
+                                    <br><%= item.location.city[lang] %> - <%= item.location.type[lang] %>
                                     <% if (item.relationships && item.relationships.length > 0) { %>
-                                        <br /><%= resume.globals.relationships[lang] %>:
+                                        <br><%= resume.globals.relationships[lang] %>:
                                         <% item.relationships.forEach((relationship, index) => { %>
                                             <a href="<%= relationship.url[lang] %>"><%= relationship.name[lang] %></a> (<%= relationship.type[lang] %>)<% if (index < item.relationships.length - 1) { %>, <% } %>
                                         <% }); %>
                                     <% } %>
                                 </span>
+                                <% if (item.description) { %>
+                                    <div>
+                                        <button class="collapsible-button"><%= resume.globals.seeMore[lang] %></button>
+                                        <div class="collapsible-content">
+                                            <ul>
+                                                <% item.description.forEach(item => { %>
+                                                    <li>
+                                                        <strong><%= item.Name[lang] %>:</strong> <%= item.Description[lang] %>
+                                                    </li>
+                                                <% }); %>
+                                            </ul>                
+                                        </div>
+                                    </div>
+                                <% } %>
                             </p>
-
-                            <% if (item.description) { %>
-                                <button class="collapsible-button"><%= resume.globals.seeMore[lang] %></button>
-                                <div class="collapsible-content">
-                                    <ul>
-                                        <% item.description.forEach(item => { %>
-                                            <li>
-                                                <strong><%= item.Name[lang] %>:</strong> <%= item.Description[lang] %>
-                                            </li>
-                                        <% }); %>
-                                    </ul>                
-                                </div>
-                            <% } %>
 
                             <% if (item.skills) { %>
                                 <h3><img src="/assets/icons/<%= icons.skill %>" class="icon"> <%= resume.globals.skills[lang] %></h3>
@@ -183,26 +192,28 @@
                         </div>
                     </div>
                     
-                    <hr>
+                    <% if (index < resume.experience.length - 1) { %>
+                        <hr>
+                    <% } %>
                 <% }); %>      
             </div>
             <div class="education">
                 <h3><%= resume.globals.education[lang] %></h3>
-                <% resume.education.forEach(item => { %>
+                <% resume.education.forEach((item, index) => { %>
                     <div class="experience-item">
                         <img src="/assets/images/<%= item.icon || 'school.png' %>" class="icon icon-48x48">
                         <div>
                             <p>
                                 <strong><%= item.title[lang] %></strong>
                                 <% if (item.degree) { %>
-                                    <br /><%= item.degree[lang] %>
+                                    <br><%= item.degree[lang] %>
                                 <% } %>
-                                <br /><% if (item.school.url) { %><a href="<%= item.school.url[lang] %>"><% } %><%= item.school.name[lang] %><% if (item.school.url) { %></a><% } %>
+                                <br><% if (item.school.url) { %><a href="<%= item.school.url[lang] %>"><% } %><%= item.school.name[lang] %><% if (item.school.url) { %></a><% } %>
                                 <span class="gray">
-                                    <br /><%= item.startDate.slice(0, 4) %> - <%= item.endDate ? item.endDate.slice(0, 4) : resume.globals.present[lang] %>
-                                    <br /><%= item.location.city[lang] %>
+                                    <br><%= item.startDate.slice(0, 4) %> - <%= item.endDate ? item.endDate.slice(0, 4) : resume.globals.present[lang] %>
+                                    <br><%= item.location.city[lang] %>
                                     <% if (item.relationships && item.relationships.length > 0) { %>
-                                        <br /><%= resume.globals.relationships[lang] %>:
+                                        <br><%= resume.globals.relationships[lang] %>:
                                         <% item.relationships.forEach((relationship, index) => { %>
                                             <a href="<%= relationship.url[lang] %>"><%= relationship.name[lang] %></a> (<%= relationship.type[lang] %>)<% if (index < item.relationships.length - 1) { %>, <% } %>
                                         <% }); %>
@@ -212,12 +223,25 @@
                         </div>
                     </div>
 
-                    <hr>
+                    <% if (index < resume.education.length - 1) { %>
+                        <hr>
+                    <% } %>
                 <% }); %>
             </div>
 
-            <div class="interests">
-                <p class="copyright"><%= resume.globals.inDevelopment[lang] %></p>
+            <div class="languages">
+                <h3><%= resume.globals.languages[lang] %></h3>
+                <ul>
+                    <% resume.languages.forEach((language, index) => { %>
+                        <li>
+                            <img src="/assets/icons/<%= language.icon %>" class="icon icon-16x16"><%= language.name[lang] %>
+                            <div class="gray"><%= language.proficiency[lang] %></div>
+                        </li>
+                        <% if (index < resume.languages.length - 1) { %>
+                            <hr>
+                        <% } %>
+                    <% }); %>
+                </ul>
             </div>
 
             <p class="copyright"><%= resume.globals.copyright[lang] %></p>

@@ -75,7 +75,8 @@ hr {
 .skills,
 .courses,
 .languages,
-.interests {
+.interests,
+.in-development {
     background: white;
     border-radius: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -112,6 +113,10 @@ hr {
 
 .intro li {
     display: flex;
+}
+
+.languages ul {
+    list-style-type: none;
 }
 
 .horizontal-list {
@@ -169,7 +174,8 @@ hr {
 
 /* Copyright */
 
-.copyright {
+.copyright,
+.in-development {
     font-size: small;
     font-weight: bold;
     text-align: center;
