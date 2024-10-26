@@ -98,8 +98,8 @@
         {
             "Name": {"en-ca": "Special Interests", "fr-ca": "Intérêts particuliers"},
             "Description": {
-                "en-ca": "Python, SQL, Git, PowerShell, Node.js, .NET, analysis, intelligence, investigations, security, video games, agile principles, etc.",
-                "fr-ca": "Python, SQL, Git, PowerShell, Node.js, .NET, analyse, renseignement, enquêtes, sécurité, jeux vidéo, principes agiles, etc."
+                "en-ca": "Software development, analysis, intelligence, investigations, security, video games, etc.",
+                "fr-ca": "Développement de logiciels, analyse, renseignement, enquêtes, sécurité, jeux vidéo, etc."
             }
         },
         {
@@ -182,7 +182,7 @@
         {
             "icon": "slcti.png",
             "title": {"en-ca": "Founder and CEO", "fr-ca": "Fondateur et président"},
-            "employmentType": {"en-ca": "Self-employed", "fr-ca": "Propriétaire"},
+            "employmentType": {"en-ca": "Owner", "fr-ca": "Propriétaire"},
             "company": {
                 "name": {"en-ca": "SLCIT", "fr-ca": "SLCTI"},
                 "url": {"en-ca": "http://slcti.8bit.ca/?lang=en-ca", "fr-ca": "http://slcti.8bit.ca/?lang=fr-ca"}
@@ -347,7 +347,7 @@
             "description": null
         },
         {
-            "icon": null,
+            "icon": "cepcsj.png",
             "title": {"en-ca": "Webmaster", "fr-ca": "Webmestre"},
             "employmentType": {"en-ca": "Contract Full-time", "fr-ca": "Contrat à temps plein"},
             "company": {
@@ -527,7 +527,7 @@
             "description": null
         },
         {
-            "icon": "cvm.jpeg",
+            "icon": "cvm.png",
             "title": {"en-ca": "Information Technologies", "fr-ca": "Technologies de l'information"},
             "degree": {"en-ca": "College Studies Certificate", "fr-ca": "Attestation d'études collégiales"},
             "school": {
@@ -542,7 +542,7 @@
             "description": null
         },
         {
-            "icon": null,
+            "icon": "ahuntsic.png",
             "title": {"en-ca": "Information Technologies", "fr-ca": "Technologies de l'information"},
             "degree": {"en-ca": "College Studies Diploma", "fr-ca": "Diplôme d'études collégiales"},
             "school": {
@@ -557,7 +557,7 @@
             "description": null
         },
         {
-            "icon": null,
+            "icon": "bdeb.png",
             "title": {"en-ca": "Information Technologies", "fr-ca": "Technologies de l'information"},   
             "school": {
                 "name": {"en-ca": "Bois de Boulogne College", "fr-ca": "Collège Bois de Boulogne"},
@@ -571,7 +571,7 @@
             "description": null
         },
         {
-            "icon": null,
+            "icon": "jean_xxiii.png",
             "title": {"en-ca": "International Enriched Program", "fr-ca": "Programme enrichi international"},
             "degree": {"en-ca": "Highschool Studies Diploma", "fr-ca": "Diplôme d'études secondaires"},
             "school": {
@@ -586,7 +586,7 @@
             "description": null
         },
         {
-            "icon": null,
+            "icon": "lalande.png",
             "title": {"en-ca": "Enriched Program", "fr-ca": "Programme enrichi"},
             "degree": {"en-ca": "Primary School Diploma", "fr-ca": "Diplôme d'études primaires"},
             "school": {
