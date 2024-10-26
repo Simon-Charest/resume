@@ -103,11 +103,9 @@
             </div>
 
             <div class="in-development">
-                <p class="copyright">
-                    <img src="/assets/icons/<%= icons.in_development %>" class="icon icon-32x32">
-                    <%= resume.globals.inDevelopment[lang] %>
-                    <img src="/assets/icons/<%= icons.in_development %>" class="icon icon-32x32">
-                </p>
+                <img src="/assets/icons/<%= icons.in_development %>" class="icon icon-32x32">
+                <%= resume.globals.inDevelopment[lang] %>
+                <img src="/assets/icons/<%= icons.in_development %>" class="icon icon-32x32">
             </div>
 
             <div class="about">
@@ -240,7 +238,10 @@
                 </ul>
             </div>
 
-            <p class="copyright"><%= resume.globals.copyright[lang] %></p>
+            <p class="copyright">
+                <%= resume.globals.poweredBy[lang] %>
+                <br><%= resume.globals.copyright[lang] %>
+            </p>
             <script>
                 /* Convert plain text links to HTML */
 

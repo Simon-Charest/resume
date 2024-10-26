@@ -176,6 +176,7 @@ hr {
 
 .copyright,
 .in-development {
+    color: gray;
     font-size: small;
     font-weight: bold;
     text-align: center;
