@@ -34,62 +34,75 @@
                         <h1><%= resume.intro.firstName %> <%= resume.intro.lastName %></h1>
                         <h2><%= resume.intro.primaryPosition.title[lang] %></h2>
                         <p><%= resume.intro.location.city[lang] %>, <%= resume.intro.location.province[lang] %>, <%= resume.intro.location.country[lang] %></p>
+                        
+                        <h3><%= resume.globals.contactInfo[lang] %></h3>
+                        <button class="collapsible-button"><%= resume.globals.seeMore[lang] %></button>
+                        <div class="collapsible-content">
+                            <ul>
+                                <li><img src="/assets/icons/<%= icons.linked_in %>" class="icon icon-16x16"><strong><%= resume.globals.profile[lang] %></strong>&nbsp;<a href="<%= resume.intro.contactInfo.profile.url %>"><%= resume.intro.contactInfo.profile.name %></a></li>
+                                <li><img src="/assets/icons/<%= icons.website %>" class="icon icon-16x16"><strong><%= resume.globals.websites[lang] %></strong>&nbsp;
+                                    <ul>
+                                        <% resume.intro.contactInfo.websites.forEach(item => { %>
+                                            <li><a href="<%= item.url %>"><%= item.name[lang] %></a>&nbsp;(<%= item.type[lang] %>)</li>
+                                        <% }); %>
+                                    </ul>
+                                </li>
+                                <li><img src="/assets/icons/<%= icons.phone %>" class="icon icon-16x16"><strong><%= resume.globals.phone[lang] %></strong>&nbsp;<a href="tel:<%= resume.intro.contactInfo.phone.number %>"><%= resume.intro.contactInfo.phone.number %></a>&nbsp;(<%= resume.intro.contactInfo.phone.type %>)</li>
+                                <%
+                                    const address = {
+                                        apartment: resume.intro.contactInfo.address.apartment,
+                                        civicNumber: resume.intro.contactInfo.address.civicNumber,
+                                        streetName: resume.intro.contactInfo.address.streetName,
+                                        roadType: resume.intro.contactInfo.address.roadType,
+                                        postalCode: resume.intro.contactInfo.address.postalCode,
+                                        city: resume.intro.contactInfo.address.city[lang],
+                                        province: resume.intro.contactInfo.address.province[lang],
+                                        country: resume.intro.contactInfo.address.country[lang]
+                                    };
+
+                                    // Build the address parts array dynamically
+                                    const parts = [
+                                        address.civicNumber,
+                                        address.streetName,
+                                        address.postalCode,
+                                        address.city,
+                                        address.province,
+                                        address.country
+                                    ].filter(Boolean);
+
+                                    // Join the non-empty parts with a comma
+                                    const addressString = parts.join(', ');
+                                %>
+
+                                <li><img src="/assets/icons/<%= icons.address %>" class="icon icon-16x16"><strong><%= resume.globals.address[lang] %></strong>&nbsp;<a href="https://www.google.ca/maps/place/<%= addressString %>"><%= resume.globals.GoogleMaps %></a></li>
+                                <li><img src="/assets/icons/<%= icons.email %>" class="icon icon-16x16"><strong><%= resume.globals.email[lang] %></strong>&nbsp;<a href="mailto:<%= resume.intro.contactInfo.email.url %>"><%= resume.intro.contactInfo.email.name %></a></li>
+                                <% if (resume.intro.contactInfo.birthday) { %>
+                                    <li><img src="/assets/icons/<%= icons.birthday %>" class="icon icon-16x16"><%= resume.globals.birthday[lang] %>&nbsp;<%= resume.intro.contactInfo.birthday %></li>
+                                <% } %>
+                            </ul>
+                        </div>
                     </div>
+
                     <div>
                         <ul>
-                            <li><img src="/assets/images/<%= images.vigiteck %>" class="icon icon-32x32"> <a href="<%= resume.intro.primaryPosition.website %>"><%= resume.intro.primaryPosition.companyName[lang] %></a></li>
-                            <li><img src="/assets/images/<%= images.cvm %>" class="icon icon-32x32"> <a href="<%= resume.intro.education.website %>"><%= resume.intro.education.school[lang] %></a></li>
+                            <% const ongoingExperiences = resume.experience.filter(experience => experience.endDate === null); %>
+                            <% ongoingExperiences.forEach(experience => { %>
+                                <li>
+                                    <img src="/assets/images/<%= experience.icon %>" class="icon icon-32x32"> <a href="<%= experience.company.url[lang] %>"><%= experience.company.name[lang] %></a>
+                                </li>
+                            <% }); %>
+                            <% const obtainedDegrees = resume.education.filter(education => education.degree !== null && education.higherEducation); %>
+                            <% obtainedDegrees.forEach(education => { %>
+                                <li>
+                                    <img src="/assets/images/<%= education.icon %>" class="icon icon-32x32"> <a href="<%= education.school.url[lang] %>"><%= education.school.name[lang] %></a>
+                                </li>
+                            <% }); %>
                         </ul>
                     </div>
                 </div>
             
                 <div class="contact-info">
-                    <h3><%= resume.globals.contactInfo[lang] %></h3>
-                    <button class="collapsible-button"><%= resume.globals.seeMore[lang] %></button>
-                    <div class="collapsible-content">
-                        <ul>
-                            <li><img src="/assets/icons/<%= icons.linked_in %>" class="icon icon-16x16"><strong><%= resume.globals.profile[lang] %></strong>&nbsp;<a href="<%= resume.intro.contactInfo.profile.url %>"><%= resume.intro.contactInfo.profile.name %></a></li>
-                            <li><img src="/assets/icons/<%= icons.website %>" class="icon icon-16x16"><strong><%= resume.globals.websites[lang] %></strong>&nbsp;
-                                <ul>
-                                    <% resume.intro.contactInfo.websites.forEach(item => { %>
-                                        <li><a href="<%= item.url %>"><%= item.name[lang] %></a>&nbsp;(<%= item.type[lang] %>)</li>
-                                    <% }); %>
-                                </ul>
-                            </li>
-                            <li><img src="/assets/icons/<%= icons.phone %>" class="icon icon-16x16"><strong><%= resume.globals.phone[lang] %></strong>&nbsp;<a href="tel:<%= resume.intro.contactInfo.phone.number %>"><%= resume.intro.contactInfo.phone.number %></a>&nbsp;(<%= resume.intro.contactInfo.phone.type %>)</li>
-                            <%
-                                const address = {
-                                    apartment: resume.intro.contactInfo.address.apartment,
-                                    civicNumber: resume.intro.contactInfo.address.civicNumber,
-                                    streetName: resume.intro.contactInfo.address.streetName,
-                                    roadType: resume.intro.contactInfo.address.roadType,
-                                    postalCode: resume.intro.contactInfo.address.postalCode,
-                                    city: resume.intro.contactInfo.address.city[lang],
-                                    province: resume.intro.contactInfo.address.province[lang],
-                                    country: resume.intro.contactInfo.address.country[lang]
-                                };
-
-                                // Build the address parts array dynamically
-                                const parts = [
-                                    address.civicNumber,
-                                    address.streetName,
-                                    address.postalCode,
-                                    address.city,
-                                    address.province,
-                                    address.country
-                                ].filter(Boolean);
-
-                                // Join the non-empty parts with a comma
-                                const addressString = parts.join(', ');
-                            %>
-
-                            <li><img src="/assets/icons/<%= icons.address %>" class="icon icon-16x16"><strong><%= resume.globals.address[lang] %></strong>&nbsp;<a href="https://www.google.ca/maps/place/<%= addressString %>"><%= resume.globals.GoogleMaps %></a></li>
-                            <li><img src="/assets/icons/<%= icons.email %>" class="icon icon-16x16"><strong><%= resume.globals.email[lang] %></strong>&nbsp;<a href="mailto:<%= resume.intro.contactInfo.email.url %>"><%= resume.intro.contactInfo.email.name %></a></li>
-                            <% if (resume.intro.contactInfo.birthday) { %>
-                                <li><img src="/assets/icons/<%= icons.birthday %>" class="icon icon-16x16"><%= resume.globals.birthday[lang] %>&nbsp;<%= resume.intro.contactInfo.birthday %></li>
-                            <% } %>
-                        </ul>
-                    </div>
+                    
                 </div>
             </div>
 
@@ -198,7 +211,7 @@
                             </p>
                         </div>
                     </div>
-                    
+
                     <hr>
                 <% }); %>
             </div>

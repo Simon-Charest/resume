@@ -170,6 +170,7 @@
     "skills": [
         "Python",
         "SQL",
+        "NoSQL",
         "Node.js",
         "PHP",
         "C#",
@@ -500,6 +501,7 @@
             "icon": "uqam.jpeg",
             "title": {"en-ca": "Software Development", "fr-ca": "Développement de logiciels"},
             "degree": null,
+            "higherEducation": true,
             "school": {
                 "name": {"en-ca": "University of Quebec at Montreal", "fr-ca": "Université du Québec à Montréal"},
                 "url": {"en-ca": "https://www.etsmtl.ca/en/", "fr-ca": "https://www.etsmtl.ca/"}
@@ -515,6 +517,7 @@
             "icon": "ets.jpeg",
             "title": {"en-ca": "Software Engineering", "fr-ca": "Génie logiciel"},
             "degree": null,
+            "higherEducation": true,
             "school": {
                 "name": {"en-ca": "School of Higher Technology", "fr-ca": "École de technologie supérieure"},
                 "url": {"en-ca": "https://www.etsmtl.ca/en/", "fr-ca": "https://www.etsmtl.ca/"}
@@ -529,7 +532,8 @@
         {
             "icon": "cvm.png",
             "title": {"en-ca": "Information Technologies", "fr-ca": "Technologies de l'information"},
-            "degree": {"en-ca": "College Studies Certificate", "fr-ca": "Attestation d'études collégiales"},
+            "degree": {"en-ca": "College Studies Diploma", "fr-ca": "Diplôme d'études collégiales"},
+            "higherEducation": true,
             "school": {
                 "name": {"en-ca": "Old Montreal College", "fr-ca": "Cégep du Vieux-Montréal"},
                 "url": {"en-ca": "https://www.cvm.qc.ca/", "fr-ca": "https://www.cvm.qc.ca/"}
@@ -544,7 +548,8 @@
         {
             "icon": "ahuntsic.png",
             "title": {"en-ca": "Information Technologies", "fr-ca": "Technologies de l'information"},
-            "degree": {"en-ca": "College Studies Diploma", "fr-ca": "Diplôme d'études collégiales"},
+            "degree": {"en-ca": "College Studies Certificate", "fr-ca": "Attestation d'études collégiales"},
+            "higherEducation": true,
             "school": {
                 "name": {"en-ca": "Ahuntsic College", "fr-ca": "Collège Ahuntsic"},
                 "url": {"en-ca": "https://www.collegeahuntsic.qc.ca/", "fr-ca": "https://www.collegeahuntsic.qc.ca/"}
@@ -558,7 +563,9 @@
         },
         {
             "icon": "bdeb.png",
-            "title": {"en-ca": "Information Technologies", "fr-ca": "Technologies de l'information"},   
+            "title": {"en-ca": "Information Technologies", "fr-ca": "Technologies de l'information"},
+            "degree": null,
+            "higherEducation": true,
             "school": {
                 "name": {"en-ca": "Bois de Boulogne College", "fr-ca": "Collège Bois de Boulogne"},
                 "url": {"en-ca": "https://www.cvm.qc.ca/", "fr-ca": "https://www.cvm.qc.ca/"}
@@ -574,6 +581,7 @@
             "icon": "jean_xxiii.png",
             "title": {"en-ca": "International Enriched Program", "fr-ca": "Programme enrichi international"},
             "degree": {"en-ca": "Highschool Studies Diploma", "fr-ca": "Diplôme d'études secondaires"},
+            "higherEducation": false,
             "school": {
                 "name": {"en-ca": "Dorval-John-XXIII Highschool", "fr-ca": "École secondaire Dorval-Jean-XXIII"},
                 "url": {"en-ca": "https://dorvaljean23.ecoleouestmtl.com/", "fr-ca": "https://dorvaljean23.ecoleouestmtl.com/"}
@@ -581,14 +589,15 @@
             "location": {
                 "city": {"en-ca": "Dorval, Quebec, Canada", "fr-ca": "Dorval, Québec, Canada"}
             },
-            "startDate": "1997-09-01",
-            "endDate": "1998-06-30",
+            "startDate": "1992-09-01",
+            "endDate": "1997-06-30",
             "description": null
         },
         {
             "icon": "lalande.png",
             "title": {"en-ca": "Enriched Program", "fr-ca": "Programme enrichi"},
             "degree": {"en-ca": "Primary School Diploma", "fr-ca": "Diplôme d'études primaires"},
+            "higherEducation": false,
             "school": {
                 "name": {"en-ca": "Lalande School", "fr-ca": "École Lalande"},
                 "url": {"en-ca": "https://lalande.ecoleouestmtl.com/", "fr-ca": "https://lalande.ecoleouestmtl.com/"}

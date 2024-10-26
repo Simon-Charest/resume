@@ -87,8 +87,7 @@ hr {
     padding: 0;
 }
 
-.intro,
-.contact-info {
+.intro {
     padding: 15px;
 }
 
@@ -107,13 +106,11 @@ hr {
 
 /* Elements */
 
-.intro ul,
-.contact-info ul {
+.intro ul {
     padding-left: 0;
 }
 
-.intro li,
-.contact-info li {
+.intro li {
     display: flex;
 }
 
@@ -160,7 +157,6 @@ hr {
     border: 0;
     color: #007fcc;
     cursor: pointer;
-    padding-bottom: 25px;
 }
 
 .collapsible-button:hover {
