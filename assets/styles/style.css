@@ -53,6 +53,25 @@ div {
 
 /* Sections */
 
+.menu {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    flex: 1;
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.gray {
+    color: gray;
+}
+
 .background {
     position: relative;
     padding-bottom: 75px;
@@ -74,7 +93,6 @@ div {
 }
 
 .profile,
-.in-development,
 .about,
 .experience,
 .education,
@@ -104,10 +122,6 @@ div {
 
 .experience-item {
     display: flex;
-}
-
-.gray {
-    color: gray;
 }
 
 /* Elements */
@@ -180,17 +194,6 @@ div {
 }
 
 /* Copyright */
-
-.menu {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-
-.center {
-    flex: 1;
-    text-align: center;
-}
 
 .in-development,
 .poweredBy,

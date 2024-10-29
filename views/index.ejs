@@ -13,12 +13,7 @@
             <link rel="stylesheet" href="/assets/styles/style.css">
         </head>
         <body>
-            <div class="menu">
-                <span class="center">
-                    <img src="/assets/icons/<%= icons.in_development %>" class="icon icon-32x32">
-                    <%= resume.globals.inDevelopment[lang] %>
-                    <img src="/assets/icons/<%= icons.in_development %>" class="icon icon-32x32">
-                </span>
+            <div class="right">
                 <span>
                     <% if (lang === 'fr-ca') { %>
                         <a href="?lang=en-ca">English</a>
@@ -281,7 +276,12 @@
             </div>
 
             <p class="center">
-                <span class="poweredBy"><%= resume.globals.poweredBy[lang] %></span>
+                <span class="in-development">
+                    <img src="/assets/icons/<%= icons.in_development %>" class="icon icon-32x32">
+                    <%= resume.globals.inDevelopment[lang] %>
+                    <img src="/assets/icons/<%= icons.in_development %>" class="icon icon-32x32">
+                </span>
+                <br><span class="poweredBy"><%= resume.globals.poweredBy[lang] %></span>
                 <br><span class="privacy"><%= resume.globals.privacy[lang] %></span>
                 <br><span class="copyright"><%= resume.globals.copyright[lang] %></span>
             </p>
