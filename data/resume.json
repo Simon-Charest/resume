@@ -208,8 +208,8 @@
         },
         {
             "icon": "vigiteck.jpeg",
-            "title": {"en-ca": "Partner, CTO and Developer", "fr-ca": "Associé et directeur TI"},
-            "employmentType": {"en-ca": "Contract Full-time", "fr-ca": "Associé à temps plein"},
+            "title": {"en-ca": "CTO", "fr-ca": "Directeur TI"},
+            "employmentType": {"en-ca": "Full-time Associate", "fr-ca": "Associé à temps plein"},
             "companyName": {"en-ca": "Vigiteck Group", "fr-ca": "Groupe Vigiteck"},
             "company": {
                 "name": {"en-ca": "Vigiteck Group", "fr-ca": "Groupe Vigiteck"},
