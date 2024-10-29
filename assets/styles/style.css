@@ -38,6 +38,10 @@ hr {
     height: 1px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* Sections */
 
 .language {
@@ -122,6 +126,7 @@ hr {
 .horizontal-list {
     display: flex;
     flex-wrap: wrap;
+    list-style-type: disc;
 }
 
 .horizontal-list li {

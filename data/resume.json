@@ -4,6 +4,8 @@
         "seeMore": {"en-ca": "See more...", "fr-ca": "Voir plus..."},
         "seeLess": {"en-ca": "See less...", "fr-ca": "Voir moins..."},
 
+        "inDevelopment": {"en-ca": "In development...", "fr-ca": "En développement..."},
+
         "contactInfo": {"en-ca": "Contact Info", "fr-ca": "Coordonnées"},
         "profile": {"en-ca": "Profile", "fr-ca": "Profil"},
         "websites": {"en-ca": "Websites", "fr-ca": "Sites web"},
@@ -22,16 +24,21 @@
         "experience": {"en-ca": "Experience", "fr-ca": "Expérience"},
         "present": {"en-ca": "Present", "fr-ca": "Aujourd'hui"},
         "relationships": {"en-ca": "Relationships", "fr-ca": "Relations"},
-        "skills": {"en-ca": "Skills", "fr-ca": "Compétences"},
         "media": {"en-ca": "Media", "fr-ca": "Médias"},
 
         "education": {"en-ca": "Education", "fr-ca": "Éducation"},
 
+        "skills": {"en-ca": "Skills", "fr-ca": "Compétences"},
+
+        "courses": {"en-ca": "Courses", "fr-ca": "Cours"},
+
         "languages": {"en-ca": "Languages", "fr-ca": "Langues"},
 
-        "inDevelopment": {"en-ca": "In development...", "fr-ca": "En développement..."},
+        "interests": {"en-ca": "Interests", "fr-ca": "Intérêts"},
+        
         "poweredBy": {"en-ca": "Powered by Node.js, Ubuntu and Free DNS.", "fr-ca": "Propulsé par Node.js, Ubuntu et Free DNS."},
-        "copyright": {"en-ca": "© SLCIT. All rights reserved.", "fr-ca": "© SLCTI. Tous droits réservés."}
+        "copyright": {"en-ca": "© SLCIT. All rights reserved.", "fr-ca": "© SLCTI. Tous droits réservés."},
+        "privacy": {"en-ca": "This site does not store any data about its visitors.", "fr-ca": "Ce site ne conserve aucune donnée sur ses visiteurs."}
     },
 
     "intro": {
@@ -170,7 +177,7 @@
         }
     ],
 
-    "skills": [
+    "topSkills": [
         "Python",
         "SQL",
         "NoSQL",
@@ -614,6 +621,206 @@
         }
     ],
 
+    "skills": [
+        {
+            "name": {"en-ca": "pandas", "fr-ca": "pandas"}
+        },
+        {
+            "name": {"en-ca": "Pytest", "fr-ca": "Pytest"}
+        },
+        {
+            "name": {"en-ca": "Geolocation", "fr-ca": "Géolocalisation"}
+        },
+        {
+            "name": {"en-ca": "Chart.js", "fr-ca": "Chart.js"}
+        },
+        {
+            "name": {"en-ca": "Cytospace.js", "fr-ca": "Cytospace.js"}
+        },
+        {
+            "name": {"en-ca": "OpenCV", "fr-ca": "OpenCV"}
+        },
+        {
+            "name": {"en-ca": "Microsoft 365", "fr-ca": "Microsoft 365"}
+        },
+        {
+            "name": {"en-ca": "CSV", "fr-ca": "CSV"}
+        },
+        {
+            "name": {"en-ca": "Microsoft Excel", "fr-ca": "Microsoft Excel"}
+        },
+        {
+            "name": {"en-ca": "Neo4j", "fr-ca": "Neo4j"}
+        },
+        {
+            "name": {"en-ca": "WordPress", "fr-ca": "WordPress"}
+        },
+        {
+            "name": {"en-ca": "Gestion des données", "fr-ca": "Gestion des données"}
+        },
+        {
+            "name": {"en-ca": "Développement web", "fr-ca": "Développement web"}
+        },
+        {
+            "name": {"en-ca": "Programmation", "fr-ca": "Programmation"}
+        },
+        {
+            "name": {"en-ca": ".NET Core", "fr-ca": ".NET Core"}
+        },
+        {
+            "name": {"en-ca": "Méthodes agiles", "fr-ca": "Méthodes agiles"}
+        },
+        {
+            "name": {"en-ca": "PowerShell", "fr-ca": "PowerShell"}
+        },
+        {
+            "name": {"en-ca": "SQL", "fr-ca": "SQL"}
+        },
+        {
+            "name": {"en-ca": "MySQL", "fr-ca": "MySQL"}
+        },
+        {
+            "name": {"en-ca": "T-SQL", "fr-ca": "T-SQL"}
+        },
+        {
+            "name": {"en-ca": "PL/SQL", "fr-ca": "PL/SQL"}
+        },
+        {
+            "name": {"en-ca": "JavaScript", "fr-ca": "JavaScript"}
+        },
+        {
+            "name": {"en-ca": "HTML", "fr-ca": "HTML"}
+        },
+        {
+            "name": {"en-ca": "CSS", "fr-ca": "CSS"}
+        },
+        {
+            "name": {"en-ca": "jQuery", "fr-ca": "jQuery"}
+        },
+        {
+            "name": {"en-ca": "jQuery UI", "fr-ca": "jQuery UI"}
+        },
+        {
+            "name": {"en-ca": "Visual Basic", "fr-ca": "Visual Basic"}
+        },
+        {
+            "name": {"en-ca": "Microsoft SQL Server", "fr-ca": "Microsoft SQL Server"}
+        },
+        {
+            "name": {"en-ca": "Microsoft Access", "fr-ca": "Microsoft Access"}
+        },
+        {
+            "name": {"en-ca": "SQLite", "fr-ca": "SQLite"}
+        },
+        {
+            "name": {"en-ca": "Oracle Database", "fr-ca": "Oracle Database"}
+        },
+        {
+            "name": {"en-ca": "Java", "fr-ca": "Java"}
+        },
+        {
+            "name": {"en-ca": "C#", "fr-ca": "C#"}
+        },
+        {
+            "name": {"en-ca": "C++", "fr-ca": "C++"}
+        },
+        {
+            "name": {"en-ca": "C", "fr-ca": "C"}
+        },
+        {
+            "name": {"en-ca": "Microsoft Windows", "fr-ca": "Microsoft Windows"}
+        },
+        {
+            "name": {"en-ca": "DOS", "fr-ca": "DOS"}
+        },
+        {
+            "name": {"en-ca": "Linux", "fr-ca": "Linux"}
+        },
+        {
+            "name": {"en-ca": "TCP/IP", "fr-ca": "TCP/IP"}
+        },
+        {
+            "name": {"en-ca": "ColdFusion", "fr-ca": "ColdFusion"}
+        },
+        {
+            "name": {"en-ca": "Windows", "fr-ca": "Windows"}
+        },
+        {
+            "name": {"en-ca": "Python (Programming Language)", "fr-ca": "Python (langage de programmation)"}
+        },
+        {
+            "name": {"en-ca": "Git", "fr-ca": "Git"}
+        },
+        {
+            "name": {"en-ca": "Software Development", "fr-ca": "Développement de logiciels"}
+        },
+        {
+            "name": {"en-ca": "Object-Oriented Programming (OOP)", "fr-ca": "Programmation orientée-objet"}
+        },
+        {
+            "name": {"en-ca": "Web Services", "fr-ca": "Services web"}
+        },
+        {
+            "name": {"en-ca": "Web Applications", "fr-ca": "Applications web"}
+        },
+        {
+            "name": {"en-ca": "Databases", "fr-ca": "Bases de données"}
+        },
+        {
+            "name": {"en-ca": ".NET Framework", "fr-ca": ".NET Framework"}
+        },
+        {
+            "name": {"en-ca": "ASP.NET", "fr-ca": "ASP.NET"}
+        },
+        {
+            "name": {"en-ca": "JSON", "fr-ca": "JSON"}
+        },
+        {
+            "name": {"en-ca": "Database Conception", "fr-ca": "Conception de bases de données"}
+        },
+        {
+            "name": {"en-ca": "Scrum", "fr-ca": "Scrum"}
+        },
+        {
+            "name": {"en-ca": "HTML5", "fr-ca": "HTML5"}
+        },
+        {
+            "name": {"en-ca": "Python", "fr-ca": "Python"}
+        },
+        {
+            "name": {"en-ca": "Batch", "fr-ca": "Batch"}
+        },
+        {
+            "name": {"en-ca": "Windows PowerShell", "fr-ca": "Windows PowerShell"}
+        },
+        {
+            "name": {"en-ca": "Node.js", "fr-ca": "Node.js"}
+        },
+        {
+            "name": {"en-ca": "Vue.js", "fr-ca": "Vue.js"}
+        },
+        {
+            "name": {"en-ca": "MariaDB", "fr-ca": "MariaDB"}
+        }
+    ],
+
+    "courses": [
+        {
+            "name": {
+                "en-ca": "Administering Microsoft SQL Server 2012 Databases",
+                "fr-ca": "Administration des bases de données Microsoft SQL Server 2012"
+            },
+            "code": "10775A"
+        },
+        {
+            "name": {
+                "en-ca": "Introduction to C# Programming with Microsoft .NET",
+                "fr-ca": "Introduction à la programmation C# avec Microsoft.NET"
+            },
+            "code": "2609A"
+        }
+    ],
+
     "languages": [
         {
             "icon": "fr_ca.png",
@@ -634,6 +841,75 @@
             "icon": "it_it.png",
             "name": {"en-ca": "Italian", "fr-ca": "Italien"},
             "proficiency": {"en-ca": "Elementary proficiency", "fr-ca": "Compétence élémentaire"}
+        }
+    ],
+
+    "interests": [
+        {
+            "name": {
+                "en-ca": "Dogs",
+                "fr-ca": "Chiens"
+            }
+        },
+        {
+            "name": {
+                "en-ca": "Video Games",
+                "fr-ca": "Jeux vidéo"
+            }
+        },
+        {
+            "name": {
+                "en-ca": "Software Development",
+                "fr-ca": "Développement de logiciels"
+            }
+        },
+        {
+            "name": {
+                "en-ca": "Home Improvements",
+                "fr-ca": "Rénovations"
+            }
+        },
+        {
+            "name": {
+                "en-ca": "Cooking",
+                "fr-ca": "Cuisine"
+            }
+        },
+        {
+            "name": {
+                "en-ca": "Brewing / Winemaking",
+                "fr-ca": "Brassage / vinification"
+            }
+        },
+        {
+            "name": {
+                "en-ca": "Jogging",
+                "fr-ca": "Course à pied"
+            }
+        },
+        {
+            "name": {
+                "en-ca": "Martial Arts",
+                "fr-ca": "Arts martiaux"
+            }
+        },
+        {
+            "name": {
+                "en-ca": "Photography",
+                "fr-ca": "Photographie"
+            }
+        },
+        {
+            "name": {
+                "en-ca": "Bass Guitar",
+                "fr-ca": "Guitare basse"
+            }
+        },
+        {
+            "name": {
+                "en-ca": "Drums",
+                "fr-ca": "Batterie"
+            }
         }
     ]
 }
