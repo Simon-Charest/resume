@@ -204,7 +204,18 @@
             },
             "startDate": "2018-11-01",
             "endDate": null,
-            "description": null
+            "description": null,
+            "skills": [
+                "Python",
+                "Node.js",
+                "SQL",
+                "JSON",
+                "Git",
+                "PowerShell",
+                "Bash",
+                "Ubuntu",
+                "Excel"
+            ]
         },
         {
             "icon": "vigiteck.jpeg",
@@ -257,7 +268,7 @@
                 "Microsoft 365",
                 "JSON",
                 "CSV",
-                "Microsoft Excel",
+                "Excel",
                 "Java",
                 "Neo4j",
                 "WordPress"
@@ -283,12 +294,12 @@
             },
             "relationships": [
                 {
-                    "type": {"en-ca": "Employment agency", "fr-ca": "Agence de placement"},
+                    "type": {"en-ca": "Recruitment Agency", "fr-ca": "Agence de recrutement"},
                     "name": {"en-ca": "Suitalent", "fr-ca": "Suitalent"},
                     "url": {"en-ca": "https://logient.com/en/", "fr-ca": "https://logient.com/fr/"}
                 },
                 {
-                    "type": {"en-ca": "Employment agency", "fr-ca": "Agence de placement"},
+                    "type": {"en-ca": "Recruitment Agency", "fr-ca": "Agence de recrutement"},
                     "name": {"en-ca": "Procom", "fr-ca": "Procom"},
                     "url": {"en-ca": "https://procomservices.com/en-us/", "fr-ca": "https://procomservices.com/fr-ca/"}
                 }
@@ -299,7 +310,15 @@
             },
             "startDate": "2022-11-01",
             "endDate": "2023-10-31",
-            "description": null
+            "description": null,
+            "skills": [
+                "Python",
+                "Pytest",
+                "Pandas",
+                "NumPy",
+                "PyXLL",
+                "PyQt"
+            ]
         },
         {
             "icon": "forensik.jpeg",
@@ -316,7 +335,14 @@
             },
             "startDate": "2020-10-01",
             "endDate": "2022-09-30",
-            "description": null
+            "description": null,
+            "skills": [
+                "PowerShell",
+                "Python",
+                "C#",
+                "Entity Framework",
+                "Microsoft 365"
+            ]
         },
         {
             "icon": "belron.jpeg",
@@ -328,7 +354,7 @@
             },
             "relationships": [
                 {
-                    "type": {"en-ca": "Employment agency", "fr-ca": "Agence de placement"},
+                    "type": {"en-ca": "Recruitment Agency", "fr-ca": "Agence de recrutement"},
                     "name": {"en-ca": "FX Innovation", "fr-ca": "FX Innovation"},
                     "url": {"en-ca": "https://www.fxinnovation.com/en/", "fr-ca": "https://www.fxinnovation.com/fr/"}
                 }
@@ -339,7 +365,15 @@
             },
             "startDate": "2018-11-01",
             "endDate": "2020-06-30",
-            "description": null
+            "description": null,
+            "skills": [
+                "PHP",
+                "C#",
+                "ASP.NET",
+                "ASP",
+                "SQL Server",
+                "WordPress"
+            ]
         },
         {
             "icon": "logibec.jpeg",
@@ -355,7 +389,11 @@
             },
             "startDate": "2017-10-01",
             "endDate": "2018-09-30",
-            "description": null
+            "description": null,
+            "skills": [
+                "VB.NET",
+                "Oracle Database"
+            ]
         },
         {
             "icon": "cepcsj.png",
@@ -371,7 +409,11 @@
             },
             "startDate": "2017-01-01",
             "endDate": "2017-12-31",
-            "description": null
+            "description": null,
+            "skills": [
+                "TYPO3",
+                "JavaScript"
+            ]
         },
         {
             "icon": "datacandy.png",
@@ -389,12 +431,17 @@
             "endDate": "2016-12-31",
             "relationships": [
                 {
-                    "type": {"en-ca": "Employment agency", "fr-ca": "Agence de placement"},
+                    "type": {"en-ca": "Recruitment Agency", "fr-ca": "Agence de recrutement"},
                     "name": {"en-ca": "Arobas Personnel", "fr-ca": "Arobas Personnel"},
                     "url": {"en-ca": "https://www.arobaspersonnel.com/en/home.html", "fr-ca": "https://www.arobaspersonnel.com/fr/accueil.html"}
                 }
             ],
-            "description": null
+            "description": null,
+            "skills": [
+                "PHP",
+                "JavaScript",
+                "MySQL"
+            ]
         },
         {
             "icon": "upac.png",
@@ -410,7 +457,13 @@
             },
             "startDate": "2013-09-01",
             "endDate": "2015-12-31",
-            "description": null
+            "description": null,
+            "skills": [
+                "PHP",
+                "JavaScript",
+                "VBA",
+                "SQL Server"
+            ]
         },
         {
             "icon": "msp.jpeg",
@@ -433,7 +486,13 @@
                     "url": {"en-ca": "https://upac.gouv.qc.ca/en/", "fr-ca": "https://upac.gouv.qc.ca/"}
                 }
             ],
-            "description": null
+            "description": null,
+            "skills": [
+                "PHP",
+                "JavaScript",
+                "VBA",
+                "SQL Server"
+            ]
         },
         {
             "icon": "sq.jpeg",
@@ -449,7 +508,13 @@
             },
             "startDate": "2006-06-26",
             "endDate": "2011-08-31",
-            "description": null
+            "description": null,
+            "skills": [
+                "PHP",
+                "JavaScript",
+                "VB6 / VBA",
+                "Access"
+            ]
         },
         {
             "icon": "technomedia.png",
@@ -465,7 +530,13 @@
             },
             "startDate": "2005-07-01",
             "endDate": "2006-05-31",
-            "description": null
+            "description": null,
+            "skills": [
+                "ColdFusion",
+                "Java",
+                "SQL Server",
+                "Oracle Database"
+            ]
         },
         {
             "icon": null,
@@ -486,7 +557,11 @@
             },
             "startDate": "2005-01-01",
             "endDate": "2005-06-30",
-            "description": null
+            "description": null,
+            "skills": [
+                "VB6",
+                "SQL Server"
+            ]
         },
         {
             "icon": "qualicode.jpeg",
@@ -502,7 +577,11 @@
             },
             "startDate": "2004-06-01",
             "endDate": "2004-12-31",
-            "description": null
+            "description": null,
+            "skills": [
+                "VB6",
+                "SQL Server"
+            ]
         }
     ],
 
@@ -622,58 +701,133 @@
     ],
 
     "skills": [
-        { "name": {"en-ca": ".NET Core", "fr-ca": ".NET Core"} },
-        { "name": {"en-ca": ".NET Framework", "fr-ca": ".NET Framework"} },
-        { "name": {"en-ca": "ASP.NET", "fr-ca": "ASP.NET"} },
-        { "name": {"en-ca": "Batch", "fr-ca": "Batch"} },
-        { "name": {"en-ca": "Chart.js", "fr-ca": "Chart.js"} },
-        { "name": {"en-ca": "CSS", "fr-ca": "CSS"} },
-        { "name": {"en-ca": "C", "fr-ca": "C"} },
-        { "name": {"en-ca": "C#", "fr-ca": "C#"} },
-        { "name": {"en-ca": "C++", "fr-ca": "C++"} },
-        { "name": {"en-ca": "ColdFusion", "fr-ca": "ColdFusion"} },
-        { "name": {"en-ca": "CSV", "fr-ca": "CSV"} },
-        { "name": {"en-ca": "Database Conception", "fr-ca": "Conception de bases de données"} },
-        { "name": {"en-ca": "Databases", "fr-ca": "Bases de données"} },
-        { "name": {"en-ca": "Développement web", "fr-ca": "Développement web"} },
-        { "name": {"en-ca": "Gestion des données", "fr-ca": "Gestion des données"} },
-        { "name": {"en-ca": "Geolocation", "fr-ca": "Géolocalisation"} },
-        { "name": {"en-ca": "Git", "fr-ca": "Git"} },
-        { "name": {"en-ca": "HTML", "fr-ca": "HTML"} },
-        { "name": {"en-ca": "HTML5", "fr-ca": "HTML5"} },
-        { "name": {"en-ca": "Java", "fr-ca": "Java"} },
-        { "name": {"en-ca": "JavaScript", "fr-ca": "JavaScript"} },
-        { "name": {"en-ca": "jQuery", "fr-ca": "jQuery"} },
-        { "name": {"en-ca": "jQuery UI", "fr-ca": "jQuery UI"} },
-        { "name": {"en-ca": "JSON", "fr-ca": "JSON"} },
-        { "name": {"en-ca": "Linux", "fr-ca": "Linux"} },
-        { "name": {"en-ca": "MariaDB", "fr-ca": "MariaDB"} },
-        { "name": {"en-ca": "Microsoft 365", "fr-ca": "Microsoft 365"} },
-        { "name": {"en-ca": "Microsoft Access", "fr-ca": "Microsoft Access"} },
-        { "name": {"en-ca": "Microsoft Excel", "fr-ca": "Microsoft Excel"} },
-        { "name": {"en-ca": "Microsoft SQL Server", "fr-ca": "Microsoft SQL Server"} },
-        { "name": {"en-ca": "Microsoft Windows", "fr-ca": "Microsoft Windows"} },
-        { "name": {"en-ca": "Neo4j", "fr-ca": "Neo4j"} },
-        { "name": {"en-ca": "Node.js", "fr-ca": "Node.js"} },
-        { "name": {"en-ca": "Object-Oriented Programming (OOP)", "fr-ca": "Programmation orientée-objet"} },
-        { "name": {"en-ca": "OpenCV", "fr-ca": "OpenCV"} },
-        { "name": {"en-ca": "PL/SQL", "fr-ca": "PL/SQL"} },
-        { "name": {"en-ca": "PowerShell", "fr-ca": "PowerShell"} },
-        { "name": {"en-ca": "Programmation", "fr-ca": "Programmation"} },
-        { "name": {"en-ca": "Python", "fr-ca": "Python"} },
-        { "name": {"en-ca": "Python (Programming Language)", "fr-ca": "Python (langage de programmation)"} },
-        { "name": {"en-ca": "Pytest", "fr-ca": "Pytest"} },
-        { "name": {"en-ca": "SQL", "fr-ca": "SQL"} },
-        { "name": {"en-ca": "Scrum", "fr-ca": "Scrum"} },
-        { "name": {"en-ca": "SQLite", "fr-ca": "SQLite"} },
-        { "name": {"en-ca": "T-SQL", "fr-ca": "T-SQL"} },
-        { "name": {"en-ca": "TCP/IP", "fr-ca": "TCP/IP"} },
-        { "name": {"en-ca": "Visual Basic", "fr-ca": "Visual Basic"} },
-        { "name": {"en-ca": "Vue.js", "fr-ca": "Vue.js"} },
-        { "name": {"en-ca": "Web Applications", "fr-ca": "Applications web"} },
-        { "name": {"en-ca": "Web Services", "fr-ca": "Services web"} },
-        { "name": {"en-ca": "Windows", "fr-ca": "Windows"} },
-        { "name": {"en-ca": "Windows PowerShell", "fr-ca": "Windows PowerShell"} }
+        {
+            "category": {
+                "name": { "en-ca": "Programming Languages", "fr-ca": "Langages de programmation" },
+                "technologies": [
+                    { "name": { "en-ca": "C", "fr-ca": "C" } },
+                    { "name": { "en-ca": "C++", "fr-ca": "C++" } },
+                    { "name": { "en-ca": "Java", "fr-ca": "Java" } },
+                    { "name": { "en-ca": "PHP", "fr-ca": "PHP" } },
+                    { "name": { "en-ca": "Python", "fr-ca": "Python" } }
+                ]
+            }
+        },
+        {
+            "category": {
+                "name": { "en-ca": "Unit Testing", "fr-ca": "Tests unitaires" },
+                "technologies": [
+                    { "name": { "en-ca": "Pytest", "fr-ca": "Pytest" } }
+                ]
+            }
+        },
+        {
+            "category": {
+                "name": { "en-ca": "Data", "fr-ca": "Données" },
+                "technologies": [
+                    { "name": { "en-ca": "Access", "fr-ca": "Access" } },
+                    { "name": { "en-ca": "CSV", "fr-ca": "CSV" } },
+                    { "name": { "en-ca": "Geolocation", "fr-ca": "Géolocalisation" } },
+                    { "name": { "en-ca": "JSON", "fr-ca": "JSON" } },
+                    { "name": { "en-ca": "MariaDB / MySQL", "fr-ca": "MariaDB / MySQL" } },
+                    { "name": { "en-ca": "MongoDB", "fr-ca": "MongoDB" } },
+                    { "name": { "en-ca": "Neo4j / Graph", "fr-ca": "Neo4j / Graph" } },
+                    { "name": { "en-ca": "NoSQL", "fr-ca": "NoSQL" } },
+                    { "name": { "en-ca": "OpenCV", "fr-ca": "OpenCV" } },
+                    { "name": { "en-ca": "Oracle Database / PL/SQL", "fr-ca": "Oracle Database / PL/SQL" } },
+                    { "name": { "en-ca": "PostgreSQL", "fr-ca": "PostgreSQL" } },
+                    { "name": { "en-ca": "SQL", "fr-ca": "SQL" } },
+                    { "name": { "en-ca": "SQL Server / T-SQL", "fr-ca": "SQL Server / T-SQL" } },
+                    { "name": { "en-ca": "SQLite", "fr-ca": "SQLite" } }
+                ]
+            }
+        },
+        {
+            "category": {
+                "name": { "en-ca": "Web Development", "fr-ca": "Développement Web" },
+                "technologies": [
+                    { "name": { "en-ca": "ColdFusion", "fr-ca": "ColdFusion" } },
+                    { "name": { "en-ca": "CSS", "fr-ca": "CSS" } },
+                    { "name": { "en-ca": "HTML", "fr-ca": "HTML" } }
+                ]
+            }
+        },
+        {
+            "category": {
+                "name": { "en-ca": "JavaScript", "fr-ca": "JavaScript" },
+                "technologies": [
+                    { "name": { "en-ca": "Chart.js", "fr-ca": "Chart.js" } },
+                    { "name": { "en-ca": "Cytoscape.js", "fr-ca": "Cytoscape.js" } },
+                    { "name": { "en-ca": "EJS", "fr-ca": "EJS" } },
+                    { "name": { "en-ca": "Node.js", "fr-ca": "Node.js" } }
+                ]
+            }
+        },
+        {
+            "category": {
+                "name": { "en-ca": "Command-Line Scripting", "fr-ca": "Scripting en ligne de commande" },
+                "technologies": [
+                    { "name": { "en-ca": "Bash", "fr-ca": "Bash" } },
+                    { "name": { "en-ca": "Batch", "fr-ca": "Batch" } },
+                    { "name": { "en-ca": "PowerShell", "fr-ca": "PowerShell" } }
+                ]
+            }
+        },
+        {
+            "category": {
+                "name": { "en-ca": "Source Control", "fr-ca": "Conrôle de version" },
+                "technologies": [
+                    { "name": { "en-ca": "Git", "fr-ca": "Git" } }
+                ]
+            }
+        },
+        {
+            "category": {
+                "name": { "en-ca": ".NET Framework", "fr-ca": "Framework .NET" },
+                "technologies": [
+                    { "name": { "en-ca": "ASP", "fr-ca": "ASP" } },
+                    { "name": { "en-ca": "C#", "fr-ca": "C#" } },
+                    { "name": { "en-ca": "VB", "fr-ca": "VB" } }
+                ]
+            }
+        },
+        {
+            "category": {
+                "name": { "en-ca": "Microsoft Office", "fr-ca": "Microsoft Office" },
+                "technologies": [
+                    { "name": { "en-ca": "Access", "fr-ca": "Access" } },
+                    { "name": { "en-ca": "Excel", "fr-ca": "Excel" } },
+                    { "name": { "en-ca": "VBA", "fr-ca": "VBA" } },
+                    { "name": { "en-ca": "Word", "fr-ca": "Word" } }
+                ]
+            }
+        },
+        {
+            "category": {
+                "name": { "en-ca": "Operating Systems", "fr-ca": "Système d'exploitation" },
+                "technologies": [
+                    { "name": { "en-ca": "Ubuntu", "fr-ca": "Ubuntu" } },
+                    { "name": { "en-ca": "Windows", "fr-ca": "Windows" } }
+                ]
+            }
+        },
+        {
+            "category": {
+                "name": { "en-ca": "Agility", "fr-ca": "Agilité" },
+                "technologies": [
+                    { "name": { "en-ca": "Kanban", "fr-ca": "Kanban" } },
+                    { "name": { "en-ca": "Scrum", "fr-ca": "Scrum" } }
+                ]
+            }
+        },
+        {
+            "category": {
+                "name": { "en-ca": "Support", "fr-ca": "Support" },
+                "technologies": [
+                    { "name": { "en-ca": "Microsoft 365", "fr-ca": "Microsoft 365" } }
+                ]
+            }
+        }
     ],
 
     "courses": [
@@ -682,14 +836,16 @@
                 "en-ca": "Administering Microsoft SQL Server 2012 Databases",
                 "fr-ca": "Administration des bases de données Microsoft SQL Server 2012"
             },
-            "code": "10775A"
+            "code": "10775A",
+            "year": "2012"
         },
         {
             "name": {
                 "en-ca": "Introduction to C# Programming with Microsoft .NET",
                 "fr-ca": "Introduction à la programmation C# avec Microsoft.NET"
             },
-            "code": "2609A"
+            "code": "2609A",
+            "year": "2011"
         }
     ],
 
@@ -755,14 +911,8 @@
         },
         {
             "name": {
-                "en-ca": "Jogging",
-                "fr-ca": "Course à pied"
-            }
-        },
-        {
-            "name": {
-                "en-ca": "Martial Arts",
-                "fr-ca": "Arts martiaux"
+                "en-ca": "Sports: Ball Hockey, Running (up to Half Marathon), Martial Arts (Boxing, Judo, Kickboxing, Muay Thai), Soccer",
+                "fr-ca": "Sports : Hockey-balle, Course à pied (jusqu'au demi-marathon), Arts martiaux (Boxe, Judo, Kickboxing, Muay Thai), Soccer"
             }
         },
         {
@@ -773,14 +923,8 @@
         },
         {
             "name": {
-                "en-ca": "Bass Guitar",
-                "fr-ca": "Guitare basse"
-            }
-        },
-        {
-            "name": {
-                "en-ca": "Drums",
-                "fr-ca": "Batterie"
+                "en-ca": "Music: Bass Guitar, Drums",
+                "fr-ca": "Musique : Guitare basse, Batterie"
             }
         }
     ]

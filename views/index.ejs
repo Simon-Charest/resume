@@ -23,7 +23,7 @@
         <div class="profile">
             <div class="background">
                 <img src="/assets/images/<%= images.background %>" class="background-photo">
-                <img src="/assets/images/<%= images.profile %>" class="profile-photo">
+                <img src="/assets/images/profile/<%= profilePicture %>" class="profile-photo">
             </div>
 
             <div class="intro">
@@ -51,54 +51,54 @@
                         <% }); %>
                     </ul>
                 </div>
+            </div>
 
-                <div>
-                    <h3><%= resume.globals.contactInfo[lang] %></h3>
-                    <button class="collapsible-button"><%= resume.globals.seeMore[lang] %></button>
-                    <div class="collapsible-content">
-                        <ul>
-                            <li><img src="/assets/icons/<%= icons.linked_in %>" class="icon icon-16x16"><strong><%= resume.globals.profile[lang] %></strong>&nbsp;<a href="<%= resume.intro.contactInfo.profile.url %>"><%= resume.intro.contactInfo.profile.name %></a></li>
-                            <li><img src="/assets/icons/<%= icons.website %>" class="icon icon-16x16"><strong><%= resume.globals.websites[lang] %></strong>&nbsp;
-                                <ul>
-                                    <% resume.intro.contactInfo.websites.forEach(item => { %>
-                                        <li><a href="<%= item.url %>"><%= item.name[lang] %></a>&nbsp;(<%= item.type[lang] %>)</li>
-                                    <% }); %>
-                                </ul>
-                            </li>
-                            <li><img src="/assets/icons/<%= icons.phone %>" class="icon icon-16x16"><strong><%= resume.globals.phone[lang] %></strong>&nbsp;<a href="tel:<%= resume.intro.contactInfo.phone.number %>"><%= resume.intro.contactInfo.phone.number %></a>&nbsp;(<%= resume.intro.contactInfo.phone.type %>)</li>
-                            <%
-                                const address = {
-                                    apartment: resume.intro.contactInfo.address.apartment,
-                                    civicNumber: resume.intro.contactInfo.address.civicNumber,
-                                    streetName: resume.intro.contactInfo.address.streetName,
-                                    roadType: resume.intro.contactInfo.address.roadType,
-                                    postalCode: resume.intro.contactInfo.address.postalCode,
-                                    city: resume.intro.contactInfo.address.city[lang],
-                                    province: resume.intro.contactInfo.address.province[lang],
-                                    country: resume.intro.contactInfo.address.country[lang]
-                                };
+            <div class="contact-info">
+                <h3><%= resume.globals.contactInfo[lang] %></h3>
+                <button class="collapsible-button"><%= resume.globals.seeMore[lang] %></button>
+                <div class="collapsible-content">
+                    <ul>
+                        <li><img src="/assets/icons/<%= icons.linked_in %>" class="icon icon-16x16"><strong><%= resume.globals.profile[lang] %></strong>&nbsp;<a href="<%= resume.intro.contactInfo.profile.url %>"><%= resume.intro.contactInfo.profile.name %></a></li>
+                        <li>
+                            <img src="/assets/icons/<%= icons.website %>" class="icon icon-16x16">
+                            <strong><%= resume.globals.websites[lang] %></strong>&nbsp;
+                            <% resume.intro.contactInfo.websites.forEach((item, index) => { %>
+                                <a href="<%= item.url %>"><%= item.name[lang] %></a>&nbsp;(<%= item.type[lang] %>)<% if (index < resume.intro.contactInfo.websites.length - 1) { %>, <% } %>
+                            <% }); %>
+                        </li>
+                        <li><img src="/assets/icons/<%= icons.phone %>" class="icon icon-16x16"><strong><%= resume.globals.phone[lang] %></strong>&nbsp;<a href="tel:<%= resume.intro.contactInfo.phone.number %>"><%= resume.intro.contactInfo.phone.number %></a>&nbsp;(<%= resume.intro.contactInfo.phone.type %>)</li>
+                        <%
+                            const address = {
+                                apartment: resume.intro.contactInfo.address.apartment,
+                                civicNumber: resume.intro.contactInfo.address.civicNumber,
+                                streetName: resume.intro.contactInfo.address.streetName,
+                                roadType: resume.intro.contactInfo.address.roadType,
+                                postalCode: resume.intro.contactInfo.address.postalCode,
+                                city: resume.intro.contactInfo.address.city[lang],
+                                province: resume.intro.contactInfo.address.province[lang],
+                                country: resume.intro.contactInfo.address.country[lang]
+                            };
 
-                                // Build the address parts array dynamically
-                                const parts = [
-                                    address.civicNumber,
-                                    address.streetName,
-                                    address.postalCode,
-                                    address.city,
-                                    address.province,
-                                    address.country
-                                ].filter(Boolean);
+                            // Build the address parts array dynamically
+                            const parts = [
+                                address.civicNumber,
+                                address.streetName,
+                                address.postalCode,
+                                address.city,
+                                address.province,
+                                address.country
+                            ].filter(Boolean);
 
-                                // Join the non-empty parts with a comma
-                                const addressString = parts.join(', ');
-                            %>
+                            // Join the non-empty parts with a comma
+                            const addressString = parts.join(', ');
+                        %>
 
-                            <li><img src="/assets/icons/<%= icons.address %>" class="icon icon-16x16"><strong><%= resume.globals.address[lang] %></strong>&nbsp;<a href="https://www.google.ca/maps/place/<%= addressString %>"><%= resume.globals.GoogleMaps %></a></li>
-                            <li><img src="/assets/icons/<%= icons.email %>" class="icon icon-16x16"><strong><%= resume.globals.email[lang] %></strong>&nbsp;<a href="mailto:<%= resume.intro.contactInfo.email.url %>"><%= resume.intro.contactInfo.email.name %></a></li>
-                            <% if (resume.intro.contactInfo.birthday) { %>
-                                <li><img src="/assets/icons/<%= icons.birthday %>" class="icon icon-16x16"><%= resume.globals.birthday[lang] %>&nbsp;<%= resume.intro.contactInfo.birthday %></li>
-                            <% } %>
-                        </ul>
-                    </div>
+                        <li><img src="/assets/icons/<%= icons.address %>" class="icon icon-16x16"><strong><%= resume.globals.address[lang] %></strong>&nbsp;<a href="https://www.google.ca/maps/place/<%= addressString %>"><%= resume.globals.GoogleMaps %></a></li>
+                        <li><img src="/assets/icons/<%= icons.email %>" class="icon icon-16x16"><strong><%= resume.globals.email[lang] %></strong>&nbsp;<a href="mailto:<%= resume.intro.contactInfo.email.url %>"><%= resume.intro.contactInfo.email.name %></a></li>
+                        <% if (resume.intro.contactInfo.birthday) { %>
+                            <li><img src="/assets/icons/<%= icons.birthday %>" class="icon icon-16x16"><%= resume.globals.birthday[lang] %>&nbsp;<%= resume.intro.contactInfo.birthday %></li>
+                        <% } %>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -184,44 +184,14 @@
                 <% } %>
             <% }); %>      
         </div>
-        <div class="education">
-            <h3><%= resume.globals.education[lang] %></h3>
-            <% resume.education.forEach((item, index) => { %>
-                <div class="experience-item">
-                    <img src="/assets/images/<%= item.icon || 'school.png' %>" class="icon icon-48x48">
-                    <div>
-                        <p>
-                            <strong><%= item.title[lang] %></strong>
-                            <% if (item.degree) { %>
-                                <br><%= item.degree[lang] %>
-                            <% } %>
-                            <br><% if (item.school.url) { %><a href="<%= item.school.url[lang] %>"><% } %><%= item.school.name[lang] %><% if (item.school.url) { %></a><% } %>
-                            <span class="gray">
-                                <br><%= item.startDate.slice(0, 4) %> - <%= item.endDate ? item.endDate.slice(0, 4) : resume.globals.present[lang] %>
-                                <br><%= item.location.city[lang] %>
-                                <% if (item.relationships && item.relationships.length > 0) { %>
-                                    <br><%= resume.globals.relationships[lang] %>:
-                                    <% item.relationships.forEach((relationship, index) => { %>
-                                        <a href="<%= relationship.url[lang] %>"><%= relationship.name[lang] %></a> (<%= relationship.type[lang] %>)<% if (index < item.relationships.length - 1) { %>, <% } %>
-                                    <% }); %>
-                                <% } %>
-                            </span>
-                        </p>
-                    </div>
-                </div>
-
-                <% if (index < resume.education.length - 1) { %>
-                    <hr>
-                <% } %>
-            <% }); %>
-        </div>
 
         <div class="skills">
             <h3><%= resume.globals.skills[lang] %></h3>
             <ul>
                 <% resume.skills.forEach((skill, index) => { %>
                     <li>
-                        <%= skill.name[lang] %>
+                        <strong><%= skill.category.name[lang] %>:</strong>
+                        <span><%= skill.category.technologies.map(t => t.name[lang]).join(', ') %></span>
                     </li>
                     <% if (index < resume.skills.length - 1) { %>
                         <hr>
@@ -235,14 +205,44 @@
             <ul>
                 <% resume.courses.forEach((course, index) => { %>
                     <li>
-                        <%= course.name[lang] %>
-                        <br><span class="gray"><%= course.code %></span>
+                        <%= course.name[lang] %> (<span class="gray"><%= course.code %></span>)
+                        <br><span class="gray"><%= course.year %></span>
                     </li>
                     <% if (index < resume.courses.length - 1) { %>
                         <hr>
                     <% } %>
                 <% }); %>
             </ul>
+        </div>
+
+        <div class="education">
+            <h3><%= resume.globals.education[lang] %></h3>
+            <% resume.education.forEach((item, index) => { %>
+                <div class="experience-item">
+                    <img src="/assets/images/<%= item.icon || 'school.png' %>" class="icon icon-48x48">
+                    <div>
+                        <strong><%= item.title[lang] %></strong>
+                        <% if (item.degree) { %>
+                            <br><%= item.degree[lang] %>
+                        <% } %>
+                        <br><% if (item.school.url) { %><a href="<%= item.school.url[lang] %>"><% } %><%= item.school.name[lang] %><% if (item.school.url) { %></a><% } %>
+                        <span class="gray">
+                            <br><%= item.startDate.slice(0, 4) %> - <%= item.endDate ? item.endDate.slice(0, 4) : resume.globals.present[lang] %>
+                            <br><%= item.location.city[lang] %>
+                            <% if (item.relationships && item.relationships.length > 0) { %>
+                                <br><%= resume.globals.relationships[lang] %>:
+                                <% item.relationships.forEach((relationship, index) => { %>
+                                    <a href="<%= relationship.url[lang] %>"><%= relationship.name[lang] %></a> (<%= relationship.type[lang] %>)<% if (index < item.relationships.length - 1) { %>, <% } %>
+                                <% }); %>
+                            <% } %>
+                        </span>
+                    </div>
+                </div>
+
+                <% if (index < resume.education.length - 1) { %>
+                    <hr>
+                <% } %>
+            <% }); %>
         </div>
 
         <div class="languages">

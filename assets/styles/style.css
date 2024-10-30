@@ -111,7 +111,7 @@ div {
     padding: 0;
 }
 
-.intro {
+.intro, .contact-info {
     margin: 15px;
 }
 

@@ -12,6 +12,7 @@ function main() {
     const resumePath = path.join(__dirname, '..', 'data', 'resume.json');
     const iconsDir = path.join(__dirname, '..', 'assets', 'icons');
     const imagesDir = path.join(__dirname, '..', 'assets', 'images');
+    const profileDir = path.join(__dirname, '..', 'assets', 'images', 'profile');
 
     app.use(cookieParser());
 
@@ -58,85 +59,97 @@ function main() {
                         console.error('Error reading images directory:', err);
                         imageFiles = [];
                     }
-    
-                    // Create an object mapping filenames
-                    const icons = {};
-                    iconFiles.forEach(file => {
-                        // Use filename without extension as key
-                        const key = path.parse(file).name;
-                        
-                        // Map key to full filename
-                        icons[key] = file;
-                    });
-    
-                    const images = {};
-                    imageFiles.forEach(file => {
-                        // Use filename without extension as key
-                        const key = path.parse(file).name;
-                        
-                        // Map key to full filename
-                        images[key] = file;
-                    });
-                
-                    const calculateLength = (startDate, endDate) => {
-                        const start = new Date(startDate);
-                        const end = endDate == null ? new Date() : new Date(endDate);
-                        const yearDiff = end.getFullYear() - start.getFullYear();
-                        const monthDiff = end.getMonth() - start.getMonth();
-                        const totalMonths = yearDiff * 12 + monthDiff;
-                        const years = Math.floor(totalMonths / 12);
-                        const months = totalMonths % 12;
 
-                        return { years: years, months: months };
-                    };
-
-                    const formatLength = ({ years, months }, lang) => {
-                        let string = '';
-
-                        if (years > 0) {
-                            if (lang == 'en-ca') {
-                                string += `${years} ${years > 1 ? 'years' : 'year'}`;
-                            }
-
-                            else {
-                                string += `${years} ${years > 1 ? 'ans' : 'an'}`;
-                            }
+                    // Read profile directory
+                    fs.readdir(profileDir, (err, profileFiles) => {
+                        if (err) {
+                            console.error('Error reading profile directory:', err);
+                            profileFiles = [];
                         }
+    
+                        // Create an object mapping filenames
+                        const icons = {};
+                        iconFiles.forEach(file => {
+                            // Use filename without extension as key
+                            const key = path.parse(file).name;
+                            
+                            // Map key to full filename
+                            icons[key] = file;
+                        });
+        
+                        const images = {};
+                        imageFiles.forEach(file => {
+                            // Use filename without extension as key
+                            const key = path.parse(file).name;
+                            
+                            // Map key to full filename
+                            images[key] = file;
+                        });
 
-                        if (months > 0) {
-                            if (string.length > 0) {
+                        // Select a random profile image with full path
+                        const profilePicture = profileFiles[Math.floor(Math.random() * profileFiles.length)];
+
+                        const calculateLength = (startDate, endDate) => {
+                            const start = new Date(startDate);
+                            const end = endDate == null ? new Date() : new Date(endDate);
+                            const yearDiff = end.getFullYear() - start.getFullYear();
+                            const monthDiff = end.getMonth() - start.getMonth();
+                            const totalMonths = yearDiff * 12 + monthDiff;
+                            const years = Math.floor(totalMonths / 12);
+                            const months = totalMonths % 12;
+
+                            return { years: years, months: months };
+                        };
+
+                        const formatLength = ({ years, months }, lang) => {
+                            let string = '';
+
+                            if (years > 0) {
                                 if (lang == 'en-ca') {
-                                    string += ' and ';
+                                    string += `${years} ${years > 1 ? 'years' : 'year'}`;
                                 }
 
                                 else {
-                                    string += ' et ';
+                                    string += `${years} ${years > 1 ? 'ans' : 'an'}`;
                                 }
                             }
 
-                            if (lang == 'en-ca') {
-                                string += `${months} ${months > 1 ? 'months' : 'month'}`;
+                            if (months > 0) {
+                                if (string.length > 0) {
+                                    if (lang == 'en-ca') {
+                                        string += ' and ';
+                                    }
+
+                                    else {
+                                        string += ' et ';
+                                    }
+                                }
+
+                                if (lang == 'en-ca') {
+                                    string += `${months} ${months > 1 ? 'months' : 'month'}`;
+                                }
+
+                                else {
+                                    string += `${months} ${months > 1 ? 'mois' : 'mois'}`;
+                                }
                             }
 
-                            else {
-                                string += `${months} ${months > 1 ? 'mois' : 'mois'}`;
+                            if (string.length === 0) {
+                                string = '0 months';
                             }
-                        }
 
-                        if (string.length === 0) {
-                            string = '0 months';
-                        }
-
-                        return string;
-                    };
-                    
-                    // Render the index.ejs template and pass the resume data and file lists
-                    res.render('index', {
-                        resume: resumeData,
-                        icons,
-                        images,
-                        calculateLength,
-                        formatLength
+                            return string;
+                        };
+                        
+                        // Render the index.ejs template and pass the resume data and file lists
+                        res.render('index', {
+                            resume: resumeData,
+                            icons,
+                            images,
+                            profilePicture,
+                            calculateLength,
+                            formatLength
+                        });
                     });
                 });
             });
