@@ -274,6 +274,20 @@
             </ul>
         </div>
 
+        <div class="recommandations">
+            <h3><%= resume.globals.recommandations[lang] %></h3>
+            <ul>
+                <% resume.recommandations.forEach((recommandation, index) => { %>
+                    <li>
+                        <a href="<%= recommandation.url %>"><%= recommandation.name %></a>
+                    </li>
+                    <% if (index < resume.recommandations.length - 1) { %>
+                        <hr>
+                    <% } %>
+                <% }); %>
+            </ul>
+        </div>
+
         <div class="center">
             <span class="in-development">
                 <img src="/assets/icons/<%= icons.in_development %>" class="icon icon-32x32">

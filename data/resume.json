@@ -35,6 +35,8 @@
         "languages": {"en-ca": "Languages", "fr-ca": "Langues"},
 
         "interests": {"en-ca": "Interests", "fr-ca": "Intérêts"},
+
+        "recommandations": {"en-ca": "Recommandations", "fr-ca": "Recommandations"},
         
         "poweredBy": {"en-ca": "Powered by Node.js, Ubuntu and Free DNS.", "fr-ca": "Propulsé par Node.js, Ubuntu et Free DNS."},
         "copyright": {"en-ca": "© SLCIT. All rights reserved.", "fr-ca": "© SLCTI. Tous droits réservés."},
@@ -927,5 +929,22 @@
                 "fr-ca": "Musique : Guitare basse, Batterie"
             }
         }
+    ],
+
+    "recommandations": [
+        { "name": "Paul Laurier",  "url": "https://www.linkedin.com/in/paul-laurier-m-sc-it-44237626/" },
+        { "name": "Francis Gradel", "url": "https://www.linkedin.com/in/francis-gradel-b620591a/" },
+        { "name": "Laurent Côté", "url": "https://www.linkedin.com/in/laurent-cote/" },
+        { "name": "Guillaume Veck", "url": "https://www.linkedin.com/in/guillaume-veck-a2989136/" },
+        { "name": "Caroline Liard", "url": "https://www.linkedin.com/in/caroline-liard-cpa-44516440/" },
+        { "name": "Jonathan Papin", "url": "https://www.linkedin.com/in/papin/ "},
+        { "name": "Réjean Thiboutot", "url": "https://www.linkedin.com/in/rejeanthiboutot/" },
+        { "name": "Janio André Gutierrez", "url": "https://www.linkedin.com/in/janio-andre-gutierrez/" },
+        { "name": "Li You", "url": "https://www.linkedin.com/in/li-you-1a3288118/" },
+        { "name": "Sébastien Corbeil-Couture", "url": "https://www.linkedin.com/in/scorbeilcouture/" },
+        { "name": "Jean-Sebastien Beaulieu", "url": "https://www.linkedin.com/in/jsbeaulieu1/" },
+        { "name": "Jean-Simon Gervais", "url": "https://www.linkedin.com/in/jsgerv/" },
+        { "name": "Annabel Karim", "url": "https://www.linkedin.com/in/annabel-karim/" },
+        { "name": "Steven St-Pierre", "url": "https://www.linkedin.com/in/stevenonline/" }
     ]
 }
