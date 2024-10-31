@@ -401,14 +401,26 @@
             },
             "startDate": "2018-11-01",
             "endDate": "2020-06-30",
-            "description": null,
+            "description": [
+                {
+                    "Name": {"en-ca": "Activities", "fr-ca": "Activités"},
+                    "Description": {
+                        "en-ca": "Support for the current version and complete redevelopment of the Online Booking (OLB) solution for Lebeau Vitres d'autos (https://rendezvous.lebeau.ca/), support and development related to business intelligence, as well as other company projects.",
+                        "fr-ca":  "Support de la version actuelle et redéveloppement complet de la solution Online Booking (OLB) de Lebeau Vitres d'autos (https://rendezvous.lebeau.ca/), support et développement concernant l'intelligence d'affaires ainsi qu'à d'autres projets de l'entreprise."
+                    }
+                }
+            ],
             "skills": [
                 "PHP",
+                "HTML / JS / CSS",
+                "Node.js / Vue.js",
                 "C#",
-                "ASP.NET",
-                "ASP",
+                "ASP.NET / ASP",
+                "VB",
                 "SQL Server",
-                "WordPress"
+                "WordPress",
+                "Git",
+                "Scrum"
             ]
         },
         {
@@ -425,7 +437,15 @@
             },
             "startDate": "2017-10-01",
             "endDate": "2018-09-30",
-            "description": null,
+            "description": [
+                {
+                    "Name": {"en-ca": "Activities", "fr-ca": "Activités"},
+                    "Description": {
+                        "en-ca": "Development of the GCH-VIP solution powered by the DLGL VIP application.",
+                        "fr-ca":  "Développement de la solution GCH-VIP propulsée par l'application VIP de DLGL."
+                    }
+                }
+            ],
             "skills": [
                 "VB.NET",
                 "Oracle Database"
