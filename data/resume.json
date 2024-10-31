@@ -205,12 +205,19 @@
             },
             "startDate": "2018-11-01",
             "endDate": null,
-            "description": null,
+            "description": [
+                {
+                    "Name": {"en-ca": "Activities", "fr-ca": "Activités"},
+                    "Description": {
+                        "en-ca": "Application, web, and database development, business analysis, code review, quality assurance and debugging, documentation and training, etc.",
+                        "fr-ca": "Développement applicatif, web et de bases de données, analyse d'affaires, revue de code, assurance qualité et débogage, documentation et formation, etc."
+                    }
+                }
+            ],
             "skills": [
                 "Python",
                 "Node.js",
-                "SQL",
-                "JSON",
+                "SQL / NoSQL / JSON",
                 "Git",
                 "PowerShell",
                 "Bash",
@@ -237,8 +244,8 @@
                 {
                     "Name": {"en-ca": "Activities", "fr-ca": "Activités"},
                     "Description": {
-                        "en-ca": "Development and support of software solutions, analysis, investigations, intelligence, etc.",
-                        "fr-ca": "Développement et support de solutions logicielles, analyse, enquêtes, renseignement, etc."
+                        "en-ca": "Development and support of software solutions, analysis, intelligence, investigations, etc.",
+                        "fr-ca": "Développement et support de solutions logicielles, analyse, renseignement, enquêtes, etc."
                     }
                 },
                 {
@@ -261,17 +268,15 @@
                 "Python",
                 "pandas",
                 "Pytest",
-                "SQL",
+                "SQL / NoSQL / JSON / CSV",
                 "Git",
                 "Chart.js",
                 "Cytospace.js",
                 "OpenCV",
                 "Microsoft 365",
-                "JSON",
-                "CSV",
                 "Excel",
                 "Java",
-                "Neo4j",
+                "Graph / Neo4j",
                 "WordPress"
             ],
             "media": [
@@ -311,14 +316,34 @@
             },
             "startDate": "2022-11-01",
             "endDate": "2023-10-31",
-            "description": null,
+            "description": [
+                {
+                    "Name": {"en-ca": "Activities", "fr-ca": "Activités"},
+                    "Description": {
+                        "en-ca": "Development and support of Analytical Donuts for Analysts (ADA), ADA Data Loader, Quant ADA, etc.",
+                        "fr-ca":  "Développement et support des solutions Analytical Donuts for Analysts (ADA), ADA Data Loader, Quant ADA, etc."
+                    }
+                },
+                {
+                    "Name": {"en-ca": "Team", "fr-ca": "Équipe"},
+                    "Description": {
+                        "en-ca": " Technologies, Data, and Operations (TDO) - Global Portfolio Solutions",
+                        "fr-ca":  "Technologies, Données et Opérations (TDO) - Solutions du portefeuille global"
+                    }
+                }
+            ],
             "skills": [
                 "Python",
                 "Pytest",
                 "Pandas",
                 "NumPy",
                 "PyXLL",
-                "PyQt"
+                "PyQt",
+                "CSS",
+                "SQL",
+                "PowerShell / Batch",
+                "Git / Azure DevOps",
+                "Kanban"
             ]
         },
         {
@@ -336,13 +361,23 @@
             },
             "startDate": "2020-10-01",
             "endDate": "2022-09-30",
-            "description": null,
+            "description": [
+                {
+                    "Name": {"en-ca": "Activities", "fr-ca": "Activités"},
+                    "Description": {
+                        "en-ca": "Develop continuous delivery tools, automate tasks, implement enterprise and software architecture, provide consulting to other teams, conduct technological watch related to the vision and evolving needs, extract requirements and create reports, perform research and development for business intelligence, automate use cases and processes, integrate data from multiple sources (data pipeline), work directly with threat hunting teams, respond to incidents, manage vulnerabilities, monitor, conduct tactical squad operations, and intervene in case of incidents.",
+                        "fr-ca":  "Développer en livraison continue des outils, automatiser des tâches, réaliser de l'architecture d'entreprise et logicielle, effectuer de la consultation auprès des autres équipes, procéder à de la veille technologique en lien avec la vision et l'évolution des besoins, extraire des besoins et créer des rapports, effectuer de la recherches et développement pour intelligence d'affaire, automatiser des cas d’utilisation et processus, intégrer des données depuis plusieurs sources (data pipeline), travailler directement avec les équipes de threat hunting, répondre aux incidents, gestion des vulnérabilités, surveillance, escouade tactique, intervention en cas d'incident."
+                    }
+                }
+            ],
             "skills": [
                 "PowerShell",
                 "Python",
                 "C#",
                 "Entity Framework",
-                "Microsoft 365"
+                "Microsoft 365",
+                "Git",
+                "Kanban"
             ]
         },
         {

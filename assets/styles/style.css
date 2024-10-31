@@ -143,6 +143,7 @@ div {
     display: flex;
     flex-wrap: wrap;
     list-style-type: disc;
+    margin: 0;
 }
 
 .horizontal-list li {
@@ -154,7 +155,6 @@ div {
 
 .icon {
     padding-right: 5px;
-    padding-bottom: 5px;
     vertical-align: middle;
 }
 
@@ -195,7 +195,7 @@ div {
     color: #003fcc;
 }
 
-.about-li {
+.padded-li {
     padding-bottom: 1em;
 }
 
