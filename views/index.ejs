@@ -109,8 +109,9 @@
             <div class="collapsible-content">
                 <ul>
                     <% resume.about.forEach(item => { %>
-                        <li>
-                            <strong><%= item.Name[lang] %>:</strong> <%= item.Description[lang] %>
+                        <li class="about-li">
+                            <strong><%= item.Name[lang] %></strong>
+                            <br><%= item.Description[lang] %>
                         </li>
                     <% }); %>
                 </ul>

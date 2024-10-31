@@ -177,6 +177,7 @@ div {
 
 .collapsible-content {
     display: none;
+    padding-bottom: 5px;
 }
 
 .collapsible-button {
@@ -192,6 +193,11 @@ div {
 
 .collapsible-button:active {
     color: #003fcc;
+}
+
+.about-li {
+    padding-bottom: 1em;
+    width: 50%;
 }
 
 /* Copyright */

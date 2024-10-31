@@ -4,8 +4,6 @@
         "seeMore": {"en-ca": "See more...", "fr-ca": "Voir plus..."},
         "seeLess": {"en-ca": "See less...", "fr-ca": "Voir moins..."},
 
-        "inDevelopment": {"en-ca": "In development...", "fr-ca": "En développement..."},
-
         "contactInfo": {"en-ca": "Contact Info", "fr-ca": "Coordonnées"},
         "profile": {"en-ca": "Profile", "fr-ca": "Profil"},
         "websites": {"en-ca": "Websites", "fr-ca": "Sites web"},
@@ -38,6 +36,7 @@
 
         "recommandations": {"en-ca": "Recommandations", "fr-ca": "Recommandations"},
         
+        "inDevelopment": {"en-ca": "In development...", "fr-ca": "En développement..."},
         "poweredBy": {"en-ca": "Powered by Node.js, Ubuntu and Free DNS.", "fr-ca": "Propulsé par Node.js, Ubuntu et Free DNS."},
         "copyright": {"en-ca": "© SLCIT. All rights reserved.", "fr-ca": "© SLCTI. Tous droits réservés."},
         "privacy": {"en-ca": "This site does not store any data about its visitors.", "fr-ca": "Ce site ne conserve aucune donnée sur ses visiteurs."}
@@ -108,73 +107,73 @@
 
     "about": [
         {
-            "Name": {"en-ca": "Special Interests", "fr-ca": "Intérêts particuliers"},
+            "Name": {"en-ca": "Professional Interests", "fr-ca": "Intérêts professionnels"},
             "Description": {
-                "en-ca": "Software development, analysis, intelligence, investigations, security, video games, etc.",
-                "fr-ca": "Développement de logiciels, analyse, renseignement, enquêtes, sécurité, jeux vidéo, etc."
+                "en-ca": "I am passionate about software development, analysis, intelligence, investigations, security, and video games.",
+                "fr-ca": "Je suis passionné par le développement de logiciels, l'analyse, le renseignement, les enquêtes, la sécurité, ainsi que les jeux vidéo."
             }
         },
         {
             "Name": {"en-ca": "Availability", "fr-ca": "Disponibilité"},
             "Description": {
-                "en-ca": "Open to consulting assignments as an incorporated contractor, full-time or part-time.",
-                "fr-ca": "Ouvert à des missions de consultation en tant qu'entrepreneur incorporé, à temps plein ou partiel."
+                "en-ca": "I am open to consulting assignments as an incorporated entrepreneur, either full-time or part-time.",
+                "fr-ca": "Je suis ouvert à des missions de consultation en tant qu'entrepreneur incorporé, à temps plein ou à temps partiel."
             }
         },
         {
             "Name": {"en-ca": "Preferred Work Arrangements", "fr-ca": "Modalités de travail préférées"},
             "Description": {
-                "en-ca": "Strong preference for remote work, with the possibility of occasional in-person work.",
-                "fr-ca": "Grande préférence pour le télétravail, avec possibilité de travail en présentiel ponctuel."
+                "en-ca": "I have a strong preference for remote work, with the possibility of occasional in-person meetings.",
+                "fr-ca": "Je privilégie le télétravail, tout en étant disposé à effectuer des déplacements ponctuels pour des réunions en présentiel."
             }
         },
         {
             "Name": {"en-ca": "Role Preferences", "fr-ca": "Préférences de rôle"},
             "Description": {
-                "en-ca": "Developer. Very little interest in management roles such as scrum master, tech lead, team lead, product owner, project manager, etc.",
-                "fr-ca": "Développeur. Très peu d'intérêt pour les fonctions de gestion telles que scrum master, tech lead, team lead, product owner, project manager, etc."
+                "en-ca": "I primarily focus on developer roles and have little interest in management positions such as Scrum Master, Tech Lead, Team Lead, Product Owner, or Project Manager.",
+                "fr-ca": "Je me concentre principalement sur des rôles de développeur, avec peu d'intérêt pour les fonctions de gestion telles que Scrum Master, Tech Lead, Team Lead, Product Owner ou Project Manager."
             }
         },
         {
             "Name": {"en-ca": "Professional Experience", "fr-ca": "Expérience professionnelle"},
             "Description": {
-                "en-ca": "Over twenty years of experience as a systems analyst-programmer specializing in custom system development.",
-                "fr-ca": "Plus de vingt ans d'expérience en tant qu'analyste-programmeur spécialisé dans le développement de systèmes sur mesure."
+                "en-ca": "I have over twenty years of experience as an analyst-programmer, specializing in custom system development.",
+                "fr-ca": "Fort de plus de vingt ans d'expérience en tant qu'analyste-programmeur, je me spécialise dans le développement de systèmes sur mesure."
             }
         },
         {
             "Name": {"en-ca": "Areas of Expertise", "fr-ca": "Domaines d'expertise"},
             "Description": {
-                "en-ca": "Public safety, intelligence, investigations, auditing, administration, management, human resources, finance, training, accounting, health, etc.",
-                "fr-ca": "Sécurité publique, renseignement, enquêtes, vérification comptable, administration, gestion, ressources humaines, finances, formation, comptabilité, santé, etc."
+                "en-ca": "My expertise spans public safety, intelligence, investigations, auditing, administration, management, human resources, finance, training, accounting, and healthcare.",
+                "fr-ca": "Mes compétences s'étendent à la sécurité publique, au renseignement, aux enquêtes, à la vérification comptable, ainsi qu'à l'administration, la gestion, les ressources humaines, les finances, la formation, la comptabilité et la santé."
             }
         },
         {
-            "Name": {"en-ca": "Project Accomplishments", "fr-ca": "Réalisation de projets"},
+            "Name": {"en-ca": "Project Accomplishments", "fr-ca": "Réalisations de projets"},
             "Description": {
-                "en-ca": "Design and development of various solutions, including case management systems, telephone and geographical data analysis, encryption algorithms, search engines, etc.",
-                "fr-ca": "Conception et développement de solutions variées, notamment des systèmes de gestion de dossiers, d'analyse de données téléphoniques et géographiques, des algorithmes de cryptage, des moteurs de recherche, etc."
+                "en-ca": "I have designed and developed a variety of solutions, including case management systems, tools for analyzing telephone and geographical data, encryption algorithms, and search engines.",
+                "fr-ca": "J'ai conçu et développé une variété de solutions, notamment des systèmes de gestion de dossiers, des outils d'analyse de données téléphoniques et géographiques, des algorithmes de cryptage, et des moteurs de recherche."
             }
         },
         {
             "Name": {"en-ca": "Work Approach", "fr-ca": "Approche de travail"},
             "Description": {
-                "en-ca": "Accustomed to working independently, from analyzing client needs to delivering complete solutions, sometimes developed entirely 'from scratch'. Expertise covering the entire development cycle: analysis, documentation, database design, programming, testing, deployment, training, support, etc.",
-                "fr-ca": "Habitué à travailler de manière autonome, depuis l'analyse des besoins clients jusqu'à la livraison complète de solutions, parfois développées intégralement 'from scratch'. Expertise couvrant l'ensemble du cycle de développement : analyse, documentation, conception de bases de données, programmation, tests, déploiement, formation, support, etc."
+                "en-ca": "I am accustomed to working independently, from analyzing client needs to delivering complete solutions, often developed entirely from scratch. My expertise encompasses the full development lifecycle: analysis, documentation, database design, programming, testing, deployment, training, and support.",
+                "fr-ca": "Je suis habitué à travailler de manière autonome, de l'analyse des besoins clients à la livraison complète de solutions, souvent développées 'from scratch'. Mon expertise couvre l'ensemble du cycle de développement : analyse, documentation, conception de bases de données, programmation, tests, déploiement, formation et support."
             }
         },
         {
             "Name": {"en-ca": "Distinctive Traits", "fr-ca": "Traits distinctifs"},
             "Description": {
-                "en-ca": "Creativity in finding original solutions and the ability to think innovatively. Advanced skills in analysis and synthesis, with an aptitude for simplifying and schematizing complex concepts.",
-                "fr-ca": "Créativité dans la recherche de solutions originales et capacité à penser de manière innovante. Compétences avancées en analyse et synthèse, avec une aptitude à simplifier et schématiser des concepts complexes."
+                "en-ca": "I stand out for my creativity in finding innovative solutions and my advanced analytical and synthesis skills. I have a knack for simplifying and visualizing complex concepts.",
+                "fr-ca": "Je me distingue par ma créativité dans la recherche de solutions innovantes, ainsi que par mes compétences avancées en analyse et en synthèse. J'ai également une aptitude à simplifier et à schématiser des concepts complexes."
             }
         },
         {
-            "Name": {"en-ca": "Programming History", "fr-ca": "Historique de programmation"},
+            "Name": {"en-ca": "Programming Background", "fr-ca": "Historique de programmation"},
             "Description": {
-                "en-ca": "First programming experiences dating back to 1988, at the age of 8, with the BASIC language on a TI-99/4A computer.",
-                "fr-ca": "Premières expériences de programmation remontant à 1988, à l'âge de 8 ans, avec le langage BASIC sur un ordinateur TI-99/4A."
+                "en-ca": "My programming journey began in 1988, when I started coding in BASIC on a TI-99/4A computer at the age of 8.",
+                "fr-ca": "Mes premières expériences de programmation remontent à 1988, lorsque j'ai commencé à coder en BASIC sur un ordinateur TI-99/4A à l'âge de 8 ans."
             }
         }
     ],
