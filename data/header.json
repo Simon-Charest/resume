@@ -3,10 +3,6 @@
         "en-ca": "SLCIT",
         "fr-ca": "SLCTI"
     },
-    "logo": {
-        "en-ca": "/assets/images/slcti.png",
-        "fr-ca": "/assets/images/slcti.png"
-    },
     "index": {
         "en-ca": "Home",
         "fr-ca": "Accueil"
@@ -35,6 +31,7 @@
         "en-ca": "Contact",
         "fr-ca": "Contact"
     },
+    "inDevelopment": {"en-ca": "In development...", "fr-ca": "En développement..."},
     "poweredBy": {"en-ca": "Powered by Node.js, Ubuntu and Free DNS.", "fr-ca": "Propulsé par Node.js, Ubuntu et Free DNS."},
     "copyright": {"en-ca": "© SLCIT. All rights reserved.", "fr-ca": "© SLCTI. Tous droits réservés."},
     "privacy": {"en-ca": "This site does not store any data about its visitors.", "fr-ca": "Ce site ne conserve aucune donnée sur ses visiteurs."}

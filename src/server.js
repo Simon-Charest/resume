@@ -11,12 +11,44 @@ async function main() {
     
     const assetsDir = path.join(__dirname, '..', 'assets');
     const dataDir = path.join(__dirname, '..', 'data');
+    const viewsDir = path.join(__dirname, '..', 'views');
     const iconsDir = path.join(assetsDir, 'icons');
     const imagesDir = path.join(assetsDir, 'images');
     const profileDir = path.join(imagesDir, 'profile');
+
+    // Read icons, images, and profile directories in parallel
+    const [iconFiles, imageFiles, profileFiles] = await Promise.all([
+        fs.readdir(iconsDir),
+        fs.readdir(imagesDir),
+        fs.readdir(profileDir)
+    ]);
+
+    // Create an object mapping filenames for icons and images
+    const icons = iconFiles.reduce((acc, file) => {
+        const key = path.parse(file).name;
+        acc[key] = file;
+
+        return acc;
+    }, {});
+
+    const images = imageFiles.reduce((acc, file) => {
+        const key = path.parse(file).name;
+        acc[key] = file;
+
+        return acc;
+    }, {});
+
+    const headerData = await fs.readFile(path.join(dataDir, 'header.json'), 'utf8');
     
     const app = express();
     app.use(cookieParser());
+
+    // Serve static files from the assets directory
+    app.use('/assets', express.static(assetsDir));
+
+    // Set the view engine to EJS
+    app.set('view engine', 'ejs');
+    app.set('views', viewsDir);
 
     // Middleware to set the language
     app.use((req, res, next) => {
@@ -31,82 +63,35 @@ async function main() {
         next();
     });
 
-    // Serve static files from the assets directory
-    app.use('/assets', express.static(path.join(__dirname, '../assets')));
-
-    // Set the view engine to EJS
-    app.set('view engine', 'ejs');
-    app.set('views', path.join(__dirname, '..', 'views'));
-
     app.get('/:route?', async (req, res) => {
         const route = req.params.route || 'index';
+        const routeData = await fs.readFile(path.join(dataDir, `${route}.json`), 'utf8');
+        const jsonData = Object.assign({}, JSON.parse(headerData), JSON.parse(routeData));
 
-        try {
-            const headerData = await fs.readFile(path.join(dataDir, 'header.json'), 'utf8');
-            const pageData = await fs.readFile(path.join(dataDir, `${route}.json`), 'utf8');
-            const jsonData = Object.assign({}, JSON.parse(headerData), JSON.parse(pageData));
+        // Select a random profile image with full path
+        const profilePicture = profileFiles[Math.floor(Math.random() * profileFiles.length)];
 
-            // Custom view
-            if (route === "about") {
-                await readDirectoryContents(res, route, jsonData);
-            }
-            
-            else {
-                res.render('index', { view: route, data: jsonData });
-            }
+        // Custom view
+        if (route === "about") {
+            view = "about"
         }
-        
-        catch (err) {
-            console.error(`Error reading or parsing ${route} JSON files:`, err);
 
-            return res.status(500).send('Internal Server Error');
+        else {
+            view = "index"
         }
-    });
 
-    async function readDirectoryContents(res, view, jsonData) {
-        try {
-            // Read icons, images, and profile directories in parallel
-            const [iconFiles, imageFiles, profileFiles] = await Promise.all([
-                fs.readdir(iconsDir),
-                fs.readdir(imagesDir),
-                fs.readdir(profileDir)
-            ]);
-
-            // Create an object mapping filenames for icons and images
-            const icons = iconFiles.reduce((acc, file) => {
-                const key = path.parse(file).name;
-                acc[key] = file;
-
-                return acc;
-            }, {});
-
-            const images = imageFiles.reduce((acc, file) => {
-                const key = path.parse(file).name;
-                acc[key] = file;
-
-                return acc;
-            }, {});
-
-            // Select a random profile image with full path
-            const profilePicture = profileFiles[Math.floor(Math.random() * profileFiles.length)];
-
-            // Render the EJS template with the directory contents and other data
-            res.render(view, {
-                view: "about",
+        res.render(
+            view, {
+                route: route,
                 data: jsonData,
                 icons,
                 images,
                 profilePicture,
                 calculateLength,
                 formatLength
-            });
-        }
-        
-        catch (err) {
-            console.error('Error reading directory contents:', err);
-            res.status(500).send('Internal Server Error');
-        }
-    }
+            }
+        );
+    });
 
     const calculateLength = (startDate, endDate) => {
         const start = new Date(startDate);
