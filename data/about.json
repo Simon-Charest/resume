@@ -987,7 +987,9 @@
 
     "recommandations": [
         { "name": "Paul Laurier",  "url": "https://www.linkedin.com/in/paul-laurier-m-sc-it-44237626/" },
+        { "name": "Vigiteck", "url": "https://www.vigiteck.com/contact/" },
         { "name": "Francis Gradel", "url": "https://www.linkedin.com/in/francis-gradel-b620591a/" },
+        { "name": "Retronic Design", "url": "https://www.retronicdesign.com/" },
         { "name": "Laurent Côté", "url": "https://www.linkedin.com/in/laurent-cote/" },
         { "name": "Guillaume Veck", "url": "https://www.linkedin.com/in/guillaume-veck-a2989136/" },
         { "name": "Caroline Liard", "url": "https://www.linkedin.com/in/caroline-liard-cpa-44516440/" },

@@ -1,0 +1,14 @@
+{
+    "intro": {
+        "en-ca": "Do you have any needs you would like to discuss with us? Contact us!",
+        "fr-ca": "Avez-vous des besoins que vous aimeriez discuter avec nous ? Contactez-nous !" 
+    },
+    "contents": [
+        {"en-ca": "SLCIT", "fr-ca": "SLCTI"},
+        {"en-ca": "Address: H2A, Montreal, QC", "fr-ca": "Adresse : H2A, Montréal, QC"},
+        {"en-ca": "Email: simoncharest@gmail.com", "fr-ca": "Courriel : simoncharest@gmail.com"},
+        {"en-ca": "Phone: +1 514-653-0623", "fr-ca": "Tél. : +1 514-653-0623"},
+        {"en-ca": "Website: http://slcti.8bit.ca/", "fr-ca": "Site web: http://slcti.8bit.ca/"},
+        {"en-ca": "LinkedIn: https://www.linkedin.com/in/simoncharest/", "fr-ca": "LinkedIn: https://www.linkedin.com/in/simoncharest/"}
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "organization": {
+        "en-ca": "SLCIT",
+        "fr-ca": "SLCTI"
+    },
+    "logo": {
+        "en-ca": "/assets/images/slcti.png",
+        "fr-ca": "/assets/images/slcti.png"
+    },
+    "index": {
+        "en-ca": "Home",
+        "fr-ca": "Accueil"
+    },
+    "about": {
+        "en-ca": "About",
+        "fr-ca": "À propos"
+    },
+    "services": {
+        "en-ca": "Our Services",
+        "fr-ca": "Nos services"
+    },
+    "products": {
+        "en-ca": "Our Products",
+        "fr-ca": "Nos produits"
+    },
+    "partners": {
+        "en-ca": "Our Partners",
+        "fr-ca": "Nos partenaires"
+    },
+    "media": {
+        "en-ca": "Media",
+        "fr-ca": "Médias"
+    },
+    "contact": {
+        "en-ca": "Contact",
+        "fr-ca": "Contact"
+    },
+    "poweredBy": {"en-ca": "Powered by Node.js, Ubuntu and Free DNS.", "fr-ca": "Propulsé par Node.js, Ubuntu et Free DNS."},
+    "copyright": {"en-ca": "© SLCIT. All rights reserved.", "fr-ca": "© SLCTI. Tous droits réservés."},
+    "privacy": {"en-ca": "This site does not store any data about its visitors.", "fr-ca": "Ce site ne conserve aucune donnée sur ses visiteurs."}
+}

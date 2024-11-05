@@ -27,7 +27,6 @@ exit
 Usage: .\deploy.ps1
 #>
 
-
 git add *
 git commit -m "Automated deployment"
 git push

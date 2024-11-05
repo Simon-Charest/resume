@@ -3,17 +3,19 @@ const HOSTNAME = '0.0.0.0';
 const PORT = process.env.PORT || 3000;
 const DEFAULT_LANGUAGE = 'fr-ca';
 
-function main() {
-    const fs = require('fs');
-    const path = require('path');
-    const express = require('express');
+async function main() {
     const cookieParser = require('cookie-parser');
+    const express = require('express');
+    const fs = require('fs').promises;
+    const path = require('path');
+    
+    const assetsDir = path.join(__dirname, '..', 'assets');
+    const dataDir = path.join(__dirname, '..', 'data');
+    const iconsDir = path.join(assetsDir, 'icons');
+    const imagesDir = path.join(assetsDir, 'images');
+    const profileDir = path.join(imagesDir, 'profile');
+    
     const app = express();
-    const resumePath = path.join(__dirname, '..', 'data', 'resume.json');
-    const iconsDir = path.join(__dirname, '..', 'assets', 'icons');
-    const imagesDir = path.join(__dirname, '..', 'assets', 'images');
-    const profileDir = path.join(__dirname, '..', 'assets', 'images', 'profile');
-
     app.use(cookieParser());
 
     // Middleware to set the language
@@ -36,125 +38,104 @@ function main() {
     app.set('view engine', 'ejs');
     app.set('views', path.join(__dirname, '..', 'views'));
 
-    app.get('/', (req, res) => {
-        fs.readFile(resumePath, 'utf8', (err, data) => {
-            if (err) {
-                console.error('Error reading JSON file:', err);
-                res.status(500).send('Internal Server Error');
-                return;
+    app.get('/:route?', async (req, res) => {
+        const route = req.params.route || 'index';
+
+        try {
+            const headerData = await fs.readFile(path.join(dataDir, 'header.json'), 'utf8');
+            const pageData = await fs.readFile(path.join(dataDir, `${route}.json`), 'utf8');
+            const jsonData = Object.assign({}, JSON.parse(headerData), JSON.parse(pageData));
+
+            // Custom view
+            if (route === "about") {
+                await readDirectoryContents(res, route, jsonData);
             }
-    
-            const resumeData = JSON.parse(data);
-    
-            // Read icons directory
-            fs.readdir(iconsDir, (err, iconFiles) => {
-                if (err) {
-                    console.error('Error reading icons directory:', err);
-                    iconFiles = [];
-                }
-    
-                // Read images directory
-                fs.readdir(imagesDir, (err, imageFiles) => {
-                    if (err) {
-                        console.error('Error reading images directory:', err);
-                        imageFiles = [];
-                    }
-
-                    // Read profile directory
-                    fs.readdir(profileDir, (err, profileFiles) => {
-                        if (err) {
-                            console.error('Error reading profile directory:', err);
-                            profileFiles = [];
-                        }
-    
-                        // Create an object mapping filenames
-                        const icons = {};
-                        iconFiles.forEach(file => {
-                            // Use filename without extension as key
-                            const key = path.parse(file).name;
-                            
-                            // Map key to full filename
-                            icons[key] = file;
-                        });
+            
+            else {
+                res.render('index', { view: route, data: jsonData });
+            }
+        }
         
-                        const images = {};
-                        imageFiles.forEach(file => {
-                            // Use filename without extension as key
-                            const key = path.parse(file).name;
-                            
-                            // Map key to full filename
-                            images[key] = file;
-                        });
+        catch (err) {
+            console.error(`Error reading or parsing ${route} JSON files:`, err);
 
-                        // Select a random profile image with full path
-                        const profilePicture = profileFiles[Math.floor(Math.random() * profileFiles.length)];
-
-                        const calculateLength = (startDate, endDate) => {
-                            const start = new Date(startDate);
-                            const end = endDate == null ? new Date() : new Date(endDate);
-                            const yearDiff = end.getFullYear() - start.getFullYear();
-                            const monthDiff = end.getMonth() - start.getMonth();
-                            const totalMonths = yearDiff * 12 + monthDiff;
-                            const years = Math.floor(totalMonths / 12);
-                            const months = totalMonths % 12;
-
-                            return { years: years, months: months };
-                        };
-
-                        const formatLength = ({ years, months }, lang) => {
-                            let string = '';
-
-                            if (years > 0) {
-                                if (lang == 'en-ca') {
-                                    string += `${years} ${years > 1 ? 'years' : 'year'}`;
-                                }
-
-                                else {
-                                    string += `${years} ${years > 1 ? 'ans' : 'an'}`;
-                                }
-                            }
-
-                            if (months > 0) {
-                                if (string.length > 0) {
-                                    if (lang == 'en-ca') {
-                                        string += ' and ';
-                                    }
-
-                                    else {
-                                        string += ' et ';
-                                    }
-                                }
-
-                                if (lang == 'en-ca') {
-                                    string += `${months} ${months > 1 ? 'months' : 'month'}`;
-                                }
-
-                                else {
-                                    string += `${months} ${months > 1 ? 'mois' : 'mois'}`;
-                                }
-                            }
-
-                            if (string.length === 0) {
-                                string = '0 months';
-                            }
-
-                            return string;
-                        };
-                        
-                        // Render the index.ejs template and pass the resume data and file lists
-                        res.render('index', {
-                            resume: resumeData,
-                            icons,
-                            images,
-                            profilePicture,
-                            calculateLength,
-                            formatLength
-                        });
-                    });
-                });
-            });
-        });
+            return res.status(500).send('Internal Server Error');
+        }
     });
+
+    async function readDirectoryContents(res, view, jsonData) {
+        try {
+            // Read icons, images, and profile directories in parallel
+            const [iconFiles, imageFiles, profileFiles] = await Promise.all([
+                fs.readdir(iconsDir),
+                fs.readdir(imagesDir),
+                fs.readdir(profileDir)
+            ]);
+
+            // Create an object mapping filenames for icons and images
+            const icons = iconFiles.reduce((acc, file) => {
+                const key = path.parse(file).name;
+                acc[key] = file;
+
+                return acc;
+            }, {});
+
+            const images = imageFiles.reduce((acc, file) => {
+                const key = path.parse(file).name;
+                acc[key] = file;
+
+                return acc;
+            }, {});
+
+            // Select a random profile image with full path
+            const profilePicture = profileFiles[Math.floor(Math.random() * profileFiles.length)];
+
+            // Render the EJS template with the directory contents and other data
+            res.render(view, {
+                view: "about",
+                data: jsonData,
+                icons,
+                images,
+                profilePicture,
+                calculateLength,
+                formatLength
+            });
+        }
+        
+        catch (err) {
+            console.error('Error reading directory contents:', err);
+            res.status(500).send('Internal Server Error');
+        }
+    }
+
+    const calculateLength = (startDate, endDate) => {
+        const start = new Date(startDate);
+        const end = endDate == null ? new Date() : new Date(endDate);
+        const yearDiff = end.getFullYear() - start.getFullYear();
+        const monthDiff = end.getMonth() - start.getMonth();
+        const totalMonths = yearDiff * 12 + monthDiff;
+        const years = Math.floor(totalMonths / 12);
+        const months = totalMonths % 12;
+
+        return { years, months };
+    };
+
+    const formatLength = ({ years, months }, lang) => {
+        let string = '';
+
+        if (years > 0) {
+            string += `${years} ${years > 1 ? (lang === 'en-ca' ? 'years' : 'ans') : (lang === 'en-ca' ? 'year' : 'an')}`;
+        }
+
+        if (months > 0) {
+            if (string.length > 0) {
+                string += lang === 'en-ca' ? ' and ' : ' et ';
+            }
+            string += `${months} ${months > 1 ? (lang === 'en-ca' ? 'months' : 'mois') : (lang === 'en-ca' ? 'month' : 'mois')}`;
+        }
+
+        return string.length === 0 ? '0 months' : string;
+    };
 
     app.listen(PORT, HOSTNAME, () => {
         console.log(`Server running at ${PROTOCOL}://${HOSTNAME}:${PORT}/`);
