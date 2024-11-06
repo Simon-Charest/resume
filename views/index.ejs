@@ -25,6 +25,25 @@
                     <% }); %>
                 </div>
             <% } %>
+
+            <% if (data.links) { %>
+                <div class="center padding-25px">
+                    <% data.links.forEach(link => { %>
+                        <p>
+                            <% if (link.key) { %>
+                                <strong><%= link.key[lang] %></strong>
+                            <% } %>
+                            <% if (link.value) { %>
+                                <% if (link.url) { %>
+                                    <a href="<%= link.url %>" target="_blank"><%= link.value[lang] %></a>
+                                <% } else { %>
+                                    <%= link.value[lang] %>
+                                <% } %>
+                            <% } %>
+                        </p>
+                    <% }); %>
+                </div>
+            <% } %>
         </div>
 
 <%- include('footer') %>
