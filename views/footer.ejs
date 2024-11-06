@@ -1,3 +1,47 @@
+        <script>
+            document.querySelectorAll('a').forEach(link => {
+                /* Make external links open in a new tab */
+
+                const href = link.getAttribute('href');
+                
+                if (href) {
+                    const linkHost = new URL(href, window.location.href).hostname;
+                    const currentHost = window.location.hostname;
+
+                    // Check if the link is external
+                    if (linkHost !== currentHost) {
+                        link.setAttribute('target', '_blank');
+
+                        // For security reasons
+                        link.setAttribute('rel', 'noopener noreferrer');
+                    }
+                }
+            });
+
+            /* Collapsible */
+
+            const buttons = document.querySelectorAll('.collapsible-button');
+
+            buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const content = button.nextElementSibling;
+
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                        button.textContent = "<%= data.seeMore[lang] %>";
+                    }
+                    
+                    else {
+                        content.style.display = "block";
+                        button.textContent = "<%= data.seeLess[lang] %>";
+                    }
+                });
+            });
+
+            document.addEventListener("DOMContentLoaded", () => {
+                traverseAndConvert(document.body);
+            });
+        </script>
 
         <footer class="footer">
             <nav class="footer-container">

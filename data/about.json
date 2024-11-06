@@ -1,9 +1,6 @@
 
 {
     "globals": {
-        "seeMore": {"en-ca": "See more...", "fr-ca": "Voir plus..."},
-        "seeLess": {"en-ca": "See less...", "fr-ca": "Voir moins..."},
-
         "contactInfo": {"en-ca": "Contact Info", "fr-ca": "Coordonnées"},
         "profile": {"en-ca": "Profile", "fr-ca": "Profil"},
         "websites": {"en-ca": "Websites", "fr-ca": "Sites web"},

@@ -31,6 +31,8 @@
         "en-ca": "Contact",
         "fr-ca": "Contact"
     },
+    "seeMore": {"en-ca": "See more...", "fr-ca": "Voir plus..."},
+    "seeLess": {"en-ca": "See less...", "fr-ca": "Voir moins..."},
     "inDevelopment": {"en-ca": "In development...", "fr-ca": "En développement..."},
     "poweredBy": {"en-ca": "Powered by Node.js, Ubuntu and Free DNS.", "fr-ca": "Propulsé par Node.js, Ubuntu et Free DNS."},
     "copyright": {"en-ca": "© SLCIT. All rights reserved.", "fr-ca": "© SLCTI. Tous droits réservés."},
