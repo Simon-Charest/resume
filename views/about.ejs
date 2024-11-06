@@ -115,7 +115,7 @@
                 <% data.experience.forEach((item, index) => { %>
                     <div class="experience-item">
                         <img src="/assets/images/<%= item.icon || 'company.png' %>" class="icon icon-48x48">
-                        <div>
+                        <div class="experience-content">
                             <strong><%= item.title[lang] %></strong>
                             <br><% if (item.company.url) { %><a href="<%= item.company.url[lang] %>"><% } %><%= item.company.name[lang] %><% if (item.company.url) { %></a><% } %> · <%= item.employmentType[lang] %>
                             <span class="gray">
@@ -209,7 +209,7 @@
                 <% data.education.forEach((item, index) => { %>
                     <div class="experience-item">
                         <img src="/assets/images/<%= item.icon || 'school.png' %>" class="icon icon-48x48">
-                        <div>
+                        <div class="experience-content">
                             <strong><%= item.title[lang] %></strong>
                             <% if (item.degree) { %>
                                 <br><%= item.degree[lang] %>
