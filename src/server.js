@@ -5,6 +5,7 @@ const DEFAULT_LANGUAGE = 'fr-ca';
 
 async function main() {
     const cookieParser = require('cookie-parser');
+    const cors = require('cors');
     const express = require('express');
     const fs = require('fs').promises;
     const path = require('path');
@@ -38,10 +39,13 @@ async function main() {
         return acc;
     }, {});
 
-    const headerData = await fs.readFile(path.join(dataDir, 'header.json'), 'utf8');
+    const data = await fs.readFile(path.join(dataDir, 'data.json'), 'utf8');
     
     const app = express();
     app.use(cookieParser());
+
+    // Use the CORS middleware to allow requests from any origin
+    app.use(cors()); 
 
     // Serve static files from the assets directory
     app.use('/assets', express.static(assetsDir));
@@ -63,10 +67,10 @@ async function main() {
         next();
     });
 
-    app.get('/:route?', async (req, res) => {
+    app.get('/:route?', cors(), async (req, res) => {
         const route = req.params.route || 'index';
         const routeData = await fs.readFile(path.join(dataDir, `${route}.json`), 'utf8');
-        const jsonData = Object.assign({}, JSON.parse(headerData), JSON.parse(routeData));
+        const jsonData = Object.assign({}, JSON.parse(data), JSON.parse(routeData));
 
         // Select a random profile image with full path
         const profilePicture = profileFiles[Math.floor(Math.random() * profileFiles.length)];
