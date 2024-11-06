@@ -177,10 +177,10 @@
 
     "topSkills": [
         "Python",
-        "SQL",
-        "NoSQL",
+        "SQL / NoSQL / JSON / CSV",
         "Node.js",
         "PHP",
+        "HTML / JS / CSS",
         "C#",
         "VB",
         "PowerShell",
@@ -214,7 +214,7 @@
             "skills": [
                 "Python",
                 "Node.js",
-                "SQL / NoSQL / JSON",
+                "SQL / NoSQL / JSON / CSV",
                 "Git",
                 "PowerShell",
                 "Bash",
@@ -336,7 +336,7 @@
                 "NumPy",
                 "PyXLL",
                 "PyQt",
-                "CSS",
+                "HTML / JS / CSS",
                 "SQL",
                 "PowerShell / Batch",
                 "Git / Azure DevOps",
@@ -372,6 +372,8 @@
                 "Python",
                 "C#",
                 "Entity Framework",
+                "SQL Server",
+                "NoSQL / JSON / CSV",
                 "Microsoft 365",
                 "Git",
                 "Kanban"
@@ -465,7 +467,7 @@
             "description": null,
             "skills": [
                 "TYPO3",
-                "JavaScript"
+                "HTML / JS / CSS"
             ]
         },
         {
@@ -492,8 +494,10 @@
             "description": null,
             "skills": [
                 "PHP",
-                "JavaScript",
-                "MySQL"
+                "HTML / JS / CSS",
+                "MySQL",
+                "Git",
+                "Scrum"
             ]
         },
         {
@@ -513,7 +517,7 @@
             "description": null,
             "skills": [
                 "PHP",
-                "JavaScript",
+                "HTML / JS / CSS",
                 "VBA",
                 "SQL Server"
             ]
@@ -542,7 +546,7 @@
             "description": null,
             "skills": [
                 "PHP",
-                "JavaScript",
+                "HTML / JS / CSS",
                 "VBA",
                 "SQL Server"
             ]
@@ -564,7 +568,7 @@
             "description": null,
             "skills": [
                 "PHP",
-                "JavaScript",
+                "HTML / JS / CSS",
                 "VB6 / VBA",
                 "Access"
             ]
