@@ -8,15 +8,38 @@
         <link rel="icon" href="/assets/icons/favicon_32x32.ico" sizes="32x32" type="image/x-icon">
         <link rel="icon" href="/assets/icons/favicon_48x48.png" sizes="48x48" type="image/png">
         <link rel="stylesheet" href="/assets/styles/style.css">
+        <link rel="stylesheet" href="/assets/styles/side_menu.css">
+        <!--<link rel="stylesheet" href="/assets/styles/debug.css">-->
         <script src="/assets/js/script.js"></script>
     </head>
     <body>
         <header class="navbar">
             <nav class="nav-container">
                 <div class="logo">
-                    <img src="/assets/images/slcti.png">&nbsp;<%= data.organization[lang] %>
+
+                    <!-- Side Menu Button -->
+                    <button id="menu-toggle" class="menu-toggle">
+                        <img src="/assets/images/slcti.png"> <%= data.organization[lang] %>
+                    </button>
+                
                 </div>
                 <ul class="menu-items" id="menu">
+
+                    <!-- Side Menu -->
+                    <div id="side-menu" class="side-menu">
+                        <a href="/"><%= data.index[lang] %></a>
+                        <a href="/about"><%= data.about[lang] %></a>
+                        <a href="/partners"><%= data.partners[lang] %></a>
+                        <a href="/media"><%= data.media[lang] %></a>
+                        <a href="/contact"><%= data.contact[lang] %></a>
+                        <% if (lang === 'fr-ca') { %>
+                            <a href="?lang=en-ca">English</a>
+                        <% } else { %>
+                            <a href="?lang=fr-ca">Français</a>
+                        <% } %>
+                    </div>
+
+                    <!-- Top Menu -->
                     <li><a href="/"><%= data.index[lang] %></a></li>
                     <li><a href="/about"><%= data.about[lang] %></a></li>
                     <li><a href="/partners"><%= data.partners[lang] %></a></li>
@@ -29,6 +52,8 @@
                             <a href="?lang=fr-ca">Français</a>
                         <% } %>
                     </li>
+
                 </ul>
             </nav>
-        </header>        
+        </header>
+        <script src="/assets/js/side_menu.js"></script>
