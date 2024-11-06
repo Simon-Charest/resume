@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+    .body {
+        margin-top: 100px;
+    }
+    
+    .body, .body-about {
+        margin-top: 100px;
+        margin-bottom: 75px;
+        width: 95%;
+    }
+
+    .body-about {
+        margin-top: 50px; 
+    }
+
+    .menu-toggle {
+        pointer-events: auto !important;
+    }
+    
+    .menu-items li {
+        visibility: hidden;
+    }
+
+    .footer-items {
+        display: block;
+    }
+}

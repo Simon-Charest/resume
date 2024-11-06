@@ -1,0 +1,44 @@
+.body {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    margin-top: 75px;
+    text-align: justify;
+    width: 50%;
+}
+
+.body-about {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    padding-top: 50px;
+    width: 50%;
+}
+
+.header {
+    color: white;
+    background: linear-gradient(to right, black, gray);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.gray {
+    color: gray;
+}
+
+.center {
+    flex: 1;
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.padding-25px {
+    padding: 25px;
+}
+
+.padded-li {
+    padding-bottom: 1em;
+}

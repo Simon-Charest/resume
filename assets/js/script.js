@@ -1,14 +1,3 @@
-function convertPlainTextLinksToHtml(text) {
-    /* Convert plain text links to HTML */
-
-    // Capture URLs without trailing characters
-    const urlRegex = /(?<!<a href=")https?:\/\/[^\s,()]+/g;
-    
-    return text.replace(urlRegex, (url) => {
-        return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
-    });
-}
-
 function traverseAndConvert(element) {
     element.childNodes.forEach(node => {
         if (node.nodeType === Node.TEXT_NODE) {
@@ -28,5 +17,16 @@ function traverseAndConvert(element) {
         else if (node.nodeType === Node.ELEMENT_NODE) {
             traverseAndConvert(node);
         }
+    });
+}
+
+function convertPlainTextLinksToHtml(text) {
+    /* Convert plain text links to HTML */
+
+    // Capture URLs without trailing characters
+    const urlRegex = /(?<!<a href=")https?:\/\/[^\s,()]+/g;
+    
+    return text.replace(urlRegex, (url) => {
+        return `<a href="${url}" target="_blank">${url}</a>`;
     });
 }

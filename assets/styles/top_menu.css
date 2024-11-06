@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    align-items: center;
+    color: white;
+    display: flex;
+}
+
+.logo img {
+    width: 32px;
+}
+
+.menu-items {
+    display: flex;
+    margin-left: auto;
+}
+
+.menu-items a {
+    color: white;
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.menu-items a:hover {
+    background-color: #575757;
+}

@@ -1,0 +1,140 @@
+/* Sections */
+
+.background {
+    position: relative;
+    padding-bottom: 75px;
+}
+
+.background-photo {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
+
+.profile-photo {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 33%;
+    left: 3%;
+    width: 20%;
+}
+
+.profile,
+.about,
+.experience,
+.education,
+.skills,
+.courses,
+.languages,
+.interests,
+.recommandations {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.profile {
+    padding: 0;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.intro, .contact-info {
+    margin: 15px;
+}
+
+.experience-item {
+    display: flex;
+}
+
+.experience-content {
+    width: 100%;
+}
+
+/* Elements */
+
+.intro ul {
+    padding-left: 0;
+}
+
+.intro li {
+    display: flex;
+}
+
+.languages ul {
+    list-style-type: none;
+}
+
+.horizontal-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: disc;
+    margin: 0;
+}
+
+.horizontal-list li {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+/* Icons */
+
+.icon {
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.icon-16x16 {
+    width: 16px;
+    height: 16px;
+}
+
+.icon-32x32 {
+    width: 32px;
+    height: 32px;
+}
+
+.icon-48x48 {
+    width: 48px;
+    height: 48px;
+}
+
+/* Collapsible */
+
+.collapsible-content {
+    display: none;
+    padding-bottom: 5px;
+}
+
+.collapsible-button {
+    background-color: white;
+    border: 0;
+    color: #007fcc;
+    cursor: pointer;
+}
+
+.collapsible-button:hover {
+    text-decoration: underline;
+}
+
+.collapsible-button:active {
+    color: #003fcc;
+}
+
+/* Copyright */
+
+.in-development,
+.poweredBy,
+.privacy,
+.copyright
+{
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
