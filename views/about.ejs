@@ -1,7 +1,9 @@
 <%- include('header') %>
 
         <div class="body-about">
+
             <div class="profile">
+
                 <div class="background">
                     <img src="/assets/images/<%= images.background %>" class="background-photo">
                     <img src="/assets/images/profile/<%= profilePicture %>" class="profile-photo">
@@ -91,7 +93,7 @@
                 <button class="collapsible-button"><%= data.globals.seeMore[lang] %></button>
                 <div class="collapsible-content">
                     <ul>
-                        <% data.about.forEach(item => { %>
+                        <% data.about_.forEach(item => { %>
                             <li class="padded-li">
                                 <strong><%= item.Name[lang] %></strong>
                                 <br><%= item.Description[lang] %>
@@ -285,7 +287,9 @@
                 <br><span class="privacy"><%= data.globals.privacy[lang] %></span>
                 <br><span class="copyright"><%= data.globals.copyright[lang] %></span>
             </div>
+
         </div>
+        
         <script>
             document.querySelectorAll('a').forEach(link => {
                 /* Make external links open in a new tab */

@@ -105,7 +105,7 @@
         }
     },
 
-    "about": [
+    "about_": [
         {
             "Name": {"en-ca": "Professional Interests", "fr-ca": "Intérêts professionnels"},
             "Description": {
