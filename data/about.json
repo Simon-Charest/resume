@@ -42,21 +42,13 @@
     "intro": {
         "firstName": "Simon",
         "lastName": "Charest",
-        "organization": {"en-CA": "SLCIT", "fr-CA": "SLCTI"},
         "additionalName": "Laguë",
         "namePronunciation":  {"en-CA": "saɪmən ʃɑrɛ", "fr-CA": "simõ ʃaɾɛ"},
         "pronouns": {"en-CA": "He/Him", "fr-CA": "Il/lui"},
-        "headline": {"en-CA": "Developer", "fr-CA": "Développeur"},
         "primaryPosition": {
-            "title": {"en-CA": "Developer", "fr-CA": "Développeur"},
-            "companyName": {"en-CA": "Vigiteck Group", "fr-CA": "Groupe Vigiteck"},
-            "website": "https://www.vigiteck.com/"
+            "title": {"en-CA": "Developer", "fr-CA": "Développeur"}
         },
         "industry": {"en-CA": "Computer Software", "fr-CA": "Logiciels informatiques"},
-        "education": {
-            "school": {"en-CA": "Old Montreal College", "fr-CA": "Cégep du Vieux-Montréal"},
-            "website": "https://www.cvm.qc.ca/"
-        },
         "location": {
             "city": {"en-CA": "Montreal", "fr-CA": "Montréal"},
             "province": {"en-CA": "Quebec", "fr-CA": "Québec"},
@@ -104,71 +96,101 @@
 
     "about_": [
         {
-            "Name": {"en-CA": "Professional Interests", "fr-CA": "Intérêts professionnels"},
-            "Description": {
+            "name": {
+                "en-CA": "Professional Interests",
+                "fr-CA": "Intérêts professionnels"
+            },
+            "description": {
                 "en-CA": "I am passionate about software development, analysis, intelligence, investigations, security, and video games.",
                 "fr-CA": "Je suis passionné par le développement de logiciels, l'analyse, le renseignement, les enquêtes, la sécurité, ainsi que les jeux vidéo."
             }
         },
         {
-            "Name": {"en-CA": "Availability", "fr-CA": "Disponibilité"},
-            "Description": {
+            "name": {
+                "en-CA": "Availability",
+                "fr-CA": "Disponibilité"
+            },
+            "description": {
                 "en-CA": "I am open to consulting assignments as an incorporated entrepreneur, either full-time or part-time.",
                 "fr-CA": "Je suis ouvert à des missions de consultation en tant qu'entrepreneur incorporé, à temps plein ou à temps partiel."
             }
         },
         {
-            "Name": {"en-CA": "Preferred Work Arrangements", "fr-CA": "Modalités de travail préférées"},
-            "Description": {
+            "name": {
+                "en-CA": "Preferred Work Arrangements",
+                "fr-CA": "Modalités de travail préférées"
+            },
+            "description": {
                 "en-CA": "I have a strong preference for remote work, with the possibility of occasional in-person meetings.",
                 "fr-CA": "Je privilégie le télétravail, tout en étant disposé à effectuer des déplacements ponctuels pour des réunions en présentiel."
             }
         },
         {
-            "Name": {"en-CA": "Role Preferences", "fr-CA": "Préférences de rôle"},
-            "Description": {
+            "name": {
+                "en-CA": "Role Preferences",
+                "fr-CA": "Préférences de rôle"
+            },
+            "description": {
                 "en-CA": "I primarily focus on developer roles and have little interest in management positions such as Scrum Master, Tech Lead, Team Lead, Product Owner, or Project Manager.",
                 "fr-CA": "Je me concentre principalement sur des rôles de développeur, avec peu d'intérêt pour les fonctions de gestion telles que Scrum Master, Tech Lead, Team Lead, Product Owner ou Project Manager."
             }
         },
         {
-            "Name": {"en-CA": "Professional Experience", "fr-CA": "Expérience professionnelle"},
-            "Description": {
+            "name": {
+                "en-CA": "Professional Experience",
+                "fr-CA": "Expérience professionnelle"
+            },
+            "description": {
                 "en-CA": "I have over twenty years of experience as an analyst-programmer, specializing in custom system development.",
                 "fr-CA": "Fort de plus de vingt ans d'expérience en tant qu'analyste-programmeur, je me spécialise dans le développement de systèmes sur mesure."
             }
         },
         {
-            "Name": {"en-CA": "Areas of Expertise", "fr-CA": "Domaines d'expertise"},
-            "Description": {
+            "name": {
+                "en-CA": "Areas of Expertise",
+                "fr-CA": "Domaines d'expertise"
+            },
+            "description": {
                 "en-CA": "My expertise spans public safety, intelligence, investigations, auditing, administration, management, human resources, finance, training, accounting, and healthcare.",
                 "fr-CA": "Mes compétences s'étendent à la sécurité publique, au renseignement, aux enquêtes, à la vérification comptable, ainsi qu'à l'administration, la gestion, les ressources humaines, les finances, la formation, la comptabilité et la santé."
             }
         },
         {
-            "Name": {"en-CA": "Project Accomplishments", "fr-CA": "Réalisations de projets"},
-            "Description": {
+            "name": {
+                "en-CA": "Project Accomplishments",
+                "fr-CA": "Réalisations de projets"
+            },
+            "description": {
                 "en-CA": "I have designed and developed a variety of solutions, including case management systems, tools for analyzing telephone and geographical data, encryption algorithms, and search engines.",
                 "fr-CA": "J'ai conçu et développé une variété de solutions, notamment des systèmes de gestion de dossiers, des outils d'analyse de données téléphoniques et géographiques, des algorithmes de cryptage, et des moteurs de recherche."
             }
         },
         {
-            "Name": {"en-CA": "Work Approach", "fr-CA": "Approche de travail"},
-            "Description": {
+            "name": {
+                "en-CA": "Work Approach",
+                "fr-CA": "Approche de travail"
+            },
+            "description": {
                 "en-CA": "I am accustomed to working independently, from analyzing client needs to delivering complete solutions, often developed entirely from scratch. My expertise encompasses the full development lifecycle: analysis, documentation, database design, programming, testing, deployment, training, and support.",
                 "fr-CA": "Je suis habitué à travailler de manière autonome, de l'analyse des besoins clients à la livraison complète de solutions, souvent développées 'from scratch'. Mon expertise couvre l'ensemble du cycle de développement : analyse, documentation, conception de bases de données, programmation, tests, déploiement, formation et support."
             }
         },
         {
-            "Name": {"en-CA": "Distinctive Traits", "fr-CA": "Traits distinctifs"},
-            "Description": {
+            "name": {
+                "en-CA": "Distinctive Traits",
+                "fr-CA": "Traits distinctifs"
+            },
+            "description": {
                 "en-CA": "I stand out for my creativity in finding innovative solutions and my advanced analytical and synthesis skills. I have a knack for simplifying and visualizing complex concepts.",
                 "fr-CA": "Je me distingue par ma créativité dans la recherche de solutions innovantes, ainsi que par mes compétences avancées en analyse et en synthèse. J'ai également une aptitude à simplifier et à schématiser des concepts complexes."
             }
         },
         {
-            "Name": {"en-CA": "Programming Background", "fr-CA": "Historique de programmation"},
-            "Description": {
+            "name": {
+                "en-CA": "Programming Background",
+                "fr-CA": "Historique de programmation"
+            },
+            "description": {
                 "en-CA": "My programming journey began in 1988, when I started coding in BASIC on a TI-99/4A computer at the age of 8.",
                 "fr-CA": "Mes premières expériences de programmation remontent à 1988, lorsque j'ai commencé à coder en BASIC sur un ordinateur TI-99/4A à l'âge de 8 ans."
             }
@@ -181,7 +203,7 @@
         "Node.js",
         "PHP",
         "HTML / JS / CSS",
-        "C#",
+        "C# / .NET",
         "VB",
         "PowerShell",
         "Git"
@@ -191,24 +213,46 @@
         {
             "icon": "slcti.png",
             "title": {"en-CA": "Founder and CEO", "fr-CA": "Fondateur et président"},
-            "employmentType": {"en-CA": "Owner", "fr-CA": "Propriétaire"},
             "company": {
                 "name": {"en-CA": "SLCIT", "fr-CA": "SLCTI"},
                 "url": {"en-CA": "http://slcti.8bit.ca/?lang=en-CA", "fr-CA": "http://slcti.8bit.ca/?lang=fr-CA"}
             },
+            "employmentType": {"en-CA": "Owner", "fr-CA": "Propriétaire"},
+            "startDate": "2018-11-01",
+            "endDate": null,
             "location": {
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "Remote", "fr-CA": "À distance"}
             },
-            "startDate": "2018-11-01",
-            "endDate": null,
-            "description": [
+            "descriptions":
+            [
                 {
-                    "Name": {"en-CA": "Activities", "fr-CA": "Activités"},
-                    "Description": {
-                        "en-CA": "Application, web, and database development, business analysis, code review, quality assurance and debugging, documentation and training, etc.",
-                        "fr-CA": "Développement applicatif, web et de bases de données, analyse d'affaires, revue de code, assurance qualité et débogage, documentation et formation, etc."
-                    }
+                    "key": {
+                        "en-CA": "Activities",
+                        "fr-CA": "Activités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Information Technology Consulting Services",
+                            "fr-CA": "Services de consultation en technologies de l'information"
+                        },
+                        {
+                            "en-CA": "Application, web and database development",
+                            "fr-CA": "Développement applicatif, web et de bases de données"
+                        },
+                        {
+                            "en-CA": "Business Analysis",
+                            "fr-CA": "Analyse d'affaires"
+                        },
+                        {
+                            "en-CA": "Code review, quality assurance, and debugging",
+                            "fr-CA": "Revue de code, assurance qualité et débogage"
+                        },
+                        {
+                            "en-CA": "Documentation and training",
+                            "fr-CA": "Documentation et formation"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -225,42 +269,92 @@
         {
             "icon": "vigiteck.jpeg",
             "title": {"en-CA": "CTO", "fr-CA": "Directeur TI"},
-            "employmentType": {"en-CA": "Full-time Associate", "fr-CA": "Associé à temps plein"},
-            "companyName": {"en-CA": "Vigiteck Group", "fr-CA": "Groupe Vigiteck"},
             "company": {
                 "name": {"en-CA": "Vigiteck Group", "fr-CA": "Groupe Vigiteck"},
                 "url": {"en-CA": "https://www.vigiteck.com/", "fr-CA": "https://www.vigiteck.com/"}
             },
+            "employmentType": {"en-CA": "Full-time Associate", "fr-CA": "Associé à temps plein"},
+            "startDate": "2024-02-01",
+            "endDate": null,
             "location": {
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "Remote", "fr-CA": "À distance"}
             },
-            "startDate": "2024-02-01",
-            "endDate": null,
-            "description": [
+            "descriptions":
+            [
                 {
-                    "Name": {"en-CA": "Activities", "fr-CA": "Activités"},
-                    "Description": {
-                        "en-CA": "Development and support of software solutions, analysis, intelligence, investigations, etc.",
-                        "fr-CA": "Développement et support de solutions logicielles, analyse, renseignement, enquêtes, etc."
-                    }
+                    "key": {
+                        "en-CA": "Activities",
+                        "fr-CA": "Activités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Development and support of software solutions",
+                            "fr-CA": "Développement et support de solutions logicielles"
+                        },
+                        {
+                            "en-CA": "Analysis",
+                            "fr-CA": "Analyse"
+                        },
+                        {
+                            "en-CA": "Intelligence",
+                            "fr-CA": "Renseignement"
+                        },
+                        {
+                            "en-CA": "Investigations",
+                            "fr-CA": "Enquêtes"
+                        }
+                    ]
                 },
                 {
-                    "Name": {"en-CA": "Projects", "fr-CA": "Projets"},
-                    "Description": {
-                        "en-CA": "WhosThatGuy ™, D-Analyst ™, Pyaudit: A Python project that imports unified audit log data from Microsoft 365 into an indexed relational database, identifies IP addresses, executes queries, and generates reports, including graphs. Pymage: An image processing tool based on Python that leverages OpenCV. Website: (https://www.vigiteck.com/), etc.",
-                        "fr-CA":  "WhosThatGuy ™, D-Analyst ™, Pyaudit : Un projet Python permettant d'importer des données de journal d'audit unifié de Microsoft 365 dans une base de données relationnelle indexée, d'identifier les adresses IP, d'exécuter des requêtes et de générer des rapports, y compris des graphiques, Pymage : Un outil de traitement d'images basé sur Python exploitant OpenCV., Site web (https://www.vigiteck.com/), etc."
-                    }
+                    "key": {
+                        "en-CA": "Projects",
+                        "fr-CA": "Projets"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "WhosThatGuy ™ (https://www.vigiteck.com/nos-produits/)",
+                            "fr-CA": "WhosThatGuy ™ (https://www.vigiteck.com/nos-produits/)"
+                        },
+                        {
+                            "en-CA": "D-Analyst ™ (https://www.vigiteck.com/nos-produits/)",
+                            "fr-CA": "D-Analyst ™ (https://www.vigiteck.com/nos-produits/)"
+                        },
+                        {
+                            "en-CA": "Pymage: An image processing tool based on Python that leverages OpenCV. Website: (https://www.vigiteck.com/)",
+                            "fr-CA": "Pymage : Un outil de traitement d'images basé sur Python exploitant OpenCV., Site web (https://www.vigiteck.com/)"
+                        },
+                        {
+                            "en-CA": "Pyaudit: A Python project that imports unified audit log data from Microsoft 365 into an indexed relational database, identifies IP addresses, executes queries, and generates reports, including graphs.",
+                            "fr-CA": "Pyaudit : Un projet Python permettant d'importer des données de journal d'audit unifié de Microsoft 365 dans une base de données relationnelle indexée, d'identifier les adresses IP, d'exécuter des requêtes et de générer des rapports, y compris des graphiques"
+                        }
+                    ]
                 },
                 {
-                    "Name": {"en-CA": "Training", "fr-CA": "Formation"},
-                    "Description": {
-                        "en-CA": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/).",
-                        "fr-CA":  "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)."
-                    }
+                    "key": {
+                        "en-CA": "Trainings",
+                        "fr-CA": "Formations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)",
+                            "fr-CA": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Media",
+                        "fr-CA": "Médias"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "The Temu app tested by cybersecurity experts | Decoders (French) (https://www.youtube.com/watch?v=m5rpJbaqs6w&t=284s)",
+                            "fr-CA": "L'application Temu testée par des experts en cybersécurité | Décrypteurs (https://www.youtube.com/watch?v=m5rpJbaqs6w&t=284s)"
+                        }
+                    ]
                 }
             ],
-            "profileHeadline": {"en-CA": "Developer", "fr-CA":  "Développeur"},
             "skills": [
                 "Python",
                 "pandas",
@@ -275,58 +369,403 @@
                 "Java",
                 "Graph / Neo4j",
                 "WordPress"
-            ],
-            "media": [
-                {
-                    "title":
-                    {
-                        "en-CA": "The Temu app tested by cybersecurity experts (French)",
-                        "fr-CA": "L'application Temu testée par des experts en cybersécurité | Décrypteurs"
-                    },
-                    "url": "https://www.youtube.com/watch?v=m5rpJbaqs6w&t=284s"
-                }
             ]
+        },
+        {
+            "icon": null,
+            "title": {"en-CA": "Renovation Contractor", "fr-CA": "Entrepreneur en rénovation"},
+            "company": null,
+            "employmentType": {"en-CA": "Self-employed Part-time", "fr-CA": "Travailleur autonome à temps partiel"},
+            "startDate": "2013-11-01",
+            "endDate": null,
+            "location": {
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Role",
+                        "fr-CA": "Rôle"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Family Home Renovator",
+                            "fr-CA": "Rénovateur de la résidence familiale"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Project management",
+                            "fr-CA": "Gestion de projets"
+                        },
+                        {
+                            "en-CA": "Oral and written communications",
+                            "fr-CA": "Communications orales et écrites"
+                        },
+                        {
+                            "en-CA": "Financial management",
+                            "fr-CA": "Gestion des finances"
+                        },
+                        {
+                            "en-CA": "Development of web applications for financial management and architectural plan production",
+                            "fr-CA": "Développement d'applications web facilitant la gestion des finances et la production de plans architecturaux"
+                        },
+                        {
+                            "en-CA": "Shopping and delivery",
+                            "fr-CA": "Magasinage et livraison"
+                        },
+                        {
+                            "en-CA": "Demolition work",
+                            "fr-CA": "Travaux de démolition"
+                        },
+                        {
+                            "en-CA": "Construction waste disposal",
+                            "fr-CA": "Disposition de déchets de construction"
+                        },
+                        {
+                            "en-CA": "Problem solving and repairs",
+                            "fr-CA": "Résolution de problèmes et réparations"
+                        },
+                        {
+                            "en-CA": "Wall construction",
+                            "fr-CA": "Construction de murs"
+                        },
+                        {
+                            "en-CA": "Installation of hardwood flooring",
+                            "fr-CA": "Pose de planchers de bois franc"
+                        },
+                        {
+                            "en-CA": "Insulation installation",
+                            "fr-CA": "Pose d'isolation"
+                        },
+                        {
+                            "en-CA": "Stripping, sanding and cleaning",
+                            "fr-CA": "Décapage, sablage et nettoyage"
+                        },
+                        {
+                            "en-CA": "Interior and exterior painting",
+                            "fr-CA": "Peinture intérieure et extérieure"
+                        },
+                        {
+                            "en-CA": "Shed construction (dimensions: 16 by 12 by 9 feet)",
+                            "fr-CA": "Construction d'un cabanon (dimensions : 16 par 12 par 9 pieds)"
+                        },
+                        {
+                            "en-CA": "Construction of retractable sliding doors",
+                            "fr-CA": "Construction de portes coulissantes escamotables"
+                        },
+                        {
+                            "en-CA": "Patio door installation",
+                            "fr-CA": "Installation d'une porte patio"
+                        },
+                        {
+                            "en-CA": "Piling",
+                            "fr-CA": "Pieutage"
+                        },
+                        {
+                            "en-CA": "Installation of coping stones",
+                            "fr-CA": "Pose de margelles"
+                        },
+                        {
+                            "en-CA": "Construction of a multi-level deck (dimensions: 24 by 12 feet)",
+                            "fr-CA": "Construction d'une terrasse à paliers multiples (dimensions : 24 par 12 pieds)"
+                        },
+                        {
+                            "en-CA": "Dryer vent installation",
+                            "fr-CA": "Installation d'une sortie de sécheuse"
+                        },
+                        {
+                            "en-CA": "Water heater installation",
+                            "fr-CA": "Installation d'un chauffe-eau"
+                        },
+                        {
+                            "en-CA": "Range hood installation with exterior venting",
+                            "fr-CA": "Installation d'une hotte de cuisinière, avec sortie extérieure"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Partial subcontracting",
+                        "fr-CA": "Sous-traitance partielle"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Architectural plan production",
+                            "fr-CA": "Production de plans architecturaux"
+                        },
+                        {
+                            "en-CA": "Building inspection",
+                            "fr-CA": "Inspection en bâtiment"
+                        },
+                        {
+                            "en-CA": "Excavation work",
+                            "fr-CA": "Travaux d'excavation"
+                        },
+                        {
+                            "en-CA": "Tiling",
+                            "fr-CA": "Pose de carrelage"
+                        },
+                        {
+                            "en-CA": "Drywall installation and joint taping",
+                            "fr-CA": "Pose de gypse et tirage de joints"
+                        },
+                        {
+                            "en-CA": "Asphalt shingle installation",
+                            "fr-CA": "Pose de bardeaux d'asphalte"
+                        },
+                        {
+                            "en-CA": "Electricity",
+                            "fr-CA": "Électricité"
+                        },
+                        {
+                            "en-CA": "Plumbing",
+                            "fr-CA": "Plomberie"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Complete Subcontracting",
+                        "fr-CA": "Sous-traitance complète"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Crack repair",
+                            "fr-CA": "Réparation de fissures"
+                        },
+                        {
+                            "en-CA": "Sanding and varnishing of hardwood floors",
+                            "fr-CA": "Sablage et vernissage de planchers de bois franc"
+                        },
+                        {
+                            "en-CA": "Installation of an outdoor water outlet",
+                            "fr-CA": "Installation d'une sortie d'eau extérieure"
+                        },
+                        {
+                            "en-CA": "Gutter installation",
+                            "fr-CA": "Pose de gouttières"
+                        },
+                        {
+                            "en-CA": "Window installation",
+                            "fr-CA": "Installation de fenêtres"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Inspecgo (https://www.inspecgo.ca/)",
+                            "fr-CA": "Inspecgo (https://www.inspecgo.ca/)"
+                        },
+                        {
+                            "en-CA": "Fissure de Béton Alain Grenier",
+                            "fr-CA": "Fissure de Béton Alain Grenier"
+                        },
+                        {
+                            "en-CA": "Sablage Renaud Cloutier (https://sablagerenaudcloutier.com/)",
+                            "fr-CA": "Sablage Renaud Cloutier (https://sablagerenaudcloutier.com/)"
+                        },
+                        {
+                            "en-CA": "Foster Plumbing (https://www.plomberiefoster.com/)",
+                            "fr-CA": "Plomberie Foster (https://www.plomberiefoster.com/)"
+                        },
+                        {
+                            "en-CA": "Électricité Légaré (https://www.electricitelegare.com/)",
+                            "fr-CA": "Électricité Légaré (https://www.electricitelegare.com/)"
+                        },
+                        {
+                            "en-CA": "FENLÜX Portes et fenêtres (https://www.fenplast.com/detaillant/fenlux-portes-et-fenetres-inc-saint-leonard-montreal/)",
+                            "fr-CA": "FENLÜX Portes et fenêtres (https://www.fenplast.com/detaillant/fenlux-portes-et-fenetres-inc-saint-leonard-montreal)"
+                        },
+                        {
+                            "en-CA": "Portes et Fenêtres Verdun (https://portesetfenetresverdun.com/en/)",
+                            "fr-CA": "Portes et Fenêtres Verdun (https://portesetfenetresverdun.com/fr/)"
+                        },
+                        {
+                            "en-CA": "Michel Guimont Entrepreneur Électricien (https://www.michelguimont.com/en/)",
+                            "fr-CA": "Michel Guimont Entrepreneur Électricien (https://www.michelguimont.com/)"
+                        },
+                        {
+                            "en-CA": "E. L. Concept (https://www.elconcept.ca/)",
+                            "fr-CA": "E. L. Concept (https://www.elconcept.ca/)"
+                        },
+                        {
+                            "en-CA": "Bling Consultants (https://blingcanada.com/)",
+                            "fr-CA": "Bling Consultants (https://blingcanada.com/)"
+                        },
+                        {
+                            "en-CA": "Kenza Construction (https://www.kenzaconstruction.ca/)",
+                            "fr-CA": "Kenza Construction (https://www.kenzaconstruction.ca/)"
+                        }
+                    ]
+                }
+            ],
+            "skills": null
         },
         {
             "icon": "psp.jpeg",
             "title": {"en-CA": "Senior Developer - Python", "fr-CA": "Développeur Senior - Python"},
-            "employmentType": {"en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein"},
             "company": {
                 "name": {"en-CA": "PSP Investments", "fr-CA": "Investissements PSP"},
                 "url": {"en-CA": "https://www.investpsp.com/en/", "fr-CA": "https://www.investpsp.com/fr/"}
             },
-            "relationships": [
-                {
-                    "type": {"en-CA": "Recruitment Agency", "fr-CA": "Agence de recrutement"},
-                    "name": {"en-CA": "Suitalent", "fr-CA": "Suitalent"},
-                    "url": {"en-CA": "https://logient.com/en/", "fr-CA": "https://logient.com/fr/"}
-                },
-                {
-                    "type": {"en-CA": "Recruitment Agency", "fr-CA": "Agence de recrutement"},
-                    "name": {"en-CA": "Procom", "fr-CA": "Procom"},
-                    "url": {"en-CA": "https://procomservices.com/en-us/", "fr-CA": "https://procomservices.com/fr-CA/"}
-                }
-            ],
+            "employmentType": {"en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein"},
+            "startDate": "2022-11-01",
+            "endDate": "2023-10-31",
             "location": {
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "Hybrid", "fr-CA": "Hybride"}
             },
-            "startDate": "2022-11-01",
-            "endDate": "2023-10-31",
-            "description": [
+            "descriptions":
+            [
                 {
-                    "Name": {"en-CA": "Activities", "fr-CA": "Activités"},
-                    "Description": {
-                        "en-CA": "Development and support of Analytical Donuts for Analysts (ADA), ADA Data Loader, Quant ADA, etc.",
-                        "fr-CA":  "Développement et support des solutions Analytical Donuts for Analysts (ADA), ADA Data Loader, Quant ADA, etc."
-                    }
+                    "key": {
+                        "en-CA": "Description",
+                        "fr-CA": "Description"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Reporting to the Senior Manager, Analytics and Total Fund Delivery, the Full-Stack Python Developer will be responsible for building and deploying data & calculations pipelines to feed advanced analytics use cases. The applicant will also provide insightful advice to the Technology, Data, and Operations (TDO) management team, PSP deal teams as well as potentially thought partner with portfolio companies when necessary.",
+                            "fr-CA": "Sous la supervision du Gestionnaire principal, Analyse et Livraison du Fonds Total, le Développeur Full-Stack Python sera responsable de la création et du déploiement de pipelines de données et de calculs pour alimenter des cas d'utilisation en analyse avancée. Le candidat fournira également des conseils judicieux à l'équipe de gestion de la Technologie, des Données et des Opérations (TDO), aux équipes de transaction de PSP, et, le cas échéant, agira comme partenaire stratégique avec les entreprises en portefeuille."
+                        }
+                    ]
                 },
                 {
-                    "Name": {"en-CA": "Team", "fr-CA": "Équipe"},
-                    "Description": {
-                        "en-CA": " Technologies, Data, and Operations (TDO) - Global Portfolio Solutions",
-                        "fr-CA":  "Technologies, Données et Opérations (TDO) - Solutions du portefeuille global"
-                    }
+                    "key": {
+                        "en-CA": "Activities",
+                        "fr-CA": "Activités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Development and support of Analytical Donuts for Analysts (ADA)",
+                            "fr-CA": "Développement et support de la solution Analytical Donuts for Analysts (ADA)"
+                        },
+                        {
+                            "en-CA": "Development and support of ADA Data Loader",
+                            "fr-CA": "Développement et support de la solution ADA Data Loader"
+                        },
+                        {
+                            "en-CA": "Development and support of Quant ADA",
+                            "fr-CA": "Développement et support de la solution Quant ADA"
+                        },
+                        {
+                            "en-CA": "Python development",
+                            "fr-CA": "Développement Python"
+                        },
+                        {
+                            "en-CA": "Analysis and development related to SQL databases, ETL and ELT processes and Azure pipelines",
+                            "fr-CA": "Analyse et développement en lien avec les bases de données SQL, processus ETL et ELT et pipelines Azure"
+                        },
+                        {
+                            "en-CA": "Using Terraform and implementing continuous integration/continuous deployment (CI/CD) with Azure DevOps",
+                            "fr-CA": "Utilisation de Terraform et mise en place de l'intégration continue / déploiement continu (CI/CD) avec Azure DevOps"
+                        },
+                        {
+                            "en-CA": "PowerShell scripting and Git operations",
+                            "fr-CA": "Développement de scripts PowerShell et opérations Git"
+                        },
+                        {
+                            "en-CA": "Implementing an OAuth2 Access Token Management System",
+                            "fr-CA": "Implémentation d'un système de gestion de jetons d'accès OAuth2"
+                        },
+                        {
+                            "en-CA": "Using Docker and Kubernetes AKS",
+                            "fr-CA": "Utilisation de Docker et Kubernetes AKS"
+                        },
+                        {
+                            "en-CA": "Installing and using Linux (Ubuntu)",
+                            "fr-CA": "Installation et utilisation de Linux (Ubuntu)"
+                        },
+                        {
+                            "en-CA": "Navigate a fast-paced environment with a high level of autonomy",
+                            "fr-CA": "Évoluer dans un environnement dynamique avec un haut degré d'autonomie"
+                        },
+                        {
+                            "en-CA": "Spoken and written communications",
+                            "fr-CA": "Communication orale et écrite"
+                        },
+                        {
+                            "en-CA": "Attention to detail and rigorous approach to research and development work",
+                            "fr-CA": "Souci du détail et approche rigoureuse du travail de recherche et développement"
+                        },
+                        {
+                            "en-CA": "Learn, ideate and innovate",
+                            "fr-CA": "Apprendre, réfléchir et innover"
+                        },
+                        {
+                            "en-CA": "Drive to pursue excellence and challenge the status quo to seek out alternative perspectives",
+                            "fr-CA": "Viser l'excellence et de remettre en question le statu quo pour rechercher de nouvelles perspectives"
+                        },
+                        {
+                            "en-CA": "Open-mindedness and active listening",
+                            "fr-CA": "Ouverture et écoute active"
+                        },
+                        {
+                            "en-CA": "Respect differences of opinion and an inclusive mindset",
+                            "fr-CA": "Respecter les différences d'opinions et conserver une ouverture d'esprit"
+                        },
+                        {
+                            "en-CA": "Work closely with the rest of the team to develop, test, and maintain Python-based applications",
+                            "fr-CA": "Travailler en étroite collaboration avec le reste de l'équipe pour développer, tester et maintenir des applications basées sur Python"
+                        },
+                        {
+                            "en-CA": "Build efficient, reusable, and reliable code using best practices",
+                            "fr-CA": "Architecture de code efficace, réutilisable et fiable selon les meilleures pratiques"
+                        },
+                        {
+                            "en-CA": "Collaborate with cross-functional teams to identify and prioritize features",
+                            "fr-CA": "Collaborer avec des équipes interdisciplinaires afin d'identifier et prioriser les fonctionnalités à développer"
+                        },
+                        {
+                            "en-CA": "Participate in code reviews and maintain code quality",
+                            "fr-CA": "Participer aux revues de code et maintenir la qualité du code"
+                        },
+                        {
+                            "en-CA": "Troubleshoot and debug applications",
+                            "fr-CA": "Résoudre les problèmes et déboguer les applications."
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Team",
+                        "fr-CA": "Équipe"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Technologies, Data, and Operations (TDO) - Global Portfolio Solutions",
+                            "fr-CA": "Technologies, Données et Opérations (TDO) - Solutions du portefeuille global"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Suitalent | Logient (Recruitment Agency) (https://logient.com/en/)",
+                            "fr-CA": "Suitalent | Logient (Agence de recrutement) (https://logient.com/fr/)"
+                        },
+                        {
+                            "en-CA": "Procom (Recruitment Agency) (https://procomservices.com/en-us/)",
+                            "fr-CA": "Procom (Agence de recrutement) (https://procomservices.com/fr-ca/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -346,31 +785,92 @@
         {
             "icon": "forensik.jpeg",
             "title": {"en-CA": "Senior Automation Programmer", "fr-CA": "Programmeur senior automatisation"},
-            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
             "company": {
                 "name": {"en-CA": "Forensik | In Fidem | Eviden | Atos", "fr-CA": "Forensik | In Fidem | Eviden | Atos"},
                 "url": {"en-CA": "https://eviden.com/", "fr-CA": "https://eviden.com/fr-fr/"}
             },
-            "relationships": null,
+            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
+            "startDate": "2020-10-01",
+            "endDate": "2022-09-30",
             "location": {
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "Remote", "fr-CA": "À distance"}
             },
-            "startDate": "2020-10-01",
-            "endDate": "2022-09-30",
-            "description": [
+            "descriptions":
+            [
                 {
-                    "Name": {"en-CA": "Activities", "fr-CA": "Activités"},
-                    "Description": {
-                        "en-CA": "Develop continuous delivery tools, automate tasks, implement enterprise and software architecture, provide consulting to other teams, conduct technological watch related to the vision and evolving needs, extract requirements and create reports, perform research and development for business intelligence, automate use cases and processes, integrate data from multiple sources (data pipeline), work directly with threat hunting teams, respond to incidents, manage vulnerabilities, monitor, conduct tactical squad operations, and intervene in case of incidents.",
-                        "fr-CA":  "Développer en livraison continue des outils, automatiser des tâches, réaliser de l'architecture d'entreprise et logicielle, effectuer de la consultation auprès des autres équipes, procéder à de la veille technologique en lien avec la vision et l'évolution des besoins, extraire des besoins et créer des rapports, effectuer de la recherches et développement pour intelligence d'affaire, automatiser des cas d’utilisation et processus, intégrer des données depuis plusieurs sources (data pipeline), travailler directement avec les équipes de threat hunting, répondre aux incidents, gestion des vulnérabilités, surveillance, escouade tactique, intervention en cas d'incident."
-                    }
+                    "key": {
+                        "en-CA": "Activities",
+                        "fr-CA": "Activités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Develop continuous delivery tools",
+                            "fr-CA": "Développer en livraison continue des outils"
+                        },
+                        {
+                            "en-CA": "Automate tasks",
+                            "fr-CA": "Automatiser des tâches"
+                        },
+                        {
+                            "en-CA": "Implement enterprise and software architecture",
+                            "fr-CA": "Réaliser de l'architecture d'entreprise et logicielle"
+                        },
+                        {
+                            "en-CA": "Provide consulting to other teams",
+                            "fr-CA": "Effectuer de la consultation auprès des autres équipes"
+                        },
+                        {
+                            "en-CA": "Conduct technological watch related to the vision and evolving needs",
+                            "fr-CA": "Procéder à de la veille technologique en lien avec la vision et l'évolution des besoins"
+                        },
+                        {
+                            "en-CA": "Extract requirements and create reports",
+                            "fr-CA": "Extraire des besoins et créer des rapports"
+                        },
+                        {
+                            "en-CA": "Perform research and development for business intelligence",
+                            "fr-CA": "Effectuer de la recherche et développement pour intelligence d'affaires"
+                        },
+                        {
+                            "en-CA": "Automate use cases and processes",
+                            "fr-CA": "Automatiser des cas d'utilisation et processus"
+                        },
+                        {
+                            "en-CA": "Integrate data from multiple sources (data pipeline)",
+                            "fr-CA": "Intégrer des données depuis plusieurs sources (data pipeline)"
+                        },
+                        {
+                            "en-CA": "Work directly with threat hunting teams, respond to incidents",
+                            "fr-CA": "Travailler directement avec les équipes de threat hunting"
+                        },
+                        {
+                            "en-CA": "Incident Response",
+                            "fr-CA": "Répondre aux incidents"
+                        },
+                        {
+                            "en-CA": "Manage vulnerabilities",
+                            "fr-CA": "Gestion des vulnérabilités"
+                        },
+                        {
+                            "en-CA": "Monitor",
+                            "fr-CA": "Surveillance"
+                        },
+                        {
+                            "en-CA": "Conduct tactical squad operations",
+                            "fr-CA": "Escouade tactique"
+                        },
+                        {
+                            "en-CA": "Intervene in case of incidents",
+                            "fr-CA": "Intervention en cas d'incident"
+                        }
+                    ]
                 }
             ],
             "skills": [
                 "PowerShell",
                 "Python",
-                "C#",
+                "C# / .NET",
                 "Entity Framework",
                 "SQL Server",
                 "NoSQL / JSON / CSV",
@@ -380,41 +880,100 @@
             ]
         },
         {
-            "icon": "belron.jpeg",
-            "title": {"en-CA": "Back-end Developer", "fr-CA": "Développeur back-end"},
-            "employmentType": {"en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein"},
+            "icon": "retronic_design.png",
+            "title": {"en-CA": "Developer", "fr-CA": "Développeur"},
             "company": {
-                "name": {"en-CA": "Belron Canada", "fr-CA": "Belron Canada"},
-                "url": {"en-CA": "https://www.belroncanada.com/", "fr-CA": "https://www.belroncanada.com/fr/"}
+                "name": {"en-CA": "Retronic Design", "fr-CA": "Retronic Design"},
+                "url": {"en-CA": "https://www.retronicdesign.com/en/", "fr-CA": "https://www.retronicdesign.com/fr/"}
             },
-            "relationships": [
+            "employmentType": {"en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein"},
+            "startDate": "2020-04-01",
+            "endDate": "2020-09-31",
+            "location": {
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "Remote", "fr-CA": "À distance"}
+            },
+            "descriptions":
+            [
                 {
-                    "type": {"en-CA": "Recruitment Agency", "fr-CA": "Agence de recrutement"},
-                    "name": {"en-CA": "FX Innovation", "fr-CA": "FX Innovation"},
-                    "url": {"en-CA": "https://www.fxinnovation.com/en/", "fr-CA": "https://www.fxinnovation.com/fr/"}
+                    "key": {
+                        "en-CA": "Activities",
+                        "fr-CA": "Activités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Complete redevelopment of the DB9 to USB Game Controller Adapter application",
+                            "fr-CA": "Redéveloppement complet de l'application DB9 to USB Game Controller Adapter"
+                        }
+                    ]
                 }
             ],
+            "skills": [
+                "Python",
+                "PyQt",
+                "ANSI C",
+                "Git"
+            ]
+        },
+        {
+            "icon": "belron.jpeg",
+            "title": {"en-CA": "Back-end Developer", "fr-CA": "Développeur back-end"},
+            "company": {
+                "name": {"en-CA": "Belron Canada | Lebeau Vitres d'autos | Carglass", "fr-CA": "Belron Canada | Lebeau Vitres d'autos | Carglass"},
+                "url": {"en-CA": "https://www.belroncanada.com/", "fr-CA": "https://www.belroncanada.com/fr/"}
+            },
+            "employmentType": {"en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein"},
+            "startDate": "2018-11-01",
+            "endDate": "2020-06-30",
             "location": {
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
-            "startDate": "2018-11-01",
-            "endDate": "2020-06-30",
-            "description": [
+            "descriptions":
+            [
                 {
-                    "Name": {"en-CA": "Activities", "fr-CA": "Activités"},
-                    "Description": {
-                        "en-CA": "Support for the current version and complete redevelopment of the Online Booking (OLB) solution for Lebeau Vitres d'autos (https://rendezvous.lebeau.ca/), support and development related to business intelligence, as well as other company projects.",
-                        "fr-CA":  "Support de la version actuelle et redéveloppement complet de la solution Online Booking (OLB) de Lebeau Vitres d'autos (https://rendezvous.lebeau.ca/), support et développement concernant l'intelligence d'affaires ainsi qu'à d'autres projets de l'entreprise."
-                    }
+                    "key": {
+                        "en-CA": "Activities",
+                        "fr-CA": "Activités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Support the current version of Online Booking (OLB)",
+                            "fr-CA": "Support de la version actuelle de la solution Online Booking (OLB)"
+                        },
+                        {
+                            "en-CA": "Complete redevelopment of the Online Booking (OLB)",
+                            "fr-CA": "Redéveloppement complet de la nouvelle version de la solution Online Booking (OLB)"
+                        },
+                        {
+                            "en-CA": "Support and development related to business intelligence,",
+                            "fr-CA": "support et développement concernant l'intelligence d'affaires"
+                        },
+                        {
+                            "en-CA": "Updating the engine and content of the organization's various websites",
+                            "fr-CA": "Mise à jour du moteur et du contenu des différents sites web de l'organisation"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "FX Innovation (Recruitment Agency) (https://www.fxinnovation.com/en/)",
+                            "fr-CA": "FX Innovation (Agence de recrutement) (https://www.fxinnovation.com/fr/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
                 "PHP",
                 "HTML / JS / CSS",
                 "Node.js / Vue.js",
-                "C#",
-                "ASP.NET / ASP",
+                "ASP / C# / .NET",
+                "ASP",
                 "VB",
                 "SQL Server",
                 "WordPress",
@@ -438,8 +997,8 @@
             "endDate": "2018-09-30",
             "description": [
                 {
-                    "Name": {"en-CA": "Activities", "fr-CA": "Activités"},
-                    "Description": {
+                    "name": {"en-CA": "Activities", "fr-CA": "Activités"},
+                    "description": {
                         "en-CA": "Development of the GCH-VIP solution powered by the DLGL VIP application.",
                         "fr-CA":  "Développement de la solution GCH-VIP propulsée par l'application VIP de DLGL."
                     }

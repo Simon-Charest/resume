@@ -20,10 +20,12 @@
                         <ul>
                             <% const ongoingExperiences = data.experience.filter(experience => experience.endDate === null); %>
                             <% ongoingExperiences.forEach(experience => { %>
-                                <li>
-                                    <img src="/assets/images/<%= experience.icon %>" class="icon icon-32x32">
-                                    <a href="<%= experience.company.url[lang] %>"><%= experience.company.name[lang] %></a>
-                                </li>
+                                <% if (experience.company) { %>
+                                    <li>
+                                        <img src="/assets/images/<%= experience.icon %>" class="icon icon-32x32">
+                                        <a href="<%= experience.company.url[lang] %>"><%= experience.company.name[lang] %></a>
+                                    </li>
+                                <% } %>
                             <% }); %>
                             <% const obtainedDegrees = data.education.filter(education => education.degree !== null && education.higherEducation); %>
                             <% obtainedDegrees.forEach(education => { %>
@@ -95,8 +97,8 @@
                     <ul>
                         <% data.about_.forEach(item => { %>
                             <li class="padded-li">
-                                <strong><%= item.Name[lang] %></strong>
-                                <br><%= item.Description[lang] %>
+                                <strong><%= item.name[lang] %></strong>
+                                <br><%= item.description[lang] %>
                             </li>
                         <% }); %>
                     </ul>
@@ -117,29 +119,36 @@
                         <img src="/assets/images/<%= item.icon || 'company.png' %>" class="icon icon-48x48">
                         <div class="experience-content">
                             <strong><%= item.title[lang] %></strong>
-                            <br><% if (item.company.url) { %><a href="<%= item.company.url[lang] %>"><% } %><%= item.company.name[lang] %><% if (item.company.url) { %></a><% } %> · <%= item.employmentType[lang] %>
+                            <% if (item.company) { %>
+                                <br>
+                                <% if (item.company.url) { %>
+                                    <a href="<%= item.company.url[lang] %>">
+                                <% } %>
+                                <%= item.company.name[lang] %>
+                                <% if (item.company.url) { %>
+                                    </a>
+                                <% } %>
+                                ·
+                                <%= item.employmentType[lang] %>
+                            <% } %>
                             <span class="gray">
                                 <br><%= item.startDate.slice(0, 7) %> - <%= item.endDate ? item.endDate.slice(0, 7) : data.globals.present[lang] %> · <%= formatLength(calculateLength(item.startDate, item.endDate), lang) %>
                                 <br><%= item.location.city[lang] %> - <%= item.location.type[lang] %>
-                                <% if (item.relationships && item.relationships.length > 0) { %>
-                                    <br><%= data.globals.relationships[lang] %>:
-                                    <% item.relationships.forEach((relationship, index) => { %>
-                                        <a href="<%= relationship.url[lang] %>"><%= relationship.name[lang] %></a> (<%= relationship.type[lang] %>)<% if (index < item.relationships.length - 1) { %>, <% } %>
-                                    <% }); %>
-                                <% } %>
                             </span>
-                            <% if (item.description) { %>
+                            <% if (item.descriptions) { %>
                                 <div>
                                     <button class="collapsible-button"><%= data.seeMore[lang] %></button>
                                     <div class="collapsible-content">
-                                        <ul>
-                                            <% item.description.forEach(item => { %>
-                                                <li class="padded-li">
-                                                    <strong><%= item.Name[lang] %>:</strong>
-                                                    <br><%= item.Description[lang] %>
-                                                </li>
-                                            <% }); %>
-                                        </ul>                
+
+                                        <% item.descriptions.forEach(description => { %>
+                                            <strong><%= description.key[lang] %></strong>
+                                            <ul class="disc">
+                                                <% description.values.forEach(value => { %>
+                                                    <li><%= value[lang] %></li>
+                                                <% }); %>
+                                            </ul>
+                                        <% }); %>
+
                                     </div>
                                 </div>
                             <% } %>
@@ -150,17 +159,6 @@
                                     <ul class="horizontal-list">
                                         <% item.skills.forEach(skill => { %>
                                             <li><%= skill %></li>
-                                        <% }); %>
-                                    </ul>
-                                </p>
-                            <% } %>
-                            
-                            <% if (item.media) { %>
-                                <p>
-                                    <strong><%= data.globals.media[lang] %></strong>
-                                    <ul>
-                                        <% item.media.forEach(media => { %>
-                                            <li><a href="<%= media.url %>"><%= media.title[lang] %></a></li>
                                         <% }); %>
                                     </ul>
                                 </p>

@@ -59,6 +59,14 @@
 
 /* Elements */
 
+.disc {
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    padding: 0; 
+}
+
 .intro ul {
     padding-left: 0;
 }
