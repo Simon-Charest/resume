@@ -1,3 +1,5 @@
+#!/bin/bash
+
 <#
 Prerequisites:
 
@@ -5,7 +7,7 @@ Prerequisites:
 ssh-keygen -t rsa -b 4096 -C "USERNAME"
 
 # Add key to agent
-ssh-add C:\Users\simon\.ssh\id_rsa
+ssh-add $env:USERPROFILE\.ssh\id_rsa
 
 # Append key to the authorized_keys
 type $env:USERPROFILE\.ssh\id_rsa.pub | ssh USERNAME@HOST "cat >> ~/.ssh/authorized_keys"
@@ -27,11 +29,21 @@ exit
 Usage: .\deploy.ps1
 #>
 
+USER=""
+HOST=""
+DIRECTORY=""
+
+# Local Git Commands
 git add *
 git commit -m "Automated deployment"
 git push
-ssh USERNAME@HOST "cd DIRECTORY &&
+
+# Remote SSH Deployment Commands
+ssh $USER@$HOST "
+cd ~/source/resume &&
 git pull &&
-npm install package.json &&
+npm install &&
+sudo chown -R ${$USER}:$USER $DIRECTORY &&
+sudo chmod -R 755 $DIRECTORY &&
 sudo systemctl daemon-reload &&
 sudo systemctl restart resume.service"
