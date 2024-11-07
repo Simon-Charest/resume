@@ -9,23 +9,6 @@ async function main() {
     const express = require('express');
     const fs = require('fs').promises;
     const path = require('path');
-    const winston = require('winston');
-
-    // Set up the Winston logger with the default ISO timestamp format
-    const logger = winston.createLogger({
-        level: 'info', // Log level (e.g., 'info', 'error', 'warn', etc.)
-        format: winston.format.combine(
-            winston.format.timestamp(), // Use default timestamp (ISO format)
-            winston.format.printf(({ timestamp, message }) => {
-                // Return log in the format: 'DateTime, IP, URL'
-                return `${timestamp}, ${message}`;
-        })
-        ),
-        transports: [
-            new winston.transports.Console({ format: winston.format.simple() }), // Console output
-            new winston.transports.File({ filename: 'access.log' }) // Save logs to a file
-        ]
-    });
     
     const assetsDir = path.join(__dirname, '..', 'assets');
     const dataDir = path.join(__dirname, '..', 'data');
@@ -81,25 +64,6 @@ async function main() {
             secure: true
         });
         res.locals.lang = lang;
-        next();
-    });
-
-    // Middleware to log visitor info (datetime, IP, URL, lang)
-    app.use((req, res, next) => {
-        const datetime = new Date().toISOString(); // Default datetime (ISO format)
-        const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress; // Get visitor IP (handle proxy)
-        const url = req.originalUrl; // Get the requested URL
-        
-        // Capture lang from the query parameter or headers (fallback to 'en' if not available)
-        const lang = req.query.lang || req.headers['accept-language'] || DEFAULT_LANGUAGE; // Default to 'en' if not provided
-    
-        // Log the information as a simple comma-separated string
-        const logData = `${ip}, ${url}, ${lang}`;
-    
-        // Log the information using Winston
-        logger.info(logData);
-    
-        // Continue with the request-response cycle
         next();
     });
 
@@ -161,6 +125,39 @@ async function main() {
 
         return string.length === 0 ? '0 months' : string;
     };
+
+    // Function to read the log and count unique visitors (based on IP + lang)
+    function countUniqueVisitors() {
+        const uniqueVisitors = new Set(); // Set to store unique IP-lang pairs
+        
+        // Create a readable stream for the log file
+        const rl = readline.createInterface({
+            input: fs.createReadStream(logFilePath),
+            output: process.stdout,
+            terminal: false
+        });
+    
+        rl.on('line', (line) => {
+            // Parse the line
+            const parts = line.split(',');
+
+            if (parts.length >= 4) {
+                const ip = parts[1].trim(); // Extract the IP (second element)
+                const lang = parts[3].trim(); // Extract the lang (fourth element)
+                
+                // Create a unique identifier for each IP-lang pair
+                const visitorKey = `${ip}-${lang}`;
+                
+                // Add the visitor to the set (duplicates are ignored)
+                uniqueVisitors.add(visitorKey);
+            }
+        });
+    
+        rl.on('close', () => {
+            console.log(`Unique Visitors (IP + Lang): ${uniqueVisitors.size}`);
+        });
+    }
+  
 
     app.listen(PORT, HOSTNAME, () => {
         console.log(`Server running at ${PROTOCOL}://${HOSTNAME}:${PORT}/`);
