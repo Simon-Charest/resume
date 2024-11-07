@@ -1,40 +1,40 @@
 {
     "organization": {
-        "en-ca": "SLCIT",
-        "fr-ca": "SLCTI"
+        "en-CA": "SLCIT",
+        "fr-CA": "SLCTI"
     },
     "index": {
-        "en-ca": "Home",
-        "fr-ca": "Accueil"
+        "en-CA": "Home",
+        "fr-CA": "Accueil"
     },
     "about": {
-        "en-ca": "About",
-        "fr-ca": "À propos"
+        "en-CA": "About",
+        "fr-CA": "À propos"
     },
     "services": {
-        "en-ca": "Our Services",
-        "fr-ca": "Nos services"
+        "en-CA": "Our Services",
+        "fr-CA": "Nos services"
     },
     "products": {
-        "en-ca": "Our Products",
-        "fr-ca": "Nos produits"
+        "en-CA": "Our Products",
+        "fr-CA": "Nos produits"
     },
     "partners": {
-        "en-ca": "Our Partners",
-        "fr-ca": "Nos partenaires"
+        "en-CA": "Our Partners",
+        "fr-CA": "Nos partenaires"
     },
     "media": {
-        "en-ca": "Media",
-        "fr-ca": "Médias"
+        "en-CA": "Media",
+        "fr-CA": "Médias"
     },
     "contact": {
-        "en-ca": "Contact",
-        "fr-ca": "Contact"
+        "en-CA": "Contact",
+        "fr-CA": "Contact"
     },
-    "seeMore": {"en-ca": "See more...", "fr-ca": "Voir plus..."},
-    "seeLess": {"en-ca": "See less...", "fr-ca": "Voir moins..."},
-    "inDevelopment": {"en-ca": "In development...", "fr-ca": "En développement..."},
-    "poweredBy": {"en-ca": "Powered by Node.js, Ubuntu and Free DNS.", "fr-ca": "Propulsé par Node.js, Ubuntu et Free DNS."},
-    "copyright": {"en-ca": "© SLCIT. All rights reserved.", "fr-ca": "© SLCTI. Tous droits réservés."},
-    "privacy": {"en-ca": "This site does not store any data about its visitors.", "fr-ca": "Ce site ne conserve aucune donnée sur ses visiteurs."}
+    "seeMore": {"en-CA": "See more...", "fr-CA": "Voir plus..."},
+    "seeLess": {"en-CA": "See less...", "fr-CA": "Voir moins..."},
+    "inDevelopment": {"en-CA": "In development...", "fr-CA": "En développement..."},
+    "poweredBy": {"en-CA": "Powered by Node.js, Ubuntu and Free DNS.", "fr-CA": "Propulsé par Node.js, Ubuntu et Free DNS."},
+    "copyright": {"en-CA": "© SLCIT. All rights reserved.", "fr-CA": "© SLCTI. Tous droits réservés."},
+    "privacy": {"en-CA": "This site does not store any data about its visitors.", "fr-CA": "Ce site ne conserve aucune donnée sur ses visiteurs."}
 }

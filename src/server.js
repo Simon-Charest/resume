@@ -1,7 +1,7 @@
 const PROTOCOL = 'http';
 const HOSTNAME = '0.0.0.0';
 const PORT = process.env.PORT || 3000;
-const DEFAULT_LANGUAGE = 'fr-ca';
+const DEFAULT_LANGUAGE = 'fr-CA';
 
 async function main() {
     const cookieParser = require('cookie-parser');
@@ -9,6 +9,23 @@ async function main() {
     const express = require('express');
     const fs = require('fs').promises;
     const path = require('path');
+    const winston = require('winston');
+
+    // Set up the Winston logger with the default ISO timestamp format
+    const logger = winston.createLogger({
+        level: 'info', // Log level (e.g., 'info', 'error', 'warn', etc.)
+        format: winston.format.combine(
+            winston.format.timestamp(), // Use default timestamp (ISO format)
+            winston.format.printf(({ timestamp, message }) => {
+                // Return log in the format: 'DateTime, IP, URL'
+                return `${timestamp}, ${message}`;
+        })
+        ),
+        transports: [
+            new winston.transports.Console({ format: winston.format.simple() }), // Console output
+            new winston.transports.File({ filename: 'access.log' }) // Save logs to a file
+        ]
+    });
     
     const assetsDir = path.join(__dirname, '..', 'assets');
     const dataDir = path.join(__dirname, '..', 'data');
@@ -67,6 +84,25 @@ async function main() {
         next();
     });
 
+    // Middleware to log visitor info (datetime, IP, URL, lang)
+    app.use((req, res, next) => {
+        const datetime = new Date().toISOString(); // Default datetime (ISO format)
+        const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress; // Get visitor IP (handle proxy)
+        const url = req.originalUrl; // Get the requested URL
+        
+        // Capture lang from the query parameter or headers (fallback to 'en' if not available)
+        const lang = req.query.lang || req.headers['accept-language'] || DEFAULT_LANGUAGE; // Default to 'en' if not provided
+    
+        // Log the information as a simple comma-separated string
+        const logData = `${ip}, ${url}, ${lang}`;
+    
+        // Log the information using Winston
+        logger.info(logData);
+    
+        // Continue with the request-response cycle
+        next();
+    });
+
     app.get('/:route?', cors(), async (req, res) => {
         const route = req.params.route || 'index';
         const routeData = await fs.readFile(path.join(dataDir, `${route}.json`), 'utf8');
@@ -113,14 +149,14 @@ async function main() {
         let string = '';
 
         if (years > 0) {
-            string += `${years} ${years > 1 ? (lang === 'en-ca' ? 'years' : 'ans') : (lang === 'en-ca' ? 'year' : 'an')}`;
+            string += `${years} ${years > 1 ? (lang === 'en-CA' ? 'years' : 'ans') : (lang === 'en-CA' ? 'year' : 'an')}`;
         }
 
         if (months > 0) {
             if (string.length > 0) {
-                string += lang === 'en-ca' ? ' and ' : ' et ';
+                string += lang === 'en-CA' ? ' and ' : ' et ';
             }
-            string += `${months} ${months > 1 ? (lang === 'en-ca' ? 'months' : 'mois') : (lang === 'en-ca' ? 'month' : 'mois')}`;
+            string += `${months} ${months > 1 ? (lang === 'en-CA' ? 'months' : 'mois') : (lang === 'en-CA' ? 'month' : 'mois')}`;
         }
 
         return string.length === 0 ? '0 months' : string;

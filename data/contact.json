@@ -1,67 +1,67 @@
 {
     "intro": {
-        "en-ca": "Do you have any needs you would like to discuss with us? Contact us!",
-        "fr-ca": "Avez-vous des besoins que vous aimeriez discuter avec nous ? Contactez-nous !" 
+        "en-CA": "Do you have any needs you would like to discuss with us? Contact us!",
+        "fr-CA": "Avez-vous des besoins que vous aimeriez discuter avec nous ? Contactez-nous !" 
     },
     "links": [
         {
             "key": {
-                "en-ca": "SLCIT Inc.",
-                "fr-ca": "SLCTI inc."
+                "en-CA": "SLCIT Inc.",
+                "fr-CA": "SLCTI inc."
             }
         },
         {
             "key": {
-                "en-ca": "Address:",
-                "fr-ca": "Adresse :"
+                "en-CA": "Address:",
+                "fr-CA": "Adresse :"
             },
             "value": {
-                "en-ca": "H2A, Montreal, QC",
-                "fr-ca": "H2A, Montréal, QC"
+                "en-CA": "H2A, Montreal, QC",
+                "fr-CA": "H2A, Montréal, QC"
             },
             "url": "https://www.google.com/maps/place/Montreal,+QC+H2A/"
         },
         {
             "key": {
-                "en-ca": "Email:",
-                "fr-ca": "Courriel :"
+                "en-CA": "Email:",
+                "fr-CA": "Courriel :"
             },
             "value": {
-                "en-ca": "simoncharest@gmail.com",
-                "fr-ca": "simoncharest@gmail.com"
+                "en-CA": "simoncharest@gmail.com",
+                "fr-CA": "simoncharest@gmail.com"
             },
             "url": "mailto:simoncharest@gmail.com"
         },
         {
             "key": {
-                "en-ca": "Phone:",
-                "fr-ca": "Téléphone :"
+                "en-CA": "Phone:",
+                "fr-CA": "Téléphone :"
             },
             "value": {
-                "en-ca": "+1 514-653-0623",
-                "fr-ca": "+1 514-653-0623"
+                "en-CA": "+1 514-653-0623",
+                "fr-CA": "+1 514-653-0623"
             },
             "url": "tel:+15146530623"
         },
         {
             "key": {
-                "en-ca": "Website:",
-                "fr-ca": "Site web :"
+                "en-CA": "Website:",
+                "fr-CA": "Site web :"
             },
             "value": {
-                "en-ca": "http://slcti.8bit.ca/",
-                "fr-ca": "http://slcti.8bit.ca/"
+                "en-CA": "http://slcti.8bit.ca/",
+                "fr-CA": "http://slcti.8bit.ca/"
             },
             "url": "http://slcti.8bit.ca/"
         },
         {
             "key": {
-                "en-ca": "LinkedIn:",
-                "fr-ca": "LinkedIn :"
+                "en-CA": "LinkedIn:",
+                "fr-CA": "LinkedIn :"
             },
             "value": {
-                "en-ca": "https://www.linkedin.com/in/simoncharest/",
-                "fr-ca": "https://www.linkedin.com/in/simoncharest/"
+                "en-CA": "https://www.linkedin.com/in/simoncharest/",
+                "fr-CA": "https://www.linkedin.com/in/simoncharest/"
             },
             "url": "https://www.linkedin.com/in/simoncharest/"
         }

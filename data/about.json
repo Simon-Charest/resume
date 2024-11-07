@@ -1,66 +1,66 @@
 
 {
     "globals": {
-        "contactInfo": {"en-ca": "Contact Info", "fr-ca": "Coordonnées"},
-        "profile": {"en-ca": "Profile", "fr-ca": "Profil"},
-        "websites": {"en-ca": "Websites", "fr-ca": "Sites web"},
-        "company": {"en-ca": "Company", "fr-ca": "Entreprise"},
-        "portfolio": {"en-ca": "Portfolio", "fr-ca": "Portfolio"},
-        "phone": {"en-ca": "Phone", "fr-ca": "Téléphone"},
-        "mobile": {"en-ca": "Mobile", "fr-ca": "Cellulaire"},
-        "address": {"en-ca": "Address", "fr-ca": "Adresse"},
+        "contactInfo": {"en-CA": "Contact Info", "fr-CA": "Coordonnées"},
+        "profile": {"en-CA": "Profile", "fr-CA": "Profil"},
+        "websites": {"en-CA": "Websites", "fr-CA": "Sites web"},
+        "company": {"en-CA": "Company", "fr-CA": "Entreprise"},
+        "portfolio": {"en-CA": "Portfolio", "fr-CA": "Portfolio"},
+        "phone": {"en-CA": "Phone", "fr-CA": "Téléphone"},
+        "mobile": {"en-CA": "Mobile", "fr-CA": "Cellulaire"},
+        "address": {"en-CA": "Address", "fr-CA": "Adresse"},
         "GoogleMaps": "Google Maps",
-        "email": {"en-ca": "Email", "fr-ca": "Courriel"},
-        "birthday": {"en-ca": "Birthday", "fr-ca": "Anniversaire"},
+        "email": {"en-CA": "Email", "fr-CA": "Courriel"},
+        "birthday": {"en-CA": "Birthday", "fr-CA": "Anniversaire"},
         
-        "about": {"en-ca": "About", "fr-ca": "À propos"},
-        "topSkills": {"en-ca": "Top Skills", "fr-ca": "Compétences clés"},
+        "about": {"en-CA": "About", "fr-CA": "À propos"},
+        "topSkills": {"en-CA": "Top Skills", "fr-CA": "Compétences clés"},
 
-        "experience": {"en-ca": "Experience", "fr-ca": "Expérience"},
-        "present": {"en-ca": "Present", "fr-ca": "Aujourd'hui"},
-        "relationships": {"en-ca": "Relationships", "fr-ca": "Relations"},
-        "media": {"en-ca": "Media", "fr-ca": "Médias"},
+        "experience": {"en-CA": "Experience", "fr-CA": "Expérience"},
+        "present": {"en-CA": "Present", "fr-CA": "Aujourd'hui"},
+        "relationships": {"en-CA": "Relationships", "fr-CA": "Relations"},
+        "media": {"en-CA": "Media", "fr-CA": "Médias"},
 
-        "education": {"en-ca": "Education", "fr-ca": "Éducation"},
+        "education": {"en-CA": "Education", "fr-CA": "Éducation"},
 
-        "skills": {"en-ca": "Skills", "fr-ca": "Compétences"},
+        "skills": {"en-CA": "Skills", "fr-CA": "Compétences"},
 
-        "courses": {"en-ca": "Courses", "fr-ca": "Cours"},
+        "courses": {"en-CA": "Courses", "fr-CA": "Cours"},
 
-        "languages": {"en-ca": "Languages", "fr-ca": "Langues"},
+        "languages": {"en-CA": "Languages", "fr-CA": "Langues"},
 
-        "interests": {"en-ca": "Interests", "fr-ca": "Intérêts"},
+        "interests": {"en-CA": "Interests", "fr-CA": "Intérêts"},
 
-        "recommandations": {"en-ca": "Recommandations", "fr-ca": "Recommandations"},
+        "recommandations": {"en-CA": "Recommandations", "fr-CA": "Recommandations"},
         
-        "inDevelopment": {"en-ca": "In development...", "fr-ca": "En développement..."},
-        "poweredBy": {"en-ca": "Powered by Node.js, Ubuntu and Free DNS.", "fr-ca": "Propulsé par Node.js, Ubuntu et Free DNS."},
-        "copyright": {"en-ca": "© SLCIT. All rights reserved.", "fr-ca": "© SLCTI. Tous droits réservés."},
-        "privacy": {"en-ca": "This site does not store any data about its visitors.", "fr-ca": "Ce site ne conserve aucune donnée sur ses visiteurs."}
+        "inDevelopment": {"en-CA": "In development...", "fr-CA": "En développement..."},
+        "poweredBy": {"en-CA": "Powered by Node.js, Ubuntu and Free DNS.", "fr-CA": "Propulsé par Node.js, Ubuntu et Free DNS."},
+        "copyright": {"en-CA": "© SLCIT. All rights reserved.", "fr-CA": "© SLCTI. Tous droits réservés."},
+        "privacy": {"en-CA": "This site does not store any data about its visitors.", "fr-CA": "Ce site ne conserve aucune donnée sur ses visiteurs."}
     },
 
     "intro": {
         "firstName": "Simon",
         "lastName": "Charest",
-        "organization": {"en-ca": "SLCIT", "fr-ca": "SLCTI"},
+        "organization": {"en-CA": "SLCIT", "fr-CA": "SLCTI"},
         "additionalName": "Laguë",
-        "namePronunciation":  {"en-ca": "saɪmən ʃɑrɛ", "fr-ca": "simõ ʃaɾɛ"},
-        "pronouns": {"en-ca": "He/Him", "fr-ca": "Il/lui"},
-        "headline": {"en-ca": "Developer", "fr-ca": "Développeur"},
+        "namePronunciation":  {"en-CA": "saɪmən ʃɑrɛ", "fr-CA": "simõ ʃaɾɛ"},
+        "pronouns": {"en-CA": "He/Him", "fr-CA": "Il/lui"},
+        "headline": {"en-CA": "Developer", "fr-CA": "Développeur"},
         "primaryPosition": {
-            "title": {"en-ca": "Developer", "fr-ca": "Développeur"},
-            "companyName": {"en-ca": "Vigiteck Group", "fr-ca": "Groupe Vigiteck"},
+            "title": {"en-CA": "Developer", "fr-CA": "Développeur"},
+            "companyName": {"en-CA": "Vigiteck Group", "fr-CA": "Groupe Vigiteck"},
             "website": "https://www.vigiteck.com/"
         },
-        "industry": {"en-ca": "Computer Software", "fr-ca": "Logiciels informatiques"},
+        "industry": {"en-CA": "Computer Software", "fr-CA": "Logiciels informatiques"},
         "education": {
-            "school": {"en-ca": "Old Montreal College", "fr-ca": "Cégep du Vieux-Montréal"},
+            "school": {"en-CA": "Old Montreal College", "fr-CA": "Cégep du Vieux-Montréal"},
             "website": "https://www.cvm.qc.ca/"
         },
         "location": {
-            "city": {"en-ca": "Montreal", "fr-ca": "Montréal"},
-            "province": {"en-ca": "Quebec", "fr-ca": "Québec"},
-            "country": {"en-ca": "Canada", "fr-ca": "Canada"}
+            "city": {"en-CA": "Montreal", "fr-CA": "Montréal"},
+            "province": {"en-CA": "Quebec", "fr-CA": "Québec"},
+            "country": {"en-CA": "Canada", "fr-CA": "Canada"}
         },
         "contactInfo": {
             "profile": {
@@ -81,21 +81,21 @@
                 "streetName": null,
                 "roadType": null,
                 "postalCode": "H2A",
-                "city": {"en-ca": "Montreal", "fr-ca": "Montréal"},
-                "province": {"en-ca": "Quebec", "fr-ca": "Québec"},
-                "country": {"en-ca": "Canada", "fr-ca": "Canada"}
+                "city": {"en-CA": "Montreal", "fr-CA": "Montréal"},
+                "province": {"en-CA": "Quebec", "fr-CA": "Québec"},
+                "country": {"en-CA": "Canada", "fr-CA": "Canada"}
             },
             "birthday": null,
             "websites": [
                 {
-                    "name": {"en-ca": "SLCIT", "fr-ca": "SLCTI"},
+                    "name": {"en-CA": "SLCIT", "fr-CA": "SLCTI"},
                     "url": "http://slcti.8bit.ca/",
-                    "type": {"en-ca": "Company", "fr-ca": "Entreprise"}
+                    "type": {"en-CA": "Company", "fr-CA": "Entreprise"}
                 },
                 {
-                    "name": {"en-ca": "GitHub", "fr-ca": "GitHub"},
+                    "name": {"en-CA": "GitHub", "fr-CA": "GitHub"},
                     "url": "https://github.com/Simon-Charest/",
-                    "type": {"en-ca": "Portfolio", "fr-ca": "Portfolio"}
+                    "type": {"en-CA": "Portfolio", "fr-CA": "Portfolio"}
                 }
             ],
             "instantMessaging": null
@@ -104,73 +104,73 @@
 
     "about_": [
         {
-            "Name": {"en-ca": "Professional Interests", "fr-ca": "Intérêts professionnels"},
+            "Name": {"en-CA": "Professional Interests", "fr-CA": "Intérêts professionnels"},
             "Description": {
-                "en-ca": "I am passionate about software development, analysis, intelligence, investigations, security, and video games.",
-                "fr-ca": "Je suis passionné par le développement de logiciels, l'analyse, le renseignement, les enquêtes, la sécurité, ainsi que les jeux vidéo."
+                "en-CA": "I am passionate about software development, analysis, intelligence, investigations, security, and video games.",
+                "fr-CA": "Je suis passionné par le développement de logiciels, l'analyse, le renseignement, les enquêtes, la sécurité, ainsi que les jeux vidéo."
             }
         },
         {
-            "Name": {"en-ca": "Availability", "fr-ca": "Disponibilité"},
+            "Name": {"en-CA": "Availability", "fr-CA": "Disponibilité"},
             "Description": {
-                "en-ca": "I am open to consulting assignments as an incorporated entrepreneur, either full-time or part-time.",
-                "fr-ca": "Je suis ouvert à des missions de consultation en tant qu'entrepreneur incorporé, à temps plein ou à temps partiel."
+                "en-CA": "I am open to consulting assignments as an incorporated entrepreneur, either full-time or part-time.",
+                "fr-CA": "Je suis ouvert à des missions de consultation en tant qu'entrepreneur incorporé, à temps plein ou à temps partiel."
             }
         },
         {
-            "Name": {"en-ca": "Preferred Work Arrangements", "fr-ca": "Modalités de travail préférées"},
+            "Name": {"en-CA": "Preferred Work Arrangements", "fr-CA": "Modalités de travail préférées"},
             "Description": {
-                "en-ca": "I have a strong preference for remote work, with the possibility of occasional in-person meetings.",
-                "fr-ca": "Je privilégie le télétravail, tout en étant disposé à effectuer des déplacements ponctuels pour des réunions en présentiel."
+                "en-CA": "I have a strong preference for remote work, with the possibility of occasional in-person meetings.",
+                "fr-CA": "Je privilégie le télétravail, tout en étant disposé à effectuer des déplacements ponctuels pour des réunions en présentiel."
             }
         },
         {
-            "Name": {"en-ca": "Role Preferences", "fr-ca": "Préférences de rôle"},
+            "Name": {"en-CA": "Role Preferences", "fr-CA": "Préférences de rôle"},
             "Description": {
-                "en-ca": "I primarily focus on developer roles and have little interest in management positions such as Scrum Master, Tech Lead, Team Lead, Product Owner, or Project Manager.",
-                "fr-ca": "Je me concentre principalement sur des rôles de développeur, avec peu d'intérêt pour les fonctions de gestion telles que Scrum Master, Tech Lead, Team Lead, Product Owner ou Project Manager."
+                "en-CA": "I primarily focus on developer roles and have little interest in management positions such as Scrum Master, Tech Lead, Team Lead, Product Owner, or Project Manager.",
+                "fr-CA": "Je me concentre principalement sur des rôles de développeur, avec peu d'intérêt pour les fonctions de gestion telles que Scrum Master, Tech Lead, Team Lead, Product Owner ou Project Manager."
             }
         },
         {
-            "Name": {"en-ca": "Professional Experience", "fr-ca": "Expérience professionnelle"},
+            "Name": {"en-CA": "Professional Experience", "fr-CA": "Expérience professionnelle"},
             "Description": {
-                "en-ca": "I have over twenty years of experience as an analyst-programmer, specializing in custom system development.",
-                "fr-ca": "Fort de plus de vingt ans d'expérience en tant qu'analyste-programmeur, je me spécialise dans le développement de systèmes sur mesure."
+                "en-CA": "I have over twenty years of experience as an analyst-programmer, specializing in custom system development.",
+                "fr-CA": "Fort de plus de vingt ans d'expérience en tant qu'analyste-programmeur, je me spécialise dans le développement de systèmes sur mesure."
             }
         },
         {
-            "Name": {"en-ca": "Areas of Expertise", "fr-ca": "Domaines d'expertise"},
+            "Name": {"en-CA": "Areas of Expertise", "fr-CA": "Domaines d'expertise"},
             "Description": {
-                "en-ca": "My expertise spans public safety, intelligence, investigations, auditing, administration, management, human resources, finance, training, accounting, and healthcare.",
-                "fr-ca": "Mes compétences s'étendent à la sécurité publique, au renseignement, aux enquêtes, à la vérification comptable, ainsi qu'à l'administration, la gestion, les ressources humaines, les finances, la formation, la comptabilité et la santé."
+                "en-CA": "My expertise spans public safety, intelligence, investigations, auditing, administration, management, human resources, finance, training, accounting, and healthcare.",
+                "fr-CA": "Mes compétences s'étendent à la sécurité publique, au renseignement, aux enquêtes, à la vérification comptable, ainsi qu'à l'administration, la gestion, les ressources humaines, les finances, la formation, la comptabilité et la santé."
             }
         },
         {
-            "Name": {"en-ca": "Project Accomplishments", "fr-ca": "Réalisations de projets"},
+            "Name": {"en-CA": "Project Accomplishments", "fr-CA": "Réalisations de projets"},
             "Description": {
-                "en-ca": "I have designed and developed a variety of solutions, including case management systems, tools for analyzing telephone and geographical data, encryption algorithms, and search engines.",
-                "fr-ca": "J'ai conçu et développé une variété de solutions, notamment des systèmes de gestion de dossiers, des outils d'analyse de données téléphoniques et géographiques, des algorithmes de cryptage, et des moteurs de recherche."
+                "en-CA": "I have designed and developed a variety of solutions, including case management systems, tools for analyzing telephone and geographical data, encryption algorithms, and search engines.",
+                "fr-CA": "J'ai conçu et développé une variété de solutions, notamment des systèmes de gestion de dossiers, des outils d'analyse de données téléphoniques et géographiques, des algorithmes de cryptage, et des moteurs de recherche."
             }
         },
         {
-            "Name": {"en-ca": "Work Approach", "fr-ca": "Approche de travail"},
+            "Name": {"en-CA": "Work Approach", "fr-CA": "Approche de travail"},
             "Description": {
-                "en-ca": "I am accustomed to working independently, from analyzing client needs to delivering complete solutions, often developed entirely from scratch. My expertise encompasses the full development lifecycle: analysis, documentation, database design, programming, testing, deployment, training, and support.",
-                "fr-ca": "Je suis habitué à travailler de manière autonome, de l'analyse des besoins clients à la livraison complète de solutions, souvent développées 'from scratch'. Mon expertise couvre l'ensemble du cycle de développement : analyse, documentation, conception de bases de données, programmation, tests, déploiement, formation et support."
+                "en-CA": "I am accustomed to working independently, from analyzing client needs to delivering complete solutions, often developed entirely from scratch. My expertise encompasses the full development lifecycle: analysis, documentation, database design, programming, testing, deployment, training, and support.",
+                "fr-CA": "Je suis habitué à travailler de manière autonome, de l'analyse des besoins clients à la livraison complète de solutions, souvent développées 'from scratch'. Mon expertise couvre l'ensemble du cycle de développement : analyse, documentation, conception de bases de données, programmation, tests, déploiement, formation et support."
             }
         },
         {
-            "Name": {"en-ca": "Distinctive Traits", "fr-ca": "Traits distinctifs"},
+            "Name": {"en-CA": "Distinctive Traits", "fr-CA": "Traits distinctifs"},
             "Description": {
-                "en-ca": "I stand out for my creativity in finding innovative solutions and my advanced analytical and synthesis skills. I have a knack for simplifying and visualizing complex concepts.",
-                "fr-ca": "Je me distingue par ma créativité dans la recherche de solutions innovantes, ainsi que par mes compétences avancées en analyse et en synthèse. J'ai également une aptitude à simplifier et à schématiser des concepts complexes."
+                "en-CA": "I stand out for my creativity in finding innovative solutions and my advanced analytical and synthesis skills. I have a knack for simplifying and visualizing complex concepts.",
+                "fr-CA": "Je me distingue par ma créativité dans la recherche de solutions innovantes, ainsi que par mes compétences avancées en analyse et en synthèse. J'ai également une aptitude à simplifier et à schématiser des concepts complexes."
             }
         },
         {
-            "Name": {"en-ca": "Programming Background", "fr-ca": "Historique de programmation"},
+            "Name": {"en-CA": "Programming Background", "fr-CA": "Historique de programmation"},
             "Description": {
-                "en-ca": "My programming journey began in 1988, when I started coding in BASIC on a TI-99/4A computer at the age of 8.",
-                "fr-ca": "Mes premières expériences de programmation remontent à 1988, lorsque j'ai commencé à coder en BASIC sur un ordinateur TI-99/4A à l'âge de 8 ans."
+                "en-CA": "My programming journey began in 1988, when I started coding in BASIC on a TI-99/4A computer at the age of 8.",
+                "fr-CA": "Mes premières expériences de programmation remontent à 1988, lorsque j'ai commencé à coder en BASIC sur un ordinateur TI-99/4A à l'âge de 8 ans."
             }
         }
     ],
@@ -190,24 +190,24 @@
     "experience": [
         {
             "icon": "slcti.png",
-            "title": {"en-ca": "Founder and CEO", "fr-ca": "Fondateur et président"},
-            "employmentType": {"en-ca": "Owner", "fr-ca": "Propriétaire"},
+            "title": {"en-CA": "Founder and CEO", "fr-CA": "Fondateur et président"},
+            "employmentType": {"en-CA": "Owner", "fr-CA": "Propriétaire"},
             "company": {
-                "name": {"en-ca": "SLCIT", "fr-ca": "SLCTI"},
-                "url": {"en-ca": "http://slcti.8bit.ca/?lang=en-ca", "fr-ca": "http://slcti.8bit.ca/?lang=fr-ca"}
+                "name": {"en-CA": "SLCIT", "fr-CA": "SLCTI"},
+                "url": {"en-CA": "http://slcti.8bit.ca/?lang=en-CA", "fr-CA": "http://slcti.8bit.ca/?lang=fr-CA"}
             },
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
-                "type": {"en-ca": "Remote", "fr-ca": "À distance"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "Remote", "fr-CA": "À distance"}
             },
             "startDate": "2018-11-01",
             "endDate": null,
             "description": [
                 {
-                    "Name": {"en-ca": "Activities", "fr-ca": "Activités"},
+                    "Name": {"en-CA": "Activities", "fr-CA": "Activités"},
                     "Description": {
-                        "en-ca": "Application, web, and database development, business analysis, code review, quality assurance and debugging, documentation and training, etc.",
-                        "fr-ca": "Développement applicatif, web et de bases de données, analyse d'affaires, revue de code, assurance qualité et débogage, documentation et formation, etc."
+                        "en-CA": "Application, web, and database development, business analysis, code review, quality assurance and debugging, documentation and training, etc.",
+                        "fr-CA": "Développement applicatif, web et de bases de données, analyse d'affaires, revue de code, assurance qualité et débogage, documentation et formation, etc."
                     }
                 }
             ],
@@ -224,43 +224,43 @@
         },
         {
             "icon": "vigiteck.jpeg",
-            "title": {"en-ca": "CTO", "fr-ca": "Directeur TI"},
-            "employmentType": {"en-ca": "Full-time Associate", "fr-ca": "Associé à temps plein"},
-            "companyName": {"en-ca": "Vigiteck Group", "fr-ca": "Groupe Vigiteck"},
+            "title": {"en-CA": "CTO", "fr-CA": "Directeur TI"},
+            "employmentType": {"en-CA": "Full-time Associate", "fr-CA": "Associé à temps plein"},
+            "companyName": {"en-CA": "Vigiteck Group", "fr-CA": "Groupe Vigiteck"},
             "company": {
-                "name": {"en-ca": "Vigiteck Group", "fr-ca": "Groupe Vigiteck"},
-                "url": {"en-ca": "https://www.vigiteck.com/", "fr-ca": "https://www.vigiteck.com/"}
+                "name": {"en-CA": "Vigiteck Group", "fr-CA": "Groupe Vigiteck"},
+                "url": {"en-CA": "https://www.vigiteck.com/", "fr-CA": "https://www.vigiteck.com/"}
             },
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
-                "type": {"en-ca": "Remote", "fr-ca": "À distance"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "Remote", "fr-CA": "À distance"}
             },
             "startDate": "2024-02-01",
             "endDate": null,
             "description": [
                 {
-                    "Name": {"en-ca": "Activities", "fr-ca": "Activités"},
+                    "Name": {"en-CA": "Activities", "fr-CA": "Activités"},
                     "Description": {
-                        "en-ca": "Development and support of software solutions, analysis, intelligence, investigations, etc.",
-                        "fr-ca": "Développement et support de solutions logicielles, analyse, renseignement, enquêtes, etc."
+                        "en-CA": "Development and support of software solutions, analysis, intelligence, investigations, etc.",
+                        "fr-CA": "Développement et support de solutions logicielles, analyse, renseignement, enquêtes, etc."
                     }
                 },
                 {
-                    "Name": {"en-ca": "Projects", "fr-ca": "Projets"},
+                    "Name": {"en-CA": "Projects", "fr-CA": "Projets"},
                     "Description": {
-                        "en-ca": "WhosThatGuy ™, D-Analyst ™, Pyaudit: A Python project that imports unified audit log data from Microsoft 365 into an indexed relational database, identifies IP addresses, executes queries, and generates reports, including graphs. Pymage: An image processing tool based on Python that leverages OpenCV. Website: (https://www.vigiteck.com/), etc.",
-                        "fr-ca":  "WhosThatGuy ™, D-Analyst ™, Pyaudit : Un projet Python permettant d'importer des données de journal d'audit unifié de Microsoft 365 dans une base de données relationnelle indexée, d'identifier les adresses IP, d'exécuter des requêtes et de générer des rapports, y compris des graphiques, Pymage : Un outil de traitement d'images basé sur Python exploitant OpenCV., Site web (https://www.vigiteck.com/), etc."
+                        "en-CA": "WhosThatGuy ™, D-Analyst ™, Pyaudit: A Python project that imports unified audit log data from Microsoft 365 into an indexed relational database, identifies IP addresses, executes queries, and generates reports, including graphs. Pymage: An image processing tool based on Python that leverages OpenCV. Website: (https://www.vigiteck.com/), etc.",
+                        "fr-CA":  "WhosThatGuy ™, D-Analyst ™, Pyaudit : Un projet Python permettant d'importer des données de journal d'audit unifié de Microsoft 365 dans une base de données relationnelle indexée, d'identifier les adresses IP, d'exécuter des requêtes et de générer des rapports, y compris des graphiques, Pymage : Un outil de traitement d'images basé sur Python exploitant OpenCV., Site web (https://www.vigiteck.com/), etc."
                     }
                 },
                 {
-                    "Name": {"en-ca": "Training", "fr-ca": "Formation"},
+                    "Name": {"en-CA": "Training", "fr-CA": "Formation"},
                     "Description": {
-                        "en-ca": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/).",
-                        "fr-ca":  "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)."
+                        "en-CA": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/).",
+                        "fr-CA":  "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)."
                     }
                 }
             ],
-            "profileHeadline": {"en-ca": "Developer", "fr-ca":  "Développeur"},
+            "profileHeadline": {"en-CA": "Developer", "fr-CA":  "Développeur"},
             "skills": [
                 "Python",
                 "pandas",
@@ -280,8 +280,8 @@
                 {
                     "title":
                     {
-                        "en-ca": "The Temu app tested by cybersecurity experts (French)",
-                        "fr-ca": "L'application Temu testée par des experts en cybersécurité | Décrypteurs"
+                        "en-CA": "The Temu app tested by cybersecurity experts (French)",
+                        "fr-CA": "L'application Temu testée par des experts en cybersécurité | Décrypteurs"
                     },
                     "url": "https://www.youtube.com/watch?v=m5rpJbaqs6w&t=284s"
                 }
@@ -289,43 +289,43 @@
         },
         {
             "icon": "psp.jpeg",
-            "title": {"en-ca": "Senior Developer - Python", "fr-ca": "Développeur Senior - Python"},
-            "employmentType": {"en-ca": "Contract Full-time", "fr-ca": "Contrat à temps plein"},
+            "title": {"en-CA": "Senior Developer - Python", "fr-CA": "Développeur Senior - Python"},
+            "employmentType": {"en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein"},
             "company": {
-                "name": {"en-ca": "PSP Investments", "fr-ca": "Investissements PSP"},
-                "url": {"en-ca": "https://www.investpsp.com/en/", "fr-ca": "https://www.investpsp.com/fr/"}
+                "name": {"en-CA": "PSP Investments", "fr-CA": "Investissements PSP"},
+                "url": {"en-CA": "https://www.investpsp.com/en/", "fr-CA": "https://www.investpsp.com/fr/"}
             },
             "relationships": [
                 {
-                    "type": {"en-ca": "Recruitment Agency", "fr-ca": "Agence de recrutement"},
-                    "name": {"en-ca": "Suitalent", "fr-ca": "Suitalent"},
-                    "url": {"en-ca": "https://logient.com/en/", "fr-ca": "https://logient.com/fr/"}
+                    "type": {"en-CA": "Recruitment Agency", "fr-CA": "Agence de recrutement"},
+                    "name": {"en-CA": "Suitalent", "fr-CA": "Suitalent"},
+                    "url": {"en-CA": "https://logient.com/en/", "fr-CA": "https://logient.com/fr/"}
                 },
                 {
-                    "type": {"en-ca": "Recruitment Agency", "fr-ca": "Agence de recrutement"},
-                    "name": {"en-ca": "Procom", "fr-ca": "Procom"},
-                    "url": {"en-ca": "https://procomservices.com/en-us/", "fr-ca": "https://procomservices.com/fr-ca/"}
+                    "type": {"en-CA": "Recruitment Agency", "fr-CA": "Agence de recrutement"},
+                    "name": {"en-CA": "Procom", "fr-CA": "Procom"},
+                    "url": {"en-CA": "https://procomservices.com/en-us/", "fr-CA": "https://procomservices.com/fr-CA/"}
                 }
             ],
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
-                "type": {"en-ca": "Hybrid", "fr-ca": "Hybride"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "Hybrid", "fr-CA": "Hybride"}
             },
             "startDate": "2022-11-01",
             "endDate": "2023-10-31",
             "description": [
                 {
-                    "Name": {"en-ca": "Activities", "fr-ca": "Activités"},
+                    "Name": {"en-CA": "Activities", "fr-CA": "Activités"},
                     "Description": {
-                        "en-ca": "Development and support of Analytical Donuts for Analysts (ADA), ADA Data Loader, Quant ADA, etc.",
-                        "fr-ca":  "Développement et support des solutions Analytical Donuts for Analysts (ADA), ADA Data Loader, Quant ADA, etc."
+                        "en-CA": "Development and support of Analytical Donuts for Analysts (ADA), ADA Data Loader, Quant ADA, etc.",
+                        "fr-CA":  "Développement et support des solutions Analytical Donuts for Analysts (ADA), ADA Data Loader, Quant ADA, etc."
                     }
                 },
                 {
-                    "Name": {"en-ca": "Team", "fr-ca": "Équipe"},
+                    "Name": {"en-CA": "Team", "fr-CA": "Équipe"},
                     "Description": {
-                        "en-ca": " Technologies, Data, and Operations (TDO) - Global Portfolio Solutions",
-                        "fr-ca":  "Technologies, Données et Opérations (TDO) - Solutions du portefeuille global"
+                        "en-CA": " Technologies, Data, and Operations (TDO) - Global Portfolio Solutions",
+                        "fr-CA":  "Technologies, Données et Opérations (TDO) - Solutions du portefeuille global"
                     }
                 }
             ],
@@ -345,25 +345,25 @@
         },
         {
             "icon": "forensik.jpeg",
-            "title": {"en-ca": "Senior Automation Programmer", "fr-ca": "Programmeur senior automatisation"},
-            "employmentType": {"en-ca": "Full-time Permanent", "fr-ca": "Permanent à temps plein"},
+            "title": {"en-CA": "Senior Automation Programmer", "fr-CA": "Programmeur senior automatisation"},
+            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
             "company": {
-                "name": {"en-ca": "Forensik | In Fidem | Eviden | Atos", "fr-ca": "Forensik | In Fidem | Eviden | Atos"},
-                "url": {"en-ca": "https://eviden.com/", "fr-ca": "https://eviden.com/fr-fr/"}
+                "name": {"en-CA": "Forensik | In Fidem | Eviden | Atos", "fr-CA": "Forensik | In Fidem | Eviden | Atos"},
+                "url": {"en-CA": "https://eviden.com/", "fr-CA": "https://eviden.com/fr-fr/"}
             },
             "relationships": null,
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
-                "type": {"en-ca": "Remote", "fr-ca": "À distance"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "Remote", "fr-CA": "À distance"}
             },
             "startDate": "2020-10-01",
             "endDate": "2022-09-30",
             "description": [
                 {
-                    "Name": {"en-ca": "Activities", "fr-ca": "Activités"},
+                    "Name": {"en-CA": "Activities", "fr-CA": "Activités"},
                     "Description": {
-                        "en-ca": "Develop continuous delivery tools, automate tasks, implement enterprise and software architecture, provide consulting to other teams, conduct technological watch related to the vision and evolving needs, extract requirements and create reports, perform research and development for business intelligence, automate use cases and processes, integrate data from multiple sources (data pipeline), work directly with threat hunting teams, respond to incidents, manage vulnerabilities, monitor, conduct tactical squad operations, and intervene in case of incidents.",
-                        "fr-ca":  "Développer en livraison continue des outils, automatiser des tâches, réaliser de l'architecture d'entreprise et logicielle, effectuer de la consultation auprès des autres équipes, procéder à de la veille technologique en lien avec la vision et l'évolution des besoins, extraire des besoins et créer des rapports, effectuer de la recherches et développement pour intelligence d'affaire, automatiser des cas d’utilisation et processus, intégrer des données depuis plusieurs sources (data pipeline), travailler directement avec les équipes de threat hunting, répondre aux incidents, gestion des vulnérabilités, surveillance, escouade tactique, intervention en cas d'incident."
+                        "en-CA": "Develop continuous delivery tools, automate tasks, implement enterprise and software architecture, provide consulting to other teams, conduct technological watch related to the vision and evolving needs, extract requirements and create reports, perform research and development for business intelligence, automate use cases and processes, integrate data from multiple sources (data pipeline), work directly with threat hunting teams, respond to incidents, manage vulnerabilities, monitor, conduct tactical squad operations, and intervene in case of incidents.",
+                        "fr-CA":  "Développer en livraison continue des outils, automatiser des tâches, réaliser de l'architecture d'entreprise et logicielle, effectuer de la consultation auprès des autres équipes, procéder à de la veille technologique en lien avec la vision et l'évolution des besoins, extraire des besoins et créer des rapports, effectuer de la recherches et développement pour intelligence d'affaire, automatiser des cas d’utilisation et processus, intégrer des données depuis plusieurs sources (data pipeline), travailler directement avec les équipes de threat hunting, répondre aux incidents, gestion des vulnérabilités, surveillance, escouade tactique, intervention en cas d'incident."
                     }
                 }
             ],
@@ -381,31 +381,31 @@
         },
         {
             "icon": "belron.jpeg",
-            "title": {"en-ca": "Back-end Developer", "fr-ca": "Développeur back-end"},
-            "employmentType": {"en-ca": "Contract Full-time", "fr-ca": "Contrat à temps plein"},
+            "title": {"en-CA": "Back-end Developer", "fr-CA": "Développeur back-end"},
+            "employmentType": {"en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein"},
             "company": {
-                "name": {"en-ca": "Belron Canada", "fr-ca": "Belron Canada"},
-                "url": {"en-ca": "https://www.belroncanada.com/", "fr-ca": "https://www.belroncanada.com/fr/"}
+                "name": {"en-CA": "Belron Canada", "fr-CA": "Belron Canada"},
+                "url": {"en-CA": "https://www.belroncanada.com/", "fr-CA": "https://www.belroncanada.com/fr/"}
             },
             "relationships": [
                 {
-                    "type": {"en-ca": "Recruitment Agency", "fr-ca": "Agence de recrutement"},
-                    "name": {"en-ca": "FX Innovation", "fr-ca": "FX Innovation"},
-                    "url": {"en-ca": "https://www.fxinnovation.com/en/", "fr-ca": "https://www.fxinnovation.com/fr/"}
+                    "type": {"en-CA": "Recruitment Agency", "fr-CA": "Agence de recrutement"},
+                    "name": {"en-CA": "FX Innovation", "fr-CA": "FX Innovation"},
+                    "url": {"en-CA": "https://www.fxinnovation.com/en/", "fr-CA": "https://www.fxinnovation.com/fr/"}
                 }
             ],
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
-                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
             "startDate": "2018-11-01",
             "endDate": "2020-06-30",
             "description": [
                 {
-                    "Name": {"en-ca": "Activities", "fr-ca": "Activités"},
+                    "Name": {"en-CA": "Activities", "fr-CA": "Activités"},
                     "Description": {
-                        "en-ca": "Support for the current version and complete redevelopment of the Online Booking (OLB) solution for Lebeau Vitres d'autos (https://rendezvous.lebeau.ca/), support and development related to business intelligence, as well as other company projects.",
-                        "fr-ca":  "Support de la version actuelle et redéveloppement complet de la solution Online Booking (OLB) de Lebeau Vitres d'autos (https://rendezvous.lebeau.ca/), support et développement concernant l'intelligence d'affaires ainsi qu'à d'autres projets de l'entreprise."
+                        "en-CA": "Support for the current version and complete redevelopment of the Online Booking (OLB) solution for Lebeau Vitres d'autos (https://rendezvous.lebeau.ca/), support and development related to business intelligence, as well as other company projects.",
+                        "fr-CA":  "Support de la version actuelle et redéveloppement complet de la solution Online Booking (OLB) de Lebeau Vitres d'autos (https://rendezvous.lebeau.ca/), support et développement concernant l'intelligence d'affaires ainsi qu'à d'autres projets de l'entreprise."
                     }
                 }
             ],
@@ -424,24 +424,24 @@
         },
         {
             "icon": "logibec.jpeg",
-            "title": {"en-ca": "Programmer Analyst", "fr-ca": "Analyste programmeur"},
-            "employmentType": {"en-ca": "Full-time Permanent", "fr-ca": "Permanent à temps plein"},
+            "title": {"en-CA": "Programmer Analyst", "fr-CA": "Analyste programmeur"},
+            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
             "company": {
-                "name": {"en-ca": "Logibec", "fr-ca": "Logibec"},
-                "url": {"en-ca": "https://lgisolutions.com/en/", "fr-ca": "https://lgisolutions.com/fr/"}
+                "name": {"en-CA": "Logibec", "fr-CA": "Logibec"},
+                "url": {"en-CA": "https://lgisolutions.com/en/", "fr-CA": "https://lgisolutions.com/fr/"}
             },
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
-                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
             "startDate": "2017-10-01",
             "endDate": "2018-09-30",
             "description": [
                 {
-                    "Name": {"en-ca": "Activities", "fr-ca": "Activités"},
+                    "Name": {"en-CA": "Activities", "fr-CA": "Activités"},
                     "Description": {
-                        "en-ca": "Development of the GCH-VIP solution powered by the DLGL VIP application.",
-                        "fr-ca":  "Développement de la solution GCH-VIP propulsée par l'application VIP de DLGL."
+                        "en-CA": "Development of the GCH-VIP solution powered by the DLGL VIP application.",
+                        "fr-CA":  "Développement de la solution GCH-VIP propulsée par l'application VIP de DLGL."
                     }
                 }
             ],
@@ -452,15 +452,15 @@
         },
         {
             "icon": "cepcsj.png",
-            "title": {"en-ca": "Webmaster", "fr-ca": "Webmestre"},
-            "employmentType": {"en-ca": "Contract Full-time", "fr-ca": "Contrat à temps plein"},
+            "title": {"en-CA": "Webmaster", "fr-CA": "Webmestre"},
+            "employmentType": {"en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein"},
             "company": {
-                "name": {"en-ca": "Commission of Inquiry on the Protection of Journalistic Source Confidentiality | Chamberland Commission", "fr-ca": "Commission d'enquête sur la protection de la confidentialité des sources journalistiques | Commission Chamberland"},
-                "url": {"en-ca": "https://www.paystone.com/ ", "fr-ca": "https://www.bibliotheque.assnat.qc.ca/guides/fr/les-commissions-d-enquete-au-quebec-depuis-1867/7735-commission-chamberland-2017"}
+                "name": {"en-CA": "Commission of Inquiry on the Protection of Journalistic Source Confidentiality | Chamberland Commission", "fr-CA": "Commission d'enquête sur la protection de la confidentialité des sources journalistiques | Commission Chamberland"},
+                "url": {"en-CA": "https://www.paystone.com/ ", "fr-CA": "https://www.bibliotheque.assnat.qc.ca/guides/fr/les-commissions-d-enquete-au-quebec-depuis-1867/7735-commission-chamberland-2017"}
             },
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
-                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
             "startDate": "2017-01-01",
             "endDate": "2017-12-31",
@@ -472,23 +472,23 @@
         },
         {
             "icon": "datacandy.png",
-            "title": {"en-ca": "PHP Developer", "fr-ca": "Développeur PHP"},
-            "employmentType": {"en-ca": "Full-time Permanent", "fr-ca": "Permanent à temps plein"},
+            "title": {"en-CA": "PHP Developer", "fr-CA": "Développeur PHP"},
+            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
             "company": {
-                "name": {"en-ca": "Funbox | DataCandy | Paystone", "fr-ca": "Funbox | DataCandy | Paystone"},
-                "url": {"en-ca": "https://www.paystone.com/ ", "fr-ca": "https://www.paystone.com/fr/home/"}
+                "name": {"en-CA": "Funbox | DataCandy | Paystone", "fr-CA": "Funbox | DataCandy | Paystone"},
+                "url": {"en-CA": "https://www.paystone.com/ ", "fr-CA": "https://www.paystone.com/fr/home/"}
             },
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
-                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
             "startDate": "2016-01-01",
             "endDate": "2016-12-31",
             "relationships": [
                 {
-                    "type": {"en-ca": "Recruitment Agency", "fr-ca": "Agence de recrutement"},
-                    "name": {"en-ca": "Arobas Personnel", "fr-ca": "Arobas Personnel"},
-                    "url": {"en-ca": "https://www.arobaspersonnel.com/en/home.html", "fr-ca": "https://www.arobaspersonnel.com/fr/accueil.html"}
+                    "type": {"en-CA": "Recruitment Agency", "fr-CA": "Agence de recrutement"},
+                    "name": {"en-CA": "Arobas Personnel", "fr-CA": "Arobas Personnel"},
+                    "url": {"en-CA": "https://www.arobaspersonnel.com/en/home.html", "fr-CA": "https://www.arobaspersonnel.com/fr/accueil.html"}
                 }
             ],
             "description": null,
@@ -502,15 +502,15 @@
         },
         {
             "icon": "upac.png",
-            "title": {"en-ca": "Information Technology Analyst", "fr-ca": "Analyste de l'informatique"},
-            "employmentType": {"en-ca": "Full-time Permanent", "fr-ca": "Permanent à temps plein"},
+            "title": {"en-CA": "Information Technology Analyst", "fr-CA": "Analyste de l'informatique"},
+            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
             "company": {
-                "name": {"en-ca": "Permanent Anti-Corruption Unit", "fr-ca": "Unité permanente anticorruption"},
-                "url": {"en-ca": "https://upac.gouv.qc.ca/en/", "fr-ca": "https://upac.gouv.qc.ca/"}
+                "name": {"en-CA": "Permanent Anti-Corruption Unit", "fr-CA": "Unité permanente anticorruption"},
+                "url": {"en-CA": "https://upac.gouv.qc.ca/en/", "fr-CA": "https://upac.gouv.qc.ca/"}
             },
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
-                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
             "startDate": "2013-09-01",
             "endDate": "2015-12-31",
@@ -524,23 +524,23 @@
         },
         {
             "icon": "msp.jpeg",
-            "title": {"en-ca": "Computer Technician", "fr-ca": "Technicien en informatique"},
-            "employmentType": {"en-ca": "Full-time Permanent", "fr-ca": "Permanent à temps plein"},
+            "title": {"en-CA": "Computer Technician", "fr-CA": "Technicien en informatique"},
+            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
             "company": {
-                "name": {"en-ca": "Ministry of Public Security", "fr-ca": "Ministère de la Sécurité publique"},
-                "url": {"en-ca": "https://www.quebec.ca/en/government/ministere/public-security/", "fr-ca": "https://www.quebec.ca/gouvernement/ministere/securite-publique/"}
+                "name": {"en-CA": "Ministry of Public Security", "fr-CA": "Ministère de la Sécurité publique"},
+                "url": {"en-CA": "https://www.quebec.ca/en/government/ministere/public-security/", "fr-CA": "https://www.quebec.ca/gouvernement/ministere/securite-publique/"}
             },
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
-                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
             "startDate": "2011-09-01",
             "endDate": "2013-09-30",
             "relationships": [
                 {
-                    "type": {"en-ca": "Client", "fr-ca": "Client"},
-                    "name": {"en-ca": "Permanent Anti-Corruption Unit", "fr-ca": "Unité permanente anticorruption"},
-                    "url": {"en-ca": "https://upac.gouv.qc.ca/en/", "fr-ca": "https://upac.gouv.qc.ca/"}
+                    "type": {"en-CA": "Client", "fr-CA": "Client"},
+                    "name": {"en-CA": "Permanent Anti-Corruption Unit", "fr-CA": "Unité permanente anticorruption"},
+                    "url": {"en-CA": "https://upac.gouv.qc.ca/en/", "fr-CA": "https://upac.gouv.qc.ca/"}
                 }
             ],
             "description": null,
@@ -553,15 +553,15 @@
         },
         {
             "icon": "sq.jpeg",
-            "title": {"en-ca": "Computer Technician", "fr-ca": "Technicien en informatique"},
-            "employmentType": {"en-ca": "Full-time Permanent", "fr-ca": "Permanent à temps plein"},
+            "title": {"en-CA": "Computer Technician", "fr-CA": "Technicien en informatique"},
+            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
             "company": {
-                "name": {"en-ca": "Quebec Provincial Police", "fr-ca": "Sûreté du Québec"},
-                "url": {"en-ca": "https://www.sq.gouv.qc.ca/en/", "fr-ca": "https://www.sq.gouv.qc.ca/"}
+                "name": {"en-CA": "Quebec Provincial Police", "fr-CA": "Sûreté du Québec"},
+                "url": {"en-CA": "https://www.sq.gouv.qc.ca/en/", "fr-CA": "https://www.sq.gouv.qc.ca/"}
             },
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
-                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
             "startDate": "2006-06-26",
             "endDate": "2011-08-31",
@@ -575,15 +575,15 @@
         },
         {
             "icon": "technomedia.png",
-            "title": {"en-ca": "Programmer Analyst", "fr-ca": "Analyste programmeur"},
-            "employmentType": {"en-ca": "Full-time Permanent", "fr-ca": "Permanent à temps plein"},
+            "title": {"en-CA": "Programmer Analyst", "fr-CA": "Analyste programmeur"},
+            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
             "company": {
-                "name": {"en-ca": "Technomedia | Cegid", "fr-ca": "Technomedia | Cegid"},
-                "url": {"en-ca": "https://www.cegid.com/en/", "fr-ca": "https://www.cegid.com/fr/"}
+                "name": {"en-CA": "Technomedia | Cegid", "fr-CA": "Technomedia | Cegid"},
+                "url": {"en-CA": "https://www.cegid.com/en/", "fr-CA": "https://www.cegid.com/fr/"}
             },
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
-                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
             "startDate": "2005-07-01",
             "endDate": "2006-05-31",
@@ -597,20 +597,20 @@
         },
         {
             "icon": null,
-            "title": {"en-ca": "Programmer Analyst", "fr-ca": "Analyste Programmeur"},
-            "employmentType": {"en-ca": "Contract Full-time", "fr-ca": "Contrat à temps plein"},
+            "title": {"en-CA": "Programmer Analyst", "fr-CA": "Analyste Programmeur"},
+            "employmentType": {"en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein"},
             "company": {
-                "name": {"en-ca": "Sytran Technology | Biorunner", "fr-ca": "Technologie Sytran | Biorunner"},
+                "name": {"en-CA": "Sytran Technology | Biorunner", "fr-CA": "Technologie Sytran | Biorunner"},
                 "url": null
             },
             "relationships": [{
-                "type": {"en-ca": "Partner", "fr-ca": "Partenaire"},
-                "name": {"en-ca": "Qualicode Software", "fr-ca": "Qualicode Logiciel"},
-                "url": {"en-ca": "https://qualicodesoftware.com/", "fr-ca": "https://qualicodelogiciel.com/"}
+                "type": {"en-CA": "Partner", "fr-CA": "Partenaire"},
+                "name": {"en-CA": "Qualicode Software", "fr-CA": "Qualicode Logiciel"},
+                "url": {"en-CA": "https://qualicodesoftware.com/", "fr-CA": "https://qualicodelogiciel.com/"}
             }],
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
-                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
             "startDate": "2005-01-01",
             "endDate": "2005-06-30",
@@ -622,15 +622,15 @@
         },
         {
             "icon": "qualicode.jpeg",
-            "title": {"en-ca": "Programmer", "fr-ca": "Programmeur"},
-            "employmentType": {"en-ca": "Full-time Permanent", "fr-ca": "Permanent à temps plein"},
+            "title": {"en-CA": "Programmer", "fr-CA": "Programmeur"},
+            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
             "company": {
-                "name": {"en-ca": "Qualicode Software", "fr-ca": "Qualicode Logiciel"},
-                "url": {"en-ca": "https://qualicodesoftware.com/", "fr-ca": "https://qualicodelogiciel.com/"}
+                "name": {"en-CA": "Qualicode Software", "fr-CA": "Qualicode Logiciel"},
+                "url": {"en-CA": "https://qualicodesoftware.com/", "fr-CA": "https://qualicodelogiciel.com/"}
             },
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"},
-                "type": {"en-ca": "On-site", "fr-ca": "Sur site"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
             "startDate": "2004-06-01",
             "endDate": "2004-12-31",
@@ -645,15 +645,15 @@
     "education": [
         {
             "icon": "uqam.jpeg",
-            "title": {"en-ca": "Software Development", "fr-ca": "Développement de logiciels"},
+            "title": {"en-CA": "Software Development", "fr-CA": "Développement de logiciels"},
             "degree": null,
             "higherEducation": true,
             "school": {
-                "name": {"en-ca": "University of Quebec at Montreal", "fr-ca": "Université du Québec à Montréal"},
-                "url": {"en-ca": "https://www.etsmtl.ca/en/", "fr-ca": "https://www.etsmtl.ca/"}
+                "name": {"en-CA": "University of Quebec at Montreal", "fr-CA": "Université du Québec à Montréal"},
+                "url": {"en-CA": "https://www.etsmtl.ca/en/", "fr-CA": "https://www.etsmtl.ca/"}
             },
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"}
             },
             "startDate": "2009-09-01",
             "endDate": "2009-12-31",
@@ -661,15 +661,15 @@
         },
         {
             "icon": "ets.jpeg",
-            "title": {"en-ca": "Software Engineering", "fr-ca": "Génie logiciel"},
+            "title": {"en-CA": "Software Engineering", "fr-CA": "Génie logiciel"},
             "degree": null,
             "higherEducation": true,
             "school": {
-                "name": {"en-ca": "School of Higher Technology", "fr-ca": "École de technologie supérieure"},
-                "url": {"en-ca": "https://www.etsmtl.ca/en/", "fr-ca": "https://www.etsmtl.ca/"}
+                "name": {"en-CA": "School of Higher Technology", "fr-CA": "École de technologie supérieure"},
+                "url": {"en-CA": "https://www.etsmtl.ca/en/", "fr-CA": "https://www.etsmtl.ca/"}
             },
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"}
             },
             "startDate": "2006-09-01",
             "endDate": "2007-06-30",
@@ -677,15 +677,15 @@
         },
         {
             "icon": "cvm.png",
-            "title": {"en-ca": "Information Technologies", "fr-ca": "Technologies de l'information"},
-            "degree": {"en-ca": "College Studies Diploma", "fr-ca": "Diplôme d'études collégiales"},
+            "title": {"en-CA": "Information Technologies", "fr-CA": "Technologies de l'information"},
+            "degree": {"en-CA": "College Studies Diploma", "fr-CA": "Diplôme d'études collégiales"},
             "higherEducation": true,
             "school": {
-                "name": {"en-ca": "Old Montreal College", "fr-ca": "Cégep du Vieux-Montréal"},
-                "url": {"en-ca": "https://www.cvm.qc.ca/", "fr-ca": "https://www.cvm.qc.ca/"}
+                "name": {"en-CA": "Old Montreal College", "fr-CA": "Cégep du Vieux-Montréal"},
+                "url": {"en-CA": "https://www.cvm.qc.ca/", "fr-CA": "https://www.cvm.qc.ca/"}
             },
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"}
             },
             "startDate": "2002-09-01",
             "endDate": "2004-06-30",
@@ -693,15 +693,15 @@
         },
         {
             "icon": "ahuntsic.png",
-            "title": {"en-ca": "Information Technologies", "fr-ca": "Technologies de l'information"},
-            "degree": {"en-ca": "College Studies Certificate", "fr-ca": "Attestation d'études collégiales"},
+            "title": {"en-CA": "Information Technologies", "fr-CA": "Technologies de l'information"},
+            "degree": {"en-CA": "College Studies Certificate", "fr-CA": "Attestation d'études collégiales"},
             "higherEducation": true,
             "school": {
-                "name": {"en-ca": "Ahuntsic College", "fr-ca": "Collège Ahuntsic"},
-                "url": {"en-ca": "https://www.collegeahuntsic.qc.ca/", "fr-ca": "https://www.collegeahuntsic.qc.ca/"}
+                "name": {"en-CA": "Ahuntsic College", "fr-CA": "Collège Ahuntsic"},
+                "url": {"en-CA": "https://www.collegeahuntsic.qc.ca/", "fr-CA": "https://www.collegeahuntsic.qc.ca/"}
             },
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"}
             },
             "startDate": "2000-09-01",
             "endDate": "2002-06-30",
@@ -709,15 +709,15 @@
         },
         {
             "icon": "bdeb.png",
-            "title": {"en-ca": "Information Technologies", "fr-ca": "Technologies de l'information"},
+            "title": {"en-CA": "Information Technologies", "fr-CA": "Technologies de l'information"},
             "degree": null,
             "higherEducation": true,
             "school": {
-                "name": {"en-ca": "Bois de Boulogne College", "fr-ca": "Collège Bois de Boulogne"},
-                "url": {"en-ca": "https://www.cvm.qc.ca/", "fr-ca": "https://www.cvm.qc.ca/"}
+                "name": {"en-CA": "Bois de Boulogne College", "fr-CA": "Collège Bois de Boulogne"},
+                "url": {"en-CA": "https://www.cvm.qc.ca/", "fr-CA": "https://www.cvm.qc.ca/"}
             },
             "location": {
-                "city": {"en-ca": "Montreal, Quebec, Canada", "fr-ca": "Montréal, Québec, Canada"}
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"}
             },
             "startDate": "1997-09-01",
             "endDate": "1998-06-30",
@@ -725,15 +725,15 @@
         },
         {
             "icon": "jean_xxiii.png",
-            "title": {"en-ca": "International Enriched Program", "fr-ca": "Programme enrichi international"},
-            "degree": {"en-ca": "Highschool Studies Diploma", "fr-ca": "Diplôme d'études secondaires"},
+            "title": {"en-CA": "International Enriched Program", "fr-CA": "Programme enrichi international"},
+            "degree": {"en-CA": "Highschool Studies Diploma", "fr-CA": "Diplôme d'études secondaires"},
             "higherEducation": false,
             "school": {
-                "name": {"en-ca": "Dorval-John-XXIII Highschool", "fr-ca": "École secondaire Dorval-Jean-XXIII"},
-                "url": {"en-ca": "https://dorvaljean23.ecoleouestmtl.com/", "fr-ca": "https://dorvaljean23.ecoleouestmtl.com/"}
+                "name": {"en-CA": "Dorval-John-XXIII Highschool", "fr-CA": "École secondaire Dorval-Jean-XXIII"},
+                "url": {"en-CA": "https://dorvaljean23.ecoleouestmtl.com/", "fr-CA": "https://dorvaljean23.ecoleouestmtl.com/"}
             },
             "location": {
-                "city": {"en-ca": "Dorval, Quebec, Canada", "fr-ca": "Dorval, Québec, Canada"}
+                "city": {"en-CA": "Dorval, Quebec, Canada", "fr-CA": "Dorval, Québec, Canada"}
             },
             "startDate": "1992-09-01",
             "endDate": "1997-06-30",
@@ -741,15 +741,15 @@
         },
         {
             "icon": "lalande.png",
-            "title": {"en-ca": "Enriched Program", "fr-ca": "Programme enrichi"},
-            "degree": {"en-ca": "Primary School Diploma", "fr-ca": "Diplôme d'études primaires"},
+            "title": {"en-CA": "Enriched Program", "fr-CA": "Programme enrichi"},
+            "degree": {"en-CA": "Primary School Diploma", "fr-CA": "Diplôme d'études primaires"},
             "higherEducation": false,
             "school": {
-                "name": {"en-ca": "Lalande School", "fr-ca": "École Lalande"},
-                "url": {"en-ca": "https://lalande.ecoleouestmtl.com/", "fr-ca": "https://lalande.ecoleouestmtl.com/"}
+                "name": {"en-CA": "Lalande School", "fr-CA": "École Lalande"},
+                "url": {"en-CA": "https://lalande.ecoleouestmtl.com/", "fr-CA": "https://lalande.ecoleouestmtl.com/"}
             },
             "location": {
-                "city": {"en-ca": "Roxboro, Quebec, Canada", "fr-ca": "Roxboro, Québec, Canada"}
+                "city": {"en-CA": "Roxboro, Quebec, Canada", "fr-CA": "Roxboro, Québec, Canada"}
             },
             "startDate": "1985-09-01",
             "endDate": "1992-06-30",
@@ -760,128 +760,128 @@
     "skills": [
         {
             "category": {
-                "name": { "en-ca": "Programming Languages", "fr-ca": "Langages de programmation" },
+                "name": { "en-CA": "Programming Languages", "fr-CA": "Langages de programmation" },
                 "technologies": [
-                    { "name": { "en-ca": "C", "fr-ca": "C" } },
-                    { "name": { "en-ca": "C++", "fr-ca": "C++" } },
-                    { "name": { "en-ca": "Java", "fr-ca": "Java" } },
-                    { "name": { "en-ca": "PHP", "fr-ca": "PHP" } },
-                    { "name": { "en-ca": "Python", "fr-ca": "Python" } }
+                    { "name": { "en-CA": "C", "fr-CA": "C" } },
+                    { "name": { "en-CA": "C++", "fr-CA": "C++" } },
+                    { "name": { "en-CA": "Java", "fr-CA": "Java" } },
+                    { "name": { "en-CA": "PHP", "fr-CA": "PHP" } },
+                    { "name": { "en-CA": "Python", "fr-CA": "Python" } }
                 ]
             }
         },
         {
             "category": {
-                "name": { "en-ca": "Unit Testing", "fr-ca": "Tests unitaires" },
+                "name": { "en-CA": "Unit Testing", "fr-CA": "Tests unitaires" },
                 "technologies": [
-                    { "name": { "en-ca": "Pytest", "fr-ca": "Pytest" } }
+                    { "name": { "en-CA": "Pytest", "fr-CA": "Pytest" } }
                 ]
             }
         },
         {
             "category": {
-                "name": { "en-ca": "Data", "fr-ca": "Données" },
+                "name": { "en-CA": "Data", "fr-CA": "Données" },
                 "technologies": [
-                    { "name": { "en-ca": "Access", "fr-ca": "Access" } },
-                    { "name": { "en-ca": "CSV", "fr-ca": "CSV" } },
-                    { "name": { "en-ca": "Geolocation", "fr-ca": "Géolocalisation" } },
-                    { "name": { "en-ca": "JSON", "fr-ca": "JSON" } },
-                    { "name": { "en-ca": "MariaDB / MySQL", "fr-ca": "MariaDB / MySQL" } },
-                    { "name": { "en-ca": "MongoDB", "fr-ca": "MongoDB" } },
-                    { "name": { "en-ca": "Neo4j / Graph", "fr-ca": "Neo4j / Graph" } },
-                    { "name": { "en-ca": "NoSQL", "fr-ca": "NoSQL" } },
-                    { "name": { "en-ca": "OpenCV", "fr-ca": "OpenCV" } },
-                    { "name": { "en-ca": "Oracle Database / PL/SQL", "fr-ca": "Oracle Database / PL/SQL" } },
-                    { "name": { "en-ca": "PostgreSQL", "fr-ca": "PostgreSQL" } },
-                    { "name": { "en-ca": "SQL", "fr-ca": "SQL" } },
-                    { "name": { "en-ca": "SQL Server / T-SQL", "fr-ca": "SQL Server / T-SQL" } },
-                    { "name": { "en-ca": "SQLite", "fr-ca": "SQLite" } }
+                    { "name": { "en-CA": "Access", "fr-CA": "Access" } },
+                    { "name": { "en-CA": "CSV", "fr-CA": "CSV" } },
+                    { "name": { "en-CA": "Geolocation", "fr-CA": "Géolocalisation" } },
+                    { "name": { "en-CA": "JSON", "fr-CA": "JSON" } },
+                    { "name": { "en-CA": "MariaDB / MySQL", "fr-CA": "MariaDB / MySQL" } },
+                    { "name": { "en-CA": "MongoDB", "fr-CA": "MongoDB" } },
+                    { "name": { "en-CA": "Neo4j / Graph", "fr-CA": "Neo4j / Graph" } },
+                    { "name": { "en-CA": "NoSQL", "fr-CA": "NoSQL" } },
+                    { "name": { "en-CA": "OpenCV", "fr-CA": "OpenCV" } },
+                    { "name": { "en-CA": "Oracle Database / PL/SQL", "fr-CA": "Oracle Database / PL/SQL" } },
+                    { "name": { "en-CA": "PostgreSQL", "fr-CA": "PostgreSQL" } },
+                    { "name": { "en-CA": "SQL", "fr-CA": "SQL" } },
+                    { "name": { "en-CA": "SQL Server / T-SQL", "fr-CA": "SQL Server / T-SQL" } },
+                    { "name": { "en-CA": "SQLite", "fr-CA": "SQLite" } }
                 ]
             }
         },
         {
             "category": {
-                "name": { "en-ca": "Web Development", "fr-ca": "Développement Web" },
+                "name": { "en-CA": "Web Development", "fr-CA": "Développement Web" },
                 "technologies": [
-                    { "name": { "en-ca": "ColdFusion", "fr-ca": "ColdFusion" } },
-                    { "name": { "en-ca": "CSS", "fr-ca": "CSS" } },
-                    { "name": { "en-ca": "HTML", "fr-ca": "HTML" } }
+                    { "name": { "en-CA": "ColdFusion", "fr-CA": "ColdFusion" } },
+                    { "name": { "en-CA": "CSS", "fr-CA": "CSS" } },
+                    { "name": { "en-CA": "HTML", "fr-CA": "HTML" } }
                 ]
             }
         },
         {
             "category": {
-                "name": { "en-ca": "JavaScript", "fr-ca": "JavaScript" },
+                "name": { "en-CA": "JavaScript", "fr-CA": "JavaScript" },
                 "technologies": [
-                    { "name": { "en-ca": "Chart.js", "fr-ca": "Chart.js" } },
-                    { "name": { "en-ca": "Cytoscape.js", "fr-ca": "Cytoscape.js" } },
-                    { "name": { "en-ca": "EJS", "fr-ca": "EJS" } },
-                    { "name": { "en-ca": "Node.js", "fr-ca": "Node.js" } }
+                    { "name": { "en-CA": "Chart.js", "fr-CA": "Chart.js" } },
+                    { "name": { "en-CA": "Cytoscape.js", "fr-CA": "Cytoscape.js" } },
+                    { "name": { "en-CA": "EJS", "fr-CA": "EJS" } },
+                    { "name": { "en-CA": "Node.js", "fr-CA": "Node.js" } }
                 ]
             }
         },
         {
             "category": {
-                "name": { "en-ca": "Command-Line Scripting", "fr-ca": "Scripting en ligne de commande" },
+                "name": { "en-CA": "Command-Line Scripting", "fr-CA": "Scripting en ligne de commande" },
                 "technologies": [
-                    { "name": { "en-ca": "Bash", "fr-ca": "Bash" } },
-                    { "name": { "en-ca": "Batch", "fr-ca": "Batch" } },
-                    { "name": { "en-ca": "PowerShell", "fr-ca": "PowerShell" } }
+                    { "name": { "en-CA": "Bash", "fr-CA": "Bash" } },
+                    { "name": { "en-CA": "Batch", "fr-CA": "Batch" } },
+                    { "name": { "en-CA": "PowerShell", "fr-CA": "PowerShell" } }
                 ]
             }
         },
         {
             "category": {
-                "name": { "en-ca": "Source Control", "fr-ca": "Conrôle de version" },
+                "name": { "en-CA": "Source Control", "fr-CA": "Conrôle de version" },
                 "technologies": [
-                    { "name": { "en-ca": "Git", "fr-ca": "Git" } }
+                    { "name": { "en-CA": "Git", "fr-CA": "Git" } }
                 ]
             }
         },
         {
             "category": {
-                "name": { "en-ca": ".NET Framework", "fr-ca": "Framework .NET" },
+                "name": { "en-CA": ".NET Framework", "fr-CA": "Framework .NET" },
                 "technologies": [
-                    { "name": { "en-ca": "ASP", "fr-ca": "ASP" } },
-                    { "name": { "en-ca": "C#", "fr-ca": "C#" } },
-                    { "name": { "en-ca": "VB", "fr-ca": "VB" } }
+                    { "name": { "en-CA": "ASP", "fr-CA": "ASP" } },
+                    { "name": { "en-CA": "C#", "fr-CA": "C#" } },
+                    { "name": { "en-CA": "VB", "fr-CA": "VB" } }
                 ]
             }
         },
         {
             "category": {
-                "name": { "en-ca": "Microsoft Office", "fr-ca": "Microsoft Office" },
+                "name": { "en-CA": "Microsoft Office", "fr-CA": "Microsoft Office" },
                 "technologies": [
-                    { "name": { "en-ca": "Access", "fr-ca": "Access" } },
-                    { "name": { "en-ca": "Excel", "fr-ca": "Excel" } },
-                    { "name": { "en-ca": "VBA", "fr-ca": "VBA" } },
-                    { "name": { "en-ca": "Word", "fr-ca": "Word" } }
+                    { "name": { "en-CA": "Access", "fr-CA": "Access" } },
+                    { "name": { "en-CA": "Excel", "fr-CA": "Excel" } },
+                    { "name": { "en-CA": "VBA", "fr-CA": "VBA" } },
+                    { "name": { "en-CA": "Word", "fr-CA": "Word" } }
                 ]
             }
         },
         {
             "category": {
-                "name": { "en-ca": "Operating Systems", "fr-ca": "Système d'exploitation" },
+                "name": { "en-CA": "Operating Systems", "fr-CA": "Système d'exploitation" },
                 "technologies": [
-                    { "name": { "en-ca": "Ubuntu", "fr-ca": "Ubuntu" } },
-                    { "name": { "en-ca": "Windows", "fr-ca": "Windows" } }
+                    { "name": { "en-CA": "Ubuntu", "fr-CA": "Ubuntu" } },
+                    { "name": { "en-CA": "Windows", "fr-CA": "Windows" } }
                 ]
             }
         },
         {
             "category": {
-                "name": { "en-ca": "Agility", "fr-ca": "Agilité" },
+                "name": { "en-CA": "Agility", "fr-CA": "Agilité" },
                 "technologies": [
-                    { "name": { "en-ca": "Kanban", "fr-ca": "Kanban" } },
-                    { "name": { "en-ca": "Scrum", "fr-ca": "Scrum" } }
+                    { "name": { "en-CA": "Kanban", "fr-CA": "Kanban" } },
+                    { "name": { "en-CA": "Scrum", "fr-CA": "Scrum" } }
                 ]
             }
         },
         {
             "category": {
-                "name": { "en-ca": "Support", "fr-ca": "Support" },
+                "name": { "en-CA": "Support", "fr-CA": "Support" },
                 "technologies": [
-                    { "name": { "en-ca": "Microsoft 365", "fr-ca": "Microsoft 365" } }
+                    { "name": { "en-CA": "Microsoft 365", "fr-CA": "Microsoft 365" } }
                 ]
             }
         }
@@ -890,16 +890,16 @@
     "courses": [
         {
             "name": {
-                "en-ca": "Administering Microsoft SQL Server 2012 Databases",
-                "fr-ca": "Administration des bases de données Microsoft SQL Server 2012"
+                "en-CA": "Administering Microsoft SQL Server 2012 Databases",
+                "fr-CA": "Administration des bases de données Microsoft SQL Server 2012"
             },
             "code": "10775A",
             "year": "2012"
         },
         {
             "name": {
-                "en-ca": "Introduction to C# Programming with Microsoft .NET",
-                "fr-ca": "Introduction à la programmation C# avec Microsoft.NET"
+                "en-CA": "Introduction to C# Programming with Microsoft .NET",
+                "fr-CA": "Introduction à la programmation C# avec Microsoft.NET"
             },
             "code": "2609A",
             "year": "2011"
@@ -909,79 +909,79 @@
     "languages": [
         {
             "icon": "fr_ca.png",
-            "name": {"en-ca": "French", "fr-ca": "Français"},
-            "proficiency": {"en-ca": "Native or bilingual proficiency", "fr-ca": "Compétence native ou bilingue"}
+            "name": {"en-CA": "French", "fr-CA": "Français"},
+            "proficiency": {"en-CA": "Native or bilingual proficiency", "fr-CA": "Compétence native ou bilingue"}
         },
         {
             "icon": "en_ca.png",
-            "name": {"en-ca": "English", "fr-ca": "Anglais"},
-            "proficiency": {"en-ca": "Full professional proficiency", "fr-ca": "Maîtrise professionnelle complète"}
+            "name": {"en-CA": "English", "fr-CA": "Anglais"},
+            "proficiency": {"en-CA": "Full professional proficiency", "fr-CA": "Maîtrise professionnelle complète"}
         },
         {
             "icon": "es_es.png",
-            "name": {"en-ca": "Spanish", "fr-ca": "Espagnol"},
-            "proficiency": {"en-ca": "Elementary proficiency", "fr-ca": "Compétence élémentaire"}
+            "name": {"en-CA": "Spanish", "fr-CA": "Espagnol"},
+            "proficiency": {"en-CA": "Elementary proficiency", "fr-CA": "Compétence élémentaire"}
         },
         {
             "icon": "it_it.png",
-            "name": {"en-ca": "Italian", "fr-ca": "Italien"},
-            "proficiency": {"en-ca": "Elementary proficiency", "fr-ca": "Compétence élémentaire"}
+            "name": {"en-CA": "Italian", "fr-CA": "Italien"},
+            "proficiency": {"en-CA": "Elementary proficiency", "fr-CA": "Compétence élémentaire"}
         }
     ],
 
     "interests": [
         {
             "name": {
-                "en-ca": "Dogs",
-                "fr-ca": "Chiens"
+                "en-CA": "Dogs",
+                "fr-CA": "Chiens"
             }
         },
         {
             "name": {
-                "en-ca": "Video Games",
-                "fr-ca": "Jeux vidéo"
+                "en-CA": "Video Games",
+                "fr-CA": "Jeux vidéo"
             }
         },
         {
             "name": {
-                "en-ca": "Software Development",
-                "fr-ca": "Développement de logiciels"
+                "en-CA": "Software Development",
+                "fr-CA": "Développement de logiciels"
             }
         },
         {
             "name": {
-                "en-ca": "Home Improvements",
-                "fr-ca": "Rénovations"
+                "en-CA": "Home Improvements",
+                "fr-CA": "Rénovations"
             }
         },
         {
             "name": {
-                "en-ca": "Cooking",
-                "fr-ca": "Cuisine"
+                "en-CA": "Cooking",
+                "fr-CA": "Cuisine"
             }
         },
         {
             "name": {
-                "en-ca": "Brewing / Winemaking",
-                "fr-ca": "Brassage / vinification"
+                "en-CA": "Brewing / Winemaking",
+                "fr-CA": "Brassage / vinification"
             }
         },
         {
             "name": {
-                "en-ca": "Sports: Ball Hockey, Running (up to Half Marathon), Martial Arts (Boxing, Judo, Kickboxing, Muay Thai), Soccer",
-                "fr-ca": "Sports : Hockey-balle, Course à pied (jusqu'au demi-marathon), Arts martiaux (boxe, judo, kickboxing, muay thai), Soccer"
+                "en-CA": "Sports: Ball Hockey, Running (up to Half Marathon), Martial Arts (Boxing, Judo, Kickboxing, Muay Thai), Soccer",
+                "fr-CA": "Sports : Hockey-balle, Course à pied (jusqu'au demi-marathon), Arts martiaux (boxe, judo, kickboxing, muay thai), Soccer"
             }
         },
         {
             "name": {
-                "en-ca": "Photography",
-                "fr-ca": "Photographie"
+                "en-CA": "Photography",
+                "fr-CA": "Photographie"
             }
         },
         {
             "name": {
-                "en-ca": "Music: Bass Guitar, Drums",
-                "fr-ca": "Musique : Guitare basse, Batterie"
+                "en-CA": "Music: Bass Guitar, Drums",
+                "fr-CA": "Musique : Guitare basse, Batterie"
             }
         }
     ],
