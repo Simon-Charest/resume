@@ -29,21 +29,23 @@ exit
 Usage: .\deploy.ps1
 #>
 
+[string] $MESSAGE = "Automated deployment"
 [string] $USER = ""
 [string] $HOST_ = ""
 [string] $DIRECTORY = ""
+[string] $SERVICE = ""
 
 # Local Git Commands
 git add *
-git commit -m "Automated deployment"
+git commit -m $MESSAGE
 git push
 
 # Remote SSH Deployment Commands
 ssh $USER@$HOST_ "
-cd ~/source/resume &&
+cd $DIRECTORY &&
 git pull &&
 npm install &&
 sudo chown -R ${$USER}:$USER $DIRECTORY &&
 sudo chmod -R 755 $DIRECTORY &&
 sudo systemctl daemon-reload &&
-sudo systemctl restart resume.service"
+sudo systemctl restart $SERVICE"
