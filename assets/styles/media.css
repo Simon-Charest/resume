@@ -13,6 +13,12 @@
         margin-top: 50px; 
     }
 
+    .hamburger {
+        padding-left: 0.5em;
+        display: block !important;
+        visibility: visible !important;
+    }
+
     .menu-toggle {
         pointer-events: auto !important;
     }

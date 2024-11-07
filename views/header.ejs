@@ -8,7 +8,7 @@
         <link rel="icon" href="/assets/icons/favicon_32x32.ico" sizes="32x32" type="image/x-icon">
         <link rel="icon" href="/assets/icons/favicon_48x48.png" sizes="48x48" type="image/png">
         <link rel="stylesheet" href="/assets/styles/about.css">
-        <link rel="stylesheet" href="/assets/styles/class.css">
+        <link rel="stylesheet" href="/assets/styles/class.css">     
         <!--<link rel="stylesheet" href="/assets/styles/debug.css">-->
         <link rel="stylesheet" href="/assets/styles/footer.css">
         <link rel="stylesheet" href="/assets/styles/media.css">
@@ -24,7 +24,9 @@
 
                     <!-- Side Menu Button -->
                     <button id="menu-toggle" class="menu-toggle">
-                        <img src="/assets/images/slcti.png"> <%= data.organization[lang] %>
+                        <div class="hamburger">☰</div>
+                        <img src="/assets/images/slcti.png">
+                        <%= data.organization[lang] %>
                     </button>
                 
                 </div>
