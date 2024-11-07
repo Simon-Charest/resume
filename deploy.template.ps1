@@ -29,9 +29,9 @@ exit
 Usage: .\deploy.ps1
 #>
 
-USER=""
-HOST=""
-DIRECTORY=""
+[string] $USER=""
+[string] $HOST_=""
+[string] $DIRECTORY=""
 
 # Local Git Commands
 git add *
@@ -39,7 +39,7 @@ git commit -m "Automated deployment"
 git push
 
 # Remote SSH Deployment Commands
-ssh $USER@$HOST "
+ssh $USER@$HOST_ "
 cd ~/source/resume &&
 git pull &&
 npm install &&
