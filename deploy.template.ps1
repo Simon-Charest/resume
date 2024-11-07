@@ -29,9 +29,9 @@ exit
 Usage: .\deploy.ps1
 #>
 
-readonly [string] $USER = ""
-readonly [string] $HOST_ = ""
-readonly [string] $DIRECTORY = ""
+[string] $USER = ""
+[string] $HOST_ = ""
+[string] $DIRECTORY = ""
 
 # Local Git Commands
 git add *
