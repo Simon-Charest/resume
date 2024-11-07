@@ -1181,7 +1181,7 @@
             }],
             "location": {
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
-                "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
+                "type": {"en-CA": "Remote", "fr-CA": "À distance"}
             },
             "startDate": "2005-01-01",
             "endDate": "2005-06-30",
