@@ -126,39 +126,6 @@ async function main() {
         return string.length === 0 ? '0 months' : string;
     };
 
-    // Function to read the log and count unique visitors (based on IP + lang)
-    function countUniqueVisitors() {
-        const uniqueVisitors = new Set(); // Set to store unique IP-lang pairs
-        
-        // Create a readable stream for the log file
-        const rl = readline.createInterface({
-            input: fs.createReadStream(logFilePath),
-            output: process.stdout,
-            terminal: false
-        });
-    
-        rl.on('line', (line) => {
-            // Parse the line
-            const parts = line.split(',');
-
-            if (parts.length >= 4) {
-                const ip = parts[1].trim(); // Extract the IP (second element)
-                const lang = parts[3].trim(); // Extract the lang (fourth element)
-                
-                // Create a unique identifier for each IP-lang pair
-                const visitorKey = `${ip}-${lang}`;
-                
-                // Add the visitor to the set (duplicates are ignored)
-                uniqueVisitors.add(visitorKey);
-            }
-        });
-    
-        rl.on('close', () => {
-            console.log(`Unique Visitors (IP + Lang): ${uniqueVisitors.size}`);
-        });
-    }
-  
-
     app.listen(PORT, HOSTNAME, () => {
         console.log(`Server running at ${PROTOCOL}://${HOSTNAME}:${PORT}/`);
     });
