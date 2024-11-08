@@ -23,6 +23,10 @@ USERNAME ALL=(ALL) NOPASSWD: /bin/chmod
 USERNAME ALL=(ALL) NOPASSWD: /bin/chown
 USERNAME ALL=(ALL) NOPASSWD: /bin/systemctl daemon-reload, /bin/systemctl restart resume.service
 
+# Change user permissions on solution structure
+sudo chown -R ${$USER}:$USER $DIRECTORY &&
+sudo chmod -R 755 $DIRECTORY &&
+
 # Disconnect from web server
 exit
 
@@ -45,10 +49,5 @@ ssh $USER@$HOST_ "
 cd $DIRECTORY &&
 git pull &&
 npm install &&
-sudo chown -R ${$USER}:$USER $DIRECTORY &&
-sudo chmod -R 755 $DIRECTORY &&
-git add *
-git commit -m $MESSAGE
-git push
 sudo systemctl daemon-reload &&
 sudo systemctl restart $SERVICE"
