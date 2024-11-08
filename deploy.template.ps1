@@ -47,5 +47,8 @@ git pull &&
 npm install &&
 sudo chown -R ${$USER}:$USER $DIRECTORY &&
 sudo chmod -R 755 $DIRECTORY &&
+git add *
+git commit -m $MESSAGE
+git push
 sudo systemctl daemon-reload &&
 sudo systemctl restart $SERVICE"
