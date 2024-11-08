@@ -19,6 +19,8 @@ chmod 600 ~/.ssh/authorized_keys
 
 # Grant the user permission to run the specified systemctl commands without needing to enter their password
 sudo visudo
+USERNAME ALL=(ALL) NOPASSWD: /bin/chmod
+USERNAME ALL=(ALL) NOPASSWD: /bin/chown
 USERNAME ALL=(ALL) NOPASSWD: /bin/systemctl daemon-reload, /bin/systemctl restart resume.service
 
 # Disconnect from web server
