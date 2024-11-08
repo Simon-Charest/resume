@@ -650,8 +650,12 @@
                     },
                     "values": [
                         {
-                            "en-CA": "Reporting to the Senior Manager, Analytics and Total Fund Delivery, the Full-Stack Python Developer will be responsible for building and deploying data & calculations pipelines to feed advanced analytics use cases. The applicant will also provide insightful advice to the Technology, Data, and Operations (TDO) management team, PSP deal teams as well as potentially thought partner with portfolio companies when necessary.",
-                            "fr-CA": "Sous la supervision du Gestionnaire principal, Analyse et Livraison du Fonds Total, le Développeur Full-Stack Python sera responsable de la création et du déploiement de pipelines de données et de calculs pour alimenter des cas d'utilisation en analyse avancée. Le candidat fournira également des conseils judicieux à l'équipe de gestion de la Technologie, des Données et des Opérations (TDO), aux équipes de transaction de PSP, et, le cas échéant, agira comme partenaire stratégique avec les entreprises en portefeuille."
+                            "en-CA": "Reporting to the Senior Manager, Analytics and Total Fund Delivery, the Full-Stack Python Developer is responsible for building and deploying data & calculations pipelines to feed advanced analytics use cases.",
+                            "fr-CA": "Sous la supervision du Gestionnaire principal, Analyse et Livraison du Fonds Total, le Développeur Full-Stack Python est responsable de la création et du déploiement de pipelines de données et de calculs pour alimenter des cas d'utilisation en analyse avancée."
+                        },
+                        {
+                            "en-CA": "The Full-Stack Python Developer also provides insightful advice to the Technology, Data, and Operations (TDO) management team, PSP deal teams as well as potentially thought partner with portfolio companies when necessary.",
+                            "fr-CA": "Le Développeur Full-Stack Python fournit également des conseils judicieux à l'équipe de gestion de la Technologie, des Données et des Opérations (TDO), aux équipes de transaction de PSP, et, le cas échéant, agira comme partenaire stratégique avec les entreprises en portefeuille."
                         }
                     ]
                 },
