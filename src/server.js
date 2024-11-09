@@ -34,7 +34,9 @@ async function main() {
     
     catch (err) {
         console.error('Error reading directories or data file:', err);
-        process.exit(1); // Exit process with error status
+        
+        // Exit process with error status
+        process.exit(1);
     }
 
     // Create an object mapping filenames for icons and images
@@ -138,6 +140,7 @@ async function main() {
             if (string.length > 0) {
                 string += lang === 'en-CA' ? ' and ' : ' et ';
             }
+            
             string += `${months} ${months > 1 ? (lang === 'en-CA' ? 'months' : 'mois') : (lang === 'en-CA' ? 'month' : 'mois')}`;
         }
 
