@@ -17,12 +17,25 @@ async function main() {
     const imagesDir = path.join(assetsDir, 'images');
     const profileDir = path.join(imagesDir, 'profile');
 
-    // Read icons, images, and profile directories in parallel
-    const [iconFiles, imageFiles, profileFiles] = await Promise.all([
-        fs.readdir(iconsDir),
-        fs.readdir(imagesDir),
-        fs.readdir(profileDir)
-    ]);
+    let iconFiles = [];
+    let imageFiles = [];
+    let profileFiles = [];
+    let data = '';
+
+    // Read files in parallel and add error handling
+    try {
+        [iconFiles, imageFiles, profileFiles] = await Promise.all([
+            fs.readdir(iconsDir),
+            fs.readdir(imagesDir),
+            fs.readdir(profileDir)
+        ]);
+        data = await fs.readFile(path.join(dataDir, 'data.json'), 'utf8');
+    }
+    
+    catch (err) {
+        console.error('Error reading directories or data file:', err);
+        process.exit(1); // Exit process with error status
+    }
 
     // Create an object mapping filenames for icons and images
     const icons = iconFiles.reduce((acc, file) => {
@@ -39,8 +52,6 @@ async function main() {
         return acc;
     }, {});
 
-    const data = await fs.readFile(path.join(dataDir, 'data.json'), 'utf8');
-    
     const app = express();
     app.use(cookieParser());
 
@@ -67,34 +78,41 @@ async function main() {
         next();
     });
 
-    app.get('/:route?', cors(), async (req, res) => {
+    // Route with error handling
+    app.get('/:route?', cors(), async (req, res, next) => {
         const route = req.params.route || 'index';
-        const routeData = await fs.readFile(path.join(dataDir, `${route}.json`), 'utf8');
-        const jsonData = Object.assign({}, JSON.parse(data), JSON.parse(routeData));
+        let routeData;
 
-        // Select a random profile image with full path
+        try {
+            routeData = await fs.readFile(path.join(dataDir, `${route}.json`), 'utf8');
+        }
+        
+        catch (err) {
+            return next(new Error(`Error reading route data for ${route}: ${err.message}`));
+        }
+
+        let jsonData;
+
+        try {
+            jsonData = Object.assign({}, JSON.parse(data), JSON.parse(routeData));
+        }
+        
+        catch (err) {
+            return next(new Error(`Error parsing JSON data for ${route}: ${err.message}`));
+        }
+
         const profilePicture = profileFiles[Math.floor(Math.random() * profileFiles.length)];
+        const view = route === "about" ? "about" : "index";
 
-        // Custom view
-        if (route === "about") {
-            view = "about"
-        }
-
-        else {
-            view = "index"
-        }
-
-        res.render(
-            view, {
-                route: route,
-                data: jsonData,
-                icons,
-                images,
-                profilePicture,
-                calculateLength,
-                formatLength
-            }
-        );
+        res.render(view, {
+            route,
+            data: jsonData,
+            icons,
+            images,
+            profilePicture,
+            calculateLength,
+            formatLength
+        });
     });
 
     const calculateLength = (startDate, endDate) => {
@@ -126,9 +144,20 @@ async function main() {
         return string.length === 0 ? '0 months' : string;
     };
 
+    // General Error Handling Middleware
+    app.use((err, req, res, next) => {
+        console.error('Error occurred:', err);
+        res.status(500).json({ message: 'Internal Server Error', error: err.message });
+    });
+
     app.listen(PORT, HOSTNAME, () => {
         console.log(`Server running at ${PROTOCOL}://${HOSTNAME}:${PORT}/`);
     });
 }
 
-main();
+main().catch(err => {
+    console.error('Fatal error during startup:', err);
+    
+    // Exit process if main fails
+    process.exit(1);
+});
