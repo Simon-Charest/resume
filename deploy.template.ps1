@@ -23,9 +23,15 @@ USERNAME ALL=(ALL) NOPASSWD: /bin/chmod
 USERNAME ALL=(ALL) NOPASSWD: /bin/chown
 USERNAME ALL=(ALL) NOPASSWD: /bin/systemctl daemon-reload, /bin/systemctl restart resume.service
 
-# Change user permissions on solution structure
+# Change user permissions on solution directory structure
 sudo chown -R ${$USER}:$USER $DIRECTORY &&
 sudo chmod -R 755 $DIRECTORY &&
+
+# Enable VPN
+sudo openvpn --config /etc/openvpn/ca.protonvpn.udp.ovpn --auth-user-pass /etc/openvpn/ca.protonvpn.udp.txt
+
+# Disabled VPN
+sudo systemctl stop openvpn@client
 
 # Disconnect from web server
 exit
