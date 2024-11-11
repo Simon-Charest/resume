@@ -333,8 +333,8 @@
                             "fr-CA": "Pyaudit : Un projet Python permettant d'importer des données de journal d'audit unifié de Microsoft 365 dans une base de données relationnelle indexée, d'identifier les adresses IP, d'exécuter des requêtes et de générer des rapports, y compris des graphiques"
                         },
                         {
-                            "en-CA": "Site web (https://www.vigiteck.com/)",
-                            "fr-CA": "Website (https://www.vigiteck.com/)"
+                            "en-CA": "Website (https://www.vigiteck.com/)",
+                            "fr-CA": "Site web (https://www.vigiteck.com/)"
                         }
                     ]
                 },
