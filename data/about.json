@@ -297,16 +297,24 @@
                             "fr-CA": "Développement et support de solutions logicielles"
                         },
                         {
-                            "en-CA": "Analysis",
-                            "fr-CA": "Analyse"
+                            "en-CA": "Data Processing",
+                            "fr-CA": "Traitement de données"
+                        },
+                        {
+                            "en-CA": "Operations Support",
+                            "fr-CA": "Support aux opérations"
+                        },
+                        {
+                            "en-CA": "Investigations",
+                            "fr-CA": "Enquêtes"
                         },
                         {
                             "en-CA": "Intelligence",
                             "fr-CA": "Renseignement"
                         },
                         {
-                            "en-CA": "Investigations",
-                            "fr-CA": "Enquêtes"
+                            "en-CA": "Analysis",
+                            "fr-CA": "Analyse"
                         }
                     ]
                 },
