@@ -658,12 +658,12 @@
                     },
                     "values": [
                         {
-                            "en-CA": "Reporting to the Senior Manager, Analytics and Total Fund Delivery, the Senior Developer - Python is responsible for building and deploying data & calculations pipelines to feed advanced analytics use cases.",
-                            "fr-CA": "Sous la supervision du Gestionnaire principal, Analyse et Livraison du Fonds Total, le Développeur Senior - Python est responsable de la création et du déploiement de pipelines de données et de calculs pour alimenter des cas d'utilisation en analyse avancée."
+                            "en-CA": "Reporting to the Senior Manager, Analytics and Total Fund Delivery, the Senior Developer - Python is responsible for building and deploying data & calculations pipelines to feed advanced analytics use cases",
+                            "fr-CA": "Sous la supervision du Gestionnaire principal, Analyse et Livraison du Fonds Total, le Développeur Senior - Python est responsable de la création et du déploiement de pipelines de données et de calculs pour alimenter des cas d'utilisation en analyse avancée"
                         },
                         {
-                            "en-CA": "The Senior Developer - Python also provides advice to the Technology, Data, and Operations (TDO) management team, PSP deal teams as well as potentially thought partner with portfolio companies when necessary.",
-                            "fr-CA": "Le Développeur Senior - Python fournit également des conseils à l'équipe de gestion de la Technologie, des Données et des Opérations (TDO), aux équipes de transaction de PSP, et, le cas échéant, agira comme partenaire stratégique avec les entreprises en portefeuille."
+                            "en-CA": "The Senior Developer - Python also provides advice to the Technology, Data, and Operations (TDO) management team, PSP deal teams as well as potentially thought partner with portfolio companies when necessary",
+                            "fr-CA": "Le Développeur Senior - Python fournit également des conseils à l'équipe de gestion de la Technologie, des Données et des Opérations (TDO), aux équipes de transaction de PSP, et, le cas échéant, agira comme partenaire stratégique avec les entreprises en portefeuille"
                         },
                         {
                             "en-CA": "Development and support of Analytical Donuts for Analysts (ADA)",
@@ -751,7 +751,7 @@
                         },
                         {
                             "en-CA": "Troubleshoot and debug applications",
-                            "fr-CA": "Résoudre les problèmes et déboguer les applications."
+                            "fr-CA": "Résoudre les problèmes et déboguer les applications"
                         }
                     ]
                 },
@@ -1205,6 +1205,97 @@
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Role",
+                        "fr-CA": "Rôle"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Programmer Analyst",
+                            "fr-CA": "Analyste programmeur"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Analyze client needs, participate in the planning, implementation, and monitoring of changes to operational processes to ensure smooth and effective deployment of IT components",
+                            "fr-CA": "Analyser les besoins du client, participer à la planification, à la réalisation et au suivi de la mise en œuvre des changements aux processus opérationnels, afin d'assurer une implantation harmonieuse et efficace des composantes informatiques"
+                        },
+                        {
+                            "en-CA": "Act as project manager, ensuring coordination and tracking of work to enable the delivery of expected services, including the implementation of changes to data and systems in both development and production environments",
+                            "fr-CA": "Agir à titre de chargé de projet en assurant la coordination et le suivi des travaux pour permettre la livraison des services attendus dont l'implantation des changements aux données et aux systèmes dans les environnements de développement et de production"
+                        },
+                        {
+                            "en-CA": "Conduct studies related to information security, preliminary studies, and detailed architectures for various improvement or development projects of IT solutions",
+                            "fr-CA": "Réaliser des études liées à la sécurité de l'information, des études préliminaires ainsi que des architectures détaillées de différents projets d'amélioration ou de développement de solutions informatiques"
+                        },
+                        {
+                            "en-CA": "Participate in the design, development, evolution, and maintenance activities of systems",
+                            "fr-CA": "Participer aux activités de conception, de développement, d'évolution et d'entretien des systèmes"
+                        },
+                        {
+                            "en-CA": "Provide expert advice on information technology within the scope of IT projects, working with users and managers",
+                            "fr-CA": "Assurer la fonction d'expertise-conseil en matière de technologies de l'information, dans le cadre de la réalisation de projets informatiques auprès des utilisateurs et des gestionnaires"
+                        },
+                        {
+                            "en-CA": "Provide functional support and maintenance of technological infrastructures, as well as the improvement of processes and services related to operations",
+                            "fr-CA": "Assurer le soutien fonctionnel et l'entretien des infrastructures technologiques, ainsi que l'amélioration des processus et des services liés aux opérations"
+                        },
+                        {
+                            "en-CA": "Develop training plans and train users",
+                            "fr-CA": "Développer des plans de formation et former les utilisateurs"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Promotions",
+                        "fr-CA": "Promotions"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Bonuses for outstanding performance in 2014 and 2015 (+3%)",
+                            "fr-CA": "Primes pour performances exceptionnelles, en 2014 et 2015 (+3 %)"
+                        },
+                        {
+                            "en-CA": "Increased from a 35-hour to a 40-hour workweek starting in 2013 (+14.3%, recurring)",
+                            "fr-CA": "Passé d'un horaire de 35h à 40h, à partir de 2013 (+14.3 %, récurrent)"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Team",
+                        "fr-CA": "Équipe"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Management Services Directorate (MSD)",
+                            "fr-CA": "Direction des services à la gestion (DSG)"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Supervisor",
+                        "fr-CA": "Supérieur hiérarchique"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Associate Commissioner of Audits (CAV) and responsible for the MSD",
+                            "fr-CA": "Commissaire associé aux vérifications (CAV) et responsable de la DSG"
+                        }
+                    ]
+                }
+            ],
             "skills": [
                 "PHP",
                 "HTML / JS / CSS",
@@ -1226,11 +1317,31 @@
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
-            "relationships": [
+            "descriptions":
+            [
                 {
-                    "type": {"en-CA": "Client", "fr-CA": "Client"},
-                    "name": {"en-CA": "Permanent Anti-Corruption Unit", "fr-CA": "Unité permanente anticorruption"},
-                    "url": {"en-CA": "https://upac.gouv.qc.ca/en/", "fr-CA": "https://upac.gouv.qc.ca/"}
+                    "key": {
+                        "en-CA": "Role",
+                        "fr-CA": "Rôle"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Programmer Analyst",
+                            "fr-CA": "Analyste programmeur"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Permanent Anti-Corruption Unit (Client) (https://upac.gouv.qc.ca/en/)",
+                            "fr-CA": "Unité permanente anticorruption (Client) (https://upac.gouv.qc.ca/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
