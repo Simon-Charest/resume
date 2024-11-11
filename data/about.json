@@ -228,8 +228,8 @@
             [
                 {
                     "key": {
-                        "en-CA": "Activities",
-                        "fr-CA": "Activités"
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
                     },
                     "values": [
                         {
@@ -241,16 +241,20 @@
                             "fr-CA": "Développement applicatif, web et de bases de données"
                         },
                         {
-                            "en-CA": "Business Analysis",
-                            "fr-CA": "Analyse d'affaires"
-                        },
-                        {
                             "en-CA": "Code review, quality assurance, and debugging",
                             "fr-CA": "Revue de code, assurance qualité et débogage"
                         },
                         {
                             "en-CA": "Documentation and training",
                             "fr-CA": "Documentation et formation"
+                        },
+                        {
+                            "en-CA": "Analysis",
+                            "fr-CA": "Analyse"
+                        },
+                        {
+                            "en-CA": "Support",
+                            "fr-CA": "Support"
                         }
                     ]
                 }
@@ -284,8 +288,8 @@
             [
                 {
                     "key": {
-                        "en-CA": "Activities",
-                        "fr-CA": "Activités"
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
                     },
                     "values": [
                         {
@@ -321,12 +325,16 @@
                             "fr-CA": "D-Analyst ™ (https://www.vigiteck.com/nos-produits/)"
                         },
                         {
-                            "en-CA": "Pymage: An image processing tool based on Python that leverages OpenCV. Website: (https://www.vigiteck.com/)",
-                            "fr-CA": "Pymage : Un outil de traitement d'images basé sur Python exploitant OpenCV., Site web (https://www.vigiteck.com/)"
+                            "en-CA": "Pymage: An image processing tool based on Python that leverages OpenCV",
+                            "fr-CA": "Pymage : Un outil de traitement d'images basé sur Python exploitant OpenCV"
                         },
                         {
-                            "en-CA": "Pyaudit: A Python project that imports unified audit log data from Microsoft 365 into an indexed relational database, identifies IP addresses, executes queries, and generates reports, including graphs.",
+                            "en-CA": "Pyaudit: A Python project that imports unified audit log data from Microsoft 365 into an indexed relational database, identifies IP addresses, executes queries, and generates reports, including graphs",
                             "fr-CA": "Pyaudit : Un projet Python permettant d'importer des données de journal d'audit unifié de Microsoft 365 dans une base de données relationnelle indexée, d'identifier les adresses IP, d'exécuter des requêtes et de générer des rapports, y compris des graphiques"
+                        },
+                        {
+                            "en-CA": "Site web (https://www.vigiteck.com/)",
+                            "fr-CA": "Website (https://www.vigiteck.com/)"
                         }
                     ]
                 },
@@ -344,8 +352,8 @@
                 },
                 {
                     "key": {
-                        "en-CA": "Media",
-                        "fr-CA": "Médias"
+                        "en-CA": "Interviews",
+                        "fr-CA": "Entrevues"
                     },
                     "values": [
                         {
@@ -645,8 +653,8 @@
             [
                 {
                     "key": {
-                        "en-CA": "Description",
-                        "fr-CA": "Description"
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
                     },
                     "values": [
                         {
@@ -656,15 +664,7 @@
                         {
                             "en-CA": "The Senior Developer - Python also provides advice to the Technology, Data, and Operations (TDO) management team, PSP deal teams as well as potentially thought partner with portfolio companies when necessary.",
                             "fr-CA": "Le Développeur Senior - Python fournit également des conseils à l'équipe de gestion de la Technologie, des Données et des Opérations (TDO), aux équipes de transaction de PSP, et, le cas échéant, agira comme partenaire stratégique avec les entreprises en portefeuille."
-                        }
-                    ]
-                },
-                {
-                    "key": {
-                        "en-CA": "Activities",
-                        "fr-CA": "Activités"
-                    },
-                    "values": [
+                        },
                         {
                             "en-CA": "Development and support of Analytical Donuts for Analysts (ADA)",
                             "fr-CA": "Développement et support de la solution Analytical Donuts for Analysts (ADA)"
@@ -789,6 +789,7 @@
                 "Pytest",
                 "Pandas",
                 "NumPy",
+                "SciPy",
                 "PyXLL",
                 "PyQt",
                 "HTML / JS / CSS",
@@ -816,8 +817,8 @@
             [
                 {
                     "key": {
-                        "en-CA": "Activities",
-                        "fr-CA": "Activités"
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
                     },
                     "values": [
                         {
@@ -888,7 +889,7 @@
                 "Python",
                 "C# / .NET",
                 "Entity Framework",
-                "SQL Server",
+                "SQL Server / PostgreSQL / Elasticsearch",
                 "NoSQL / JSON / CSV",
                 "Microsoft 365",
                 "Git",
@@ -913,8 +914,8 @@
             [
                 {
                     "key": {
-                        "en-CA": "Activities",
-                        "fr-CA": "Activités"
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
                     },
                     "values": [
                         {
@@ -926,7 +927,6 @@
             ],
             "skills": [
                 "Python",
-                "PyQt",
                 "ANSI C",
                 "Git"
             ]
@@ -949,8 +949,8 @@
             [
                 {
                     "key": {
-                        "en-CA": "Activities",
-                        "fr-CA": "Activités"
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
                     },
                     "values": [
                         {
@@ -1000,46 +1000,155 @@
         {
             "icon": "logibec.jpeg",
             "title": {"en-CA": "Programmer Analyst", "fr-CA": "Analyste programmeur"},
-            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
             "company": {
                 "name": {"en-CA": "Logibec", "fr-CA": "Logibec"},
                 "url": {"en-CA": "https://lgisolutions.com/en/", "fr-CA": "https://lgisolutions.com/fr/"}
             },
+            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
+            "startDate": "2017-10-01",
+            "endDate": "2018-09-30",
             "location": {
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
-            "startDate": "2017-10-01",
-            "endDate": "2018-09-30",
-            "description": [
+            "descriptions":
+            [
                 {
-                    "name": {"en-CA": "Activities", "fr-CA": "Activités"},
-                    "description": {
-                        "en-CA": "Development of the GCH-VIP solution powered by the DLGL VIP application.",
-                        "fr-CA":  "Développement de la solution GCH-VIP propulsée par l'application VIP de DLGL."
-                    }
+                    "key": {
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Development of the GCH-VIP solution powered by the DLGL VIP application",
+                            "fr-CA": "Développement de la solution GCH-VIP propulsée par l'application VIP de DLGL"
+                        },
+                        {
+                            "en-CA": "Design, development, and unit testing",
+                            "fr-CA": "Conception, développement et tests unitaires"
+                        },
+                        {
+                            "en-CA": "Collaboration with the Agile team",
+                            "fr-CA": "Travail en collaboration avec l'équipe Agile"
+                        },
+                        {
+                            "en-CA": "Software issue support and bug fixing",
+                            "fr-CA": "Support et correction d'anomalies logicielles"
+                        },
+                        {
+                            "en-CA": "Code maintenance and documentation using version control systems",
+                            "fr-CA": "Maintien et documentation du code à l'aide du système de gestion du code-source"
+                        },
+                        {
+                            "en-CA": "Updates, performance optimization, and migration to new versions",
+                            "fr-CA": "Mise à jour, optimisation du rendement et migration des nouvelles versions"
+                        },
+                        {
+                            "en-CA": "Implementation of new features based on established specifications",
+                            "fr-CA": "Implantation des nouvelles fonctionnalités selon les spécifications établies"
+                        },
+                        {
+                            "en-CA": "Development according to current standards",
+                            "fr-CA": "Développement selon les normes en vigueur"
+                        },
+                        {
+                            "en-CA": "Leadership promoting continuous improvement of operational procedures, solutions, and coordination between departments, such as Development and Product Strategy",
+                            "fr-CA": "Leadership favorisant l'amélioration continue des procédures de fonctionnement, des solutions et la coordination entre les services, tels que ceux du Développement et de la Stratégie des produits"
+                        },
+                        {
+                            "en-CA": "Technical analysis and evaluation based on identified business needs",
+                            "fr-CA": "Analyse technique et évaluation selon les besoins d'affaires déterminés"
+                        }
+                    ]                    
+                },
+                {
+                    "key": {
+                        "en-CA": "Team",
+                        "fr-CA": "Équipe"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Business Solutions - Human Capital Management (HCM) - Evolution",
+                            "fr-CA": "Solution administratives - Gestion du capital humain (GCH) - Évolution"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "FX Innovation (Recruitment Agency) (https://www.fxinnovation.com/en/)",
+                            "fr-CA": "FX Innovation (Agence de recrutement) (https://www.fxinnovation.com/fr/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
+                "Produit VIP de DLGL",
                 "VB.NET",
-                "Oracle Database"
+                "Oracle Database",
+                "Pro*C/C++",
+                "Lua / Iguana",
+                "Git",
+                "Scrum"
             ]
         },
         {
             "icon": "cepcsj.png",
             "title": {"en-CA": "Webmaster", "fr-CA": "Webmestre"},
-            "employmentType": {"en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein"},
             "company": {
                 "name": {"en-CA": "Commission of Inquiry on the Protection of Journalistic Source Confidentiality | Chamberland Commission", "fr-CA": "Commission d'enquête sur la protection de la confidentialité des sources journalistiques | Commission Chamberland"},
                 "url": {"en-CA": "https://www.paystone.com/ ", "fr-CA": "https://www.bibliotheque.assnat.qc.ca/guides/fr/les-commissions-d-enquete-au-quebec-depuis-1867/7735-commission-chamberland-2017"}
             },
+            "employmentType": {"en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein"},
+            "startDate": "2017-01-01",
+            "endDate": "2017-12-31",
             "location": {
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
-            "startDate": "2017-01-01",
-            "endDate": "2017-12-31",
-            "description": null,
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Responsible for defining and delivering content",
+                            "fr-CA": "Responsable de la définition et de la livraison du contenu"
+                        },
+                        {
+                            "en-CA": "Acting as a coordinator between the various stakeholders",
+                            "fr-CA": "Agir à titre de coordonnateur entre les différents intervenants"
+                        },
+                        {
+                            "en-CA": "Analysis and documentation of client needs",
+                            "fr-CA": "Analyse et documentation des besoins du client"
+                        },
+                        {
+                            "en-CA": "Support for a static version of the website",
+                            "fr-CA": "Support d'une version statique du site web"
+                        },
+                        {
+                            "en-CA": "Development of a dynamic version of the website",
+                            "fr-CA": "Développement d'une version dynamique du site web"
+                        },
+                        {
+                            "en-CA": "Quality assurance",
+                            "fr-CA": "Assurance qualité"
+                        },
+                        {
+                            "en-CA": "Technical support for information technology and telephony systems",
+                            "fr-CA": "Support technique au niveau des technologies de l'information et de la téléphonie"
+                        }
+                    ]
+                }
+            ],
             "skills": [
                 "TYPO3",
                 "HTML / JS / CSS"
@@ -1048,25 +1157,32 @@
         {
             "icon": "datacandy.png",
             "title": {"en-CA": "PHP Developer", "fr-CA": "Développeur PHP"},
-            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
             "company": {
                 "name": {"en-CA": "Funbox | DataCandy | Paystone", "fr-CA": "Funbox | DataCandy | Paystone"},
                 "url": {"en-CA": "https://www.paystone.com/ ", "fr-CA": "https://www.paystone.com/fr/home/"}
             },
+            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
+            "startDate": "2016-01-01",
+            "endDate": "2016-12-31",
             "location": {
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
-            "startDate": "2016-01-01",
-            "endDate": "2016-12-31",
-            "relationships": [
+            "descriptions":
+            [
                 {
-                    "type": {"en-CA": "Recruitment Agency", "fr-CA": "Agence de recrutement"},
-                    "name": {"en-CA": "Arobas Personnel", "fr-CA": "Arobas Personnel"},
-                    "url": {"en-CA": "https://www.arobaspersonnel.com/en/home.html", "fr-CA": "https://www.arobaspersonnel.com/fr/accueil.html"}
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Arobas Personnel (Recruitment Agency) (https://www.arobaspersonnel.com/en/home.html)",
+                            "fr-CA": "Arobas Personnel (Agence de recrutement) (https://www.arobaspersonnel.com/fr/accueil.html)"
+                        }
+                    ]
                 }
             ],
-            "description": null,
             "skills": [
                 "PHP",
                 "HTML / JS / CSS",
@@ -1078,18 +1194,17 @@
         {
             "icon": "upac.png",
             "title": {"en-CA": "Information Technology Analyst", "fr-CA": "Analyste de l'informatique"},
-            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
             "company": {
                 "name": {"en-CA": "Permanent Anti-Corruption Unit", "fr-CA": "Unité permanente anticorruption"},
                 "url": {"en-CA": "https://upac.gouv.qc.ca/en/", "fr-CA": "https://upac.gouv.qc.ca/"}
             },
+            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
+            "startDate": "2013-09-01",
+            "endDate": "2015-12-31",
             "location": {
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
-            "startDate": "2013-09-01",
-            "endDate": "2015-12-31",
-            "description": null,
             "skills": [
                 "PHP",
                 "HTML / JS / CSS",
@@ -1100,17 +1215,17 @@
         {
             "icon": "msp.jpeg",
             "title": {"en-CA": "Computer Technician", "fr-CA": "Technicien en informatique"},
-            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
             "company": {
                 "name": {"en-CA": "Ministry of Public Security", "fr-CA": "Ministère de la Sécurité publique"},
                 "url": {"en-CA": "https://www.quebec.ca/en/government/ministere/public-security/", "fr-CA": "https://www.quebec.ca/gouvernement/ministere/securite-publique/"}
             },
+            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
+            "startDate": "2011-09-01",
+            "endDate": "2013-09-30",
             "location": {
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
-            "startDate": "2011-09-01",
-            "endDate": "2013-09-30",
             "relationships": [
                 {
                     "type": {"en-CA": "Client", "fr-CA": "Client"},
@@ -1118,7 +1233,6 @@
                     "url": {"en-CA": "https://upac.gouv.qc.ca/en/", "fr-CA": "https://upac.gouv.qc.ca/"}
                 }
             ],
-            "description": null,
             "skills": [
                 "PHP",
                 "HTML / JS / CSS",
@@ -1129,18 +1243,17 @@
         {
             "icon": "sq.jpeg",
             "title": {"en-CA": "Computer Technician", "fr-CA": "Technicien en informatique"},
-            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
             "company": {
                 "name": {"en-CA": "Quebec Provincial Police", "fr-CA": "Sûreté du Québec"},
                 "url": {"en-CA": "https://www.sq.gouv.qc.ca/en/", "fr-CA": "https://www.sq.gouv.qc.ca/"}
             },
+            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
+            "startDate": "2006-06-26",
+            "endDate": "2011-08-31",
             "location": {
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
-            "startDate": "2006-06-26",
-            "endDate": "2011-08-31",
-            "description": null,
             "skills": [
                 "PHP",
                 "HTML / JS / CSS",
@@ -1151,18 +1264,17 @@
         {
             "icon": "technomedia.png",
             "title": {"en-CA": "Programmer Analyst", "fr-CA": "Analyste programmeur"},
-            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
             "company": {
                 "name": {"en-CA": "Technomedia | Cegid", "fr-CA": "Technomedia | Cegid"},
                 "url": {"en-CA": "https://www.cegid.com/en/", "fr-CA": "https://www.cegid.com/fr/"}
             },
+            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
+            "startDate": "2005-07-01",
+            "endDate": "2006-05-31",
             "location": {
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
-            "startDate": "2005-07-01",
-            "endDate": "2006-05-31",
-            "description": null,
             "skills": [
                 "ColdFusion",
                 "Java",
@@ -1173,23 +1285,22 @@
         {
             "icon": null,
             "title": {"en-CA": "Programmer Analyst", "fr-CA": "Analyste Programmeur"},
-            "employmentType": {"en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein"},
             "company": {
                 "name": {"en-CA": "Sytran Technology | Biorunner", "fr-CA": "Technologie Sytran | Biorunner"},
                 "url": null
+            },
+            "employmentType": {"en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein"},
+            "startDate": "2005-01-01",
+            "endDate": "2005-06-30",
+            "location": {
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
+                "type": {"en-CA": "Remote", "fr-CA": "À distance"}
             },
             "relationships": [{
                 "type": {"en-CA": "Partner", "fr-CA": "Partenaire"},
                 "name": {"en-CA": "Qualicode Software", "fr-CA": "Qualicode Logiciel"},
                 "url": {"en-CA": "https://qualicodesoftware.com/", "fr-CA": "https://qualicodelogiciel.com/"}
             }],
-            "location": {
-                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
-                "type": {"en-CA": "Remote", "fr-CA": "À distance"}
-            },
-            "startDate": "2005-01-01",
-            "endDate": "2005-06-30",
-            "description": null,
             "skills": [
                 "VB6",
                 "SQL Server"
@@ -1198,18 +1309,17 @@
         {
             "icon": "qualicode.jpeg",
             "title": {"en-CA": "Programmer", "fr-CA": "Programmeur"},
-            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
             "company": {
                 "name": {"en-CA": "Qualicode Software", "fr-CA": "Qualicode Logiciel"},
                 "url": {"en-CA": "https://qualicodesoftware.com/", "fr-CA": "https://qualicodelogiciel.com/"}
             },
+            "employmentType": {"en-CA": "Full-time Permanent", "fr-CA": "Permanent à temps plein"},
+            "startDate": "2004-06-01",
+            "endDate": "2004-12-31",
             "location": {
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
-            "startDate": "2004-06-01",
-            "endDate": "2004-12-31",
-            "description": null,
             "skills": [
                 "VB6",
                 "SQL Server"
@@ -1566,8 +1676,11 @@
         { "name": "Vigiteck", "url": "https://www.vigiteck.com/" },
         { "name": "Francis Gradel", "url": "https://www.linkedin.com/in/francis-gradel-b620591a/" },
         { "name": "Retronic Design", "url": "https://www.retronicdesign.com/" },
+        { "name": "Giard CPA", "url": "https://giardcpa.com/" },
         { "name": "Wok Hei", "url": "https://wokhei.ca/" },
+        { "name": "Cleanera", "url": "https://www.cleanera.ca/" },
         { "name": "Laurent Côté", "url": "https://www.linkedin.com/in/laurent-cote/" },
+        { "name": "Pierre-Philippe Bédard", "url": "https://www.linkedin.com/in/pierrephilippebedard/" },
         { "name": "Caroline Liard", "url": "https://www.linkedin.com/in/caroline-liard-cpa-44516440/" },
         { "name": "Jonathan Papin", "url": "https://www.linkedin.com/in/papin/ "},
         { "name": "Guillaume Veck", "url": "https://www.linkedin.com/in/guillaume-veck-a2989136/" },
