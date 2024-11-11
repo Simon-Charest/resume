@@ -1365,6 +1365,89 @@
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Role",
+                        "fr-CA": "Rôle"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Programmer Analyst",
+                            "fr-CA": "Analyste programmeur"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Team",
+                        "fr-CA": "Équipe"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Consultation and analysis of IT development needs",
+                            "fr-CA": "Consultation et analyse des besoins en matière de développements informatiques"
+                        },
+                        {
+                            "en-CA": "Database design",
+                            "fr-CA": "Conception de bases de données"
+                        },
+                        {
+                            "en-CA": "Development of systems, mainly dealing with telephony and/or geographic data",
+                            "fr-CA": "Développement de systèmes, traitant principalement des données de type téléphonique et/ou géographique"
+                        },
+                        {
+                            "en-CA": "Development of services and web applications",
+                            "fr-CA": "Développement de services et d'applications web"
+                        },
+                        {
+                            "en-CA": "Writing technical documentation",
+                            "fr-CA": "Rédaction de documentation technique"
+                        },
+                        {
+                            "en-CA": "Installation, training, and remote technical support for both developed products and third-party products",
+                            "fr-CA": "Installation, formation et support technique à distance sur les produits développés ainsi que de tierce partie"
+                        }
+                    ]                    
+                },
+                {
+                    "key": {
+                        "en-CA": "Team",
+                        "fr-CA": "Équipe"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Tactical Analysis Division (TAD) - West Sector",
+                            "fr-CA": "Division de l'analyse tactique (DAT) - Secteur Ouest"
+                        },
+                        {
+                            "en-CA": "Criminal Information Analysis and Documentation Service (CIADS)",
+                            "fr-CA": "Service de l'analyse et de la documentation de l'information criminelle (SADIC)"
+                        },
+                        {
+                            "en-CA": "Criminal Intelligence Directorate (CID); • ",
+                            "fr-CA": "Direction des renseignements criminels (DRC)"
+                        },
+                        {
+                            "en-CA": "Major Criminal Investigations Function (MCIF)",
+                            "fr-CA": "Grande fonction des enquêtes criminelles (GFEC)"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Supervisor",
+                        "fr-CA": "Supérieur hiérarchique"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Chief of the TAD",
+                            "fr-CA": "Chef de la DAT"
+                        }
+                    ]
+                }
+            ],
             "skills": [
                 "PHP",
                 "HTML / JS / CSS",
