@@ -1063,6 +1063,18 @@
                 },
                 {
                     "key": {
+                        "en-CA": "Projects",
+                        "fr-CA": "Projets"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "VIP by DLGL (https://www.dlgl.com/?langue=en)",
+                            "fr-CA": "VIP de DLGL (https://www.dlgl.com/?langue=fr)"
+                        }
+                    ]
+                },
+                {
+                    "key": {
                         "en-CA": "Team",
                         "fr-CA": "Équipe"
                     },
@@ -1087,7 +1099,6 @@
                 }
             ],
             "skills": [
-                "Produit VIP de DLGL",
                 "VB.NET",
                 "Oracle Database",
                 "Pro*C/C++",
@@ -1123,8 +1134,8 @@
                             "fr-CA": "Responsable de la définition et de la livraison du contenu"
                         },
                         {
-                            "en-CA": "Acting as a coordinator between the various stakeholders",
-                            "fr-CA": "Agir à titre de coordonnateur entre les différents intervenants"
+                            "en-CA": "Act as a coordinator between the various stakeholders, including the video control room team, in live broadcasting",
+                            "fr-CA": "Agir à titre de coordonnateur entre les différents intervenants, dont l'équipe de la régie vidéo, en diffusion en direct"
                         },
                         {
                             "en-CA": "Analysis and documentation of client needs",
@@ -1170,6 +1181,22 @@
             },
             "descriptions":
             [
+                {
+                    "key": {
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Development of the management system for gift, loyalty and rewards cards",
+                            "fr-CA": "Développement du système de gestion de cartes cadeaux, de loyauté et à récompenses"
+                        },
+                        {
+                            "en-CA": "Onboarding and support for new customers",
+                            "fr-CA": "Intégration et support des nouveaux clients"
+                        }
+                    ]
+                },
                 {
                     "key": {
                         "en-CA": "Relationships",
@@ -1257,22 +1284,6 @@
                 },
                 {
                     "key": {
-                        "en-CA": "Promotions",
-                        "fr-CA": "Promotions"
-                    },
-                    "values": [
-                        {
-                            "en-CA": "Bonuses for outstanding performance in 2014 and 2015 (+3%)",
-                            "fr-CA": "Primes pour performances exceptionnelles, en 2014 et 2015 (+3 %)"
-                        },
-                        {
-                            "en-CA": "Increased from a 35-hour to a 40-hour workweek starting in 2013 (+14.3%, recurring)",
-                            "fr-CA": "Passé d'un horaire de 35h à 40h, à partir de 2013 (+14.3 %, récurrent)"
-                        }
-                    ]
-                },
-                {
-                    "key": {
                         "en-CA": "Team",
                         "fr-CA": "Équipe"
                     },
@@ -1292,6 +1303,22 @@
                         {
                             "en-CA": "Associate Commissioner of Audits (CAV) and responsible for the MSD",
                             "fr-CA": "Commissaire associé aux vérifications (CAV) et responsable de la DSG"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Promotions",
+                        "fr-CA": "Promotions"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Bonuses for outstanding performance in 2014 and 2015 (+3%)",
+                            "fr-CA": "Primes pour performances exceptionnelles, en 2014 et 2015 (+3 %)"
+                        },
+                        {
+                            "en-CA": "Increased from a 35-hour to a 40-hour workweek starting in 2013 (+14.3%, recurring)",
+                            "fr-CA": "Passé d'un horaire de 35h à 40h, à partir de 2013 (+14.3 %, récurrent)"
                         }
                     ]
                 }
@@ -1328,6 +1355,42 @@
                         {
                             "en-CA": "Programmer Analyst",
                             "fr-CA": "Analyste programmeur"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Analyze client needs, participate in the planning, implementation, and monitoring of changes to operational processes to ensure smooth and effective deployment of IT components",
+                            "fr-CA": "Analyser les besoins du client, participer à la planification, à la réalisation et au suivi de la mise en œuvre des changements aux processus opérationnels, afin d'assurer une implantation harmonieuse et efficace des composantes informatiques"
+                        },
+                        {
+                            "en-CA": "Act as project manager, ensuring coordination and tracking of work to enable the delivery of expected services, including the implementation of changes to data and systems in both development and production environments",
+                            "fr-CA": "Agir à titre de chargé de projet en assurant la coordination et le suivi des travaux pour permettre la livraison des services attendus dont l'implantation des changements aux données et aux systèmes dans les environnements de développement et de production"
+                        },
+                        {
+                            "en-CA": "Conduct studies related to information security, preliminary studies, and detailed architectures for various improvement or development projects of IT solutions",
+                            "fr-CA": "Réaliser des études liées à la sécurité de l'information, des études préliminaires ainsi que des architectures détaillées de différents projets d'amélioration ou de développement de solutions informatiques"
+                        },
+                        {
+                            "en-CA": "Participate in the design, development, evolution, and maintenance activities of systems",
+                            "fr-CA": "Participer aux activités de conception, de développement, d'évolution et d'entretien des systèmes"
+                        },
+                        {
+                            "en-CA": "Provide expert advice on information technology within the scope of IT projects, working with users and managers",
+                            "fr-CA": "Assurer la fonction d'expertise-conseil en matière de technologies de l'information, dans le cadre de la réalisation de projets informatiques auprès des utilisateurs et des gestionnaires"
+                        },
+                        {
+                            "en-CA": "Provide functional support and maintenance of technological infrastructures, as well as the improvement of processes and services related to operations",
+                            "fr-CA": "Assurer le soutien fonctionnel et l'entretien des infrastructures technologiques, ainsi que l'amélioration des processus et des services liés aux opérations"
+                        },
+                        {
+                            "en-CA": "Develop training plans and train users",
+                            "fr-CA": "Développer des plans de formation et former les utilisateurs"
                         }
                     ]
                 },
@@ -1381,8 +1444,8 @@
                 },
                 {
                     "key": {
-                        "en-CA": "Team",
-                        "fr-CA": "Équipe"
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
                     },
                     "values": [
                         {
@@ -1469,6 +1532,24 @@
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
+            "descriptions": [
+                {
+                    "key": {
+                        "en-CA": "Projects",
+                        "fr-CA": "Projets"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "SIGAL",
+                            "fr-CA": "SIGAL"
+                        },
+                        {
+                            "en-CA": "PMP",
+                            "fr-CA": "PMP"
+                        }
+                    ]
+                }
+            ],
             "skills": [
                 "ColdFusion",
                 "Java",
@@ -1490,11 +1571,33 @@
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "Remote", "fr-CA": "À distance"}
             },
-            "relationships": [{
-                "type": {"en-CA": "Partner", "fr-CA": "Partenaire"},
-                "name": {"en-CA": "Qualicode Software", "fr-CA": "Qualicode Logiciel"},
-                "url": {"en-CA": "https://qualicodesoftware.com/", "fr-CA": "https://qualicodelogiciel.com/"}
-            }],
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Developer of the Bio Punch 300 system: time clock software with fingerprint identification module",
+                            "fr-CA": "Développeur du système Bio Punch 300 : logiciel horodateur avec module d'identification par empreintes digitales"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Qualicode Software (Partner) (https://qualicodesoftware.com/)",
+                            "fr-CA": "Qualicode Logiciel (Partenaire) (https://qualicodelogiciel.com/)"
+                        }
+                    ]
+                }
+            ],
             "skills": [
                 "VB6",
                 "SQL Server"
@@ -1514,6 +1617,24 @@
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"},
                 "type": {"en-CA": "On-site", "fr-CA": "Sur site"}
             },
+            "descriptions": [
+                {
+                    "key": {
+                        "en-CA": "Projects",
+                        "fr-CA": "Projets"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Schedule Plus",
+                            "fr-CA": "Horaire Plus"
+                        },
+                        {
+                            "en-CA": "SGBDI",
+                            "fr-CA": "SGBDI"
+                        }
+                    ]
+                }
+            ],
             "skills": [
                 "VB6",
                 "SQL Server"
