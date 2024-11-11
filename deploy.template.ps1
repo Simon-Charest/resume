@@ -43,7 +43,7 @@ Usage: .\deploy.ps1
 [string] $USER = ""
 [string] $HOST_ = ""
 [string] $DIRECTORY = ""
-[string] $SERVICE = ""
+[string] $COMMAND = ""
 
 # Local Git Commands
 git add *
@@ -56,4 +56,4 @@ cd $DIRECTORY &&
 git pull &&
 npm install &&
 sudo systemctl daemon-reload &&
-sudo systemctl restart $SERVICE"
+sudo systemctl restart $COMMAND"
