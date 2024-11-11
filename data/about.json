@@ -340,18 +340,6 @@
                 },
                 {
                     "key": {
-                        "en-CA": "Trainings",
-                        "fr-CA": "Formations"
-                    },
-                    "values": [
-                        {
-                            "en-CA": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)",
-                            "fr-CA": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)"
-                        }
-                    ]
-                },
-                {
-                    "key": {
                         "en-CA": "Interviews",
                         "fr-CA": "Entrevues"
                     },
@@ -1890,11 +1878,27 @@
     "courses": [
         {
             "name": {
+                "en-CA": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)",
+                "fr-CA": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)"
+            },
+            "code": null,
+            "year": "2024"
+        },
+        {
+            "name": {
+                "en-CA": "Team Kanban Practitioner, in Information Technologies, at the Kanban University (https://kanban.university/)",
+                "fr-CA": "Praticien de l'équipe Kanban, en technologies de l'information, à l'Université Kanban (https://kanban.university/)"
+            },
+            "code": "TKP",
+            "year": "2021"
+        },
+        {
+            "name": {
                 "en-CA": "Administering Microsoft SQL Server 2012 Databases",
                 "fr-CA": "Administration des bases de données Microsoft SQL Server 2012"
             },
             "code": "10775A",
-            "year": "2012"
+            "year": "2014"
         },
         {
             "name": {
@@ -1902,7 +1906,7 @@
                 "fr-CA": "Introduction à la programmation C# avec Microsoft.NET"
             },
             "code": "2609A",
-            "year": "2011"
+            "year": "2007"
         }
     ],
 

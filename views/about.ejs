@@ -192,7 +192,7 @@
                 <ul>
                     <% data.courses.forEach((course, index) => { %>
                         <li>
-                            <%= course.name[lang] %> (<span class="gray"><%= course.code %></span>)
+                            <%= course.name[lang] %><% if (course.code) { %> (<span class="gray"><%= course.code %></span>)<% } %>
                             <br><span class="gray"><%= course.year %></span>
                         </li>
                         <% if (index < data.courses.length - 1) { %>
