@@ -620,6 +620,10 @@
                         {
                             "en-CA": "Kenza Construction (https://www.kenzaconstruction.ca/)",
                             "fr-CA": "Kenza Construction (https://www.kenzaconstruction.ca/)"
+                        },
+                        {
+                            "en-CA": "ProCanopée (https://www.procanopee.ca/?L=e)",
+                            "fr-CA": "ProCanopée (https://www.procanopee.ca/?L=f)"
                         }
                     ]
                 }
@@ -1928,7 +1932,7 @@
                 "fr-CA": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)"
             },
             "code": null,
-            "year": "2024"
+            "startDate": "2024"
         },
         {
             "name": {
@@ -1936,7 +1940,24 @@
                 "fr-CA": "Praticien de l'équipe Kanban, en technologies de l'information, à l'Université Kanban (https://kanban.university/)"
             },
             "code": "TKP",
-            "year": "2021"
+            "startDate": "2021"
+        },
+        {
+            "name": {
+                "en-CA": "Security Screening Certificate and Briefing Form - Level II (Secret)",
+                "fr-CA": "Certificat d'enquête de sécurité et profil de sécurité - Niveau II (Secret)"
+            },
+            "code": null,
+            "startDate": "2019-09-18",
+            "endDate": "2029-09-18"
+        },
+        {
+            "name": {
+                "en-CA": "Security clearance by the Laval Police Department",
+                "fr-CA": "Habilitation sécuritaire par le Service de police de la Ville de Laval (SPL)"
+            },
+            "code": null,
+            "startDate": "2019-04-02"
         },
         {
             "name": {
@@ -1944,7 +1965,7 @@
                 "fr-CA": "Administration des bases de données Microsoft SQL Server 2012"
             },
             "code": "10775A",
-            "year": "2014"
+            "startDate": "2014"
         },
         {
             "name": {
@@ -1952,7 +1973,7 @@
                 "fr-CA": "Introduction à la programmation C# avec Microsoft.NET"
             },
             "code": "2609A",
-            "year": "2007"
+            "startDate": "2007"
         }
     ],
 
@@ -2018,8 +2039,8 @@
         },
         {
             "name": {
-                "en-CA": "Sports: Running (up to Half Marathon), Martial Arts (Boxing, Judo, Kickboxing, Muay Thai), Ball Hockey, Soccer",
-                "fr-CA": "Sports : Course à pied (jusqu'au demi-marathon), Arts martiaux (boxe, judo, kickboxing, muay thai), Hockey-balle, Soccer"
+                "en-CA": "Sports: Walking, Running (up to Half Marathon), Cycling, Martial Arts (Boxing, Judo, Kickboxing, Muay Thai), Ball Hockey, Soccer, Bodybuilding",
+                "fr-CA": "Sports : Marche, course à pied (jusqu'au demi-marathon), vélo, arts martiaux (boxe, judo, kickboxing, muay thai), hockey-balle, soccer, musculation"
             }
         },
         {
