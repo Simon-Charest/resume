@@ -1,4 +1,5 @@
 {
+    "debug": false,
     "organization": {
         "en-CA": "SLCIT",
         "fr-CA": "SLCTI"
@@ -33,7 +34,6 @@
     },
     "seeMore": {"en-CA": "See more...", "fr-CA": "Voir plus..."},
     "seeLess": {"en-CA": "See less...", "fr-CA": "Voir moins..."},
-    "inDevelopment": {"en-CA": "In development...", "fr-CA": "En développement..."},
     "poweredBy": {"en-CA": "Powered by Node.js, Ubuntu and Free DNS.", "fr-CA": "Propulsé par Node.js, Ubuntu et Free DNS."},
     "copyright": {"en-CA": "© SLCIT. All rights reserved.", "fr-CA": "© SLCTI. Tous droits réservés."},
     "privacy": {"en-CA": "This site does not store any data about its visitors.", "fr-CA": "Ce site ne conserve aucune donnée sur ses visiteurs."}
