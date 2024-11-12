@@ -1677,7 +1677,25 @@
             "endDate": "2004-06-30",
             "location": {
                 "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"}
-            }
+            },
+            "descriptions": [
+                {
+                    "key": {
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Computer Tutor: Help with homework and practical work for students of the same academic level",
+                            "fr-CA": "Tuteur en informatique : Aide aux devoirs et travaux pratiques d'élèves de même niveau académique"
+                        },
+                        {
+                            "en-CA": "Mathematics Course Note-Taker for Hearing-Impaired Student",
+                            "fr-CA": "Preneur de notes de cours en mathématiques pour élève malentendant"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "icon": "ahuntsic.png",
@@ -1722,7 +1740,21 @@
             "endDate": "1997-06-30",
             "location": {
                 "city": {"en-CA": "Dorval, Quebec, Canada", "fr-CA": "Dorval, Québec, Canada"}
-            }
+            },
+            "descriptions": [
+                {
+                    "key": {
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Secondary 2 Mathematics Tutor (1996-1997)",
+                            "fr-CA": "Tuteur en mathématiques de niveau secondaire 2 (1996-1997)"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "icon": "lalande.png",
@@ -1737,7 +1769,25 @@
             "endDate": "1992-06-30",
             "location": {
                 "city": {"en-CA": "Roxboro, Quebec, Canada", "fr-CA": "Roxboro, Québec, Canada"}
-            }
+            },
+            "descriptions": [
+                {
+                    "key": {
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Reading assistance for students of the same academic level (1st year; 1986)",
+                            "fr-CA": "Aide à la lecture d'élèves de même niveau académique (1e année; 1986)"
+                        },
+                        {
+                            "en-CA": "Enriched courses: plastic arts, dramatic arts, culinary arts, cabinetmaking, pottery, painting, tinkering, etc.",
+                            "fr-CA": "Cours enrichis : arts plastiques, arts dramatiques, arts culinaires, ébénisterie, poterie, peinture, bricolage, etc."
+                        }
+                    ]
+                }
+            ]
         }
     ],
 

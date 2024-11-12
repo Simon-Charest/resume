@@ -225,6 +225,25 @@
                                     <% }); %>
                                 <% } %>
                             </span>
+                            <div>
+                                <% if (item.descriptions) { %>
+                                    <div>
+                                        <button class="collapsible-button"><%= data.seeMore[lang] %></button>
+                                        <div class="collapsible-content">
+    
+                                            <% item.descriptions.forEach(description => { %>
+                                                <strong><%= description.key[lang] %></strong>
+                                                <ul class="disc">
+                                                    <% description.values.forEach(value => { %>
+                                                        <li><%= value[lang] %></li>
+                                                    <% }); %>
+                                                </ul>
+                                            <% }); %>
+    
+                                        </div>
+                                    </div>
+                                <% } %>
+                            </div>
                         </div>
                     </div>
 
