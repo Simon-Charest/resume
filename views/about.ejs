@@ -216,7 +216,14 @@
                             <% } %>
                             <br><% if (item.school.url) { %><a href="<%= item.school.url[lang] %>"><% } %><%= item.school.name[lang] %><% if (item.school.url) { %></a><% } %>
                             <span class="gray">
-                                <br><%= item.startDate.slice(0, 4) %> - <%= item.endDate ? item.endDate.slice(0, 4) : data.globals.present[lang] %>
+                                <br><%= item.startDate.slice(0, 4) %> 
+                                <% if (item.endDate) { %>
+                                    <% if (parseInt(item.endDate.slice(0, 4)) > parseInt(item.startDate.slice(0, 4))) { %>
+                                        - <%= item.endDate.slice(0, 4) %>
+                                    <% } %>
+                                <% } else { %>
+                                    - <%= data.globals.present[lang] %>
+                                <% } %>
                                 <br><%= item.location.city[lang] %>
                                 <% if (item.relationships && item.relationships.length > 0) { %>
                                     <br><%= data.globals.relationships[lang] %>:
