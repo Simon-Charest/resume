@@ -136,6 +136,8 @@
     border: 0;
     color: #007fcc;
     cursor: pointer;
+    margin: 0;
+    padding: 0;
 }
 
 .collapsible-button:hover {
