@@ -49,6 +49,12 @@
     margin: 15px;
 }
 
+.top-skills {
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 10px;
+}
+
 .experience-item {
     display: flex;
 }
@@ -96,6 +102,11 @@
 .icon {
     padding-right: 5px;
     vertical-align: middle;
+}
+
+.icon-flag {
+    width: 16px;
+    height: 10px;
 }
 
 .icon-16x16 {

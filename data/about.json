@@ -1643,12 +1643,11 @@
                 "name": {"en-CA": "University of Quebec at Montreal", "fr-CA": "Université du Québec à Montréal"},
                 "url": {"en-CA": "https://www.etsmtl.ca/en/", "fr-CA": "https://www.etsmtl.ca/"}
             },
-            "location": {
-                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"}
-            },
             "startDate": "2009-09-01",
             "endDate": "2009-12-31",
-            "description": null
+            "location": {
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"}
+            }
         },
         {
             "icon": "ets.jpeg",
@@ -1659,12 +1658,11 @@
                 "name": {"en-CA": "School of Higher Technology", "fr-CA": "École de technologie supérieure"},
                 "url": {"en-CA": "https://www.etsmtl.ca/en/", "fr-CA": "https://www.etsmtl.ca/"}
             },
-            "location": {
-                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"}
-            },
             "startDate": "2006-09-01",
             "endDate": "2007-06-30",
-            "description": null
+            "location": {
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"}
+            }
         },
         {
             "icon": "cvm.png",
@@ -1675,12 +1673,11 @@
                 "name": {"en-CA": "Old Montreal College", "fr-CA": "Cégep du Vieux-Montréal"},
                 "url": {"en-CA": "https://www.cvm.qc.ca/", "fr-CA": "https://www.cvm.qc.ca/"}
             },
-            "location": {
-                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"}
-            },
             "startDate": "2002-09-01",
             "endDate": "2004-06-30",
-            "description": null
+            "location": {
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"}
+            }
         },
         {
             "icon": "ahuntsic.png",
@@ -1691,12 +1688,11 @@
                 "name": {"en-CA": "Ahuntsic College", "fr-CA": "Collège Ahuntsic"},
                 "url": {"en-CA": "https://www.collegeahuntsic.qc.ca/", "fr-CA": "https://www.collegeahuntsic.qc.ca/"}
             },
-            "location": {
-                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"}
-            },
             "startDate": "2000-09-01",
             "endDate": "2002-06-30",
-            "description": null
+            "location": {
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"}
+            }
         },
         {
             "icon": "bdeb.png",
@@ -1707,12 +1703,11 @@
                 "name": {"en-CA": "Bois de Boulogne College", "fr-CA": "Collège Bois de Boulogne"},
                 "url": {"en-CA": "https://www.cvm.qc.ca/", "fr-CA": "https://www.cvm.qc.ca/"}
             },
-            "location": {
-                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"}
-            },
             "startDate": "1997-09-01",
             "endDate": "1998-06-30",
-            "description": null
+            "location": {
+                "city": {"en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada"}
+            }
         },
         {
             "icon": "jean_xxiii.png",
@@ -1723,12 +1718,11 @@
                 "name": {"en-CA": "Dorval-John-XXIII Highschool", "fr-CA": "École secondaire Dorval-Jean-XXIII"},
                 "url": {"en-CA": "https://dorvaljean23.ecoleouestmtl.com/", "fr-CA": "https://dorvaljean23.ecoleouestmtl.com/"}
             },
-            "location": {
-                "city": {"en-CA": "Dorval, Quebec, Canada", "fr-CA": "Dorval, Québec, Canada"}
-            },
             "startDate": "1992-09-01",
             "endDate": "1997-06-30",
-            "description": null
+            "location": {
+                "city": {"en-CA": "Dorval, Quebec, Canada", "fr-CA": "Dorval, Québec, Canada"}
+            }
         },
         {
             "icon": "lalande.png",
@@ -1739,12 +1733,11 @@
                 "name": {"en-CA": "Lalande School", "fr-CA": "École Lalande"},
                 "url": {"en-CA": "https://lalande.ecoleouestmtl.com/", "fr-CA": "https://lalande.ecoleouestmtl.com/"}
             },
-            "location": {
-                "city": {"en-CA": "Roxboro, Quebec, Canada", "fr-CA": "Roxboro, Québec, Canada"}
-            },
             "startDate": "1985-09-01",
             "endDate": "1992-06-30",
-            "description": null
+            "location": {
+                "city": {"en-CA": "Roxboro, Quebec, Canada", "fr-CA": "Roxboro, Québec, Canada"}
+            }
         }
     ],
 

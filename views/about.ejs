@@ -104,12 +104,14 @@
                     </ul>
                 </div>
 
-                <h3><img src="/assets/icons/<%= icons.skill %>" class="icon icon-16x16"><%= data.globals.topSkills[lang] %></h3>
-                <ul class="horizontal-list">
-                    <% data.topSkills.forEach(topSkill => { %>
-                        <li><%= topSkill %></li>
-                    <% }); %>
-                </ul>
+                <div class="top-skills">
+                    <h3><img src="/assets/icons/<%= icons.skill %>" class="icon icon-16x16"><%= data.globals.topSkills[lang] %></h3>
+                    <ul class="horizontal-list">
+                        <% data.topSkills.forEach(topSkill => { %>
+                            <li><%= topSkill %></li>
+                        <% }); %>
+                    </ul>
+                </div>
             </div>
 
             <div class="experience">
@@ -237,7 +239,7 @@
                 <ul>
                     <% data.languages.forEach((language, index) => { %>
                         <li>
-                            <img src="/assets/icons/<%= language.icon %>" class="icon icon-16x16"><%= language.name[lang] %>
+                            <img src="/assets/icons/<%= language.icon %>" class="icon icon-flag"><%= language.name[lang] %>
                             <br><span class="gray"><%= language.proficiency[lang] %></span>
                         </li>
                         <% if (index < data.languages.length - 1) { %>
