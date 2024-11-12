@@ -23,6 +23,7 @@
 
 .menu-items {
     display: flex;
+    list-style-type: none;
     margin-left: auto;
 }
 

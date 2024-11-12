@@ -15,6 +15,7 @@
 .footer-items {
     display: flex;
     gap: 20px;
+    list-style-type: none;
     margin: auto;
     text-align: center;
 }

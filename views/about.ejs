@@ -2,11 +2,11 @@
 
         <div class="body-about">
 
-            <div class="profile">
+            <div class="box profile">
 
-                <div class="background">
-                    <img src="/assets/images/<%= images.background %>" class="background-photo">
-                    <img src="/assets/images/profile/<%= profilePicture %>" class="profile-photo" title="<%= profilePicture %>">
+                <div class="jumbotron">
+                    <img src="/assets/images/<%= images.background %>" class="background-image">
+                    <img src="/assets/images/profile/<%= profilePicture %>" class="profile-image" title="<%= profilePicture %>">
                 </div>
 
                 <div class="intro">
@@ -17,7 +17,7 @@
                     </div>
 
                     <div>
-                        <ul>
+                        <ul class="list-style-type-none">
                             <% const ongoingExperiences = data.experience.filter(experience => experience.endDate === null); %>
                             <% ongoingExperiences.forEach(experience => { %>
                                 <% if (experience.company) { %>
@@ -44,7 +44,7 @@
                     <h3><%= data.globals.contactInfo[lang] %></h3>
                     <button class="collapsible-button"><%= data.seeMore[lang] %></button>
                     <div class="collapsible-content">
-                        <ul>
+                        <ul class="list-style-type-none">
                             <li><img src="/assets/icons/<%= icons.linked_in %>" class="icon icon-16x16"><strong><%= data.globals.profile[lang] %></strong>&nbsp;<a href="<%= data.intro.contactInfo.profile.url %>"><%= data.intro.contactInfo.profile.name %></a></li>
                             <li>
                                 <img src="/assets/icons/<%= icons.website %>" class="icon icon-16x16">
@@ -90,11 +90,11 @@
                 </div>
             </div>
 
-            <div class="about">
+            <div class="box">
                 <h2><%= data.globals.about[lang] %></h2>
                 <button class="collapsible-button"><%= data.seeMore[lang] %></button>
                 <div class="collapsible-content">
-                    <ul>
+                    <ul class="list-style-type-none">
                         <% data.about_.forEach(item => { %>
                             <li class="padded-li">
                                 <strong><%= item.name[lang] %></strong>
@@ -114,12 +114,12 @@
                 </div>
             </div>
 
-            <div class="experience">
+            <div class="box">
                 <h2><%= data.globals.experience[lang] %></h2>
                 <% data.experience.forEach((item, index) => { %>
-                    <div class="experience-item">
+                    <div class="card-row">
                         <img src="/assets/images/<%= item.icon || 'company.png' %>" class="icon icon-48x48">
-                        <div class="experience-content">
+                        <div class="card-text">
                             <strong><%= item.title[lang] %></strong>
                             <% if (item.company) { %>
                                 <br>
@@ -144,7 +144,7 @@
 
                                         <% item.descriptions.forEach(description => { %>
                                             <strong><%= description.key[lang] %></strong>
-                                            <ul class="disc">
+                                            <ul class="list-style-type-disc">
                                                 <% description.values.forEach(value => { %>
                                                     <li><%= value[lang] %></li>
                                                 <% }); %>
@@ -174,9 +174,9 @@
                 <% }); %>      
             </div>
 
-            <div class="skills">
+            <div class="box">
                 <h2><%= data.globals.skills[lang] %></h2>
-                <ul>
+                <ul class="list-style-type-none">
                     <% data.skills.forEach((skill, index) => { %>
                         <li>
                             <strong><%= skill.category.name[lang] %>:</strong>
@@ -189,9 +189,9 @@
                 </ul>
             </div>
 
-            <div class="courses">
+            <div class="box">
                 <h2><%= data.globals.courses[lang] %></h2>
-                <ul>
+                <ul class="list-style-type-none">
                     <% data.courses.forEach((course, index) => { %>
                         <li>
                             <%= course.name[lang] %><% if (course.code) { %> (<span class="gray"><%= course.code %></span>)<% } %>
@@ -204,12 +204,12 @@
                 </ul>
             </div>
 
-            <div class="education">
+            <div class="box">
                 <h2><%= data.globals.education[lang] %></h2>
                 <% data.education.forEach((item, index) => { %>
-                    <div class="experience-item">
+                    <div class="card-row">
                         <img src="/assets/images/<%= item.icon || 'school.png' %>" class="icon icon-48x48">
-                        <div class="experience-content">
+                        <div class="card-text">
                             <strong><%= item.title[lang] %></strong>
                             <% if (item.degree) { %>
                                 <br><%= item.degree[lang] %>
@@ -240,7 +240,7 @@
     
                                             <% item.descriptions.forEach(description => { %>
                                                 <strong><%= description.key[lang] %></strong>
-                                                <ul class="disc">
+                                                <ul class="list-style-type-disc">
                                                     <% description.values.forEach(value => { %>
                                                         <li><%= value[lang] %></li>
                                                     <% }); %>
@@ -260,9 +260,9 @@
                 <% }); %>
             </div>
 
-            <div class="languages">
+            <div class="box">
                 <h2><%= data.globals.languages[lang] %></h2>
-                <ul>
+                <ul class="list-style-type-none">
                     <% data.languages.forEach((language, index) => { %>
                         <li>
                             <img src="/assets/icons/<%= language.icon %>" class="icon icon-flag"><%= language.name[lang] %>
@@ -275,9 +275,9 @@
                 </ul>
             </div>
 
-            <div class="interests">
+            <div class="box">
                 <h2><%= data.globals.interests[lang] %></h2>
-                <ul>
+                <ul class="list-style-type-none">
                     <% data.interests.forEach((interest, index) => { %>
                         <li>
                             <%= interest.name[lang] %>
@@ -289,9 +289,9 @@
                 </ul>
             </div>
             
-            <div class="recommandations">
+            <div class="box">
                 <h2><%= data.globals.recommandations[lang] %></h2>
-                <ul>
+                <ul class="list-style-type-none">
                     <% data.recommandations.forEach((recommandation, index) => { %>
                         <li>
                             <a href="<%= recommandation.url %>"><%= recommandation.name %></a>

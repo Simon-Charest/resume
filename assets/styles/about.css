@@ -1,17 +1,30 @@
 /* Sections */
 
-.background {
-    position: relative;
-    padding-bottom: 75px;
+.box {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
-.background-photo {
+.profile {
+    padding: 0;
+}
+
+.jumbotron {
+    padding-bottom: 75px;
+    position: relative;
+}
+
+.background-image {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
 }
 
-.profile-photo {
+.profile-image {
     border: 5px solid #fff;
     border-radius: 50%;
     position: absolute;
@@ -20,33 +33,13 @@
     width: 20%;
 }
 
-.profile,
-.about,
-.experience,
-.education,
-.skills,
-.courses,
-.languages,
-.interests,
-.recommandations {
-    background: white;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
-    margin: 10px 0;
-    padding: 10px;
-}
-
-.profile {
-    padding: 0;
+.intro, .contact-info {
+    margin: 10px;
 }
 
 .intro {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-.intro, .contact-info {
-    margin: 15px;
 }
 
 .top-skills {
@@ -55,41 +48,20 @@
     padding: 10px;
 }
 
-.experience-item {
+.card-row {
     display: flex;
 }
 
-.experience-content {
+.card-text {
     width: 100%;
 }
 
 /* Elements */
 
-.disc {
-    list-style-type: disc;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    padding: 0; 
-}
-
-.intro ul {
-    padding-left: 0;
-}
-
-.intro li {
-    display: flex;
-}
-
-.languages ul {
-    list-style-type: none;
-}
-
 .horizontal-list {
     display: flex;
     flex-wrap: wrap;
     list-style-type: disc;
-    margin: 0;
 }
 
 .horizontal-list li {
@@ -100,7 +72,7 @@
 /* Icons */
 
 .icon {
-    padding-right: 5px;
+    padding-right: 10px;
     vertical-align: middle;
 }
 
@@ -128,7 +100,6 @@
 
 .collapsible-content {
     display: none;
-    padding-bottom: 5px;
 }
 
 .collapsible-button {
@@ -136,7 +107,6 @@
     border: 0;
     color: #007fcc;
     cursor: pointer;
-    margin: 0;
     padding: 0;
 }
 
@@ -146,16 +116,4 @@
 
 .collapsible-button:active {
     color: #003fcc;
-}
-
-/* Copyright */
-
-.in-development,
-.poweredBy,
-.privacy,
-.copyright
-{
-    color: white;
-    font-size: small;
-    font-weight: bold;
 }

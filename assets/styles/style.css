@@ -38,12 +38,6 @@ a:active {
     color: #003fcc;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 hr {
     background-color: lightgray;
     border: none;
