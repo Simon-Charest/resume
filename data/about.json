@@ -1193,6 +1193,10 @@
                         {
                             "en-CA": "Onboarding and support for new customers",
                             "fr-CA": "Intégration et support des nouveaux clients"
+                        },
+                        {
+                            "en-CA": "Mobile app development: Google Android (Android Studio) and Apple iOS (Xcode)",
+                            "fr-CA": "Développement d'applications mobiles : Google Android (Android Studio) et Apple iOS (Xcode)"
                         }
                     ]
                 },
@@ -1621,7 +1625,7 @@
             },
             "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
             "startDate": "2005-01-01",
-            "endDate": "2005-06-30",
+            "endDate": "2005-07-15",
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
                 "type": { "en-CA": "Remote", "fr-CA": "À distance" }
