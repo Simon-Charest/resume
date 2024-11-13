@@ -1,5 +1,5 @@
 # Resume
-A resume created using Node.js.
+A corporate website, including a resume, created from scratch using Node.js.
 
 ## Usage
 

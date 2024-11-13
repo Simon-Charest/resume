@@ -137,7 +137,7 @@
             },
             "description": {
                 "en-CA": "I have over twenty years of experience as an analyst-programmer, specializing in custom system development.",
-                "fr-CA": "Fort de plus de vingt ans d'expérience en tant qu'analyste-programmeur, je me spécialise dans le développement de systèmes sur mesure."
+                "fr-CA": "Fort de plus de vingt ans d'expérience en tant qu'analyste programmeur, je me spécialise dans le développement de systèmes sur mesure."
             }
         },
         {
@@ -167,7 +167,7 @@
             },
             "description": {
                 "en-CA": "I am accustomed to working independently, from analyzing client needs to delivering complete solutions, often developed entirely from scratch. My expertise encompasses the full development lifecycle: analysis, documentation, database design, programming, testing, deployment, training, and support.",
-                "fr-CA": "Je suis habitué à travailler de manière autonome, de l'analyse des besoins clients à la livraison complète de solutions, souvent développées 'from scratch'. Mon expertise couvre l'ensemble du cycle de développement : analyse, documentation, conception de bases de données, programmation, tests, déploiement, formation et support."
+                "fr-CA": "Je suis habitué à travailler de manière autonome, de l'analyse des besoins clients à la livraison complète de solutions, souvent développées \"from scratch\". Mon expertise couvre l'ensemble du cycle de développement : analyse, documentation, conception de bases de données, programmation, tests, déploiement, formation et support."
             }
         },
         {
@@ -250,6 +250,10 @@
                         {
                             "en-CA": "Support",
                             "fr-CA": "Support"
+                        },
+                        {
+                            "en-CA": "Development of a company website (http://slcti.8bit.ca/), from scratch, using Node.js, including a résumé",
+                            "fr-CA": "Développement d'un site web d'entreprise (http://slcti.8bit.ca/), à partir de rien, en utilisant Node.js, incluant un curriculum vitae"
                         }
                     ]
                 }
