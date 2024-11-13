@@ -2026,11 +2026,11 @@
             "category": {
                 "name": { "en-CA": "Programming Languages", "fr-CA": "Langages de programmation" },
                 "technologies": [
-                    { "name": { "en-CA": "C", "fr-CA": "C" } },
-                    { "name": { "en-CA": "C++", "fr-CA": "C++" } },
+                    { "name": { "en-CA": "Python", "fr-CA": "Python" } },
                     { "name": { "en-CA": "Java", "fr-CA": "Java" } },
                     { "name": { "en-CA": "PHP", "fr-CA": "PHP" } },
-                    { "name": { "en-CA": "Python", "fr-CA": "Python" } }
+                    { "name": { "en-CA": "C++", "fr-CA": "C++" } },
+                    { "name": { "en-CA": "C", "fr-CA": "C" } }
                 ]
             }
         },
@@ -2046,20 +2046,20 @@
             "category": {
                 "name": { "en-CA": "Data", "fr-CA": "Données" },
                 "technologies": [
-                    { "name": { "en-CA": "Access", "fr-CA": "Access" } },
-                    { "name": { "en-CA": "CSV", "fr-CA": "CSV" } },
-                    { "name": { "en-CA": "Geolocation", "fr-CA": "Géolocalisation" } },
-                    { "name": { "en-CA": "JSON", "fr-CA": "JSON" } },
-                    { "name": { "en-CA": "MariaDB / MySQL", "fr-CA": "MariaDB / MySQL" } },
-                    { "name": { "en-CA": "MongoDB", "fr-CA": "MongoDB" } },
-                    { "name": { "en-CA": "Neo4j / Graph", "fr-CA": "Neo4j / Graph" } },
-                    { "name": { "en-CA": "NoSQL", "fr-CA": "NoSQL" } },
-                    { "name": { "en-CA": "OpenCV", "fr-CA": "OpenCV" } },
-                    { "name": { "en-CA": "Oracle Database / PL/SQL", "fr-CA": "Oracle Database / PL/SQL" } },
-                    { "name": { "en-CA": "PostgreSQL", "fr-CA": "PostgreSQL" } },
                     { "name": { "en-CA": "SQL", "fr-CA": "SQL" } },
                     { "name": { "en-CA": "SQL Server / T-SQL", "fr-CA": "SQL Server / T-SQL" } },
-                    { "name": { "en-CA": "SQLite", "fr-CA": "SQLite" } }
+                    { "name": { "en-CA": "SQLite", "fr-CA": "SQLite" } },
+                    { "name": { "en-CA": "MariaDB / MySQL", "fr-CA": "MariaDB / MySQL" } },
+                    { "name": { "en-CA": "PostgreSQL", "fr-CA": "PostgreSQL" } },
+                    { "name": { "en-CA": "MongoDB", "fr-CA": "MongoDB" } },
+                    { "name": { "en-CA": "Access", "fr-CA": "Access" } },
+                    { "name": { "en-CA": "Neo4j / Graph", "fr-CA": "Neo4j / Graph" } },
+                    { "name": { "en-CA": "Oracle Database / PL/SQL", "fr-CA": "Oracle Database / PL/SQL" } },
+                    { "name": { "en-CA": "NoSQL", "fr-CA": "NoSQL" } },
+                    { "name": { "en-CA": "JSON", "fr-CA": "JSON" } },
+                    { "name": { "en-CA": "CSV", "fr-CA": "CSV" } },
+                    { "name": { "en-CA": "Geolocation", "fr-CA": "Géolocalisation" } },
+                    { "name": { "en-CA": "OpenCV", "fr-CA": "OpenCV" } }
                 ]
             }
         },
@@ -2067,9 +2067,9 @@
             "category": {
                 "name": { "en-CA": "Web Development", "fr-CA": "Développement Web" },
                 "technologies": [
-                    { "name": { "en-CA": "ColdFusion", "fr-CA": "ColdFusion" } },
+                    { "name": { "en-CA": "HTML", "fr-CA": "HTML" } },
                     { "name": { "en-CA": "CSS", "fr-CA": "CSS" } },
-                    { "name": { "en-CA": "HTML", "fr-CA": "HTML" } }
+                    { "name": { "en-CA": "ColdFusion", "fr-CA": "ColdFusion" } }
                 ]
             }
         },
@@ -2079,8 +2079,8 @@
                 "technologies": [
                     { "name": { "en-CA": "Chart.js", "fr-CA": "Chart.js" } },
                     { "name": { "en-CA": "Cytoscape.js", "fr-CA": "Cytoscape.js" } },
-                    { "name": { "en-CA": "EJS", "fr-CA": "EJS" } },
-                    { "name": { "en-CA": "Node.js", "fr-CA": "Node.js" } }
+                    { "name": { "en-CA": "Node.js", "fr-CA": "Node.js" } },
+                    { "name": { "en-CA": "EJS", "fr-CA": "EJS" } }
                 ]
             }
         },
@@ -2088,9 +2088,9 @@
             "category": {
                 "name": { "en-CA": "Command-Line Scripting", "fr-CA": "Scripting en ligne de commande" },
                 "technologies": [
-                    { "name": { "en-CA": "Bash", "fr-CA": "Bash" } },
+                    { "name": { "en-CA": "PowerShell", "fr-CA": "PowerShell" } },
                     { "name": { "en-CA": "Batch", "fr-CA": "Batch" } },
-                    { "name": { "en-CA": "PowerShell", "fr-CA": "PowerShell" } }
+                    { "name": { "en-CA": "Bash", "fr-CA": "Bash" } }
                 ]
             }
         },
@@ -2106,8 +2106,8 @@
             "category": {
                 "name": { "en-CA": ".NET Framework", "fr-CA": "Framework .NET" },
                 "technologies": [
-                    { "name": { "en-CA": "ASP", "fr-CA": "ASP" } },
                     { "name": { "en-CA": "C#", "fr-CA": "C#" } },
+                    { "name": { "en-CA": "ASP", "fr-CA": "ASP" } },
                     { "name": { "en-CA": "VB", "fr-CA": "VB" } }
                 ]
             }
@@ -2116,9 +2116,9 @@
             "category": {
                 "name": { "en-CA": "Microsoft Office", "fr-CA": "Microsoft Office" },
                 "technologies": [
+                    { "name": { "en-CA": "VBA", "fr-CA": "VBA" } },
                     { "name": { "en-CA": "Access", "fr-CA": "Access" } },
                     { "name": { "en-CA": "Excel", "fr-CA": "Excel" } },
-                    { "name": { "en-CA": "VBA", "fr-CA": "VBA" } },
                     { "name": { "en-CA": "Word", "fr-CA": "Word" } }
                 ]
             }
@@ -2127,8 +2127,8 @@
             "category": {
                 "name": { "en-CA": "Operating Systems", "fr-CA": "Système d'exploitation" },
                 "technologies": [
-                    { "name": { "en-CA": "Ubuntu", "fr-CA": "Ubuntu" } },
-                    { "name": { "en-CA": "Windows", "fr-CA": "Windows" } }
+                    { "name": { "en-CA": "Windows", "fr-CA": "Windows" } },
+                    { "name": { "en-CA": "Ubuntu", "fr-CA": "Ubuntu" } }
                 ]
             }
         },
