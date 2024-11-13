@@ -30,37 +30,35 @@
                     </button>
                 
                 </div>
-                <ul class="menu-items" id="menu">
 
-                    <!-- Side Menu -->
-                    <div id="side-menu" class="side-menu">
-                        <a href="/?lang=<%= lang %>"><%= data.index[lang] %></a>
-                        <a href="/about?lang=<%= lang %>"><%= data.about[lang] %></a>
-                        <a href="/partners?lang=<%= lang %>"><%= data.partners[lang] %></a>
-                        <a href="/media?lang=<%= lang %>"><%= data.media[lang] %></a>
-                        <a href="/contact?lang=<%= lang %>"><%= data.contact[lang] %></a>
-                        <% if (lang === 'fr-CA') { %>
-                            <a href="?lang=en-CA"><img src="/assets/icons/en_ca.png" class="icon icon-flag">English</a>
-                        <% } else { %>
-                            <a href="?lang=fr-CA"><img src="/assets/icons/fr_ca.png" class="icon icon-flag">Français</a>
-                        <% } %>
-                    </div>
+                <!-- Side Menu -->
+                <div id="side-menu" class="side-menu">
+                    <a href="/?lang=<%= lang %>"><%= data.index[lang] %></a>
+                    <a href="/about?lang=<%= lang %>"><%= data.about[lang] %></a>
+                    <a href="/partners?lang=<%= lang %>"><%= data.partners[lang] %></a>
+                    <a href="/media?lang=<%= lang %>"><%= data.media[lang] %></a>
+                    <a href="/contact?lang=<%= lang %>"><%= data.contact[lang] %></a>
+                    <% if (lang === 'fr-CA') { %>
+                        <a href="?lang=en-CA"><img src="/assets/icons/en_ca.png" class="icon icon-flag">English</a>
+                    <% } else { %>
+                        <a href="?lang=fr-CA"><img src="/assets/icons/fr_ca.png" class="icon icon-flag">Français</a>
+                    <% } %>
+                </div>
 
-                    <!-- Top Menu -->
-                    <li><a href="/?lang=<%= lang %>"><%= data.index[lang] %></a></li>
-                    <li><a href="/about?lang=<%= lang %>"><%= data.about[lang] %></a></li>
-                    <li><a href="/partners?lang=<%= lang %>"><%= data.partners[lang] %></a></li>
-                    <li><a href="/media?lang=<%= lang %>"><%= data.media[lang] %></a></li>
-                    <li><a href="/contact?lang=<%= lang %>"><%= data.contact[lang] %></a></li>
-                    <li>
-                        <% if (lang === 'fr-CA') { %>
-                            <a href="?lang=en-CA"><img src="/assets/icons/en_ca.png" class="icon icon-flag">English</a>
-                        <% } else { %>
-                            <a href="?lang=fr-CA"><img src="/assets/icons/fr_ca.png" class="icon icon-flag">Français</a>
-                        <% } %>
-                    </li>
-
+                <!-- Top Menu -->
+                <ul id="menu" class="menu-items">
+                    <a href="/?lang=<%= lang %>"><%= data.index[lang] %></a>
+                    <a href="/about?lang=<%= lang %>"><%= data.about[lang] %></a>
+                    <a href="/partners?lang=<%= lang %>"><%= data.partners[lang] %></a>
+                    <a href="/media?lang=<%= lang %>"><%= data.media[lang] %></a>
+                    <a href="/contact?lang=<%= lang %>"><%= data.contact[lang] %></a>
+                    <% if (lang === 'fr-CA') { %>
+                        <a href="?lang=en-CA"><img src="/assets/icons/en_ca.png" class="icon icon-flag">English</a>
+                    <% } else { %>
+                        <a href="?lang=fr-CA"><img src="/assets/icons/fr_ca.png" class="icon icon-flag">Français</a>
+                    <% } %>
                 </ul>
+
             </nav>
         </header>
         <script src="/assets/js/side_menu.js"></script>

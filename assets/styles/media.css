@@ -22,7 +22,7 @@
         pointer-events: auto !important;
     }
     
-    .menu-items li {
+    .menu-items a {
         visibility: hidden;
     }
 
