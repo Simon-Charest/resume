@@ -1,6 +1,6 @@
 // Get the menu and content elements
 const menuToggle = document.getElementById('menu-toggle');
-const sideMenu = document.getElementById('side-menu');
+const sideMenu = document.getElementById('menu');
 
 // Initialize the flag to track the menu's state
 let isOpen = false;

@@ -21,19 +21,21 @@
     width: 32px;
 }
 
-.menu-items {
-    display: flex;
-    list-style-type: none;
-    margin-left: auto;
-}
+@media (min-width: 601px) {
+    .menu {
+        display: flex;
+        list-style-type: none;
+        margin-left: auto;
+    }
 
-.menu-items a {
-    color: white;
-    display: block;
-    padding: 14px 20px;
-    text-decoration: none;
-}
+    .menu a {
+        color: white;
+        display: block;
+        padding: 15px 20px;
+        text-decoration: none;
+    }
 
-.menu-items a:hover {
-    background-color: #575757;
+    .menu a:hover {
+        background-color: #575757;
+    }
 }
