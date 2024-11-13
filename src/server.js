@@ -69,7 +69,7 @@ async function main() {
 
     // Middleware to set the language
     app.use((req, res, next) => {
-        const lang = req.query.lang || req.cookies.lang || DEFAULT_LANGUAGE;
+        let lang = req.query.lang || req.cookies.lang || DEFAULT_LANGUAGE;
         res.cookie('lang', lang, {
             maxAge: 900000,
             httpOnly: true,
