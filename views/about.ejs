@@ -293,16 +293,21 @@
             <div class="box">
                 <h2><%= data.globals.recommandations[lang] %></h2>
                 <ul class="list-style-type-none">
-                    <% data.recommandations.forEach((recommandation, index) => { %>
+                    <% data.recommandations.forEach((recommandation, y) => { %>
                         <li>
-                            <a href="<%= recommandation.url %>"><%= recommandation.name %></a>
+                            <% recommandation.forEach((values, x) => { %>
+                            
+                                <% for (let key in values) { %>
+                                    <% if (values[key]) { %><a href="<%= recommandation[key] %>" target="_blank"><% } %>
+                                        <%= key %><% if (values[key]) { %></a><% } %><% if (x < recommandation.length - 1) { %>,<% } %>
+                                <% } %>
+                            <% }); %>
                         </li>
-                        <% if (index < data.recommandations.length - 1) { %>
-                            <hr>
-                        <% } %>
+                        <% if (y < data.recommandations.length - 1) { %><hr><% } %>
                     <% }); %>
                 </ul>
             </div>
+            
 
         </div>
 
