@@ -103,7 +103,7 @@ async function main() {
             return next(new Error(`Error parsing JSON data for ${route}: ${err.message}`));
         }
 
-        const backgroundImage = `background_${res.locals.lang}.jpeg`;
+        const backgroundImage = `background_${res.locals.lang.toLowerCase()}.jpeg`;
         const profileImage = profileFiles[Math.floor(Math.random() * profileFiles.length)];
         const view = route === "about" ? "about" : "index";
 
