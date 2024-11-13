@@ -298,7 +298,7 @@
                             <% recommandation.forEach((values, x) => { %>
                             
                                 <% for (let key in values) { %>
-                                    <% if (values[key]) { %><a href="<%= recommandation[key] %>" target="_blank"><% } %>
+                                    <% if (values[key]) { %><a href="<%= values[key] %>" target="_blank"><% } %>
                                         <%= key %><% if (values[key]) { %></a><% } %><% if (x < recommandation.length - 1) { %>,<% } %>
                                 <% } %>
                             <% }); %>
