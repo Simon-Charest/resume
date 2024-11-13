@@ -39,10 +39,11 @@
                         <a href="/partners"><%= data.partners[lang] %></a>
                         <a href="/media"><%= data.media[lang] %></a>
                         <a href="/contact"><%= data.contact[lang] %></a>
+                        
                         <% if (lang === 'fr-CA') { %>
-                            <a href="?lang=en-CA">English</a>
+                            <a href="?lang=en-CA"><img src="/assets/icons/en_ca.png" class="icon icon-flag">English</a>
                         <% } else { %>
-                            <a href="?lang=fr-CA">Français</a>
+                            <a href="?lang=fr-CA"><img src="/assets/icons/fr_ca.png" class="icon icon-flag">Français</a>
                         <% } %>
                     </div>
 
