@@ -1252,6 +1252,38 @@
                     },
                     "values": [
                         {
+                            "en-CA": "Development of the Integrated Corruption Information Processing System (SITIC), of the Operations Directorate (DO) - IBM i2 iBase type system",
+                            "fr-CA": "Développement du Système intégré de traitement des informations sur la corruption (SITIC), de la Direction des opérations (DO) - Système de type IBM i2 iBase"
+                        },
+                        {
+                            "en-CA": "Development of the information bank, the Verification Service (SV) - IBM i2 iBase type system",
+                            "fr-CA": "Développement de la banque de renseignements, du Service de la vérification (SV) - Système de type IBM i2 iBase"
+                        },
+                        {
+                            "en-CA": "Development of the Records Management System of the Operations Directorate (UDO)",
+                            "fr-CA": "Développement du Système de gestion des dossiers de la Direction des opérations (UDO)"
+                        },
+                        {
+                            "en-CA": "Development of the Audit Service File Management System (USV)",
+                            "fr-CA": "Développement du Système de gestion des dossiers du Service de la vérification (USV)"
+                        },
+                        {
+                            "en-CA": "Development of the inverted index of the Quebec Business Register (URE)",
+                            "fr-CA": "Développement de l'index inversé du Registre des entreprises du Québec (URE)"
+                        },
+                        {
+                            "en-CA": "Development of the inverted index of the Electronic Tendering System (UAO)",
+                            "fr-CA": "Développement de l'index inversé du Système électronique d'appels d'offres (UAO)"
+                        },
+                        {
+                            "en-CA": "Development of the UPAC Information Bank (UBR)",
+                            "fr-CA": "Développement de la Banque de renseignements de l'UPAC (UBR)"
+                        },
+                        {
+                            "en-CA": "Development of the Open Source Management System (USO)",
+                            "fr-CA": "Développement de la Système de gestion des sources ouvertes (USO)"
+                        },
+                        {
                             "en-CA": "Analyze client needs, participate in the planning, implementation, and monitoring of changes to operational processes to ensure smooth and effective deployment of IT components",
                             "fr-CA": "Analyser les besoins du client, participer à la planification, à la réalisation et au suivi de la mise en œuvre des changements aux processus opérationnels, afin d'assurer une implantation harmonieuse et efficace des composantes informatiques"
                         },
@@ -1395,6 +1427,18 @@
                 },
                 {
                     "key": {
+                        "en-CA": "Team",
+                        "fr-CA": "Équipe"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Systems Development Service (SRS)",
+                            "fr-CA": "Service de la réalisation des systèmes (SRS)"
+                        }
+                    ]
+                },
+                {
+                    "key": {
                         "en-CA": "Relationships",
                         "fr-CA": "Relations"
                     },
@@ -1447,6 +1491,18 @@
                         "fr-CA": "Responsabilités"
                     },
                     "values": [
+                        {
+                            "en-CA": "Development of GPS data processing software",
+                            "fr-CA": "Développement d'un logiciel de traitement de données GPS"
+                        },
+                        {
+                            "en-CA": "Development of a human and material resources management system the internal",
+                            "fr-CA": "Développement d'un système de gestion des ressources humaines et matérielles à l'interne"
+                        },
+                        {
+                            "en-CA": "Development of functions facilitating data processing in telephony",
+                            "fr-CA": "Développement de fonctions facilitant le traitement de données en téléphonie"
+                        },
                         {
                             "en-CA": "Consultation and analysis of IT development needs",
                             "fr-CA": "Consultation et analyse des besoins en matière de développements informatiques"
@@ -1557,7 +1613,7 @@
             ]
         },
         {
-            "icon": null,
+            "icon": "bio_runner.png",
             "title": { "en-CA": "Programmer Analyst", "fr-CA": "Analyste Programmeur" },
             "company": {
                 "name": { "en-CA": "Sytran Technology | Biorunner", "fr-CA": "Technologie Sytran | Biorunner" },
@@ -1640,7 +1696,7 @@
             ]
         },
         {
-            "icon": null,
+            "icon": "mayrand.png",
             "title": { "en-CA": "Grocery Clerk", "fr-CA": "Commis d'épicerie" },
             "company": {
                 "name": { "en-CA": "Mayrand", "fr-CA": "Mayrand" },
@@ -1655,7 +1711,7 @@
             }
         },
         {
-            "icon": null,
+            "icon": "certen.png",
             "title": { "en-CA": "Warehouseman", "fr-CA": "Manutentionnaire" },
             "company": {
                 "name": { "en-CA": "Certen | Amdocs", "fr-CA": "Certen | Amdocs" },
@@ -1673,7 +1729,7 @@
             }
         },
         {
-            "icon": null,
+            "icon": "metro.png",
             "title": { "en-CA": "Grocery Clerk", "fr-CA": "Commis d'épicerie" },
             "company": {
                 "name": { "en-CA": "Metro Chevrefils | Beaulieu Laurier", "fr-CA": "Métro Chevrefils | Beaulieu Laurier" },
@@ -1688,7 +1744,7 @@
             }
         },
         {
-            "icon": null,
+            "icon": "couche_tard.png",
             "title": { "en-CA": "Sales Clerk", "fr-CA": "Préposé à la vente" },
             "company": {
                 "name": { "en-CA": "Couche-Tard", "fr-CA": "Couche-Tard" },
@@ -1706,7 +1762,7 @@
             }
         },
         {
-            "icon": null,
+            "icon": "st_hubert.png",
             "title": { "en-CA": "Kitchen Assistant", "fr-CA": "Aide-cuisinier" },
             "company": {
                 "name": { "en-CA": "St-Hubert Express", "fr-CA": "St-Hubert Express" },
@@ -1724,7 +1780,7 @@
             }
         },
         {
-            "icon": null,
+            "icon": "csdm.png",
             "title": { "en-CA": "Storekeeper - Class II", "fr-CA": "Magasinier - Classe II" },
             "company": {
                 "name": { "en-CA": "Montreal School Service Centre", "fr-CA": "Centre de services scolaire de Montréal" },
@@ -1757,7 +1813,7 @@
             ]
         },
         {
-            "icon": null,
+            "icon": "metro.png",
             "title": { "en-CA": "Grocery Clerk", "fr-CA": "Commis d'épicerie" },
             "company": {
                 "name": { "en-CA": "Metro Gaboury", "fr-CA": "Métro Gaboury" },
@@ -1772,7 +1828,7 @@
             }
         },
         {
-            "icon": null,
+            "icon": "ecolux.png",
             "title": { "en-CA": "Sender / Receiver", "fr-CA": "Expéditeur / récepteur" },
             "company": {
                 "name": { "en-CA": "Ecolux | GELcore", "fr-CA": "Ecolux | GELcore" },
@@ -1787,7 +1843,7 @@
             }
         },
         {
-            "icon": null,
+            "icon": "couche_tard.png",
             "title": { "en-CA": "Sales Clerk", "fr-CA": "Préposé à la vente" },
             "company": {
                 "name": { "en-CA": "Couche-Tard", "fr-CA": "Couche-Tard" },
@@ -2127,19 +2183,35 @@
         },
         {
             "name": {
-                "en-CA": "Administering Microsoft SQL Server 2012 Databases",
-                "fr-CA": "Administration des bases de données Microsoft SQL Server 2012"
+                "en-CA": "Administering Microsoft SQL Server 2012 Databases (Versalys Training)",
+                "fr-CA": "Administration des bases de données Microsoft SQL Server 2012 (Versalys Formation)"
             },
             "code": "10775A",
             "startDate": "2014"
         },
         {
             "name": {
-                "en-CA": "Introduction to C# Programming with Microsoft .NET",
-                "fr-CA": "Introduction à la programmation C# avec Microsoft.NET"
+                "en-CA": "Control your time with Microsoft Outlook 2003 (Qualitemps Training)",
+                "fr-CA": "Maîtriser son temps avec Microsoft Outlook 2003 (Formation Qualitemps)"
+            },
+            "code": null,
+            "startDate": "2008-10"
+        },
+        {
+            "name": {
+                "en-CA": "Introduction to C# Programming with Microsoft .NET (Versalys Training)",
+                "fr-CA": "Introduction à la programmation C# avec Microsoft.NET (Versalys Formation)"
             },
             "code": "2609A",
-            "startDate": "2007"
+            "startDate": "2007-07"
+        },
+        {
+            "name": {
+                "en-CA": "i2 iBase Designer Workshop, by i2 - i2 Training Certificate",
+                "fr-CA": "Atelier i2 iBase Designer, par i2 - Certificat de formation i2"
+            },
+            "code": null,
+            "startDate": "2007-02"
         }
     ],
 
@@ -2250,6 +2322,7 @@
         [ { "Sébastien Corbeil-Couture": "https://www.linkedin.com/in/scorbeilcouture/" } ],
         [ { "Jean-Sebastien Beaulieu": "https://www.linkedin.com/in/jsbeaulieu1/" } ],
         [ { "Jean-Simon Gervais": "https://www.linkedin.com/in/jsgerv/" } ],
-        [ { "Annabel Karim": "https://www.linkedin.com/in/annabel-karim/" } ]
+        [ { "Annabel Karim": "https://www.linkedin.com/in/annabel-karim/" } ],
+        [ { "Innovations & Design Mtl": null } ]
     ]
 }
