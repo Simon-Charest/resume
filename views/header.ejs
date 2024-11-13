@@ -34,11 +34,11 @@
 
                     <!-- Side Menu -->
                     <div id="side-menu" class="side-menu">
-                        <a href="/"><%= data.index[lang] %></a>
-                        <a href="/about"><%= data.about[lang] %></a>
-                        <a href="/partners"><%= data.partners[lang] %></a>
-                        <a href="/media"><%= data.media[lang] %></a>
-                        <a href="/contact"><%= data.contact[lang] %></a>
+                        <a href="/?lang=<%= lang %>"><%= data.index[lang] %></a>
+                        <a href="/about?lang=<%= lang %>"><%= data.about[lang] %></a>
+                        <a href="/partners?lang=<%= lang %>"><%= data.partners[lang] %></a>
+                        <a href="/media?lang=<%= lang %>"><%= data.media[lang] %></a>
+                        <a href="/contact?lang=<%= lang %>"><%= data.contact[lang] %></a>
                         <% if (lang === 'fr-CA') { %>
                             <a href="?lang=en-CA"><img src="/assets/icons/en_ca.png" class="icon icon-flag">English</a>
                         <% } else { %>
@@ -47,11 +47,11 @@
                     </div>
 
                     <!-- Top Menu -->
-                    <li><a href="/"><%= data.index[lang] %></a></li>
-                    <li><a href="/about"><%= data.about[lang] %></a></li>
-                    <li><a href="/partners"><%= data.partners[lang] %></a></li>
-                    <li><a href="/media"><%= data.media[lang] %></a></li>
-                    <li><a href="/contact"><%= data.contact[lang] %></a></li>
+                    <li><a href="/?lang=<%= lang %>"><%= data.index[lang] %></a></li>
+                    <li><a href="/about?lang=<%= lang %>"><%= data.about[lang] %></a></li>
+                    <li><a href="/partners?lang=<%= lang %>"><%= data.partners[lang] %></a></li>
+                    <li><a href="/media?lang=<%= lang %>"><%= data.media[lang] %></a></li>
+                    <li><a href="/contact?lang=<%= lang %>"><%= data.contact[lang] %></a></li>
                     <li>
                         <% if (lang === 'fr-CA') { %>
                             <a href="?lang=en-CA"><img src="/assets/icons/en_ca.png" class="icon icon-flag">English</a>

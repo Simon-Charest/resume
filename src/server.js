@@ -74,8 +74,7 @@ async function main() {
             maxAge: 900000,
             httpOnly: true,
             sameSite: 'None',
-            secure: true,
-            path: '/'
+            secure: true
         });
         res.locals.lang = lang;
         next();
