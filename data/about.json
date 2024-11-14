@@ -204,8 +204,9 @@
         "Git"
     ],
     
-    "experience": [
+    "experiences": [
         {
+            "visible": true,
             "icon": "slcti.png",
             "title": { "en-CA": "Founder and CEO", "fr-CA": "Fondateur et président" },
             "company": {
@@ -270,6 +271,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "vigiteck.jpeg",
             "title": { "en-CA": "CTO and Associate", "fr-CA": "Directeur TI et associé" },
             "company": {
@@ -375,6 +377,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": null,
             "title": { "en-CA": "Renovation Contractor", "fr-CA": "Entrepreneur en rénovation" },
             "company": null,
@@ -635,6 +638,7 @@
             "skills": null
         },
         {
+            "visible": true,
             "icon": "psp.jpeg",
             "title": { "en-CA": "Senior Developer - Python", "fr-CA": "Développeur Senior - Python" },
             "company": {
@@ -799,6 +803,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "forensik.jpeg",
             "title": { "en-CA": "Senior Automation Programmer", "fr-CA": "Programmeur senior automatisation" },
             "company": {
@@ -896,6 +901,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "retronic_design.png",
             "title": { "en-CA": "Developer", "fr-CA": "Développeur" },
             "company": {
@@ -931,6 +937,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "belron.jpeg",
             "title": { "en-CA": "Back-end Developer", "fr-CA": "Développeur back-end" },
             "company": {
@@ -997,6 +1004,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "logibec.jpeg",
             "title": { "en-CA": "Programmer Analyst", "fr-CA": "Analyste programmeur" },
             "company": {
@@ -1107,6 +1115,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "cepcsj.png",
             "title": { "en-CA": "Webmaster", "fr-CA": "Webmestre" },
             "company": {
@@ -1165,6 +1174,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "datacandy.png",
             "title": { "en-CA": "PHP Developer", "fr-CA": "Développeur PHP" },
             "company": {
@@ -1222,6 +1232,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "upac.png",
             "title": { "en-CA": "Information Technology Analyst", "fr-CA": "Analyste de l'informatique" },
             "company": {
@@ -1366,6 +1377,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "msp.jpeg",
             "title": { "en-CA": "Computer Technician", "fr-CA": "Technicien en informatique" },
             "company": {
@@ -1462,6 +1474,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "sq.jpeg",
             "title": { "en-CA": "Computer Technician", "fr-CA": "Technicien en informatique" },
             "company": {
@@ -1578,6 +1591,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "technomedia.png",
             "title": { "en-CA": "Programmer Analyst", "fr-CA": "Analyste programmeur" },
             "company": {
@@ -1617,6 +1631,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "bio_runner.png",
             "title": { "en-CA": "Programmer Analyst", "fr-CA": "Analyste Programmeur" },
             "company": {
@@ -1663,6 +1678,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "qualicode.jpeg",
             "title": { "en-CA": "Programmer", "fr-CA": "Programmeur" },
             "company": {
@@ -1700,6 +1716,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "mayrand.png",
             "title": { "en-CA": "Grocery Clerk", "fr-CA": "Commis d'épicerie" },
             "company": {
@@ -1715,6 +1732,7 @@
             }
         },
         {
+            "visible": true,
             "icon": "certen.png",
             "title": { "en-CA": "Warehouseman", "fr-CA": "Manutentionnaire" },
             "company": {
@@ -1733,6 +1751,7 @@
             }
         },
         {
+            "visible": true,
             "icon": "metro.png",
             "title": { "en-CA": "Grocery Clerk", "fr-CA": "Commis d'épicerie" },
             "company": {
@@ -1748,6 +1767,7 @@
             }
         },
         {
+            "visible": true,
             "icon": "couche_tard.png",
             "title": { "en-CA": "Sales Clerk", "fr-CA": "Préposé à la vente" },
             "company": {
@@ -1766,6 +1786,7 @@
             }
         },
         {
+            "visible": true,
             "icon": "st_hubert.png",
             "title": { "en-CA": "Kitchen Assistant", "fr-CA": "Aide-cuisinier" },
             "company": {
@@ -1784,6 +1805,7 @@
             }
         },
         {
+            "visible": true,
             "icon": "csdm.png",
             "title": { "en-CA": "Storekeeper - Class II", "fr-CA": "Magasinier - Classe II" },
             "company": {
@@ -1817,6 +1839,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "metro.png",
             "title": { "en-CA": "Grocery Clerk", "fr-CA": "Commis d'épicerie" },
             "company": {
@@ -1832,6 +1855,7 @@
             }
         },
         {
+            "visible": true,
             "icon": "ecolux.png",
             "title": { "en-CA": "Sender / Receiver", "fr-CA": "Expéditeur / récepteur" },
             "company": {
@@ -1847,6 +1871,7 @@
             }
         },
         {
+            "visible": true,
             "icon": "couche_tard.png",
             "title": { "en-CA": "Sales Clerk", "fr-CA": "Préposé à la vente" },
             "company": {
@@ -1863,8 +1888,9 @@
         }
     ],
 
-    "education": [
+    "educations": [
         {
+            "visible": true,
             "icon": "uqam.jpeg",
             "title": { "en-CA": "Software Development", "fr-CA": "Développement de logiciels" },
             "degree": null,
@@ -1880,6 +1906,7 @@
             }
         },
         {
+            "visible": true,
             "icon": "ets.jpeg",
             "title": { "en-CA": "Software Engineering", "fr-CA": "Génie logiciel" },
             "degree": null,
@@ -1895,6 +1922,7 @@
             }
         },
         {
+            "visible": true,
             "icon": "cvm.png",
             "title": { "en-CA": "Information Technologies", "fr-CA": "Technologies de l'information" },
             "degree": { "en-CA": "College Studies Diploma", "fr-CA": "Diplôme d'études collégiales" },
@@ -1928,6 +1956,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "ahuntsic.png",
             "title": { "en-CA": "Information Technologies", "fr-CA": "Technologies de l'information" },
             "degree": { "en-CA": "College Studies Certificate", "fr-CA": "Attestation d'études collégiales" },
@@ -1943,6 +1972,7 @@
             }
         },
         {
+            "visible": true,
             "icon": "bdeb.png",
             "title": { "en-CA": "Information Technologies", "fr-CA": "Technologies de l'information" },
             "degree": null,
@@ -1958,6 +1988,7 @@
             }
         },
         {
+            "visible": true,
             "icon": "jean_xxiii.png",
             "title": { "en-CA": "International Enriched Program", "fr-CA": "Programme enrichi international" },
             "degree": { "en-CA": "Highschool Studies Diploma", "fr-CA": "Diplôme d'études secondaires" },
@@ -1987,6 +2018,7 @@
             ]
         },
         {
+            "visible": true,
             "icon": "lalande.png",
             "title": { "en-CA": "Enriched Program", "fr-CA": "Programme enrichi" },
             "degree": { "en-CA": "Primary School Diploma", "fr-CA": "Diplôme d'études primaires" },

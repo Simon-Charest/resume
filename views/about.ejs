@@ -19,8 +19,7 @@
 
                     <div>
                         <ul class="list-style-type-none">
-                            <% const ongoingExperiences = data.experience.filter(experience => experience.endDate === null); %>
-                            <% ongoingExperiences.forEach(experience => { %>
+                            <% data.experiences.filter(experience => experience.endDate === null).forEach(experience => { %>
                                 <% if (experience.company) { %>
                                     <li>
                                         <img src="/assets/images/<%= experience.icon %>" class="icon icon-32x32">
@@ -28,8 +27,7 @@
                                     </li>
                                 <% } %>
                             <% }); %>
-                            <% const obtainedDegrees = data.education.filter(education => education.degree !== null && education.higherEducation); %>
-                            <% obtainedDegrees.forEach(education => { %>
+                            <% data.educations.filter(education => education.degree !== null && education.higherEducation).forEach(education => { %>
                                 <li>
                                     <img src="/assets/images/<%= education.icon %>" class="icon icon-32x32">
                                     <a href="<%= education.school.url[lang] %>"><%= education.school.name[lang] %></a>
@@ -117,7 +115,8 @@
 
             <div class="box">
                 <h2><%= data.globals.experience[lang] %></h2>
-                <% data.experience.forEach((item, index) => { %>
+                <% const filteredExperiences = data.experiences.filter(experience => experience.visible == true); %>
+                <% filteredExperiences.forEach((item, index) => { %>
                     <div class="card-row">
                         <img src="/assets/images/<%= item.icon || 'company.png' %>" class="icon icon-48x48">
                         <div class="card-text">
@@ -169,7 +168,7 @@
                         </div>
                     </div>
                     
-                    <% if (index < data.experience.length - 1) { %>
+                    <% if (index < filteredExperiences.length - 1) { %>
                         <hr>
                     <% } %>
                 <% }); %>
@@ -207,7 +206,8 @@
 
             <div class="box">
                 <h2><%= data.globals.education[lang] %></h2>
-                <% data.education.forEach((item, index) => { %>
+                <% const filteredEducations = data.educations.filter(education => education.visible == true); %>
+                <% filteredEducations.forEach((item, index) => { %>
                     <div class="card-row">
                         <img src="/assets/images/<%= item.icon || 'school.png' %>" class="icon icon-48x48">
                         <div class="card-text">
@@ -255,7 +255,7 @@
                         </div>
                     </div>
 
-                    <% if (index < data.education.length - 1) { %>
+                    <% if (index < filteredEducations.length - 1) { %>
                         <hr>
                     <% } %>
                 <% }); %>
