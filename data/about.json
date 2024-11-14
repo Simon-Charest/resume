@@ -381,7 +381,7 @@
             "icon": null,
             "title": { "en-CA": "Renovation Contractor", "fr-CA": "Entrepreneur en rénovation" },
             "company": null,
-            "employmentType": { "en-CA": "Self-employed", "fr-CA": "Travailleur autonome" },
+            "employmentType": { "en-CA": "Self-employed", "fr-CA": "Indépendant" },
             "startDate": "2013-11-01",
             "endDate": null,
             "location": {

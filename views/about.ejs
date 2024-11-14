@@ -121,8 +121,8 @@
                         <img src="/assets/images/<%= item.icon || 'company.png' %>" class="icon icon-48x48">
                         <div class="card-text">
                             <strong><%= item.title[lang] %></strong>
+                            <br>
                             <% if (item.company) { %>
-                                <br>
                                 <% if (item.company.url) { %>
                                     <a href="<%= item.company.url[lang] %>">
                                 <% } %>
@@ -130,7 +130,11 @@
                                 <% if (item.company.url) { %>
                                     </a>
                                 <% } %>
-                                ·
+                                <% if (item.employmentType) { %>
+                                    ·
+                                <% } %>
+                            <% } %>
+                            <% if (item.employmentType) { %>
                                 <%= item.employmentType[lang] %>
                             <% } %>
                             <span class="gray">
