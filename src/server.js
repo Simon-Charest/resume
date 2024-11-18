@@ -1,14 +1,13 @@
-const fs = require('fs').promises;
-const https = require('https');
-const express = require('express');
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
+const express = require('express');
+const fs = require('fs').promises;
+const https = require('https');
 const path = require('path');
 
 async function main() {
     const config = JSON.parse(await fs.readFile('./config.json', 'utf8'));
 
-    const PROTOCOL = config.environment === 'production' ? 'https' : 'http';
     const HOSTNAME = '0.0.0.0';
     const PORT = process.env.PORT || 3000;
     const DEFAULT_LANGUAGE = 'fr-CA';
