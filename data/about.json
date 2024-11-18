@@ -951,7 +951,20 @@
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
                 "type": { "en-CA": "Remote", "fr-CA": "À distance" }
             },
-            "descriptions": null,
+            "descriptions": [
+                {
+                    "key": {
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Support of an IT intern in the development of an internal software solution.",
+                            "fr-CA": "Support d'un stagiaire TI dans le cadre du développement d'une solution logicielle interne."
+                        }
+                    ]
+                }
+            ],
             "skills": [
                 "ASP / .NET",
                 "Entity Framework",
