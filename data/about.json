@@ -253,8 +253,8 @@
                             "fr-CA": "Support"
                         },
                         {
-                            "en-CA": "Development of a company website (http://slcti.8bit.ca/), from scratch, using Node.js, including a resume",
-                            "fr-CA": "Développement d'un site web d'entreprise (http://slcti.8bit.ca/), à partir de rien, en utilisant Node.js, incluant un curriculum vitae"
+                            "en-CA": "Development of the company website (http://slcti.8bit.ca/)",
+                            "fr-CA": "Développement du site web d'entreprise (http://slcti.8bit.ca/)"
                         }
                     ]
                 }
