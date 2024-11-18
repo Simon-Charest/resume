@@ -1,6 +1,6 @@
 const PROTOCOL = 'http';
 const HOSTNAME = '0.0.0.0';
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 const DEFAULT_LANGUAGE = 'fr-CA';
 
 async function main() {
@@ -8,7 +8,6 @@ async function main() {
     const cors = require('cors');
     const express = require('express');
     const fs = require('fs').promises;
-    const http = require('http');
     const path = require('path');
     
     const assetsDir = path.join(__dirname, '..', 'assets');
@@ -162,13 +161,6 @@ async function main() {
     app.listen(PORT, HOSTNAME, () => {
         console.log(`Server running at ${PROTOCOL}://${HOSTNAME}:${PORT}/`);
     });
-
-    // Create a new HTTP server to handle the challenge on port 80
-    /*
-    http.createServer(app).listen(80, () => {
-        console.log('ACME challenge server running on port 80');
-    });
-    */
 }
 
 main().catch(err => {
