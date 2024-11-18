@@ -1,6 +1,6 @@
 const PROTOCOL = 'http';
 const HOSTNAME = '0.0.0.0';
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 const DEFAULT_LANGUAGE = 'fr-CA';
 
 async function main() {
@@ -12,6 +12,7 @@ async function main() {
     
     const assetsDir = path.join(__dirname, '..', 'assets');
     const dataDir = path.join(__dirname, '..', 'data');
+    const publicDir = path.join(__dirname, '..', 'public');
     const viewsDir = path.join(__dirname, '..', 'views');
     const iconsDir = path.join(assetsDir, 'icons');
     const imagesDir = path.join(assetsDir, 'images');
@@ -81,7 +82,7 @@ async function main() {
     });
 
     // Serve static files from the .well-known/acme-challenge directory
-    app.use('/.well-known/acme-challenge', express.static(path.join(__dirname, 'public', '.well-known', 'acme-challenge')));
+    app.use('/.well-known/acme-challenge', express.static(path.join(publicDir, '.well-known', 'acme-challenge')));
 
     // Route with error handling
     app.get('/:route?', cors(), async (req, res, next) => {
