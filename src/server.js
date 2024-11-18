@@ -8,7 +8,7 @@ const path = require('path');
 async function main() {
     const config = JSON.parse(await fs.readFile('./config.json', 'utf8'));
 
-    const PROTOCOL = config.environment === 'production' ? 'http' : 'http';
+    const PROTOCOL = config.environment === 'production' ? 'https' : 'http';
     const HOSTNAME = '0.0.0.0';
     const PORT = process.env.PORT || 3000;
     const DEFAULT_LANGUAGE = 'fr-CA';
