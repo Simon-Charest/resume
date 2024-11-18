@@ -5,6 +5,51 @@ const fs = require('fs').promises;
 const http = require('http');
 const https = require('https');
 const path = require('path');
+const winston = require('winston');
+
+// Create a custom logger using Winston
+const logger = winston.createLogger({
+    level: 'info', // Default log level
+    format: winston.format.combine(
+        winston.format.timestamp(), // Add a timestamp to each log
+        winston.format.printf(({ timestamp, level, message }) => {
+            return `[${timestamp}] ${level}: ${message}`;
+        })
+    ),
+    transports: [
+        // Log to the console with color and simple format
+        new winston.transports.Console({
+            format: winston.format.combine(
+                winston.format.colorize(), 
+                winston.format.simple()  
+            )
+        }),
+
+        // Log to a file for general logs
+        new winston.transports.File({
+            filename: 'logs/combined.log',
+            level: 'info',  // Log all levels to the combined log
+            maxsize: 5242880, // 5MB max size per log file
+            maxFiles: 5, // Keep only 5 log files
+            format: winston.format.combine(
+                winston.format.timestamp(),
+                winston.format.json()
+            )
+        }),
+        
+        // Log only errors to a separate error log file
+        new winston.transports.File({
+            filename: 'logs/error.log',
+            level: 'error', // Log only 'error' level logs to this file
+            maxsize: 5242880, // 5MB max size per log file
+            maxFiles: 5, // Keep only 5 log files
+            format: winston.format.combine(
+                winston.format.timestamp(),
+                winston.format.json()
+            )
+        })
+    ]
+});
 
 async function main() {
     const config = JSON.parse(await fs.readFile('./config.json', 'utf8'));
@@ -35,9 +80,9 @@ async function main() {
         ]);
         data = await fs.readFile(path.join(dataDir, 'data.json'), 'utf8');
     }
-
+    
     catch (err) {
-        console.error('Error reading directories or data file:', err);
+        logger.error(`Error reading directories or data file: ${err.message}\nStack: ${err.stack}`);
         process.exit(1);
     }
 
@@ -45,14 +90,14 @@ async function main() {
     const icons = iconFiles.reduce((acc, file) => {
         const key = path.parse(file).name;
         acc[key] = file;
-
+        
         return acc;
     }, {});
 
     const images = imageFiles.reduce((acc, file) => {
         const key = path.parse(file).name;
         acc[key] = file;
-
+        
         return acc;
     }, {});
 
@@ -93,7 +138,7 @@ async function main() {
         try {
             routeData = await fs.readFile(path.join(dataDir, `${route}.json`), 'utf8');
         }
-
+        
         catch (err) {
             return next(new Error(`Error reading route data for ${route}: ${err.message}`));
         }
@@ -103,7 +148,7 @@ async function main() {
         try {
             jsonData = Object.assign({}, JSON.parse(data), JSON.parse(routeData));
         }
-
+        
         catch (err) {
             return next(new Error(`Error parsing JSON data for ${route}: ${err.message}`));
         }
@@ -156,7 +201,7 @@ async function main() {
 
     // General Error Handling Middleware
     app.use((err, req, res, next) => {
-        console.error('Error occurred:', err);
+        logger.error(`Error occurred: ${err.message}\nStack: ${err.stack}`);
         res.status(500).json({ message: 'Internal Server Error', error: err.message });
     });
 
@@ -173,9 +218,7 @@ async function main() {
         }
         
         catch (err) {
-            console.error('Error loading SSL certificates:', err);
-            
-            // Stop if certificates are missing or invalid
+            logger.error(`Error loading SSL certificates: ${err.message}\nStack: ${err.stack}`);
             process.exit(1);
         }
     }
@@ -183,18 +226,16 @@ async function main() {
     // Start the server using HTTPS or HTTP
     if (config.environment === 'production') {
         https.createServer(options, app).listen(PORT, HOSTNAME, () => {
-            console.log(`HTTPS Server running at https://${HOSTNAME}:${PORT}/`);
+            logger.info(`HTTPS Server running at https://${HOSTNAME}:${PORT}/`);
         });
-    }
-    
-    else {
+    } else {
         http.createServer(options, app).listen(PORT, HOSTNAME, () => {
-            console.log(`HTTP Server running at http://${HOSTNAME}:${PORT}/`);
+            logger.info(`HTTP Server running at http://${HOSTNAME}:${PORT}/`);
         });
     }
 }
 
 main().catch(err => {
-    console.error('Fatal error during startup:', err);
+    logger.error(`Fatal error during startup: ${err.message}\nStack: ${err.stack}`);
     process.exit(1);
 });
