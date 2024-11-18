@@ -1,19 +1,18 @@
-async function main() {
-    const cookieParser = require('cookie-parser');
-    const cors = require('cors');
-    const express = require('express');
-    const fs = require('fs').promises;
-    const https = require('https');
-    const path = require('path');
+const fs = require('fs').promises;
+const https = require('https');
+const express = require('express');
+const cookieParser = require('cookie-parser');
+const cors = require('cors');
+const path = require('path');
 
-    // Load configuration
+async function main() {
     const config = JSON.parse(await fs.readFile('./config.json', 'utf8'));
 
     const PROTOCOL = config.environment === 'production' ? 'https' : 'http';
     const HOSTNAME = '0.0.0.0';
     const PORT = process.env.PORT || 3000;
     const DEFAULT_LANGUAGE = 'fr-CA';
-    
+
     const assetsDir = path.join(__dirname, '..', 'assets');
     const dataDir = path.join(__dirname, '..', 'data');
     const publicDir = path.join(__dirname, '..', 'public');
@@ -39,8 +38,6 @@ async function main() {
     
     catch (err) {
         console.error('Error reading directories or data file:', err);
-        
-        // Exit process with error status
         process.exit(1);
     }
 
@@ -96,7 +93,7 @@ async function main() {
         try {
             routeData = await fs.readFile(path.join(dataDir, `${route}.json`), 'utf8');
         }
-        
+
         catch (err) {
             return next(new Error(`Error reading route data for ${route}: ${err.message}`));
         }
@@ -106,7 +103,7 @@ async function main() {
         try {
             jsonData = Object.assign({}, JSON.parse(data), JSON.parse(routeData));
         }
-        
+
         catch (err) {
             return next(new Error(`Error parsing JSON data for ${route}: ${err.message}`));
         }
@@ -150,7 +147,7 @@ async function main() {
             if (string.length > 0) {
                 string += lang === 'en-CA' ? ' and ' : ' et ';
             }
-            
+
             string += `${months} ${months > 1 ? (lang === 'en-CA' ? 'months' : 'mois') : (lang === 'en-CA' ? 'month' : 'mois')}`;
         }
 
@@ -163,25 +160,41 @@ async function main() {
         res.status(500).json({ message: 'Internal Server Error', error: err.message });
     });
 
-    // Load SSL certificates
+    // Load SSL certificates (only in production)
     let options = {};
 
     if (config.environment === 'production') {
-        options = {
-            key: await fs.readFile('/etc/letsencrypt/live/slcti.8bit.ca/privkey.pem'),
-            cert: await fs.readFile('/etc/letsencrypt/live/slcti.8bit.ca/cert.pem'),
-            ca: await fs.readFile('/etc/letsencrypt/live/slcti.8bit.ca/fullchain.pem')
-        };
+        try {
+            options = {
+                key: await fs.readFile('/etc/letsencrypt/live/slcti.8bit.ca/privkey.pem'),
+                cert: await fs.readFile('/etc/letsencrypt/live/slcti.8bit.ca/cert.pem'),
+                ca: await fs.readFile('/etc/letsencrypt/live/slcti.8bit.ca/fullchain.pem')
+            };
+        }
+        
+        catch (err) {
+            console.error('Error loading SSL certificates:', err);
+            
+            // Stop if certificates are missing or invalid
+            process.exit(1);
+        }
     }
 
-    app.listen(PORT, HOSTNAME, options, () => {
-        console.log(`Server running at ${PROTOCOL}://${HOSTNAME}:${PORT}/`);
-    });
+    // Start the server using HTTPS or HTTP
+    if (config.environment === 'production') {
+        https.createServer(options, app).listen(PORT, HOSTNAME, () => {
+            console.log(`HTTPS Server running at https://${HOSTNAME}:${PORT}/`);
+        });
+    }
+    
+    else {
+        app.listen(PORT, HOSTNAME, () => {
+            console.log(`HTTP Server running at http://${HOSTNAME}:${PORT}/`);
+        });
+    }
 }
 
 main().catch(err => {
     console.error('Fatal error during startup:', err);
-    
-    // Exit process if main fails
     process.exit(1);
 });
