@@ -1,3 +1,4 @@
 {
     "environment": "production"
+    "certificates": "/etc/letsencrypt/live/DOMAIN"
 }
