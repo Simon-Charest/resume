@@ -2,6 +2,7 @@ const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const express = require('express');
 const fs = require('fs').promises;
+const http = require('http');
 const https = require('https');
 const path = require('path');
 
@@ -187,7 +188,7 @@ async function main() {
     }
     
     else {
-        app.listen(PORT, HOSTNAME, () => {
+        http.createServer(options, app).listen(PORT, HOSTNAME, () => {
             console.log(`HTTP Server running at http://${HOSTNAME}:${PORT}/`);
         });
     }
