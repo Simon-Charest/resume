@@ -80,6 +80,9 @@ async function main() {
         next();
     });
 
+    // Serve static files from the .well-known/acme-challenge directory
+    app.use('/.well-known/acme-challenge', express.static(path.join(__dirname, 'public', '.well-known', 'acme-challenge')));
+
     // Route with error handling
     app.get('/:route?', cors(), async (req, res, next) => {
         const route = req.params.route || 'index';
