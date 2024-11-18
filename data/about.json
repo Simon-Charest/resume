@@ -938,6 +938,29 @@
         },
         {
             "visible": true,
+            "icon": "commissionaires.png",
+            "title": { "en-CA": "Code reviewer", "fr-CA": "Réviseur de code" },
+            "company": {
+                "name": { "en-CA": "Commissionaires", "fr-CA": "Commissionaires" },
+                "url": { "en-CA": "https://commissionaires.ca/en/", "fr-CA": "https://commissionaires.ca/fr/" }
+            },
+            "employmentType": { "en-CA": "Contract Part-time", "fr-CA": "Contrat à temps partiel" },
+            "startDate": "2019-06-06",
+            "endDate": "2019-10-24",
+            "location": {
+                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
+                "type": { "en-CA": "Remote", "fr-CA": "À distance" }
+            },
+            "descriptions": null,
+            "skills": [
+                "ASP / .NET",
+                "Entity Framework",
+                "SQL Server",
+                "Git"
+            ]
+        },
+        {
+            "visible": true,
             "icon": "belron.jpeg",
             "title": { "en-CA": "Back-end Developer", "fr-CA": "Développeur back-end" },
             "company": {
