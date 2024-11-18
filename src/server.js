@@ -165,7 +165,7 @@ async function main() {
 
     // Create a new HTTP server to handle the challenge on port 80
     http.createServer(app).listen(80, () => {
-        console.log('ACME challenge server running on port 80');
+        //console.log('ACME challenge server running on port 80');
     });
 }
 
