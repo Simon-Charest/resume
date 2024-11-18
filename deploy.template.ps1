@@ -33,6 +33,12 @@ sudo openvpn --config /etc/openvpn/ca.protonvpn.udp.ovpn --auth-user-pass /etc/o
 # Disabled VPN
 sudo systemctl stop openvpn@client
 
+# Request a certificate from Let's Encrypt
+sudo certbot certonly --webroot -w ~/source/resume/public -d DOMAIN
+
+# Set up automatic renewal
+echo "0 0,12 * * * root /opt/certbot/bin/python -c 'import random; import time; time.sleep(random.random() * 3600)' && sudo certbot renew -q" | sudo tee -a /etc/crontab > /dev/null
+
 # Disconnect from web server
 exit
 

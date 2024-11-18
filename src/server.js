@@ -1,14 +1,18 @@
-const PROTOCOL = 'http';
-const HOSTNAME = '0.0.0.0';
-const PORT = process.env.PORT || 3000;
-const DEFAULT_LANGUAGE = 'fr-CA';
-
 async function main() {
     const cookieParser = require('cookie-parser');
     const cors = require('cors');
     const express = require('express');
     const fs = require('fs').promises;
+    const https = require('https');
     const path = require('path');
+
+    // Load configuration
+    const config = JSON.parse(await fs.readFile('./config.json', 'utf8'));
+
+    const PROTOCOL = config.environment === 'production' ? 'https' : 'http';
+    const HOSTNAME = '0.0.0.0';
+    const PORT = process.env.PORT || 3000;
+    const DEFAULT_LANGUAGE = 'fr-CA';
     
     const assetsDir = path.join(__dirname, '..', 'assets');
     const dataDir = path.join(__dirname, '..', 'data');
@@ -59,7 +63,7 @@ async function main() {
     app.use(cookieParser());
 
     // Use the CORS middleware to allow requests from any origin
-    app.use(cors()); 
+    app.use(cors());
 
     // Serve static files from the assets directory
     app.use('/assets', express.static(assetsDir));
@@ -159,7 +163,18 @@ async function main() {
         res.status(500).json({ message: 'Internal Server Error', error: err.message });
     });
 
-    app.listen(PORT, HOSTNAME, () => {
+    // Load SSL certificates
+    let options = {};
+
+    if (config.environment === 'production') {
+        options = {
+            key: await fs.readFile('/etc/letsencrypt/live/slcti.8bit.ca/privkey.pem'),
+            cert: await fs.readFile('/etc/letsencrypt/live/slcti.8bit.ca/cert.pem'),
+            ca: await fs.readFile('/etc/letsencrypt/live/slcti.8bit.ca/fullchain.pem')
+        };
+    }
+
+    app.listen(PORT, HOSTNAME, options, () => {
         console.log(`Server running at ${PROTOCOL}://${HOSTNAME}:${PORT}/`);
     });
 }
