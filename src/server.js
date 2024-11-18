@@ -8,7 +8,7 @@ const path = require('path');
 async function main() {
     const config = JSON.parse(await fs.readFile('./config.json', 'utf8'));
 
-    const PROTOCOL = config.environment === 'production' ? 'https' : 'http';
+    const PROTOCOL = config.environment === 'production' ? 'http' : 'http';
     const HOSTNAME = '0.0.0.0';
     const PORT = process.env.PORT || 3000;
     const DEFAULT_LANGUAGE = 'fr-CA';
@@ -35,7 +35,7 @@ async function main() {
         ]);
         data = await fs.readFile(path.join(dataDir, 'data.json'), 'utf8');
     }
-    
+
     catch (err) {
         console.error('Error reading directories or data file:', err);
         process.exit(1);
