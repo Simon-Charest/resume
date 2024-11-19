@@ -48,8 +48,8 @@
                             <li>
                                 <img src="/assets/icons/<%= icons.website %>" class="icon icon-16x16">
                                 <strong><%= data.globals.websites[lang] %></strong>&nbsp;
-                                <% data.intro.contactInfo.websites.forEach((item, index) => { %>
-                                    <a href="<%= item.url %>"><%= item.name[lang] %></a>&nbsp;(<%= item.type[lang] %>)<% if (index < data.intro.contactInfo.websites.length - 1) { %>, <% } %>
+                                <% data.intro.contactInfo.websites.forEach((website, index) => { %>
+                                    <a href="<%= website.url %>"><%= website.name[lang] %></a>&nbsp;(<%= website.type[lang] %>)<% if (index < data.intro.contactInfo.websites.length - 1) { %>, <% } %>
                                 <% }); %>
                             </li>
                             <li><img src="/assets/icons/<%= icons.phone %>" class="icon icon-16x16"><strong><%= data.globals.phone[lang] %></strong>&nbsp;<a href="tel:<%= data.intro.contactInfo.phone.number %>"><%= data.intro.contactInfo.phone.number %></a>&nbsp;(<%= data.intro.contactInfo.phone.type %>)</li>
@@ -94,10 +94,10 @@
                 <button class="collapsible-button"><%= data.seeMore[lang] %></button>
                 <div class="collapsible-content">
                     <ul class="list-style-type-none">
-                        <% data.about_.forEach(item => { %>
+                        <% data.abouts.forEach(about => { %>
                             <li class="padded-li">
-                                <strong><%= item.name[lang] %></strong>
-                                <br><%= item.description[lang] %>
+                                <strong><%= about.name[lang] %></strong>
+                                <br><%= about.description[lang] %>
                             </li>
                         <% }); %>
                     </ul>
@@ -116,37 +116,37 @@
             <div class="box">
                 <h2><%= data.globals.experience[lang] %></h2>
                 <% const filteredExperiences = data.experiences.filter(experience => experience.visible == true); %>
-                <% filteredExperiences.forEach((item, index) => { %>
+                <% filteredExperiences.forEach((experience, index) => { %>
                     <div class="card-row">
-                        <img src="/assets/images/<%= item.icon || 'company.png' %>" class="icon icon-48x48">
+                        <img src="/assets/images/<%= experience.icon || 'company.png' %>" class="icon icon-48x48">
                         <div class="card-text">
-                            <strong><%= item.title[lang] %></strong>
+                            <strong><%= experience.title[lang] %></strong>
                             <br>
-                            <% if (item.company) { %>
-                                <% if (item.company.url) { %>
-                                    <a href="<%= item.company.url[lang] %>">
+                            <% if (experience.company) { %>
+                                <% if (experience.company.url) { %>
+                                    <a href="<%= experience.company.url[lang] %>">
                                 <% } %>
-                                <%= item.company.name[lang] %>
-                                <% if (item.company.url) { %>
+                                <%= experience.company.name[lang] %>
+                                <% if (experience.company.url) { %>
                                     </a>
                                 <% } %>
-                                <% if (item.employmentType) { %>
+                                <% if (experience.employmentType) { %>
                                     ·
                                 <% } %>
                             <% } %>
-                            <% if (item.employmentType) { %>
-                                <%= item.employmentType[lang] %>
+                            <% if (experience.employmentType) { %>
+                                <%= experience.employmentType[lang] %>
                             <% } %>
                             <span class="gray">
-                                <br><%= item.startDate.slice(0, 7) %> - <%= item.endDate ? item.endDate.slice(0, 7) : data.globals.present[lang] %> · <%= formatLength(calculateLength(item.startDate, item.endDate), lang) %>
-                                <br><%= item.location.city[lang] %> - <%= item.location.type[lang] %>
+                                <br><%= experience.startDate.slice(0, 7) %> - <%= experience.endDate ? experience.endDate.slice(0, 7) : data.globals.present[lang] %> · <%= formatLength(calculateLength(experience.startDate, experience.endDate), lang) %>
+                                <br><%= experience.location.city[lang] %> - <%= experience.location.type[lang] %>
                             </span>
-                            <% if (item.descriptions) { %>
+                            <% if (experience.descriptions) { %>
                                 <div>
                                     <button class="collapsible-button"><%= data.seeMore[lang] %></button>
                                     <div class="collapsible-content">
 
-                                        <% item.descriptions.forEach(description => { %>
+                                        <% experience.descriptions.forEach(description => { %>
                                             <strong><%= description.key[lang] %></strong>
                                             <ul class="list-style-type-disc">
                                                 <% description.values.forEach(value => { %>
@@ -159,11 +159,11 @@
                                 </div>
                             <% } %>
 
-                            <% if (item.skills) { %>
+                            <% if (experience.skills) { %>
                                 <p>
                                     <h3><img src="/assets/icons/<%= icons.skill %>" class="icon"> <%= data.globals.skills[lang] %></h3>
                                     <ul class="horizontal-list">
-                                        <% item.skills.forEach(skill => { %>
+                                        <% experience.skills.forEach(skill => { %>
                                             <li><%= skill %></li>
                                         <% }); %>
                                     </ul>
@@ -211,39 +211,39 @@
             <div class="box">
                 <h2><%= data.globals.education[lang] %></h2>
                 <% const filteredEducations = data.educations.filter(education => education.visible == true); %>
-                <% filteredEducations.forEach((item, index) => { %>
+                <% filteredEducations.forEach((education, index) => { %>
                     <div class="card-row">
-                        <img src="/assets/images/<%= item.icon || 'school.png' %>" class="icon icon-48x48">
+                        <img src="/assets/images/<%= education.icon || 'school.png' %>" class="icon icon-48x48">
                         <div class="card-text">
-                            <strong><%= item.title[lang] %></strong>
-                            <% if (item.degree) { %>
-                                <br><%= item.degree[lang] %>
+                            <strong><%= education.title[lang] %></strong>
+                            <% if (education.degree) { %>
+                                <br><%= education.degree[lang] %>
                             <% } %>
-                            <br><% if (item.school.url) { %><a href="<%= item.school.url[lang] %>"><% } %><%= item.school.name[lang] %><% if (item.school.url) { %></a><% } %>
+                            <br><% if (education.school.url) { %><a href="<%= education.school.url[lang] %>"><% } %><%= education.school.name[lang] %><% if (education.school.url) { %></a><% } %>
                             <span class="gray">
-                                <br><%= item.startDate.slice(0, 4) %> 
-                                <% if (item.endDate) { %>
-                                    <% if (parseInt(item.endDate.slice(0, 4)) > parseInt(item.startDate.slice(0, 4))) { %>
-                                        - <%= item.endDate.slice(0, 4) %>
+                                <br><%= education.startDate.slice(0, 4) %> 
+                                <% if (education.endDate) { %>
+                                    <% if (parseInt(education.endDate.slice(0, 4)) > parseInt(education.startDate.slice(0, 4))) { %>
+                                        - <%= education.endDate.slice(0, 4) %>
                                     <% } %>
                                 <% } else { %>
                                     - <%= data.globals.present[lang] %>
                                 <% } %>
-                                <br><%= item.location.city[lang] %>
-                                <% if (item.relationships && item.relationships.length > 0) { %>
+                                <br><%= education.location.city[lang] %>
+                                <% if (education.relationships && education.relationships.length > 0) { %>
                                     <br><%= data.globals.relationships[lang] %>:
-                                    <% item.relationships.forEach((relationship, index) => { %>
-                                        <a href="<%= relationship.url[lang] %>"><%= relationship.name[lang] %></a> (<%= relationship.type[lang] %>)<% if (index < item.relationships.length - 1) { %>, <% } %>
+                                    <% education.relationships.forEach((relationship, index) => { %>
+                                        <a href="<%= relationship.url[lang] %>"><%= relationship.name[lang] %></a> (<%= relationship.type[lang] %>)<% if (index < education.relationships.length - 1) { %>, <% } %>
                                     <% }); %>
                                 <% } %>
                             </span>
                             <div>
-                                <% if (item.descriptions) { %>
+                                <% if (education.descriptions) { %>
                                     <div>
                                         <button class="collapsible-button"><%= data.seeMore[lang] %></button>
                                         <div class="collapsible-content">
     
-                                            <% item.descriptions.forEach(description => { %>
+                                            <% education.descriptions.forEach(description => { %>
                                                 <strong><%= description.key[lang] %></strong>
                                                 <ul class="list-style-type-disc">
                                                     <% description.values.forEach(value => { %>
