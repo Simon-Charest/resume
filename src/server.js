@@ -225,13 +225,13 @@ async function main() {
 
     // Start the server using HTTPS or HTTP
     if (config.environment === 'production') {
-        https.createServer(options, app).listen(PORT, () => {
+        https.createServer(options, app).listen(PORT, HOSTNAME, () => {
             logger.info(`HTTPS Server running at https://${HOSTNAME}:${PORT}/`);
         });
     }
     
     else {
-        http.createServer(options, app).listen(PORT, () => {
+        http.createServer(options, app).listen(PORT, HOSTNAME, () => {
             logger.info(`HTTP Server running at http://${HOSTNAME}:${PORT}/`);
         });
     }
