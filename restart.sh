@@ -1,3 +1,4 @@
 command="resume.service"
 sudo systemctl daemon-reload
-sudo systemctl restart $command
+sudo systemctl stop $command
+sudo systemctl start $command
