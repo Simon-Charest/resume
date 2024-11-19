@@ -164,36 +164,43 @@ async function main() {
             images,
             backgroundImage,
             profileImage,
+            calculateMonth,
             calculateLength,
             formatLength
         });
     });
 
-    const calculateLength = (startDate, endDate) => {
+    const calculateMonth = (startDate, endDate) => {
         const start = new Date(startDate);
         const end = endDate == null ? new Date() : new Date(endDate);
         const yearDiff = end.getFullYear() - start.getFullYear();
         const monthDiff = end.getMonth() - start.getMonth();
-        const totalMonths = yearDiff * 12 + monthDiff;
-        const years = Math.floor(totalMonths / 12);
-        const months = totalMonths % 12;
+        const totalMonth= yearDiff * 12 + monthDiff;
 
-        return { years, months };
+        return totalMonth;
     };
 
-    const formatLength = ({ years, months }, lang) => {
+    const calculateLength = (startDate, endDate) => {
+        const totalMonth = calculateMonth(startDate, endDate);
+        const year = Math.floor(totalMonth / 12);
+        const month = totalMonth % 12;
+
+        return { year, month };
+    };
+
+    const formatLength = ({ year, month }, lang) => {
         let string = '';
 
-        if (years > 0) {
-            string += `${years} ${years > 1 ? (lang === 'en-CA' ? 'years' : 'ans') : (lang === 'en-CA' ? 'year' : 'an')}`;
+        if (year > 0) {
+            string += `${year} ${year > 1 ? (lang === 'en-CA' ? 'years' : 'ans') : (lang === 'en-CA' ? 'year' : 'an')}`;
         }
 
-        if (months > 0) {
+        if (month > 0) {
             if (string.length > 0) {
                 string += lang === 'en-CA' ? ' and ' : ' et ';
             }
 
-            string += `${months} ${months > 1 ? (lang === 'en-CA' ? 'months' : 'mois') : (lang === 'en-CA' ? 'month' : 'mois')}`;
+            string += `${month} ${month > 1 ? (lang === 'en-CA' ? 'months' : 'mois') : (lang === 'en-CA' ? 'month' : 'mois')}`;
         }
 
         return string.length === 0 ? '0 months' : string;

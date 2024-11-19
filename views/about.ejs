@@ -103,14 +103,37 @@
                     </ul>
                 </div>
 
+                <% 
+                    let topSkills = {};
+
+                    data.experiences.filter(experience => experience.visible === true).forEach((experience) => {
+                        if (Array.isArray(experience.skills)) {
+                            let month = calculateMonth(experience.startDate, experience.endDate);
+                            
+                            experience.skills.forEach(skill => {
+                                topSkills[skill] = (topSkills[skill] || 0) + month;
+                            });
+                        }
+                    });
+
+                    topSkills = Object.entries(topSkills).sort(([skillA, monthA], [skillB, monthB]) => {
+                        if (monthB !== monthA) {
+                            return monthB - monthA;
+                        }
+
+                        return skillA.localeCompare(skillB);
+                    });
+                %>
+
                 <div class="top-skills">
                     <h3><img src="/assets/icons/<%= icons.skill %>" class="icon icon-16x16"><%= data.globals.topSkills[lang] %></h3>
                     <ul class="horizontal-list">
-                        <% data.topSkills.forEach(topSkill => { %>
-                            <li><%= topSkill %></li>
+                        <% topSkills.forEach(topSkill => { %>
+                            <li><%= topSkill[0] %></li>
                         <% }); %>
                     </ul>
                 </div>
+
             </div>
 
             <div class="box">
@@ -138,8 +161,16 @@
                                 <%= experience.employmentType[lang] %>
                             <% } %>
                             <span class="gray">
-                                <br><%= experience.startDate.slice(0, 7) %> - <%= experience.endDate ? experience.endDate.slice(0, 7) : data.globals.present[lang] %> · <%= formatLength(calculateLength(experience.startDate, experience.endDate), lang) %>
-                                <br><%= experience.location.city[lang] %> - <%= experience.location.type[lang] %>
+                                <br>
+                                <%= experience.startDate.slice(0, 7) %>
+                                -
+                                <%= experience.endDate ? experience.endDate.slice(0, 7) : data.globals.present[lang] %>
+                                ·
+                                <%= formatLength(calculateLength(experience.startDate, experience.endDate), lang) %>
+                                <br>
+                                <%= experience.location.city[lang] %>
+                                -
+                                <%= experience.location.type[lang] %>
                             </span>
                             <% if (experience.descriptions) { %>
                                 <div>
@@ -178,6 +209,7 @@
                 <% }); %>
             </div>
 
+            <!--
             <div class="box">
                 <h2><%= data.globals.skills[lang] %></h2>
                 <ul class="list-style-type-none">
@@ -192,14 +224,31 @@
                     <% }); %>
                 </ul>
             </div>
+            -->
 
             <div class="box">
                 <h2><%= data.globals.courses[lang] %></h2>
                 <ul class="list-style-type-none">
                     <% data.courses.forEach((course, index) => { %>
                         <li>
-                            <%= course.name[lang] %><% if (course.code) { %> (<span class="gray"><%= course.code %></span>)<% } %>
-                            <br><span class="gray"><%= course.startDate.slice(0, 7) %><% if (course.endDate && course.endDate > course.startDate) { %> - <%= course.endDate.slice(0, 7) %><% } %></span>
+                            <%= course.name[lang] %>
+                            <% if (course.code) { %>
+                                (<span class="gray"><%= course.code %></span>)
+                            <% } %>
+                            <br>
+                            <a href="<%= course.url[lang] %>" target=_blank><%= course.organisation[lang] %></a>
+                            <br>
+                            <span class="gray">
+                                <%= course.startDate.slice(0, 7) %>
+                                <% if (course.endDate && course.endDate > course.startDate) { %>
+                                    -
+                                    <%= course.endDate.slice(0, 7) %>
+                                <% } %>
+                                <% if (course.endDate) { %>
+                                    ·
+                                    <%= formatLength(calculateLength(course.startDate, course.endDate), lang) %>
+                                <% } %>
+                            </span>
                         </li>
                         <% if (index < data.courses.length - 1) { %>
                             <hr>
@@ -224,7 +273,14 @@
                                 <br><%= education.startDate.slice(0, 4) %> 
                                 <% if (education.endDate) { %>
                                     <% if (parseInt(education.endDate.slice(0, 4)) > parseInt(education.startDate.slice(0, 4))) { %>
-                                        - <%= education.endDate.slice(0, 4) %>
+                                        -
+                                        <%= education.endDate.slice(0, 4) %>
+                                        <!--
+                                        <% if (education.endDate) { %>
+                                            ·
+                                            <%= formatLength(calculateLength(education.startDate, education.endDate), lang) %>
+                                        <% } %>
+                                        -->
                                     <% } %>
                                 <% } else { %>
                                     - <%= data.globals.present[lang] %>
@@ -311,7 +367,6 @@
                     <% }); %>
                 </ul>
             </div>
-            
 
         </div>
 

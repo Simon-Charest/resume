@@ -25,7 +25,7 @@
 
         "skills": { "en-CA": "Skills", "fr-CA": "Compétences" },
 
-        "courses": { "en-CA": "Courses", "fr-CA": "Cours" },
+        "courses": { "en-CA": "Certifications & Training", "fr-CA": "Certifications et formation" },
 
         "languages": { "en-CA": "Languages", "fr-CA": "Langues" },
 
@@ -191,18 +191,6 @@
             }
         }
     ],
-
-    "topSkills": [
-        "Python",
-        "SQL / NoSQL / JSON / CSV",
-        "Node.js",
-        "PHP",
-        "HTML / JS / CSS",
-        "C# / .NET",
-        "VB",
-        "PowerShell",
-        "Git"
-    ],
     
     "experiences": [
         {
@@ -262,7 +250,11 @@
             "skills": [
                 "Python",
                 "Node.js",
-                "SQL / NoSQL / JSON / CSV",
+                "SQL",
+                "SQLite",
+                "NoSQL",
+                "JSON",
+                "CSV",
                 "Git",
                 "PowerShell",
                 "Bash",
@@ -364,7 +356,13 @@
                 "Python",
                 "pandas",
                 "Pytest",
-                "SQL / NoSQL / JSON / CSV",
+                "SQL",
+                "SQLite",
+                "SQL Server",
+                "MongoDB",
+                "NoSQL",
+                "JSON",
+                "CSV",
                 "Git",
                 "Chart.js",
                 "Cytospace.js",
@@ -372,7 +370,8 @@
                 "Microsoft 365",
                 "Excel",
                 "Java",
-                "Graph / Neo4j",
+                "Graph",
+                "Neo4j",
                 "WordPress"
             ]
         },
@@ -642,7 +641,7 @@
             "icon": "psp.jpeg",
             "title": { "en-CA": "Senior Developer - Python", "fr-CA": "Développeur Senior - Python" },
             "company": {
-                "name": { "en-CA": "PSP Investments", "fr-CA": "Investissements PSP" },
+                "name": { "en-CA": "Public Sector Pension (PSP) Investments", "fr-CA": "Investissements Public Sector Pension (PSP)" },
                 "url": { "en-CA": "https://www.investpsp.com/en/", "fr-CA": "https://www.investpsp.com/fr/" }
             },
             "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
@@ -661,7 +660,7 @@
                     },
                     "values": [
                         {
-                            "en-CA": "Reporting to the Senior Manager, Analytics and Total Fund Delivery, the Senior Developer - Python is responsible for building and deploying data & calculations pipelines to feed advanced analytics use cases",
+                            "en-CA": "Reporting to the Senior Manager, Analytics and Total Fund Delivery, the Senior Developer - Python is responsible for building and deploying data and calculations pipelines to feed advanced analytics use cases",
                             "fr-CA": "Sous la supervision du Gestionnaire principal, Analyse et Livraison du Fonds Total, le Développeur Senior - Python est responsable de la création et du déploiement de pipelines de données et de calculs pour alimenter des cas d'utilisation en analyse avancée"
                         },
                         {
@@ -795,10 +794,17 @@
                 "SciPy",
                 "PyXLL",
                 "PyQt",
-                "HTML / JS / CSS",
+                "HTML",
+                "JS",
+                "CSS",
                 "SQL",
-                "PowerShell / Batch",
-                "Git / Azure DevOps",
+                "SQL Server",
+                "Azure SQL Database",
+                "Snowflake",
+                "PowerShell",
+                "Batch",
+                "Git",
+                "Azure DevOps",
                 "Kanban"
             ]
         },
@@ -891,10 +897,18 @@
             "skills": [
                 "PowerShell",
                 "Python",
-                "C# / .NET",
+                "C#",
+                ".NET",
+                "ASP",
                 "Entity Framework",
-                "SQL Server / PostgreSQL / Elasticsearch",
-                "NoSQL / JSON / CSV",
+                "SQL",
+                "SQL Server",
+                "PostgreSQL",
+                "Elasticsearch",
+                "MongoDB",
+                "NoSQL",
+                "JSON",
+                "CSV",
                 "Microsoft 365",
                 "Git",
                 "Kanban"
@@ -932,6 +946,7 @@
             ],
             "skills": [
                 "Python",
+                "C",
                 "ANSI C",
                 "Git"
             ]
@@ -966,8 +981,10 @@
                 }
             ],
             "skills": [
-                "ASP / .NET",
+                "ASP.NET",
+                ".NET",
                 "Entity Framework",
+                "SQL",
                 "SQL Server",
                 "Git"
             ]
@@ -1008,7 +1025,7 @@
                             "fr-CA": "support et développement concernant l'intelligence d'affaires"
                         },
                         {
-                            "en-CA": "Updating the engine and content of the organization's various websites",
+                            "en-CA": "Updating the engine and content of the organisation's various websites",
                             "fr-CA": "Mise à jour du moteur et du contenu des différents sites web de l'organisation"
                         }
                     ]
@@ -1028,11 +1045,19 @@
             ],
             "skills": [
                 "PHP",
-                "HTML / JS / CSS",
-                "Node.js / Vue.js",
-                "ASP / C# / .NET",
+                "HTML",
+                "JS",
+                "CSS",
+                "Node.js",
+                "Vue.js",
+                "ASP.NET",
+                "C#",
+                ".NET",
                 "ASP",
                 "VB",
+                "SQL",
+                "MySQL",
+                "MariaDB",
                 "SQL Server",
                 "WordPress",
                 "Git",
@@ -1143,9 +1168,13 @@
             ],
             "skills": [
                 "VB.NET",
+                "SQL",
                 "Oracle Database",
+                "C",
+                "C++",
                 "Pro*C/C++",
-                "Lua / Iguana",
+                "Lua",
+                "Iguana",
                 "Git",
                 "Scrum"
             ]
@@ -1155,7 +1184,7 @@
             "icon": "cepcsj.png",
             "title": { "en-CA": "Webmaster", "fr-CA": "Webmestre" },
             "company": {
-                "name": { "en-CA": "Commission of Inquiry on the Protection of Journalistic Source Confidentiality | Chamberland Commission", "fr-CA": "Commission d'enquête sur la protection de la confidentialité des sources journalistiques | Commission Chamberland" },
+                "name": { "en-CA": "Commission of Inquiry on the Protection of Journalistic Source Confidentiality (CEPCSJ) | Chamberland Commission", "fr-CA": "Commission d'enquête sur la protection de la confidentialité des sources journalistiques (CEPCSJ) | Commission Chamberland" },
                 "url": { "en-CA": "https://www.paystone.com/ ", "fr-CA": "https://www.bibliotheque.assnat.qc.ca/guides/fr/les-commissions-d-enquete-au-quebec-depuis-1867/7735-commission-chamberland-2017" }
             },
             "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
@@ -1206,7 +1235,9 @@
             ],
             "skills": [
                 "TYPO3",
-                "HTML / JS / CSS"
+                "HTML",
+                "JS",
+                "CSS"
             ]
         },
         {
@@ -1261,7 +1292,10 @@
             ],
             "skills": [
                 "PHP",
-                "HTML / JS / CSS",
+                "HTML",
+                "JS",
+                "CSS",
+                "SQL",
                 "MySQL",
                 "Git",
                 "Scrum"
@@ -1272,7 +1306,7 @@
             "icon": "upac.png",
             "title": { "en-CA": "Information Technology Analyst", "fr-CA": "Analyste de l'informatique" },
             "company": {
-                "name": { "en-CA": "Permanent Anti-Corruption Unit", "fr-CA": "Unité permanente anticorruption" },
+                "name": { "en-CA": "Permanent Anti-Corruption Unit (UPAC)", "fr-CA": "Unité permanente anticorruption (UPAC)" },
                 "url": { "en-CA": "https://upac.gouv.qc.ca/en/", "fr-CA": "https://upac.gouv.qc.ca/" }
             },
             "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
@@ -1407,8 +1441,11 @@
             ],
             "skills": [
                 "PHP",
-                "HTML / JS / CSS",
+                "HTML",
+                "JS",
+                "CSS",
                 "VBA",
+                "SQL",
                 "SQL Server"
             ]
         },
@@ -1417,7 +1454,7 @@
             "icon": "msp.jpeg",
             "title": { "en-CA": "Computer Technician", "fr-CA": "Technicien en informatique" },
             "company": {
-                "name": { "en-CA": "Ministry of Public Security", "fr-CA": "Ministère de la Sécurité publique" },
+                "name": { "en-CA": "Ministry of Public Security (MSP)", "fr-CA": "Ministère de la Sécurité publique (MSP)" },
                 "url": { "en-CA": "https://www.quebec.ca/en/government/ministere/public-security/", "fr-CA": "https://www.quebec.ca/gouvernement/ministere/securite-publique/" }
             },
             "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
@@ -1504,8 +1541,11 @@
             ],
             "skills": [
                 "PHP",
-                "HTML / JS / CSS",
+                "HTML",
+                "JS",
+                "CSS",
                 "VBA",
+                "SQL",
                 "SQL Server"
             ]
         },
@@ -1514,7 +1554,7 @@
             "icon": "sq.jpeg",
             "title": { "en-CA": "Computer Technician", "fr-CA": "Technicien en informatique" },
             "company": {
-                "name": { "en-CA": "Quebec Provincial Police", "fr-CA": "Sûreté du Québec" },
+                "name": { "en-CA": "Quebec Provincial Police (SQ)", "fr-CA": "Sûreté du Québec (SQ)" },
                 "url": { "en-CA": "https://www.sq.gouv.qc.ca/en/", "fr-CA": "https://www.sq.gouv.qc.ca/" }
             },
             "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
@@ -1621,8 +1661,12 @@
             ],
             "skills": [
                 "PHP",
-                "HTML / JS / CSS",
-                "VB6 / VBA",
+                "HTML",
+                "JS",
+                "CSS",
+                "VB",
+                "VBA",
+                "SQL",
                 "Access"
             ]
         },
@@ -1631,7 +1675,7 @@
             "icon": "technomedia.png",
             "title": { "en-CA": "Programmer Analyst", "fr-CA": "Analyste programmeur" },
             "company": {
-                "name": { "en-CA": "Technomedia | Cegid", "fr-CA": "Technomedia | Cegid" },
+                "name": { "en-CA": "Technomedia Training | Cegid", "fr-CA": "Technomedia Formation | Cegid" },
                 "url": { "en-CA": "https://www.cegid.com/en/", "fr-CA": "https://www.cegid.com/fr/" }
             },
             "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
@@ -1662,6 +1706,7 @@
             "skills": [
                 "ColdFusion",
                 "Java",
+                "SQL",
                 "SQL Server",
                 "Oracle Database"
             ]
@@ -1671,7 +1716,7 @@
             "icon": "bio_runner.png",
             "title": { "en-CA": "Programmer Analyst", "fr-CA": "Analyste Programmeur" },
             "company": {
-                "name": { "en-CA": "Sytran Technology | Biorunner", "fr-CA": "Technologie Sytran | Biorunner" },
+                "name": { "en-CA": "Sytran Technology | Biorunner | Mario Thibert", "fr-CA": "Technologie Sytran | Biorunner | Mario Thibert" },
                 "url": null
             },
             "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
@@ -1709,7 +1754,8 @@
                 }
             ],
             "skills": [
-                "VB6",
+                "VB",
+                "SQL",
                 "SQL Server"
             ]
         },
@@ -1747,7 +1793,8 @@
                 }
             ],
             "skills": [
-                "VB6",
+                "VB",
+                "SQL",
                 "SQL Server"
             ]
         },
@@ -1845,7 +1892,7 @@
             "icon": "csdm.png",
             "title": { "en-CA": "Storekeeper - Class II", "fr-CA": "Magasinier - Classe II" },
             "company": {
-                "name": { "en-CA": "Montreal School Service Centre", "fr-CA": "Centre de services scolaire de Montréal" },
+                "name": { "en-CA": "Montreal School Service Centre (CSSDM)", "fr-CA": "Centre de services scolaire de Montréal (CSSDM)" },
                 "url": {
                     "en-CA": "https://www.cssdm.gouv.qc.ca/",
                     "fr-CA": "https://www.cssdm.gouv.qc.ca/"
@@ -2222,16 +2269,32 @@
     "courses": [
         {
             "name": {
-                "en-CA": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)",
-                "fr-CA": "PyImageSearch Gurus (https://pyimagesearch.com/pyimagesearch-gurus/)"
+                "en-CA": "PyImageSearch Gurus Course",
+                "fr-CA": "Cours PyImageSearch"
+            },
+            "organisation" : {
+                "en-CA": "PyImageSearch",
+                "fr-CA": "PyImageSearch"
+            },
+            "url": {
+                "en-CA": "https://pyimagesearch.com/pyimagesearch-gurus/",
+                "fr-CA": "https://pyimagesearch.com/pyimagesearch-gurus/"
             },
             "code": null,
             "startDate": "2024"
         },
         {
             "name": {
-                "en-CA": "Team Kanban Practitioner, in Information Technologies, at the Kanban University (https://kanban.university/)",
-                "fr-CA": "Praticien de l'équipe Kanban, en technologies de l'information, à l'Université Kanban (https://kanban.university/)"
+                "en-CA": "Team Kanban Practitioner, in Information Technologies",
+                "fr-CA": "Praticien de l'équipe Kanban, en technologies de l'information"
+            },
+            "organisation" : {
+                "en-CA": "Kanban University",
+                "fr-CA": "Université Kanban"
+            },
+            "url": {
+                "en-CA": "https://kanban.university/",
+                "fr-CA": "https://kanban.university/"
             },
             "code": "TKP",
             "startDate": "2021"
@@ -2241,46 +2304,94 @@
                 "en-CA": "Security Screening Certificate and Briefing Form - Level II (Secret)",
                 "fr-CA": "Certificat d'enquête de sécurité et profil de sécurité - Niveau II (Secret)"
             },
+            "organisation" : {
+                "en-CA": "Government of Canada",
+                "fr-CA": "Gouvernement du Canada"
+            },
+            "url": {
+                "en-CA": "https://www.tbs-sct.canada.ca/tbsf-fsct/330-47-eng.asp",
+                "fr-CA": "https://www.tbs-sct.canada.ca/tbsf-fsct/330-47-fra.asp"
+            },
             "code": null,
             "startDate": "2019-09-18",
             "endDate": "2029-09-18"
         },
         {
             "name": {
-                "en-CA": "Security clearance by the Laval Police Department",
-                "fr-CA": "Habilitation sécuritaire par le Service de police de la Ville de Laval (SPL)"
+                "en-CA": "Security clearance",
+                "fr-CA": "Habilitation sécuritaire"
+            },
+            "organisation" : {
+                "en-CA": "Laval Police Department (SPL)",
+                "fr-CA": "Service de police de la Ville de Laval (SPL)"
+            },
+            "url": {
+                "en-CA": "https://www.laval.ca/police/Pages/En/home.aspx",
+                "fr-CA": "https://www.laval.ca/police/"
             },
             "code": null,
             "startDate": "2019-04-02"
         },
         {
             "name": {
-                "en-CA": "Administering Microsoft SQL Server 2012 Databases (Versalys Training)",
-                "fr-CA": "Administration des bases de données Microsoft SQL Server 2012 (Versalys Formation)"
+                "en-CA": "Administering Microsoft SQL Server 2012 Databases",
+                "fr-CA": "Administration des bases de données Microsoft SQL Server 2012"
+            },
+            "organisation" : {
+                "en-CA": "Versalys Training",
+                "fr-CA": "Versalys Formation"
+            },
+            "url": {
+                "en-CA": "https://www.versalys.com/en/",
+                "fr-CA": "https://www.versalys.com/"
             },
             "code": "10775A",
             "startDate": "2014"
         },
         {
             "name": {
-                "en-CA": "Security clearance by the Permanent Anti-Corruption Unit",
-                "fr-CA": "Habilitation sécuritaire par l'Unité permanente anticorruption"
+                "en-CA": "Security clearance",
+                "fr-CA": "Habilitation sécuritaire"
+            },
+            "organisation" : {
+                "en-CA": "Permanent Anti-Corruption Unit (UPAC)",
+                "fr-CA": "Unité permanente anticorruption (UPAC)"
+            },
+            "url": {
+                "en-CA": "https://upac.gouv.qc.ca/en/",
+                "fr-CA": "https://upac.gouv.qc.ca/"
             },
             "code": null,
             "startDate": "2011-09-01"
         },
         {
             "name": {
-                "en-CA": "Control your time with Microsoft Outlook 2003 (Qualitemps Training)",
-                "fr-CA": "Maîtriser son temps avec Microsoft Outlook 2003 (Formation Qualitemps)"
+                "en-CA": "Control your time with Microsoft Outlook 2003",
+                "fr-CA": "Maîtriser son temps avec Microsoft Outlook 2003"
+            },
+            "organisation" : {
+                "en-CA": "Qualitemps Training",
+                "fr-CA": "Formation Qualitemps"
+            },
+            "url": {
+                "en-CA": "https://www.formations-qualitemps.ca/",
+                "fr-CA": "https://www.formations-qualitemps.ca/"
             },
             "code": null,
             "startDate": "2008-10"
         },
         {
             "name": {
-                "en-CA": "Introduction to C# Programming with Microsoft .NET (Versalys Training)",
-                "fr-CA": "Introduction à la programmation C# avec Microsoft.NET (Versalys Formation)"
+                "en-CA": "Introduction to C# Programming with Microsoft .NET",
+                "fr-CA": "Introduction à la programmation C# avec Microsoft.NET"
+            },
+            "organisation" : {
+                "en-CA": "Versalys Training",
+                "fr-CA": "Versalys Formation"
+            },
+            "url": {
+                "en-CA": "https://www.versalys.com/en/",
+                "fr-CA": "https://www.versalys.com/"
             },
             "code": "2609A",
             "startDate": "2007-07"
@@ -2290,13 +2401,29 @@
                 "en-CA": "i2 iBase Designer Workshop, by i2 - i2 Training Certificate",
                 "fr-CA": "Atelier i2 iBase Designer, par i2 - Certificat de formation i2"
             },
+            "organisation" : {
+                "en-CA": "i2",
+                "fr-CA": "i2"
+            },
+            "url": {
+                "en-CA": "https://docs.i2group.com/ibase/intro_designer.html",
+                "fr-CA": "https://docs.i2group.com/ibase/intro_designer.html"
+            },
             "code": null,
             "startDate": "2007-02"
         },
         {
             "name": {
-                "en-CA": "Security clearance by the Quebec Provincial Police",
-                "fr-CA": "Habilitation sécuritaire par la Sûreté du Québec"
+                "en-CA": "Security clearance",
+                "fr-CA": "Habilitation sécuritaire"
+            },
+            "organisation" : {
+                "en-CA": "Quebec Provincial Police",
+                "fr-CA": "Sûreté du Québec"
+            },
+            "url": {
+                "en-CA": "https://www.sq.gouv.qc.ca/en/",
+                "fr-CA": "https://www.sq.gouv.qc.ca/"
             },
             "code": null,
             "startDate": "2006-06-26"
