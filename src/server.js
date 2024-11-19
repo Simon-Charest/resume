@@ -211,9 +211,9 @@ async function main() {
     if (config.environment === 'production') {
         try {
             options = {
-                ca: await fs.readFile(path.join(config.certificates, 'fullchain.pem')),
+                key: await fs.readFile(path.join(config.certificates, 'privkey.pem')),
                 cert: await fs.readFile(path.join(config.certificates, 'cert.pem')),
-                key: await fs.readFile(path.join(config.certificates, 'privkey.pem'))
+                ca: await fs.readFile(path.join(config.certificates, 'fullchain.pem'))
             };
         }
         
