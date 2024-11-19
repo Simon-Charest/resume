@@ -49,10 +49,10 @@
                 "fr-CA": "Site web :"
             },
             "value": {
-                "en-CA": "http://slcti.8bit.ca/",
-                "fr-CA": "http://slcti.8bit.ca/"
+                "en-CA": "https://slcti.8bit.ca/",
+                "fr-CA": "https://slcti.8bit.ca/"
             },
-            "url": "http://slcti.8bit.ca/"
+            "url": "https://slcti.8bit.ca/"
         },
         {
             "key": {
