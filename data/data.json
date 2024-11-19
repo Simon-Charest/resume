@@ -34,7 +34,7 @@
     },
     "seeMore": {"en-CA": "See more...", "fr-CA": "Voir plus..."},
     "seeLess": {"en-CA": "See less...", "fr-CA": "Voir moins..."},
-    "poweredBy": {"en-CA": "Powered by Node.js, Ubuntu and Free DNS.", "fr-CA": "Propulsé par Node.js, Ubuntu et Free DNS."},
+    "poweredBy": {"en-CA": "Powered by Ubuntu, Node.js, Let's Encrypt and Free DNS.", "fr-CA": "Propulsé par Ubuntu, Node.js, Let's Encrypt et Free DNS."},
     "copyright": {"en-CA": "© SLCIT. All rights reserved.", "fr-CA": "© SLCTI. Tous droits réservés."},
     "privacy": {"en-CA": "This site does not store any data about its visitors.", "fr-CA": "Ce site ne conserve aucune donnée sur ses visiteurs."}
 }
