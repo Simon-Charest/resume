@@ -2263,6 +2263,14 @@
         },
         {
             "name": {
+                "en-CA": "Security clearance by the Permanent Anti-Corruption Unit",
+                "fr-CA": "Habilitation sécuritaire par l'Unité permanente anticorruption"
+            },
+            "code": null,
+            "startDate": "2011-09-01"
+        },
+        {
+            "name": {
                 "en-CA": "Control your time with Microsoft Outlook 2003 (Qualitemps Training)",
                 "fr-CA": "Maîtriser son temps avec Microsoft Outlook 2003 (Formation Qualitemps)"
             },
@@ -2284,6 +2292,14 @@
             },
             "code": null,
             "startDate": "2007-02"
+        },
+        {
+            "name": {
+                "en-CA": "Security clearance by the Quebec Provincial Police",
+                "fr-CA": "Habilitation sécuritaire par la Sûreté du Québec"
+            },
+            "code": null,
+            "startDate": "2006-06-26"
         }
     ],
 
