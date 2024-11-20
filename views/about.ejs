@@ -209,23 +209,6 @@
                 <% }); %>
             </div>
 
-            <!--
-            <div class="box">
-                <h2><%= data.globals.skills[lang] %></h2>
-                <ul class="list-style-type-none">
-                    <% data.skills.forEach((skill, index) => { %>
-                        <li>
-                            <strong><%= skill.category.name[lang] %>:</strong>
-                            <span><%= skill.category.technologies.map(t => t.name[lang]).join(', ') %></span>
-                        </li>
-                        <% if (index < data.skills.length - 1) { %>
-                            <hr>
-                        <% } %>
-                    <% }); %>
-                </ul>
-            </div>
-            -->
-
             <div class="box">
                 <h2><%= data.globals.courses[lang] %></h2>
                 <ul class="list-style-type-none">
@@ -249,10 +232,10 @@
                                     <%= formatLength(calculateLength(course.startDate, course.endDate), lang) %>
                                 <% } %>
                             </span>
+                            <% if (index < data.courses.length - 1) { %>
+                                <hr>
+                            <% } %>
                         </li>
-                        <% if (index < data.courses.length - 1) { %>
-                            <hr>
-                        <% } %>
                     <% }); %>
                 </ul>
             </div>
@@ -322,10 +305,10 @@
                         <li>
                             <img src="/assets/icons/<%= language.icon %>" class="icon icon-flag" alt="Language"><strong><%= language.name[lang] %></strong>
                             <br><span class="gray"><%= language.proficiency[lang] %></span>
+                            <% if (index < data.languages.length - 1) { %>
+                                <hr>
+                            <% } %>
                         </li>
-                        <% if (index < data.languages.length - 1) { %>
-                            <hr>
-                        <% } %>
                     <% }); %>
                 </ul>
             </div>
@@ -336,10 +319,10 @@
                     <% data.interests.forEach((interest, index) => { %>
                         <li>
                             <%= interest.name[lang] %>
+                            <% if (index < data.interests.length - 1) { %>
+                                <hr>
+                            <% } %>
                         </li>
-                        <% if (index < data.interests.length - 1) { %>
-                            <hr>
-                        <% } %>
                     <% }); %>
                 </ul>
             </div>
@@ -356,8 +339,10 @@
                                         <%= key %><% if (values[key]) { %></a><% } %><% if (x < recommandation.length - 1) { %>,<% } %>
                                 <% } %>
                             <% }); %>
+                            <% if (y < data.recommandations.length - 1) { %>
+                                <hr>
+                            <% } %>
                         </li>
-                        <% if (y < data.recommandations.length - 1) { %><hr><% } %>
                     <% }); %>
                 </ul>
             </div>
