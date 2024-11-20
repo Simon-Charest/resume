@@ -15,12 +15,12 @@ sudo ufw enable
 ```
 node src/server.js
 ```
-3. Open solution: [http://localhost:3000/](http://localhost:3000/).
+3. Open solution: [https://localhost:3000/](https://localhost:3000/).
 
 ## Contact
 ### SLCIT Inc.
 - Simon Charest, Founder and CEO;
-    - [Website](http://slcit.8bit.ca);
+    - [Website](https://slcit.8bit.ca);
     - [LinkedIn](https://www.linkedin.com/in/simoncharest/);
     - [Gmail](mailto:simoncharest@gmail.com);
     - [GitHub](https://github.com/Simon-Charest/).
