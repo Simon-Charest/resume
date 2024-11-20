@@ -1,3 +1,4 @@
+const compression = require('compression');
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const express = require('express');
@@ -102,6 +103,10 @@ async function main() {
     }, {});
 
     const app = express();
+    
+    // Enable compression
+    app.use(compression());
+
     app.use(cookieParser());
 
     // Use the CORS middleware to allow requests from any origin
