@@ -141,7 +141,7 @@
                 <% const filteredExperiences = data.experiences.filter(experience => experience.visible == true); %>
                 <% filteredExperiences.forEach((experience, index) => { %>
                     <div class="card-row">
-                        <img src="/assets/images/<%= experience.icon || 'company.png' %>" class="icon icon-48x48" alt="Company">
+                        <img src="/assets/images/<%= experience.icon || 'company.webp' %>" class="icon icon-48x48" alt="Company">
                         <div class="card-text">
                             <strong><%= experience.title[lang] %></strong>
                             <br>
@@ -262,7 +262,7 @@
                 <% const filteredEducations = data.educations.filter(education => education.visible == true); %>
                 <% filteredEducations.forEach((education, index) => { %>
                     <div class="card-row">
-                        <img src="/assets/images/<%= education.icon || 'school.png' %>" class="icon icon-48x48" alt="School">
+                        <img src="/assets/images/<%= education.icon || 'school.webp' %>" class="icon icon-48x48" alt="School">
                         <div class="card-text">
                             <strong><%= education.title[lang] %></strong>
                             <% if (education.degree) { %>

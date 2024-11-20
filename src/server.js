@@ -156,7 +156,7 @@ async function main() {
             return next(new Error(`Error parsing JSON data for ${route}: ${err.message}`));
         }
 
-        const backgroundImage = `background_${res.locals.lang.toLowerCase()}.jpeg`;
+        const backgroundImage = `background_${res.locals.lang.toLowerCase()}.webp`;
         const profileImage = profileFiles[Math.floor(Math.random() * profileFiles.length)];
         const view = route === "about" ? "about" : "index";
 

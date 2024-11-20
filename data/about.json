@@ -194,7 +194,7 @@
     "experiences": [
         {
             "visible": true,
-            "icon": "slcti.png",
+            "icon": "slcti.webp",
             "title": { "en-CA": "Founder and CEO", "fr-CA": "Fondateur et président" },
             "company": {
                 "name": { "en-CA": "SLCIT", "fr-CA": "SLCTI" },
@@ -263,7 +263,7 @@
         },
         {
             "visible": true,
-            "icon": "vigiteck.jpeg",
+            "icon": "vigiteck.webp",
             "title": { "en-CA": "CTO and Associate", "fr-CA": "Directeur TI et associé" },
             "company": {
                 "name": { "en-CA": "Vigiteck Group", "fr-CA": "Groupe Vigiteck" },
@@ -637,7 +637,7 @@
         },
         {
             "visible": true,
-            "icon": "psp.jpeg",
+            "icon": "psp.webp",
             "title": { "en-CA": "Senior Developer - Python", "fr-CA": "Développeur Senior - Python" },
             "company": {
                 "name": { "en-CA": "Public Sector Pension (PSP) Investments", "fr-CA": "Investissements Public Sector Pension (PSP)" },
@@ -809,7 +809,7 @@
         },
         {
             "visible": true,
-            "icon": "forensik.jpeg",
+            "icon": "forensik.webp",
             "title": { "en-CA": "Senior Automation Programmer", "fr-CA": "Programmeur senior automatisation" },
             "company": {
                 "name": { "en-CA": "Forensik | In Fidem | Eviden | Atos", "fr-CA": "Forensik | In Fidem | Eviden | Atos" },
@@ -915,7 +915,7 @@
         },
         {
             "visible": true,
-            "icon": "retronic_design.png",
+            "icon": "retronic_design.webp",
             "title": { "en-CA": "Developer", "fr-CA": "Développeur" },
             "company": {
                 "name": { "en-CA": "Retronic Design", "fr-CA": "Retronic Design" },
@@ -952,7 +952,7 @@
         },
         {
             "visible": true,
-            "icon": "commissionaires.png",
+            "icon": "commissionaires.webp",
             "title": { "en-CA": "Code reviewer", "fr-CA": "Réviseur de code" },
             "company": {
                 "name": { "en-CA": "Commissionaires", "fr-CA": "Commissionaires" },
@@ -990,7 +990,7 @@
         },
         {
             "visible": true,
-            "icon": "belron.jpeg",
+            "icon": "belron.webp",
             "title": { "en-CA": "Back-end Developer", "fr-CA": "Développeur back-end" },
             "company": {
                 "name": { "en-CA": "Belron Canada | Lebeau Vitres d'autos | Carglass", "fr-CA": "Belron Canada | Lebeau Vitres d'autos | Carglass" },
@@ -1065,7 +1065,7 @@
         },
         {
             "visible": true,
-            "icon": "logibec.jpeg",
+            "icon": "logibec.webp",
             "title": { "en-CA": "Programmer Analyst", "fr-CA": "Analyste programmeur" },
             "company": {
                 "name": { "en-CA": "Logibec", "fr-CA": "Logibec" },
@@ -1180,7 +1180,7 @@
         },
         {
             "visible": true,
-            "icon": "cepcsj.png",
+            "icon": "cepcsj.webp",
             "title": { "en-CA": "Webmaster", "fr-CA": "Webmestre" },
             "company": {
                 "name": { "en-CA": "Commission of Inquiry on the Protection of Journalistic Source Confidentiality (CEPCSJ) | Chamberland Commission", "fr-CA": "Commission d'enquête sur la protection de la confidentialité des sources journalistiques (CEPCSJ) | Commission Chamberland" },
@@ -1241,7 +1241,7 @@
         },
         {
             "visible": true,
-            "icon": "datacandy.png",
+            "icon": "datacandy.webp",
             "title": { "en-CA": "PHP Developer", "fr-CA": "Développeur PHP" },
             "company": {
                 "name": { "en-CA": "Funbox | DataCandy | Paystone", "fr-CA": "Funbox | DataCandy | Paystone" },
@@ -1302,7 +1302,7 @@
         },
         {
             "visible": true,
-            "icon": "upac.png",
+            "icon": "upac.webp",
             "title": { "en-CA": "Information Technology Analyst", "fr-CA": "Analyste de l'informatique" },
             "company": {
                 "name": { "en-CA": "Permanent Anti-Corruption Unit (UPAC)", "fr-CA": "Unité permanente anticorruption (UPAC)" },
@@ -1450,7 +1450,7 @@
         },
         {
             "visible": true,
-            "icon": "msp.jpeg",
+            "icon": "msp.webp",
             "title": { "en-CA": "Computer Technician", "fr-CA": "Technicien en informatique" },
             "company": {
                 "name": { "en-CA": "Ministry of Public Security (MSP)", "fr-CA": "Ministère de la Sécurité publique (MSP)" },
@@ -1550,7 +1550,7 @@
         },
         {
             "visible": true,
-            "icon": "sq.jpeg",
+            "icon": "sq.webp",
             "title": { "en-CA": "Computer Technician", "fr-CA": "Technicien en informatique" },
             "company": {
                 "name": { "en-CA": "Quebec Provincial Police (SQ)", "fr-CA": "Sûreté du Québec (SQ)" },
@@ -1671,7 +1671,7 @@
         },
         {
             "visible": true,
-            "icon": "technomedia.png",
+            "icon": "technomedia.webp",
             "title": { "en-CA": "Programmer Analyst", "fr-CA": "Analyste programmeur" },
             "company": {
                 "name": { "en-CA": "Technomedia Training | Cegid", "fr-CA": "Technomedia Formation | Cegid" },
@@ -1712,7 +1712,7 @@
         },
         {
             "visible": true,
-            "icon": "bio_runner.png",
+            "icon": "biorunner.webp",
             "title": { "en-CA": "Programmer Analyst", "fr-CA": "Analyste Programmeur" },
             "company": {
                 "name": { "en-CA": "Sytran Technology | Biorunner | Mario Thibert", "fr-CA": "Technologie Sytran | Biorunner | Mario Thibert" },
@@ -1760,7 +1760,7 @@
         },
         {
             "visible": true,
-            "icon": "qualicode.jpeg",
+            "icon": "qualicode.webp",
             "title": { "en-CA": "Programmer", "fr-CA": "Programmeur" },
             "company": {
                 "name": { "en-CA": "Qualicode Software", "fr-CA": "Qualicode Logiciel" },
@@ -1799,7 +1799,7 @@
         },
         {
             "visible": true,
-            "icon": "mayrand.png",
+            "icon": "mayrand.webp",
             "title": { "en-CA": "Grocery Clerk", "fr-CA": "Commis d'épicerie" },
             "company": {
                 "name": { "en-CA": "Mayrand", "fr-CA": "Mayrand" },
@@ -1815,7 +1815,7 @@
         },
         {
             "visible": true,
-            "icon": "certen.png",
+            "icon": "certen.webp",
             "title": { "en-CA": "Warehouseman", "fr-CA": "Manutentionnaire" },
             "company": {
                 "name": { "en-CA": "Certen | Amdocs", "fr-CA": "Certen | Amdocs" },
@@ -1834,7 +1834,7 @@
         },
         {
             "visible": true,
-            "icon": "metro.png",
+            "icon": "metro.webp",
             "title": { "en-CA": "Grocery Clerk", "fr-CA": "Commis d'épicerie" },
             "company": {
                 "name": { "en-CA": "Metro Chevrefils | Beaulieu Laurier", "fr-CA": "Métro Chevrefils | Beaulieu Laurier" },
@@ -1850,7 +1850,7 @@
         },
         {
             "visible": true,
-            "icon": "couche_tard.png",
+            "icon": "couche_tard.webp",
             "title": { "en-CA": "Sales Clerk", "fr-CA": "Préposé à la vente" },
             "company": {
                 "name": { "en-CA": "Couche-Tard", "fr-CA": "Couche-Tard" },
@@ -1869,7 +1869,7 @@
         },
         {
             "visible": true,
-            "icon": "st_hubert.png",
+            "icon": "st_hubert.webp",
             "title": { "en-CA": "Kitchen Assistant", "fr-CA": "Aide-cuisinier" },
             "company": {
                 "name": { "en-CA": "St-Hubert Express", "fr-CA": "St-Hubert Express" },
@@ -1888,7 +1888,7 @@
         },
         {
             "visible": true,
-            "icon": "csdm.png",
+            "icon": "csdm.webp",
             "title": { "en-CA": "Storekeeper - Class II", "fr-CA": "Magasinier - Classe II" },
             "company": {
                 "name": { "en-CA": "Montreal School Service Centre (CSSDM)", "fr-CA": "Centre de services scolaire de Montréal (CSSDM)" },
@@ -1922,7 +1922,7 @@
         },
         {
             "visible": true,
-            "icon": "metro.png",
+            "icon": "metro.webp",
             "title": { "en-CA": "Grocery Clerk", "fr-CA": "Commis d'épicerie" },
             "company": {
                 "name": { "en-CA": "Metro Gaboury", "fr-CA": "Métro Gaboury" },
@@ -1938,7 +1938,7 @@
         },
         {
             "visible": true,
-            "icon": "ecolux.png",
+            "icon": "ecolux.webp",
             "title": { "en-CA": "Sender / Receiver", "fr-CA": "Expéditeur / récepteur" },
             "company": {
                 "name": { "en-CA": "Ecolux | GELcore", "fr-CA": "Ecolux | GELcore" },
@@ -1954,7 +1954,7 @@
         },
         {
             "visible": true,
-            "icon": "couche_tard.png",
+            "icon": "couche_tard.webp",
             "title": { "en-CA": "Sales Clerk", "fr-CA": "Préposé à la vente" },
             "company": {
                 "name": { "en-CA": "Couche-Tard", "fr-CA": "Couche-Tard" },
@@ -1973,7 +1973,7 @@
     "educations": [
         {
             "visible": true,
-            "icon": "uqam.jpeg",
+            "icon": "uqam.webp",
             "title": { "en-CA": "Software Development", "fr-CA": "Développement de logiciels" },
             "degree": null,
             "higherEducation": true,
@@ -1989,7 +1989,7 @@
         },
         {
             "visible": true,
-            "icon": "ets.jpeg",
+            "icon": "ets.webp",
             "title": { "en-CA": "Software Engineering", "fr-CA": "Génie logiciel" },
             "degree": null,
             "higherEducation": true,
@@ -2005,7 +2005,7 @@
         },
         {
             "visible": true,
-            "icon": "cvm.png",
+            "icon": "cvm.webp",
             "title": { "en-CA": "Information Technologies", "fr-CA": "Technologies de l'information" },
             "degree": { "en-CA": "College Studies Diploma", "fr-CA": "Diplôme d'études collégiales" },
             "higherEducation": true,
@@ -2039,7 +2039,7 @@
         },
         {
             "visible": true,
-            "icon": "ahuntsic.png",
+            "icon": "ahuntsic.webp",
             "title": { "en-CA": "Information Technologies", "fr-CA": "Technologies de l'information" },
             "degree": { "en-CA": "College Studies Certificate", "fr-CA": "Attestation d'études collégiales" },
             "higherEducation": true,
@@ -2055,7 +2055,7 @@
         },
         {
             "visible": true,
-            "icon": "bdeb.png",
+            "icon": "bdeb.webp",
             "title": { "en-CA": "Information Technologies", "fr-CA": "Technologies de l'information" },
             "degree": null,
             "higherEducation": true,
@@ -2071,7 +2071,7 @@
         },
         {
             "visible": true,
-            "icon": "jean_xxiii.png",
+            "icon": "jean_xxiii.webp",
             "title": { "en-CA": "International Enriched Program", "fr-CA": "Programme enrichi international" },
             "degree": { "en-CA": "Highschool Studies Diploma", "fr-CA": "Diplôme d'études secondaires" },
             "higherEducation": false,
@@ -2101,7 +2101,7 @@
         },
         {
             "visible": true,
-            "icon": "lalande.png",
+            "icon": "lalande.webp",
             "title": { "en-CA": "Enriched Program", "fr-CA": "Programme enrichi" },
             "degree": { "en-CA": "Primary School Diploma", "fr-CA": "Diplôme d'études primaires" },
             "higherEducation": false,
