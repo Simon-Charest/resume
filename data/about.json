@@ -2431,22 +2431,22 @@
 
     "languages": [
         {
-            "icon": "fr_ca.png",
+            "icon": "fr_ca.webp",
             "name": { "en-CA": "French", "fr-CA": "Français" },
             "proficiency": { "en-CA": "Native or bilingual proficiency", "fr-CA": "Compétence native ou bilingue" }
         },
         {
-            "icon": "en_ca.png",
+            "icon": "en_ca.webp",
             "name": { "en-CA": "English", "fr-CA": "Anglais" },
             "proficiency": { "en-CA": "Full professional proficiency", "fr-CA": "Maîtrise professionnelle complète" }
         },
         {
-            "icon": "es_es.png",
+            "icon": "es_es.webp",
             "name": { "en-CA": "Spanish", "fr-CA": "Espagnol" },
             "proficiency": { "en-CA": "Elementary proficiency", "fr-CA": "Compétence élémentaire" }
         },
         {
-            "icon": "it_it.png",
+            "icon": "it_it.webp",
             "name": { "en-CA": "Italian", "fr-CA": "Italien" },
             "proficiency": { "en-CA": "Elementary proficiency", "fr-CA": "Compétence élémentaire" }
         }
