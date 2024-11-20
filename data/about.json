@@ -257,8 +257,10 @@
                 "Git",
                 "PowerShell",
                 "Bash",
+                "Excel",
+                "Windows",
                 "Ubuntu",
-                "Excel"
+                "Linux"
             ]
         },
         {
@@ -371,7 +373,10 @@
                 "Java",
                 "Graph",
                 "Neo4j",
-                "WordPress"
+                "WordPress",
+                "Windows",
+                "Ubuntu",
+                "Linux"
             ]
         },
         {
@@ -804,6 +809,9 @@
                 "Batch",
                 "Git",
                 "Azure DevOps",
+                "Windows",
+                "Ubuntu",
+                "Linux",
                 "Kanban"
             ]
         },
@@ -910,6 +918,7 @@
                 "CSV",
                 "Microsoft 365",
                 "Git",
+                "Windows",
                 "Kanban"
             ]
         },
@@ -947,7 +956,8 @@
                 "Python",
                 "C",
                 "ANSI C",
-                "Git"
+                "Git",
+                "Windows"
             ]
         },
         {
@@ -985,6 +995,7 @@
                 "Entity Framework",
                 "SQL",
                 "SQL Server",
+                "Windows",
                 "Git"
             ]
         },
@@ -1060,6 +1071,7 @@
                 "SQL Server",
                 "WordPress",
                 "Git",
+                "Windows",
                 "Scrum"
             ]
         },
@@ -1175,6 +1187,9 @@
                 "Lua",
                 "Iguana",
                 "Git",
+                "Windows",
+                "Oracle Linux",
+                "Linux",
                 "Scrum"
             ]
         },
@@ -1236,7 +1251,8 @@
                 "TYPO3",
                 "HTML",
                 "JS",
-                "CSS"
+                "CSS",
+                "Windows"
             ]
         },
         {
@@ -1297,6 +1313,10 @@
                 "SQL",
                 "MySQL",
                 "Git",
+                "VirtualBox",
+                "Vagrant",
+                "Windows",
+                "Linux",
                 "Scrum"
             ]
         },
@@ -1444,8 +1464,11 @@
                 "JS",
                 "CSS",
                 "VBA",
+                "CSV",
                 "SQL",
-                "SQL Server"
+                "SQL Server",
+                "Excel",
+                "Windows"
             ]
         },
         {
@@ -1544,8 +1567,11 @@
                 "JS",
                 "CSS",
                 "VBA",
+                "CSV",
                 "SQL",
-                "SQL Server"
+                "SQL Server",
+                "Excel",
+                "Windows"
             ]
         },
         {
@@ -1665,8 +1691,11 @@
                 "CSS",
                 "VB",
                 "VBA",
+                "CSV",
                 "SQL",
-                "Access"
+                "Access",
+                "Excel",
+                "Windows"
             ]
         },
         {
@@ -1705,9 +1734,12 @@
             "skills": [
                 "ColdFusion",
                 "Java",
+                "Tomcat",
+                "Ant",
                 "SQL",
                 "SQL Server",
-                "Oracle Database"
+                "Oracle Database",
+                "Windows"
             ]
         },
         {
@@ -1755,7 +1787,8 @@
             "skills": [
                 "VB",
                 "SQL",
-                "SQL Server"
+                "SQL Server",
+                "Windows"
             ]
         },
         {
@@ -1794,7 +1827,8 @@
             "skills": [
                 "VB",
                 "SQL",
-                "SQL Server"
+                "SQL Server",
+                "Windows"
             ]
         },
         {
