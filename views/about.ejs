@@ -231,7 +231,7 @@
                 <ul class="list-style-type-none">
                     <% data.courses.forEach((course, index) => { %>
                         <li>
-                            <%= course.name[lang] %>
+                            <strong><%= course.name[lang] %></strong>
                             <% if (course.code) { %>
                                 (<span class="gray"><%= course.code %></span>)
                             <% } %>
@@ -275,12 +275,6 @@
                                     <% if (parseInt(education.endDate.slice(0, 4)) > parseInt(education.startDate.slice(0, 4))) { %>
                                         -
                                         <%= education.endDate.slice(0, 4) %>
-                                        <!--
-                                        <% if (education.endDate) { %>
-                                            ·
-                                            <%= formatLength(calculateLength(education.startDate, education.endDate), lang) %>
-                                        <% } %>
-                                        -->
                                     <% } %>
                                 <% } else { %>
                                     - <%= data.globals.present[lang] %>
@@ -326,7 +320,7 @@
                 <ul class="list-style-type-none">
                     <% data.languages.forEach((language, index) => { %>
                         <li>
-                            <img src="/assets/icons/<%= language.icon %>" class="icon icon-flag" alt="Language"><%= language.name[lang] %>
+                            <img src="/assets/icons/<%= language.icon %>" class="icon icon-flag" alt="Language"><strong><%= language.name[lang] %></strong>
                             <br><span class="gray"><%= language.proficiency[lang] %></span>
                         </li>
                         <% if (index < data.languages.length - 1) { %>
