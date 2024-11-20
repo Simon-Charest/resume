@@ -130,6 +130,9 @@ async function main() {
     // Serve static files from the .well-known/acme-challenge directory
     app.use('/.well-known/acme-challenge', express.static(path.join(publicDir, '.well-known', 'acme-challenge')));
 
+    app.use('/favicon.ico', express.static(path.join(iconsDir, 'favicon_16x16.ico')));
+    app.use('/robots.txt', express.static('robots.txt'));
+
     // Route with error handling
     app.get('/:route?', cors(), async (req, res, next) => {
         const route = req.params.route || 'index';
