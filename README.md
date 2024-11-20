@@ -18,8 +18,8 @@ node src/server.js
 3. Open solution: [https://localhost:3000/](https://localhost:3000/).
 
 ## Contact
-### SLCIT Inc.
-- Simon Charest, Founder and CEO;
+### SLCIT
+- Simon Charest, Founder and CEO :
     - [Website](https://slcit.8bit.ca);
     - [LinkedIn](https://www.linkedin.com/in/simoncharest/);
     - [Gmail](mailto:simoncharest@gmail.com);
