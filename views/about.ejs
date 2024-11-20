@@ -6,8 +6,8 @@
 
                 <div class="jumbotron">
                     
-                    <img src="/assets/images/<%= backgroundImage %>" class="background-image">
-                    <img src="/assets/images/profile/<%= profileImage %>" class="profile-image" title="<%= profileImage %>">
+                    <img src="/assets/images/<%= backgroundImage %>" class="background-image" alt="Background">
+                    <img src="/assets/images/profile/<%= profileImage %>" class="profile-image" title="<%= profileImage %>" alt="Profile">
                 </div>
 
                 <div class="intro">
@@ -22,14 +22,14 @@
                             <% data.experiences.filter(experience => experience.endDate === null).forEach(experience => { %>
                                 <% if (experience.company) { %>
                                     <li>
-                                        <img src="/assets/images/<%= experience.icon %>" class="icon icon-32x32">
+                                        <img src="/assets/images/<%= experience.icon %>" class="icon icon-32x32" alt="Company">
                                         <a href="<%= experience.company.url[lang] %>"><%= experience.company.name[lang] %></a>
                                     </li>
                                 <% } %>
                             <% }); %>
                             <% data.educations.filter(education => education.degree !== null && education.higherEducation).forEach(education => { %>
                                 <li>
-                                    <img src="/assets/images/<%= education.icon %>" class="icon icon-32x32">
+                                    <img src="/assets/images/<%= education.icon %>" class="icon icon-32x32" alt="School">
                                     <a href="<%= education.school.url[lang] %>"><%= education.school.name[lang] %></a>
                                 </li>
                             <% }); %>
@@ -44,15 +44,15 @@
                     <button class="collapsible-button"><%= data.seeMore[lang] %></button>
                     <div class="collapsible-content">
                         <ul class="list-style-type-none">
-                            <li><img src="/assets/icons/<%= icons.linked_in %>" class="icon icon-16x16"><strong><%= data.globals.profile[lang] %></strong>&nbsp;<a href="<%= data.intro.contactInfo.profile.url %>"><%= data.intro.contactInfo.profile.name %></a></li>
+                            <li><img src="/assets/icons/<%= icons.linked_in %>" class="icon icon-16x16" alt="LinkedIn"><strong><%= data.globals.profile[lang] %></strong>&nbsp;<a href="<%= data.intro.contactInfo.profile.url %>"><%= data.intro.contactInfo.profile.name %></a></li>
                             <li>
-                                <img src="/assets/icons/<%= icons.website %>" class="icon icon-16x16">
+                                <img src="/assets/icons/<%= icons.website %>" class="icon icon-16x16" alt="Website">
                                 <strong><%= data.globals.websites[lang] %></strong>&nbsp;
                                 <% data.intro.contactInfo.websites.forEach((website, index) => { %>
                                     <a href="<%= website.url %>"><%= website.name[lang] %></a>&nbsp;(<%= website.type[lang] %>)<% if (index < data.intro.contactInfo.websites.length - 1) { %>, <% } %>
                                 <% }); %>
                             </li>
-                            <li><img src="/assets/icons/<%= icons.phone %>" class="icon icon-16x16"><strong><%= data.globals.phone[lang] %></strong>&nbsp;<a href="tel:<%= data.intro.contactInfo.phone.number %>"><%= data.intro.contactInfo.phone.number %></a>&nbsp;(<%= data.intro.contactInfo.phone.type %>)</li>
+                            <li><img src="/assets/icons/<%= icons.phone %>" class="icon icon-16x16" alt="Phone"><strong><%= data.globals.phone[lang] %></strong>&nbsp;<a href="tel:<%= data.intro.contactInfo.phone.number %>"><%= data.intro.contactInfo.phone.number %></a>&nbsp;(<%= data.intro.contactInfo.phone.type %>)</li>
                             <%
                                 const address = {
                                     apartment: data.intro.contactInfo.address.apartment,
@@ -79,10 +79,10 @@
                                 const addressString = parts.join(', ');
                             %>
 
-                            <li><img src="/assets/icons/<%= icons.address %>" class="icon icon-16x16"><strong><%= data.globals.address[lang] %></strong>&nbsp;<a href="https://www.google.ca/maps/place/<%= addressString %>"><%= data.globals.GoogleMaps %></a></li>
-                            <li><img src="/assets/icons/<%= icons.email %>" class="icon icon-16x16"><strong><%= data.globals.email[lang] %></strong>&nbsp;<a href="mailto:<%= data.intro.contactInfo.email.url %>"><%= data.intro.contactInfo.email.name %></a></li>
+                            <li><img src="/assets/icons/<%= icons.address %>" class="icon icon-16x16" alt="Address"><strong><%= data.globals.address[lang] %></strong>&nbsp;<a href="https://www.google.ca/maps/place/<%= addressString %>"><%= data.globals.GoogleMaps %></a></li>
+                            <li><img src="/assets/icons/<%= icons.email %>" class="icon icon-16x16" alt="Email"><strong><%= data.globals.email[lang] %></strong>&nbsp;<a href="mailto:<%= data.intro.contactInfo.email.url %>"><%= data.intro.contactInfo.email.name %></a></li>
                             <% if (data.intro.contactInfo.birthday) { %>
-                                <li><img src="/assets/icons/<%= icons.birthday %>" class="icon icon-16x16"><%= data.globals.birthday[lang] %>&nbsp;<%= data.intro.contactInfo.birthday %></li>
+                                <li><img src="/assets/icons/<%= icons.birthday %>" class="icon icon-16x16" alt="Birthday"><%= data.globals.birthday[lang] %>&nbsp;<%= data.intro.contactInfo.birthday %></li>
                             <% } %>
                         </ul>
                     </div>
@@ -126,7 +126,7 @@
                 %>
 
                 <div class="top-skills">
-                    <h3><img src="/assets/icons/<%= icons.skill %>" class="icon icon-16x16"><%= data.globals.topSkills[lang] %></h3>
+                    <h3><img src="/assets/icons/<%= icons.skill %>" class="icon icon-16x16" alt="Skill"><%= data.globals.topSkills[lang] %></h3>
                     <ul class="horizontal-list">
                         <% topSkills.forEach(topSkill => { %>
                             <li><%= topSkill[0] %></li>
@@ -141,7 +141,7 @@
                 <% const filteredExperiences = data.experiences.filter(experience => experience.visible == true); %>
                 <% filteredExperiences.forEach((experience, index) => { %>
                     <div class="card-row">
-                        <img src="/assets/images/<%= experience.icon || 'company.png' %>" class="icon icon-48x48">
+                        <img src="/assets/images/<%= experience.icon || 'company.png' %>" class="icon icon-48x48" alt="Company">
                         <div class="card-text">
                             <strong><%= experience.title[lang] %></strong>
                             <br>
@@ -192,7 +192,7 @@
 
                             <% if (experience.skills) { %>
                                 <p>
-                                    <h3><img src="/assets/icons/<%= icons.skill %>" class="icon"> <%= data.globals.skills[lang] %></h3>
+                                    <h3><img src="/assets/icons/<%= icons.skill %>" class="icon" alt="Skill"> <%= data.globals.skills[lang] %></h3>
                                     <ul class="horizontal-list">
                                         <% experience.skills.forEach(skill => { %>
                                             <li><%= skill %></li>
@@ -262,7 +262,7 @@
                 <% const filteredEducations = data.educations.filter(education => education.visible == true); %>
                 <% filteredEducations.forEach((education, index) => { %>
                     <div class="card-row">
-                        <img src="/assets/images/<%= education.icon || 'school.png' %>" class="icon icon-48x48">
+                        <img src="/assets/images/<%= education.icon || 'school.png' %>" class="icon icon-48x48" alt="School">
                         <div class="card-text">
                             <strong><%= education.title[lang] %></strong>
                             <% if (education.degree) { %>
@@ -326,7 +326,7 @@
                 <ul class="list-style-type-none">
                     <% data.languages.forEach((language, index) => { %>
                         <li>
-                            <img src="/assets/icons/<%= language.icon %>" class="icon icon-flag"><%= language.name[lang] %>
+                            <img src="/assets/icons/<%= language.icon %>" class="icon icon-flag" alt="Language"><%= language.name[lang] %>
                             <br><span class="gray"><%= language.proficiency[lang] %></span>
                         </li>
                         <% if (index < data.languages.length - 1) { %>

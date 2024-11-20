@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Official website for SLCTI, featuring information about the company and Simon Charest's professional resume.">
         <title><%= data.organization[lang] %> - <%= data[route][lang] %></title>
         <link rel="icon" href="/assets/icons/favicon_16x16.ico" sizes="16x16" type="image/x-icon">
         <link rel="icon" href="/assets/icons/favicon_32x32.ico" sizes="32x32" type="image/x-icon">
@@ -25,7 +26,7 @@
                 <div class="logo">
                     <button id="menu-toggle" class="menu-toggle">
                         <div class="hamburger">&#9776;</div>
-                        <img src="/assets/images/slcti.png">
+                        <img src="/assets/images/slcti.png" alt="SLCTI">
                         <%= data.organization[lang] %>
                     </button>
                 </div>
@@ -38,9 +39,9 @@
                     <a href="/media?lang=<%= lang %>"><%= data.media[lang] %></a>
                     <a href="/contact?lang=<%= lang %>"><%= data.contact[lang] %></a>
                     <% if (lang === 'fr-CA') { %>
-                        <a href="?lang=en-CA"><img src="/assets/icons/en_ca.png" class="icon icon-flag">English</a>
+                        <a href="?lang=en-CA"><img src="/assets/icons/en_ca.png" class="icon icon-flag" alt="English">English</a>
                     <% } else { %>
-                        <a href="?lang=fr-CA"><img src="/assets/icons/fr_ca.png" class="icon icon-flag">Français</a>
+                        <a href="?lang=fr-CA"><img src="/assets/icons/fr_ca.png" class="icon icon-flag" alt="Français">Français</a>
                     <% } %>
                 </div>
 
