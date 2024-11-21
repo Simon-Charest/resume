@@ -266,7 +266,7 @@
         {
             "visible": true,
             "icon": "vigiteck.webp",
-            "title": { "en-CA": "CTO and Associate", "fr-CA": "Directeur TI et associé" },
+            "title": { "en-CA": "CTO and Partner", "fr-CA": "Directeur TI et associé" },
             "company": {
                 "name": { "en-CA": "Vigiteck Group", "fr-CA": "Groupe Vigiteck" },
                 "url": { "en-CA": "https://www.vigiteck.com/", "fr-CA": "https://www.vigiteck.com/" }
