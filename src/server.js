@@ -139,7 +139,19 @@ async function main() {
     app.use('/robots.txt', express.static('robots.txt'));
 
     // Accept the following command syntax: https://dynamicdns.DOMAIN/update?host=@&domain=DOMAIN&password=PASSWORD&ip=IP
-    app.use('/update', function (req, res, next) {
+    app.use('/update', (req, res) => {
+        // Extract query parameters
+        const { host, domain, password, ip } = req.query;
+
+        // Check if the required parameters are present
+        if (host && domain && password && ip) {
+            // Process the update logic
+            res.send(`Updating domain: ${domain} with host: ${host}, password: ${password}, and IP: ${ip}`);
+        }
+
+        else {
+            res.status(400).send('Missing required query parameters');
+        }
     });
 
     // Route with error handling
