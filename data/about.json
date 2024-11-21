@@ -195,7 +195,7 @@
         {
             "visible": true,
             "icon": "slcti.webp",
-            "title": { "en-CA": "Founder and CEO", "fr-CA": "Fondateur et président" },
+            "title": { "en-CA": "Founder and CEO", "fr-CA": "Fondateur et PDG" },
             "company": {
                 "name": { "en-CA": "SLCIT", "fr-CA": "SLCTI" },
                 "url": { "en-CA": "https://www.slcti.ca/?lang=en-CA", "fr-CA": "hhttps://www.slcti.ca/?lang=fr-CA" }
@@ -266,7 +266,7 @@
         {
             "visible": true,
             "icon": "vigiteck.webp",
-            "title": { "en-CA": "CTO and Partner", "fr-CA": "Directeur TI et associé" },
+            "title": { "en-CA": "Partner and CTO", "fr-CA": "Partenaire et directeur technologique" },
             "company": {
                 "name": { "en-CA": "Vigiteck Group", "fr-CA": "Groupe Vigiteck" },
                 "url": { "en-CA": "https://www.vigiteck.com/", "fr-CA": "https://www.vigiteck.com/" }
