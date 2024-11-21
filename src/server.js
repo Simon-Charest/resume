@@ -140,7 +140,6 @@ async function main() {
 
     // Accept the following command syntax: https://dynamicdns.DOMAIN/update?host=@&domain=DOMAIN&password=PASSWORD&ip=IP
     app.use('/update', function (req, res, next) {
-        next();
     });
 
     // Route with error handling
