@@ -36,6 +36,12 @@ sudo systemctl stop openvpn@client
 # Request a certificate from Let's Encrypt
 sudo certbot certonly --webroot -w ~/source/resume/public -d DOMAIN
 
+# Set permissions for certificates
+sudo usermod -aG ssl-cert LOGIN
+sudo chgrp ssl-cert /etc/letsencrypt/archive/DOMAIN/*.pem
+sudo chmod 640 /etc/letsencrypt/archive/DOMAIN/privkey1.pem
+sudo chmod 755 /etc/letsencrypt/archive/DOMAIN/cert1.pem /etc/letsencrypt/archive/DOMAIN/chain1.pem /etc/letsencrypt/archive/DOMAIN/fullchain1.pem
+
 # Set up automatic renewal
 echo "0 0,12 * * * root /opt/certbot/bin/python -c 'import random; import time; time.sleep(random.random() * 3600)' && sudo certbot renew -q" | sudo tee -a /etc/crontab > /dev/null
 
