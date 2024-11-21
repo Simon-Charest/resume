@@ -139,7 +139,7 @@ async function main() {
     app.use('/robots.txt', express.static('robots.txt'));
 
     // Accept the following command syntax: https://dynamicdns.DOMAIN/update?host=@&domain=DOMAIN&password=PASSWORD&ip=IP
-    app.use('/update', (req, res) => {
+    app.use('/update', function (req, res, next) {
         next();
     });
 
