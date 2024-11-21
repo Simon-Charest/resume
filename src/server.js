@@ -133,6 +133,7 @@ async function main() {
         else {
             res.status(400).send('Missing required query parameters');
         }
+        next();
     });
       
     // Middleware to set the language
