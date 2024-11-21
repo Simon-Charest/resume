@@ -20,7 +20,7 @@ node src/server.js
 ## Contact
 ### SLCIT
 - Simon Charest, Founder and CEO :
-    - [Website](https://slcit.8bit.ca);
+    - [Website](https://www.slcti.ca/);
     - [LinkedIn](https://www.linkedin.com/in/simoncharest/);
     - [Gmail](mailto:simoncharest@gmail.com);
     - [GitHub](https://github.com/Simon-Charest/).

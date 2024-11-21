@@ -75,7 +75,7 @@
             "websites": [
                 {
                     "name": { "en-CA": "SLCIT", "fr-CA": "SLCTI" },
-                    "url": "https://slcti.8bit.ca/",
+                    "url": "https://www.slcti.ca/",
                     "type": { "en-CA": "Company", "fr-CA": "Entreprise" }
                 },
                 {
@@ -198,7 +198,7 @@
             "title": { "en-CA": "Founder and CEO", "fr-CA": "Fondateur et président" },
             "company": {
                 "name": { "en-CA": "SLCIT", "fr-CA": "SLCTI" },
-                "url": { "en-CA": "https://slcti.8bit.ca/?lang=en-CA", "fr-CA": "https://slcti.8bit.ca/?lang=fr-CA" }
+                "url": { "en-CA": "https://www.slcti.ca/?lang=en-CA", "fr-CA": "hhttps://www.slcti.ca/?lang=fr-CA" }
             },
             "employmentType": { "en-CA": "Self-employed", "fr-CA": "Travailleur autonome" },
             "startDate": "2018-11-01",
@@ -240,8 +240,8 @@
                             "fr-CA": "Support"
                         },
                         {
-                            "en-CA": "Development of the company website (https://slcti.8bit.ca/)",
-                            "fr-CA": "Développement du site web d'entreprise (https://slcti.8bit.ca/)"
+                            "en-CA": "Development of the company website (https://www.slcti.ca/)",
+                            "fr-CA": "Développement du site web d'entreprise (https://www.slcti.ca/)"
                         }
                     ]
                 }
