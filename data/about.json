@@ -2573,8 +2573,15 @@
             { "Sarah Roussier": "https://www.linkedin.com/in/sarah-roussier-72b076178/" },
             { "Sarah. Techniciens vétérinaires | Coupe de griffes à domicile": "https://www.techvet.ca/" }
         ],
-        [ { "Giard CPA": "https://giardcpa.com/" } ],
-        [ { "Wok Hei": "https://wokhei.ca/" } ],
+        [
+            { "Hélène Giard": "https://www.linkedin.com/in/helenegiard2/" },
+            { "Giard CPA": "https://giardcpa.com/" }
+        ],
+        [
+            { "Jeffrey Yeung": null },
+            { "Krystie Li-Li Yeung Shi Yin": "https://www.linkedin.com/in/krystie-li-li-yeung-shi-yin-4b1303157/" },
+            { "Wok Hei": "https://wokhei.ca/" }
+        ],
         [
             { "Keila Penner": null },
             { "Kadeem Johnson": "https://www.linkedin.com/in/k1kadeem/" },
