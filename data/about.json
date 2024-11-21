@@ -347,8 +347,12 @@
                     },
                     "values": [
                         {
-                            "en-CA": "The Temu app tested by cybersecurity experts | Decoders (French) (https://www.youtube.com/watch?v=m5rpJbaqs6w&t=284s)",
-                            "fr-CA": "L'application Temu testée par des experts en cybersécurité | Décrypteurs (https://www.youtube.com/watch?v=m5rpJbaqs6w&t=284s)"
+                            "en-CA": "The Temu app tested by cybersecurity experts | Decryptors (French) (https://www.youtube.com/embed/m5rpJbaqs6w?start=284)",
+                            "fr-CA": "L'application Temu testée par des experts en cybersécurité | Décrypteurs (https://www.youtube.com/embed/m5rpJbaqs6w?start=284)"
+                        },
+                        {
+                            "en-CA": "Temu is spying on us? Kate Middleton conspiracies and a viral deepfake | Decryptors (French) (https://www.youtube.com/embed/MWix3gLwCOU?start=870)",
+                            "fr-CA": "Temu nous espionne? Complots autour de Kate Middleton et un hypertrucage viral | Décrypteurs (https://www.youtube.com/embed/MWix3gLwCOU?start=870)"
                         }
                     ]
                 }
@@ -2565,9 +2569,17 @@
             { "Laurent Côté": "https://www.linkedin.com/in/laurent-cote/" },
             { "ASDF": null }
         ],
+        [
+            { "Sarah Roussier": "https://www.linkedin.com/in/sarah-roussier-72b076178/" },
+            { "Sarah. Techniciens vétérinaires | Coupe de griffes à domicile": "https://www.techvet.ca/" }
+        ],
         [ { "Giard CPA": "https://giardcpa.com/" } ],
         [ { "Wok Hei": "https://wokhei.ca/" } ],
-        [ { "Cleanera": "https://www.cleanera.ca/" } ],
+        [
+            { "Keila Penner": null },
+            { "Kadeem Johnson": "https://www.linkedin.com/in/k1kadeem/" },
+            { "Cleanera": "https://www.cleanera.ca/" }
+        ],
         [ { "Pierre-Philippe Bédard": "https://www.linkedin.com/in/pierrephilippebedard/" } ],
         [ { "Caroline Liard": "https://www.linkedin.com/in/caroline-liard-cpa-44516440/" } ],
         [ { "Jonathan Papin": "https://www.linkedin.com/in/papin/ " } ],
