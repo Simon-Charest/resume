@@ -133,7 +133,7 @@
                 %>
 
                 <div class="top-skills">
-                    <h3><img src="/assets/icons/<%= icons.skill %>" class="icon icon-16x16" alt="Skill"><%= data.globals.topSkills[lang] %></h3>
+                    <strong><img src="/assets/icons/<%= icons.skill %>" class="icon icon-24x24" alt="Skill"><%= data.globals.topSkills[lang] %></strong>
                     <ul class="horizontal-list">
                         <% topSkills.forEach(({ skill, month, count }) => { %>
                             <% if (month >= 36 || count >= 3) { %>
@@ -201,7 +201,7 @@
 
                             <% if (experience.skills) { %>
                                 <p>
-                                    <h3><img src="/assets/icons/<%= icons.skill %>" class="icon" alt="Skill"> <%= data.globals.skills[lang] %></h3>
+                                    <strong><img src="/assets/icons/<%= icons.skill %>" class="icon icon-16x16" alt="Skill"> <%= data.globals.skills[lang] %></strong>
                                     <ul class="horizontal-list">
                                         <% experience.skills.forEach(skill => { %>
                                             <li><%= skill %></li>
