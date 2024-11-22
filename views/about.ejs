@@ -105,32 +105,42 @@
                 </div>
 
                 <% 
-                    let topSkills = {};
+                    let topSkills = [];
 
                     data.experiences.filter(experience => experience.visible === true).forEach((experience) => {
                         if (Array.isArray(experience.skills)) {
                             let month = calculateMonth(experience.startDate, experience.endDate);
                             
                             experience.skills.forEach(skill => {
-                                topSkills[skill] = (topSkills[skill] || 0) + month;
+                                // Check if the skill already exists in the topSkills array
+                                let existingSkill = topSkills.find(item => item.skill === skill);
+                                
+                                if (existingSkill) {
+                                    // Update the month for the existing skill and increment the count
+                                    existingSkill.month += month;
+                                    existingSkill.count++;
+                                }
+                                else {
+                                    // Add a new skill with month and count initialized to 1
+                                    topSkills.push({ skill: skill, month: month, count: 1 });
+                                }
                             });
                         }
                     });
 
-                    topSkills = Object.entries(topSkills).sort(([skillA, monthA], [skillB, monthB]) => {
-                        if (monthB !== monthA) {
-                            return monthB - monthA;
-                        }
+                    // Sort the skills based on the 'month' value (descending)
+                    topSkills.sort((a, b) => b.month - a.month);
 
-                        return skillA.localeCompare(skillB);
-                    });
+                    console.log(topSkills);
                 %>
 
                 <div class="top-skills">
                     <h3><img src="/assets/icons/<%= icons.skill %>" class="icon icon-16x16" alt="Skill"><%= data.globals.topSkills[lang] %></h3>
                     <ul class="horizontal-list">
-                        <% topSkills.forEach(topSkill => { %>
-                            <li><%= topSkill[0] %></li>
+                        <% topSkills.forEach(({ skill, month, count }) => { %>
+                            <% if (month >= 24 || count > 1) { %>
+                                <li><%= skill %></li>
+                            <% } %>
                         <% }); %>
                     </ul>
                 </div>
