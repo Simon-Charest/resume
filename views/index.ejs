@@ -20,7 +20,9 @@
             <% if (data.medias) { %>
                 <div class="padding-25px">
                     <% data.medias.forEach((media, index) => { %>
-                        <iframe width="100%" height="275px" src="<%= media.url %>" frameborder="0" allowfullscreen></iframe>
+                        <div class="media-div">
+                            <iframe class="media-iframe" src="<%= media.url %>" allowfullscreen></iframe>
+                        </div>
                         <h3><%= media.title[lang] %></h3>
                         <strong><%= media.media %></strong>
                         <br><%= media.date %>
