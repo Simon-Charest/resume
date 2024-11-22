@@ -198,7 +198,7 @@
             "title": { "en-CA": "Founder and CEO", "fr-CA": "Fondateur et PDG" },
             "company": {
                 "name": { "en-CA": "SLCIT", "fr-CA": "SLCTI" },
-                "url": { "en-CA": "https://www.slcti.ca/?lang=en-CA", "fr-CA": "hhttps://www.slcti.ca/?lang=fr-CA" }
+                "url": { "en-CA": "https://www.slcti.ca/?lang=en-CA", "fr-CA": "https://www.slcti.ca/?lang=fr-CA" }
             },
             "employmentType": { "en-CA": "Self-employed", "fr-CA": "Travailleur autonome" },
             "startDate": "2018-11-01",
