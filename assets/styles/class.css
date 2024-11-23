@@ -15,6 +15,11 @@
     width: 50%;
 }
 
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
 .about {
     margin: 0 auto;
     padding-bottom: 25px;
