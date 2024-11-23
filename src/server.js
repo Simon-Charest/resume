@@ -58,6 +58,7 @@ async function main() {
     const HOSTNAME = '0.0.0.0';
     const PORT = process.env.PORT || 3000;
     const DEFAULT_LANGUAGE = 'fr-CA';
+    const ROUTES = ['index', 'about', 'partners', 'media', 'contact'];
 
     const assetsDir = path.join(__dirname, '..', 'assets');
     const dataDir = path.join(__dirname, '..', 'data');
@@ -133,7 +134,7 @@ async function main() {
     });
 
     // Serve static files from the .well-known/acme-challenge directory
-    //app.use('/.well-known/acme-challenge', express.static(path.join(publicDir, '.well-known', 'acme-challenge')));
+    app.use('/.well-known/acme-challenge', express.static(path.join(publicDir, '.well-known', 'acme-challenge')));
     
     app.use('/public', express.static(publicDir));
     app.use('/favicon.ico', express.static(path.join(iconsDir, 'favicon_16x16.ico')));
@@ -142,6 +143,11 @@ async function main() {
     // Route with error handling
     app.get('/:route?', cors(), async (req, res, next) => {
         const route = req.params.route || 'index';
+
+        if (!ROUTES.includes(route)) {
+            return res.status(404).send('404 Not Found');
+        }
+
         let routeData;
 
         try {
