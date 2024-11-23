@@ -2173,8 +2173,8 @@
                             "fr-CA": "Aide à la lecture d'élèves de même niveau académique (1e année; 1986)"
                         },
                         {
-                            "en-CA": "Enriched courses: plastic arts, dramatic arts, culinary arts, cabinetmaking, pottery, painting, tinkering, etc.",
-                            "fr-CA": "Cours enrichis : arts plastiques, arts dramatiques, arts culinaires, ébénisterie, poterie, peinture, bricolage, etc."
+                            "en-CA": "Enriched courses: plastic arts, dramatic arts, culinary arts, cabinetmaking, pottery, painting et tinkering",
+                            "fr-CA": "Cours enrichis : arts plastiques, arts dramatiques, arts culinaires, ébénisterie, poterie, peinture et bricolage"
                         }
                     ]
                 }
@@ -2538,8 +2538,8 @@
         },
         {
             "name": {
-                "en-CA": "Sports: Walking, Running (up to Half Marathon), Cycling, Martial Arts (Boxing, Judo, Kickboxing, Muay Thai), Ball Hockey, Soccer, Bodybuilding",
-                "fr-CA": "Sports : Marche, course à pied (jusqu'au demi-marathon), vélo, arts martiaux (boxe, judo, kickboxing, muay thai), hockey-balle, soccer, musculation"
+                "en-CA": "Sports: Walking, Running (up to Half Marathon), Cycling, Martial Arts (Boxing, Judo, Kickboxing and Muay Thai), Ball Hockey, Soccer and Bodybuilding",
+                "fr-CA": "Sports : marche, course à pied (jusqu'au demi-marathon), vélo, arts martiaux (boxe, judo, kickboxing et muay thai), hockey-balle, soccer et musculation"
             }
         },
         {
