@@ -395,6 +395,50 @@
         {
             "visible": true,
             "icon": null,
+            "title": { "en-CA": "Co-Liquidator", "fr-CA": "Co-liquidateur" },
+            "company": null,
+            "employmentType": { "en-CA": "Contract Part-time", "fr-CA": " Contrat à temps partiel" },
+            "startDate": "2022-07-24",
+            "endDate": null,
+            "location": {
+                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
+                "type": { "en-CA": "Remote", "fr-CA": "À distance" }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Co-liquidator of the paternal patrimony, jointly with my sister",
+                            "fr-CA": "Co-liquidateur du patrimoine paternel, conjointement avec ma sœur"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Beauchamp Gilbert Notaries (https://www.beauchampgilbert.com/en/)",
+                            "fr-CA": "Beauchamp Gilbert Notaires (https://www.beauchampgilbert.com/fr/)"
+                        },
+                        {
+                            "en-CA": "Excelsior Lawyers (https://www.excelsioravocats.com/)",
+                            "fr-CA": "Excelsior Avocats (https://www.excelsioravocats.com/)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "icon": null,
             "title": { "en-CA": "Renovation Contractor", "fr-CA": "Entrepreneur en rénovation" },
             "company": null,
             "employmentType": { "en-CA": "Self-employed", "fr-CA": "Indépendant" },
