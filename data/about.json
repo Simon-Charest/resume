@@ -2,7 +2,7 @@
     "globals": {
         "contactInfo": { "en-CA": "Contact Info", "fr-CA": "Coordonnées" },
         "profile": { "en-CA": "Profile", "fr-CA": "Profil" },
-        "website": { "en-CA": "Websites", "fr-CA": "Sites web" },
+        "websites": { "en-CA": "Websites", "fr-CA": "Sites web" },
         "company": { "en-CA": "Company", "fr-CA": "Entreprise" },
         "portfolio": { "en-CA": "Portfolio", "fr-CA": "Portfolio" },
         "phone": { "en-CA": "Phone", "fr-CA": "Téléphone" },
