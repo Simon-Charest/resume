@@ -396,7 +396,7 @@
         {
             "visible": true,
             "icon": null,
-            "title": { "en-CA": "Co-Liquidator", "fr-CA": "Co-liquidateur" },
+            "title": { "en-CA": "Liquidator", "fr-CA": "Liquidateur" },
             "company": null,
             "employmentType": { "en-CA": "Contract Part-time", "fr-CA": " Contrat à temps partiel" },
             "startDate": "2022-07-24",
