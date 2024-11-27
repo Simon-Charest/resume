@@ -7,8 +7,22 @@
                 <img src="/assets/images/buddy_macho.png" class="buddy-macho">
             <% } %>
 
-            <h1 class="center header"><%= data[route][lang] %></h1>
+            <h1 class="center header">
+                <% if (data.title) { %>
+                    <%= data.title[lang] %>
+                <% } else { %>
+                    <%= data[route][lang] %>
+                <% } %>
+            </h1>
 
+            <% if (data.animated) { %>
+                <div class="padding-25px">
+                    <p class="animated-text">
+                        <%- data.animated[lang].split('').map(character => character === ' ' ? `<span>&nbsp;</span>` : `<span>${character}</span>`).join('') %>
+                    </p>
+                </div>
+            <% } %>
+            
             <% if (data.intro) { %>
                 <div class="padding-25px">
                     <h2><%= data.intro[lang] %></h2>
@@ -18,7 +32,9 @@
             <% if (data.contents) { %>
                 <div class="padding-25px">
                     <% data.contents.forEach(content => { %>
-                        <p><%= content[lang] %></p>
+                        <p>
+                            <%= content[lang] %>
+                        </p>
                     <% }); %>
                 </div>
             <% } %>
