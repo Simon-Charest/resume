@@ -1,0 +1,13 @@
+{
+    "background": true,
+    "intro": {
+        "en-CA": "404",
+        "fr-CA": "404"
+    },
+    "contents": [
+        {
+            "en-CA": "Not Found",
+            "fr-CA": "Introuvable"
+        }
+    ]
+}

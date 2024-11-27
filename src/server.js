@@ -74,19 +74,12 @@ async function main() {
     let data = '';
 
     // Read files in parallel and add error handling
-    try {
-        [iconFiles, imageFiles, profileFiles] = await Promise.all([
-            fs.readdir(iconsDir),
-            fs.readdir(imagesDir),
-            fs.readdir(profileDir)
-        ]);
-        data = await fs.readFile(path.join(dataDir, 'data.json'), 'utf8');
-    }
-    
-    catch (err) {
-        logger.error(`Error reading directories or data file: ${err.message}\nStack: ${err.stack}`);
-        process.exit(1);
-    }
+    [iconFiles, imageFiles, profileFiles] = await Promise.all([
+        fs.readdir(iconsDir),
+        fs.readdir(imagesDir),
+        fs.readdir(profileDir)
+    ]);
+    data = await fs.readFile(path.join(dataDir, 'data.json'), 'utf8');
 
     // Create an object mapping filenames for icons and images
     const icons = iconFiles.reduce((acc, file) => {
@@ -140,38 +133,14 @@ async function main() {
     app.use('/favicon.ico', express.static(path.join(iconsDir, 'favicon_16x16.ico')));
     app.use('/robots.txt', express.static('robots.txt'));
 
-    // Route with error handling
-    app.get('/:route?', cors(), async (req, res, next) => {
-        const route = req.params.route || 'index';
-
-        if (!ROUTES.includes(route)) {
-            return res.status(404).send('404 Not Found');
-        }
-
-        let routeData;
-
-        try {
-            routeData = await fs.readFile(path.join(dataDir, `${route}.json`), 'utf8');
-        }
-        
-        catch (err) {
-            return next(new Error(`Error reading route data for ${route}: ${err.message}`));
-        }
-
-        let jsonData;
-
-        try {
-            jsonData = Object.assign({}, JSON.parse(data), JSON.parse(routeData));
-        }
-        
-        catch (err) {
-            return next(new Error(`Error parsing JSON data for ${route}: ${err.message}`));
-        }
-
+    // Route
+    app.get('/:route?', cors(), async (req, res) => {
+        const route = ROUTES.includes(req.params.route) ? req.params.route : "index";
+        const view = route === "about" ? "about" : "index";
+        const dataPath = !ROUTES.includes(req.params.route) && req.params.route !== undefined ? "404.json" : `${route}.json`;
+        const jsonData = Object.assign({}, JSON.parse(data), JSON.parse(await fs.readFile(path.join(dataDir, dataPath), 'utf8')));
         const backgroundImage = `background_${res.locals.lang.toLowerCase()}.webp`;
         const profileImage = profileFiles[Math.floor(Math.random() * profileFiles.length)];
-        const view = route === "about" ? "about" : "index";
-
         res.render(view, {
             route,
             data: jsonData,
@@ -190,7 +159,7 @@ async function main() {
         const end = endDate == null ? new Date() : new Date(endDate);
         const yearDiff = end.getFullYear() - start.getFullYear();
         const monthDiff = end.getMonth() - start.getMonth();
-        const totalMonth= yearDiff * 12 + monthDiff;
+        const totalMonth = yearDiff * 12 + monthDiff;
 
         return totalMonth;
     };
@@ -231,18 +200,11 @@ async function main() {
     let options = {};
 
     if (config.environment === 'production') {
-        try {
-            options = {
-                key: await fs.readFile(path.join(config.certificates, 'privkey.pem')),
-                cert: await fs.readFile(path.join(config.certificates, 'cert.pem')),
-                ca: await fs.readFile(path.join(config.certificates, 'fullchain.pem'))
-            };
-        }
-        
-        catch (err) {
-            logger.error(`Error loading SSL certificates: ${err.message}\nStack: ${err.stack}`);
-            process.exit(1);
-        }
+        options = {
+            key: await fs.readFile(path.join(config.certificates, 'privkey.pem')),
+            cert: await fs.readFile(path.join(config.certificates, 'cert.pem')),
+            ca: await fs.readFile(path.join(config.certificates, 'fullchain.pem'))
+        };
     }
 
     // Start the server using HTTPS or HTTP

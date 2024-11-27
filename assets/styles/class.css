@@ -15,6 +15,29 @@
     width: 50%;
 }
 
+.background {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: -2;
+}
+
+.simon {
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: -1;
+}
+
+.buddy-macho {
+    left: 0;
+    bottom: 50px;
+    position: fixed;
+    z-index: -1;
+}
+
 .title {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;

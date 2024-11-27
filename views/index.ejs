@@ -1,6 +1,12 @@
 <%- include('header') %>
         
         <div class="body">
+            <% if (data.background) { %>
+                <img src="/assets/images/bliss.webp" class="background">
+                <img src="/assets/images/2022-06-09.png" class="simon">
+                <img src="/assets/images/buddy_macho.png" class="buddy-macho">
+            <% } %>
+
             <h1 class="center header"><%= data[route][lang] %></h1>
 
             <% if (data.intro) { %>
