@@ -97,20 +97,6 @@ async function main() {
     }, {});
 
     const app = express();
-
-    // Redirect HTTP to HTTPS
-    app.use((req, res, next) => {
-        // Skip redirect on localhost (or development environments) 
-        if (req.hostname === 'localhost' || req.hostname === '127.0.0.1') {
-            return next(); // Don't redirect if it's localhost
-        }
-
-        if (req.protocol !== 'https' && req.get('X-Forwarded-Proto') !== 'https') {
-            return res.redirect(301, `https://${req.headers.host}${req.url}`);
-        }
-        
-        next();
-    });
     
     // Enable compression
     app.use(compression());
