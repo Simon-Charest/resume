@@ -119,7 +119,8 @@
 }
 
 .right {
-    text-align: right;
+    position: absolute;
+    right: 0;
 }
 
 .padding-25px {

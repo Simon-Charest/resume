@@ -1,6 +1,8 @@
 <%- include('header') %>
 
+        
         <% if (!data.abouts) { %>
+            
             <div class="body">
                 <% if (data.background) { %>
                     <img src="/assets/images/bliss.webp" class="background">
@@ -27,6 +29,11 @@
                 <% if (data.intro) { %>
                     <div class="padding-25px">
                         <h2><%= data.intro[lang] %></h2>
+                        <% if (data.size) { %>
+                            <p>
+                                <%= data.projectSize[lang] %> <%= Math.round(calculateProjectSize() * 10) / 10 %> KB
+                            </p>
+                        <% } %>
                     </div>
                 <% } %>
 

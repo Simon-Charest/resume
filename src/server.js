@@ -2,7 +2,7 @@ const compression = require('compression');
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const express = require('express');
-const fs = require('fs').promises;
+const fs = require('fs');
 const http = require('http');
 const https = require('https');
 const path = require('path');
@@ -53,12 +53,12 @@ const logger = winston.createLogger({
 });
 
 async function main() {
-    const config = JSON.parse(await fs.readFile('./config.json', 'utf8'));
+    const config = JSON.parse(await fs.promises.readFile('./config.json', 'utf8'));
 
     const HOSTNAME = '0.0.0.0';
     const PORT = process.env.PORT || 3000;
     const DEFAULT_LANGUAGE = 'fr-CA';
-    const ROUTES = ['index', 'about', 'partners', 'media', 'contact'];
+    const ROUTES = ['index', 'about', 'partners', 'media', 'contact', 'geekyStuff'];
 
     const assetsDir = path.join(__dirname, '..', 'assets');
     const dataDir = path.join(__dirname, '..', 'data');
@@ -75,11 +75,11 @@ async function main() {
 
     // Read files in parallel and add error handling
     [iconFiles, imageFiles, profileFiles] = await Promise.all([
-        fs.readdir(iconsDir),
-        fs.readdir(imagesDir),
-        fs.readdir(profileDir)
+        fs.promises.readdir(iconsDir),
+        fs.promises.readdir(imagesDir),
+        fs.promises.readdir(profileDir)
     ]);
-    data = await fs.readFile(path.join(dataDir, 'data.json'), 'utf8');
+    data = await fs.promises.readFile(path.join(dataDir, 'data.json'), 'utf8');
 
     // Create an object mapping filenames for icons and images
     const icons = iconFiles.reduce((acc, file) => {
@@ -138,7 +138,7 @@ async function main() {
         const route = ROUTES.includes(req.params.route) ? req.params.route : "index";
         const view = "body";
         const dataPath = !ROUTES.includes(req.params.route) && req.params.route !== undefined ? "404.json" : `${route}.json`;
-        const jsonData = Object.assign({}, JSON.parse(data), JSON.parse(await fs.readFile(path.join(dataDir, dataPath), 'utf8')));
+        const jsonData = Object.assign({}, JSON.parse(data), JSON.parse(await fs.promises.readFile(path.join(dataDir, dataPath), 'utf8')));
         const backgroundImage = `background_${res.locals.lang.toLowerCase()}.webp`;
         const profileImage = profileFiles[Math.floor(Math.random() * profileFiles.length)];
         res.render(view, {
@@ -150,7 +150,8 @@ async function main() {
             profileImage,
             calculateMonth,
             calculateLength,
-            formatLength
+            formatLength,
+            calculateProjectSize
         });
     });
 
@@ -190,6 +191,50 @@ async function main() {
         return string.length === 0 ? '0 months' : string;
     };
 
+    // Function to calculate the size of a directory recursively, excluding certain directories
+    function calculateProjectSize
+    (
+        directory = path.join(__dirname, '..'),
+        ignoredDirs = [
+            path.join(__dirname, '..', '.git'),
+            path.join(__dirname, '..', 'node_modules')
+        ],
+        unit = "K"
+    ) {
+        const files = fs.readdirSync(directory);
+        let size = 0;
+
+        for (const file of files) {
+            const filePath = path.join(directory, file);
+            const stats = fs.statSync(filePath);
+
+            // Skip ignored directories
+            if (stats.isDirectory() && ignoredDirs.includes(file)) {
+                continue;
+            }
+
+            if (stats.isDirectory()) {
+                // Recursive call
+                size += calculateProjectSize(filePath, ignoredDirs);
+            }
+            
+            else {
+                // Add file size
+                size += stats.size;
+            }
+        }
+
+        switch (unit) {
+            case "B": size /= 1000 ** 0; break;
+            case "K": size /= 1000 ** 1; break;
+            case "M": size /= 1000 ** 2; break;
+            case "G": size /= 1000 ** 3; break;
+            case "T": size /= 1000 ** 4; break;
+        }
+
+        return size;
+    }
+
     // General Error Handling Middleware
     app.use((err, req, res, next) => {
         logger.error(`Error occurred: ${err.message}\nStack: ${err.stack}`);
@@ -201,9 +246,9 @@ async function main() {
 
     if (config.environment === 'production') {
         options = {
-            key: await fs.readFile(path.join(config.certificates, 'privkey.pem')),
-            cert: await fs.readFile(path.join(config.certificates, 'cert.pem')),
-            ca: await fs.readFile(path.join(config.certificates, 'fullchain.pem'))
+            key: await fs.promises.readFile(path.join(config.certificates, 'privkey.pem')),
+            cert: await fs.promises.readFile(path.join(config.certificates, 'cert.pem')),
+            ca: await fs.promises.readFile(path.join(config.certificates, 'fullchain.pem'))
         };
     }
 

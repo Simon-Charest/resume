@@ -1,39 +1,27 @@
 {
     "debug": false,
-    "organization": {
-        "en-CA": "SLCIT",
-        "fr-CA": "SLCTI"
-    },
-    "index": {
-        "en-CA": "Home",
-        "fr-CA": "Accueil"
-    },
-    "about": {
-        "en-CA": "About",
-        "fr-CA": "À propos"
-    },
-    "services": {
-        "en-CA": "Our Services",
-        "fr-CA": "Nos services"
-    },
-    "products": {
-        "en-CA": "Our Products",
-        "fr-CA": "Nos produits"
-    },
-    "partners": {
-        "en-CA": "Our Partners",
-        "fr-CA": "Nos partenaires"
-    },
-    "media": {
-        "en-CA": "Media",
-        "fr-CA": "Médias"
-    },
-    "contact": {
-        "en-CA": "Contact",
-        "fr-CA": "Contact"
-    },
+    
+    "organization": { "en-CA": "SLCIT", "fr-CA": "SLCTI" },
+
+    "index": { "en-CA": "Home", "fr-CA": "Accueil" },
+    
+    "about": { "en-CA": "About", "fr-CA": "À propos" },
     "seeMore": {"en-CA": "See more...", "fr-CA": "Voir plus..."},
     "seeLess": {"en-CA": "See less...", "fr-CA": "Voir moins..."},
+
+    "services": { "en-CA": "Our Services", "fr-CA": "Nos services" },
+    
+    "products": { "en-CA": "Our Products", "fr-CA": "Nos produits" },
+    
+    "partners": { "en-CA": "Our Partners", "fr-CA": "Nos partenaires" },
+    
+    "media": { "en-CA": "Media", "fr-CA": "Médias" },
+    
+    "contact": { "en-CA": "Contact", "fr-CA": "Contact" },
+
+    "geekyStuff": { "en-CA": "Geeky Stuff", "fr-CA": "Trucs de geeks" },
+    "projectSize": { "en-CA": "Size of this website:", "fr-CA": "Taille de ce site web :" },
+
     "poweredBy": {"en-CA": "Powered by Ubuntu, Node.js, Let's Encrypt and Namecheap.", "fr-CA": "Propulsé par Ubuntu, Node.js, Let's Encrypt et Namecheap."},
     "copyright": {"en-CA": "© SLCIT. All rights reserved.", "fr-CA": "© SLCTI. Tous droits réservés."},
     "privacy": {"en-CA": "This site does not store any data about its visitors.", "fr-CA": "Ce site ne conserve aucune donnée sur ses visiteurs."}
