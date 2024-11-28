@@ -136,7 +136,7 @@ async function main() {
     // Route
     app.get('/:route?', cors(), async (req, res) => {
         const route = ROUTES.includes(req.params.route) ? req.params.route : "index";
-        const view = route === "about" ? "about" : "index";
+        const view = "body";
         const dataPath = !ROUTES.includes(req.params.route) && req.params.route !== undefined ? "404.json" : `${route}.json`;
         const jsonData = Object.assign({}, JSON.parse(data), JSON.parse(await fs.readFile(path.join(dataDir, dataPath), 'utf8')));
         const backgroundImage = `background_${res.locals.lang.toLowerCase()}.webp`;
