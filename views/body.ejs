@@ -29,11 +29,6 @@
                 <% if (data.intro) { %>
                     <div class="padding-25px">
                         <h2><%= data.intro[lang] %></h2>
-                        <% if (data.size) { %>
-                            <p>
-                                <%= data.projectSize[lang] %> <%= Math.round(calculateProjectSize() * 10) / 10 %> KB
-                            </p>
-                        <% } %>
                     </div>
                 <% } %>
 
@@ -44,6 +39,11 @@
                                 <%= content[lang] %>
                             </p>
                         <% }); %>
+                        <% if (data.geek) { %>
+                            <p>
+                                <%= data.websiteSize[lang] %> <%= convertSize(calculateSize(), 'M', 2) %>
+                            </p>
+                        <% } %>
                     </div>
                 <% } %>
 

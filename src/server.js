@@ -151,7 +151,8 @@ async function main() {
             calculateMonth,
             calculateLength,
             formatLength,
-            calculateProjectSize
+            calculateSize,
+            convertSize
         });
     });
 
@@ -192,30 +193,29 @@ async function main() {
     };
 
     // Function to calculate the size of a directory recursively, excluding certain directories
-    function calculateProjectSize
-    (
+    function calculateSize(
         directory = path.join(__dirname, '..'),
-        ignoredDirs = [
+        ignores = [
             path.join(__dirname, '..', '.git'),
             path.join(__dirname, '..', 'node_modules')
         ],
-        unit = "K"
+        unit = "M"
     ) {
         const files = fs.readdirSync(directory);
         let size = 0;
 
-        for (const file of files) {
-            const filePath = path.join(directory, file);
-            const stats = fs.statSync(filePath);
+        for (let file of files) {
+            let filePath = path.join(directory, file);
+            let stats = fs.statSync(filePath);
 
             // Skip ignored directories
-            if (stats.isDirectory() && ignoredDirs.includes(file)) {
+            if (ignores.includes(filePath)) {
                 continue;
             }
 
             if (stats.isDirectory()) {
                 // Recursive call
-                size += calculateProjectSize(filePath, ignoredDirs);
+                size += calculateSize(filePath, ignores, unit);
             }
             
             else {
@@ -224,15 +224,23 @@ async function main() {
             }
         }
 
+        return size;
+    }
+
+    function convertSize(byte, unit = '', round = null) {
         switch (unit) {
-            case "B": size /= 1000 ** 0; break;
-            case "K": size /= 1000 ** 1; break;
-            case "M": size /= 1000 ** 2; break;
-            case "G": size /= 1000 ** 3; break;
-            case "T": size /= 1000 ** 4; break;
+            case '': size = byte; break;
+            case 'K': size = byte / 1024; break;
+            case 'M': size = byte / (1024 ** 2); break;
+            case 'G': size = byte / (1024 ** 3); break;
+            case 'T': size = byte / (1024 ** 4); break;
         }
 
-        return size;
+        if (round !== null) {
+            size = Math.round(size * 10 ** round) / 10 ** round;
+        }
+
+        return `${size} ${unit}B`;
     }
 
     // General Error Handling Middleware

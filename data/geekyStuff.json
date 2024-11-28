@@ -1,7 +1,49 @@
 {
-    "intro": {
-        "en-CA": "In Development",
-        "fr-CA": "En développement"
-    },
-    "size": true
+    "contents": [
+        {
+            "en-CA": "Address: H2A, Montreal, Quebec, Canada (https://www.google.com/maps/place/Montreal,+QC+H2A/)",
+            "fr-CA": "Adresse : H2A, Montréal, Québec, Canada (https://www.google.com/maps/place/Montreal,+QC+H2A/)"
+        },
+        {
+            "en-CA": "Server: Intel NUC7i3BNH",
+            "fr-CA": "Serveur : Intel NUC7i3BNH"
+        },
+        {
+            "en-CA": "Processor: 2 x Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz",
+            "fr-CA": "Processeur : 2 x Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"
+        },
+        {
+            "en-CA": "Memory: 2 x 8 GB of RAM",
+            "fr-CA": "Mémoire : 2 x 8 Go de RAM"
+        },
+        {
+            "en-CA": "Hard Disk: 120 GB Kingston SM2280S3G2120G M.2 2280 SATA III (6 Gb/s)",
+            "fr-CA": "Disque dur : 120 Go Kingston SM2280S3G2120G M.2 2280 SATA III (6 Gb/s)"
+        },
+        {
+            "en-CA": "Network: Intel Corporation Wireless 8265 / 8275 (rev 78)",
+            "fr-CA": "Réseau: Intel Corporation Wireless 8265 / 8275 (rev 78)"
+        },
+        {
+            "en-CA": "OS: Ubuntu 24.10 (64-bit)",
+            "fr-CA": "Système d'exploitation: Ubuntu 24.10 (64-bit)"
+        },
+        {
+            "en-CA": "ISP: Altima Telecom Cable Internet 100 Mbps download / 30 Mbps upload",
+            "fr-CA": "FAI : Altima Telecom Internet câblé 100 Mbps téléchargement / 30 Mbps téléversement"
+        },
+        {
+            "en-CA": "Web Service: Node.js",
+            "fr-CA": "Service web : Node.js"
+        },
+        {
+            "en-CA": "Programming Languages: EJS, JS and CSS",
+            "fr-CA": "Langages de programmation : EJS, JS et CSS"
+        },
+        {
+            "en-CA": "Source Code: https://github.com/Simon-Charest/resume",
+            "fr-CA": "Code source : https://github.com/Simon-Charest/resume"
+        }
+    ],
+    "geek": true
 }

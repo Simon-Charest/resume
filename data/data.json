@@ -20,7 +20,7 @@
     "contact": { "en-CA": "Contact", "fr-CA": "Contact" },
 
     "geekyStuff": { "en-CA": "Geeky Stuff", "fr-CA": "Trucs de geeks" },
-    "projectSize": { "en-CA": "Size of this website:", "fr-CA": "Taille de ce site web :" },
+    "websiteSize": { "en-CA": "Website Size:", "fr-CA": "Taille du site web :" },
 
     "poweredBy": {"en-CA": "Powered by Ubuntu, Node.js, Let's Encrypt and Namecheap.", "fr-CA": "Propulsé par Ubuntu, Node.js, Let's Encrypt et Namecheap."},
     "copyright": {"en-CA": "© SLCIT. All rights reserved.", "fr-CA": "© SLCTI. Tous droits réservés."},
