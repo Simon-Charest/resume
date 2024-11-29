@@ -92,6 +92,10 @@
     position: fixed;
 }
 
+.word-wrap-break-word {
+    word-wrap: break-word;
+}
+
 .title {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;

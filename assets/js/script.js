@@ -27,6 +27,6 @@ function convertPlainTextLinksToHtml(text) {
     const urlRegex = /(?<!<a href=")(https?:\/\/[^\s<>()"]+[\w/])/g;
 
     return text.replace(urlRegex, (url) => {
-        return `<a href="${url}" target="_blank">${url}</a>`;
+        return `<a href="${url}" target="_blank" class="word-wrap-break-word">${url}</a>`;
     });
 }
