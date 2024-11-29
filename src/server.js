@@ -213,8 +213,8 @@ async function main() {
             let filePath = path.join(directory, file);
             let stats = fs.statSync(filePath);
 
-            // Skip ignored directories
-            if (ignores.includes(filePath)) {
+            // Skip ignored paths
+            if (ignores.includes(filePath) || ignores.some(pattern => pattern.includes("*") && filePath.startsWith(pattern.replace("*", path.basename(filePath, path.extname(filePath)))))) {
                 continue;
             }
 
