@@ -6,6 +6,7 @@ const fs = require('fs');
 const http = require('http');
 const https = require('https');
 const path = require('path');
+const sqlite3 = require('sqlite3').verbose();
 const winston = require('winston');
 
 // Create a custom logger using Winston
@@ -60,13 +61,16 @@ async function main() {
     const DEFAULT_LANGUAGE = 'fr-CA';
     const ROUTES = ['index', 'about', 'partners', 'media', 'contact', 'geekyStuff'];
 
-    const assetsDir = path.join(__dirname, '..', 'assets');
     const dataDir = path.join(__dirname, '..', 'data');
     const publicDir = path.join(__dirname, '..', 'public');
     const viewsDir = path.join(__dirname, '..', 'views');
+    const assetsDir = path.join(publicDir, 'assets');
     const iconsDir = path.join(assetsDir, 'icons');
     const imagesDir = path.join(assetsDir, 'images');
     const profileDir = path.join(imagesDir, 'profile');
+
+    const db = new sqlite3.Database(path.join(dataDir, 'database.db'));
+    db.close();
 
     let iconFiles = [];
     let imageFiles = [];
@@ -131,7 +135,7 @@ async function main() {
     
     app.use('/public', express.static(publicDir));
     app.use('/favicon.ico', express.static(path.join(iconsDir, 'favicon_16x16.ico')));
-    app.use('/robots.txt', express.static('robots.txt'));
+    app.use('/robots.txt', express.static(path.join(publicDir, 'robots.txt')));
 
     // Route
     app.get('/:route?', cors(), async (req, res) => {
@@ -198,7 +202,7 @@ async function main() {
         ignores = [
             path.join(__dirname, '..', '.git'),
             path.join(__dirname, '..', 'node_modules'),
-            path.join(__dirname, '..', 'public')
+            path.join(__dirname, '..', 'public/*.zip')
         ],
         unit = "M"
     ) {

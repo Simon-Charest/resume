@@ -1,6 +1,22 @@
 {
     "contents": [
         {
+            "en-CA": "Company: SLCTI",
+            "fr-CA": "Entreprise : SLCTI"
+        },
+        {
+            "en-CA": "Québec Enterprise Number (NEQ): 1174099037",
+            "fr-CA": "Numéro d'entreprise du Québec (NEQ) : 1174099037"
+        },
+        {
+            "en-CA": "GST Number: 72397 8714 RT0001",
+            "fr-CA": "Numéro de TPS : 72397 8714 RT0001"
+        },
+        {
+            "en-CA": "QST Number: 1226106843 TQ0001",
+            "fr-CA": "Numéro de TVQ : 1226106843 TQ0001"
+        },
+        {
             "en-CA": "Address: H2A, Montreal, Quebec, Canada (https://www.google.com/maps/place/Montreal,+QC+H2A/)",
             "fr-CA": "Adresse : H2A, Montréal, Québec, Canada (https://www.google.com/maps/place/Montreal,+QC+H2A/)"
         },
@@ -23,6 +39,14 @@
         {
             "en-CA": "Network: Intel Corporation Wireless 8265 / 8275 (rev 78)",
             "fr-CA": "Réseau: Intel Corporation Wireless 8265 / 8275 (rev 78)"
+        },
+        {
+            "en-CA": "Router: TP-Link Archer C7",
+            "fr-CA": "Router: TP-Link Archer C7"
+        },
+        {
+            "en-CA": "Modem: Hitron CDA-RES",
+            "fr-CA": "Modem: Hitron CDA-RES"
         },
         {
             "en-CA": "Operating System: Ubuntu 24.10 (64-bit)",
