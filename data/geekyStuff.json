@@ -29,8 +29,8 @@
             "fr-CA": "Système d'exploitation: Ubuntu 24.10 (64-bit)"
         },
         {
-            "en-CA": "ISP: Altima Telecom Cable 100/30 Mbps",
-            "fr-CA": "FAI : Altima Telecom Câble 100/30 Mbps"
+            "en-CA": "ISP: Cable 100/30 Mbps",
+            "fr-CA": "FAI : Câble 100/30 Mbps"
         },
         {
             "en-CA": "Web Service: Node.js",
@@ -43,6 +43,10 @@
         {
             "en-CA": "Source Code: https://github.com/Simon-Charest/resume",
             "fr-CA": "Code source : https://github.com/Simon-Charest/resume"
+        },
+        {
+            "en-CA": "Registration: https://www.whois.com/whois/slcti.ca",
+            "fr-CA": "Enregistrement : https://www.whois.com/whois/slcti.ca"
         }
     ],
     "geek": true
