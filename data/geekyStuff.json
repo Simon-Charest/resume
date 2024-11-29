@@ -29,8 +29,8 @@
             "fr-CA": "Système d'exploitation: Ubuntu 24.10 (64-bit)"
         },
         {
-            "en-CA": "ISP: Cable 100/30 Mbps",
-            "fr-CA": "FAI : Câble 100/30 Mbps"
+            "en-CA": "Internet: Cable 100/30 Mbps",
+            "fr-CA": "Internet : Câble 100/30 Mbps"
         },
         {
             "en-CA": "Web Service: Node.js",
