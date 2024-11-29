@@ -197,7 +197,8 @@ async function main() {
         directory = path.join(__dirname, '..'),
         ignores = [
             path.join(__dirname, '..', '.git'),
-            path.join(__dirname, '..', 'node_modules')
+            path.join(__dirname, '..', 'node_modules'),
+            path.join(__dirname, '..', 'public')
         ],
         unit = "M"
     ) {
