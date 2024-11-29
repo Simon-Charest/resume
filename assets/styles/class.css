@@ -86,6 +86,12 @@
 .animated-text span:nth-child(9) { animation-delay: 0.9s; }
 .animated-text span:nth-child(10) { animation-delay: 1.0s; }
 
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
+
 .title {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
