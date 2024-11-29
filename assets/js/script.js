@@ -23,9 +23,9 @@ function traverseAndConvert(element) {
 function convertPlainTextLinksToHtml(text) {
     /* Convert plain text links to HTML */
 
-    // Capture URLs without trailing characters
-    const urlRegex = /(?<!<a href=")https?:\/\/[^\s,()]+/g;
-    
+    // Regular expression to match URLs, ensuring trailing characters are handled properly
+    const urlRegex = /(?<!<a href=")(https?:\/\/[^\s<>()"]+[\w/])/g;
+
     return text.replace(urlRegex, (url) => {
         return `<a href="${url}" target="_blank">${url}</a>`;
     });
