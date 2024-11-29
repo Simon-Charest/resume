@@ -279,7 +279,4 @@ async function main() {
     }
 }
 
-main().catch(err => {
-    logger.error(`Fatal error during startup: ${err.message}\nStack: ${err.stack}`);
-    process.exit(1);
-});
+main();
