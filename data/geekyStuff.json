@@ -9,8 +9,8 @@
             "fr-CA": "Serveur : Intel NUC7i3BNH"
         },
         {
-            "en-CA": "Processor: 2 x Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz",
-            "fr-CA": "Processeur : 2 x Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"
+            "en-CA": "Processor: 2 x Intel® Core™ i3-7100U CPU @ 2.40GHz",
+            "fr-CA": "Processeur : 2 x Intel® Core™ i3-7100U CPU @ 2.40GHz"
         },
         {
             "en-CA": "Memory: 2 x 8 GB of RAM",
@@ -29,8 +29,8 @@
             "fr-CA": "Système d'exploitation: Ubuntu 24.10 (64-bit)"
         },
         {
-            "en-CA": "ISP: Altima Telecom Cable Internet 100 Mbps download / 30 Mbps upload",
-            "fr-CA": "FAI : Altima Telecom Internet câblé 100 Mbps téléchargement / 30 Mbps téléversement"
+            "en-CA": "ISP: Altima Telecom Cable 100/30 Mbps",
+            "fr-CA": "FAI : Altima Telecom Câble 100/30 Mbps"
         },
         {
             "en-CA": "Web Service: Node.js",
