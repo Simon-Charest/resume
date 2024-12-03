@@ -5,15 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="<%= data.description[lang] %>">
         <meta name="keywords" content="<%= data.keywords[lang] %>">
-        <title>
-            <%= data.organization[lang] %>
-            -
-            <% if (data.title) { %>
-                <%= data.title[lang] %>
-            <% } else { %>
-                <%= data[route][lang] %>
-            <% } %>
-        </title>
+        <title><%= data.organization[lang] %> - <%= data.title ? data.title[lang] : data[route][lang] %></title>
         <link rel="icon" href="/assets/icons/favicon_16x16.ico" sizes="16x16" type="image/x-icon">
         <link rel="icon" href="/assets/icons/favicon_32x32.ico" sizes="32x32" type="image/x-icon">
         <link rel="icon" href="/assets/icons/favicon_48x48.png" sizes="48x48" type="image/png">
