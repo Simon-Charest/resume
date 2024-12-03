@@ -1,5 +1,15 @@
 {
     "debug": false,
+
+    "description": {
+        "en-CA": "Official website for SLCIT, featuring information about the company and Simon Charest's professional resume.",
+        "fr-CA": "Site officiel de SLCTI, présentant des informations sur l'entreprise et le CV professionnel de Simon Charest."
+    },
+
+    "keywords": {
+        "en-CA": "Simon Charest, Vigiteck, Paul Laurier, M365, Microsoft, SQL, SLCTI, developer, development, programming, analysis, investigation, databases, computer science",
+        "fr-CA": "Simon Charest, Vigiteck, Paul Laurier, M365, Microsoft, SQL, SLCIT, développeur, développement, programmation, analyse, enquête, bases de données, informatique"
+    },
     
     "organization": { "en-CA": "SLCIT", "fr-CA": "SLCTI" },
 
