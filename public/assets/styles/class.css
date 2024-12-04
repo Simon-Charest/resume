@@ -86,6 +86,12 @@
 .animated-text span:nth-child(9) { animation-delay: 0.9s; }
 .animated-text span:nth-child(10) { animation-delay: 1.0s; }
 
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+
 .bottom-right {
     bottom: 0;
     right: 0;
@@ -121,6 +127,11 @@
 
 .gray {
     color: gray;
+}
+
+.left {
+    position: absolute;
+    left: 0;
 }
 
 .center {
