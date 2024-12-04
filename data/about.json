@@ -429,7 +429,10 @@
             "visible": true,
             "icon": "console.webp",
             "title": { "en-CA": "Volunteer", "fr-CA": "Bénévole" },
-            "company": { "en-CA": "La Console qui Console", "fr-CA": "La Console qui Console" },
+            "company": {
+                "name": { "en-CA": "La Console qui Console", "fr-CA": "La Console qui Console" },
+                "url": { "en-CA": "https://www.laconsolequiconsole.com/", "fr-CA": "https://www.laconsolequiconsole.com/" }
+            },
             "employmentType": { "en-CA": "Casual / On-call", "fr-CA": "Occasionnel / sur appel" },
             "startDate": "2023-03-11",
             "endDate": null,
