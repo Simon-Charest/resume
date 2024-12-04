@@ -37,8 +37,8 @@
             "fr-CA": "Disque dur : 120 Go Kingston SM2280S3G2120G M.2 2280 SATA III (6 Gb/s)"
         },
         {
-            "en-CA": "Network: Intel Corporation Wireless 8265 / 8275 (rev 78)",
-            "fr-CA": "Réseau: Intel Corporation Wireless 8265 / 8275 (rev 78)"
+            "en-CA": "Network: Intel Corporation Ethernet Connection I219-V and Wireless 8265 / 8275 (rev 78)",
+            "fr-CA": "Réseau: Intel Corporation Ethernet Connection I219-V et Wireless 8265 / 8275 (rev 78)"
         },
         {
             "en-CA": "Router: TP-Link Archer C7",
