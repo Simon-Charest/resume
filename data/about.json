@@ -395,38 +395,6 @@
         },
         {
             "visible": true,
-            "icon": "slcti.webp",
-            "title": { "en-CA": "Founder and CEO", "fr-CA": "Fondateur et PDG" },
-            "company": {
-                "name": { "en-CA": "SLCIT", "fr-CA": "SLCTI" },
-                "url": { "en-CA": "https://www.slcti.ca/?lang=en-CA", "fr-CA": "https://www.slcti.ca/?lang=fr-CA" }
-            },
-            "employmentType": { "en-CA": "Self-employed", "fr-CA": "Travailleur autonome" },
-            "startDate": "2018-11-01",
-            "endDate": null,
-            "location": {
-                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
-                "type": { "en-CA": "Remote", "fr-CA": "À distance" }
-            },
-            "descriptions":
-            [
-                {
-                    "key": {
-                        "en-CA": "Responsibilities",
-                        "fr-CA": "Responsabilités"
-                    },
-                    "values": [
-                        {
-                            "en-CA": "Information Technology Consulting Services",
-                            "fr-CA": "Services de consultation en technologies de l'information"
-                        }
-                    ]
-                }
-            ],
-            "skills": null
-        },
-        {
-            "visible": true,
             "icon": "console.webp",
             "title": { "en-CA": "Volunteer", "fr-CA": "Bénévole" },
             "company": {
