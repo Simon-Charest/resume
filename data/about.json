@@ -513,14 +513,6 @@
                             "fr-CA": "Pose d'isolation"
                         },
                         {
-                            "en-CA": "Stripping, sanding and cleaning",
-                            "fr-CA": "Décapage, sablage et nettoyage"
-                        },
-                        {
-                            "en-CA": "Sanding and varnishing of hardwood floors",
-                            "fr-CA": "Sablage et vernissage de planchers de bois franc"
-                        },
-                        {
                             "en-CA": "Interior and exterior painting",
                             "fr-CA": "Peinture intérieure et extérieure"
                         },
@@ -579,6 +571,14 @@
                         {
                             "en-CA": "Excavation work",
                             "fr-CA": "Travaux d'excavation"
+                        },
+                        {
+                            "en-CA": "Stripping and cleaning",
+                            "fr-CA": "Décapage et nettoyage"
+                        },
+                        {
+                            "en-CA": "Sanding and varnishing of hardwood floors",
+                            "fr-CA": "Sablage et vernissage de planchers de bois franc"
                         },
                         {
                             "en-CA": "Tiling",
