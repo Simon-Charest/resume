@@ -1,5 +1,4 @@
 <%- include('header') %>
-
         
         <% if (!data.abouts) { %>
             
@@ -105,7 +104,7 @@
                         <div>
                             <ul class="list-style-type-none">
                                 <% data.experiences.filter(experience => experience.endDate === null).forEach(experience => { %>
-                                    <% if (experience.company) { %>
+                                    <% if (experience.company && != experience.) { %>
                                         <li>
                                             <img src="/assets/images/<%= experience.icon %>" class="icon icon-32x32" alt="Company">
                                             <a href="<%= experience.company.url[lang] %>"><%= experience.company.name[lang] %></a>
