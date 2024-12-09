@@ -242,6 +242,10 @@
                         {
                             "en-CA": "Development of the company website (https://www.slcti.ca/)",
                             "fr-CA": "Développement du site web d'entreprise (https://www.slcti.ca/)"
+                        },
+                        {
+                            "en-CA": "Cryptocurrency portfolio management",
+                            "fr-CA": "Gestion de portefeuille en cryptomonnaies"
                         }
                     ]
                 }
