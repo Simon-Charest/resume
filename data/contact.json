@@ -8,7 +8,8 @@
             "key": {
                 "en-CA": "SLCIT",
                 "fr-CA": "SLCTI"
-            }
+            },
+            "visible": true
         },
         {
             "key": {
@@ -19,7 +20,8 @@
                 "en-CA": "H2A, Montreal, QC, CA",
                 "fr-CA": "H2A, Montréal, QC, CA"
             },
-            "url": "https://www.google.com/maps/place/Montreal,+QC+H2A/"
+            "url": "https://www.google.com/maps/place/Montreal,+QC+H2A/",
+            "visible": true
         },
         {
             "key": {
@@ -30,7 +32,8 @@
                 "en-CA": "simoncharest@gmail.com",
                 "fr-CA": "simoncharest@gmail.com"
             },
-            "url": "mailto:simoncharest@gmail.com"
+            "url": "mailto:simoncharest@gmail.com",
+            "visible": true
         },
         {
             "key": {
@@ -41,7 +44,8 @@
                 "en-CA": "+1 514-653-0623",
                 "fr-CA": "+1 514-653-0623"
             },
-            "url": "tel:+15146530623"
+            "url": "tel:+15146530623",
+            "visible": false
         },
         {
             "key": {
@@ -52,7 +56,8 @@
                 "en-CA": "https://www.slcti.ca/",
                 "fr-CA": "https://www.slcti.ca/"
             },
-            "url": "https://www.slcti.ca/"
+            "url": "https://www.slcti.ca/",
+            "visible": true
         },
         {
             "key": {
@@ -63,7 +68,8 @@
                 "en-CA": "https://www.linkedin.com/in/simoncharest/",
                 "fr-CA": "https://www.linkedin.com/in/simoncharest/"
             },
-            "url": "https://www.linkedin.com/in/simoncharest/"
+            "url": "https://www.linkedin.com/in/simoncharest/",
+            "visible": true
         }
     ]
 }

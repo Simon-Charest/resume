@@ -51,15 +51,18 @@
         "contactInfo": {
             "profile": {
                 "name": "https://www.linkedin.com/in/simoncharest/",
-                "url": "https://www.linkedin.com/in/simoncharest/"
+                "url": "https://www.linkedin.com/in/simoncharest/",
+                "visible": true
             },
             "email": {
                 "name": "info@slcti.ca",
-                "url": "info@slcti.ca"
+                "url": "info@slcti.ca",
+                "visible": true
             },
             "phone": {
                 "number": "+1 514-653-0623",
-                "type": "Mobile"
+                "type": "Mobile",
+                "visible": false
             },
             "address": {
                 "apartment": null,
@@ -69,19 +72,22 @@
                 "postalCode": "H2A",
                 "city": { "en-CA": "Montreal", "fr-CA": "Montréal" },
                 "province": { "en-CA": "Quebec", "fr-CA": "Québec" },
-                "country": { "en-CA": "Canada", "fr-CA": "Canada" }
+                "country": { "en-CA": "Canada", "fr-CA": "Canada" },
+                "visible": true
             },
             "birthday": null,
             "websites": [
                 {
                     "name": { "en-CA": "SLCIT", "fr-CA": "SLCTI" },
                     "url": "https://www.slcti.ca/",
-                    "type": { "en-CA": "Company", "fr-CA": "Entreprise" }
+                    "type": { "en-CA": "Company", "fr-CA": "Entreprise" },
+                    "visible": true
                 },
                 {
                     "name": { "en-CA": "GitHub", "fr-CA": "GitHub" },
                     "url": "https://github.com/Simon-Charest/",
-                    "type": { "en-CA": "Portfolio", "fr-CA": "Portfolio" }
+                    "type": { "en-CA": "Portfolio", "fr-CA": "Portfolio" },
+                    "visible": true
                 }
             ],
             "instantMessaging": null

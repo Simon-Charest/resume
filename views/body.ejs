@@ -66,18 +66,20 @@
                 <% if (data.links) { %>
                     <div class="center padding-25px">
                         <% data.links.forEach(link => { %>
-                            <p>
-                                <% if (link.key) { %>
-                                    <strong><%= link.key[lang] %></strong>
-                                <% } %>
-                                <% if (link.value) { %>
-                                    <% if (link.url) { %>
-                                        <a href="<%= link.url %>" target="_blank"><%= link.value[lang] %></a>
-                                    <% } else { %>
-                                        <%= link.value[lang] %>
+                            <% if (link.visible) { %>
+                                <p>
+                                    <% if (link.key) { %>
+                                        <strong><%= link.key[lang] %></strong>
                                     <% } %>
-                                <% } %>
-                            </p>
+                                    <% if (link.value) { %>
+                                        <% if (link.url) { %>
+                                            <a href="<%= link.url %>" target="_blank"><%= link.value[lang] %></a>
+                                        <% } else { %>
+                                            <%= link.value[lang] %>
+                                        <% } %>
+                                    <% } %>
+                                </p>
+                            <% } %>
                         <% }); %>
                     </div>
                 <% } %>
@@ -129,15 +131,21 @@
                         <button class="collapsible-button"><%= data.seeMore[lang] %></button>
                         <div class="collapsible-content">
                             <ul class="list-style-type-none">
-                                <li><img src="/assets/icons/<%= icons.linked_in %>" class="icon icon-16x16" alt="LinkedIn"><strong><%= data.globals.profile[lang] %></strong>&nbsp;<a href="<%= data.intro.contactInfo.profile.url %>"><%= data.intro.contactInfo.profile.name %></a></li>
+                                <% if (data.intro.contactInfo.profile.visible) { %>
+                                    <li><img src="/assets/icons/<%= icons.linked_in %>" class="icon icon-16x16" alt="LinkedIn"><strong><%= data.globals.profile[lang] %></strong>&nbsp;<a href="<%= data.intro.contactInfo.profile.url %>"><%= data.intro.contactInfo.profile.name %></a></li>
+                                <% } %>
                                 <li>
                                     <img src="/assets/icons/<%= icons.website %>" class="icon icon-16x16" alt="Website">
                                     <strong><%= data.globals.websites[lang] %></strong>&nbsp;
                                     <% data.intro.contactInfo.websites.forEach((website, index) => { %>
-                                        <a href="<%= website.url %>"><%= website.url %></a>&nbsp;(<%= website.type[lang] %>)<% if (index < data.intro.contactInfo.websites.length - 1) { %>, <% } %>
+                                        <% if (website.visible) { %>
+                                            <a href="<%= website.url %>"><%= website.url %></a>&nbsp;(<%= website.type[lang] %>)<% if (index < data.intro.contactInfo.websites.length - 1) { %>, <% } %>
+                                        <% } %>
                                     <% }); %>
                                 </li>
-                                <li><img src="/assets/icons/<%= icons.phone %>" class="icon icon-16x16" alt="Phone"><strong><%= data.globals.phone[lang] %></strong>&nbsp;<a href="tel:<%= data.intro.contactInfo.phone.number %>"><%= data.intro.contactInfo.phone.number %></a>&nbsp;(<%= data.intro.contactInfo.phone.type %>)</li>
+                                <% if (data.intro.contactInfo.phone.visible) { %>
+                                    <li><img src="/assets/icons/<%= icons.phone %>" class="icon icon-16x16" alt="Phone"><strong><%= data.globals.phone[lang] %></strong>&nbsp;<a href="tel:<%= data.intro.contactInfo.phone.number %>"><%= data.intro.contactInfo.phone.number %></a>&nbsp;(<%= data.intro.contactInfo.phone.type %>)</li>
+                                <% } %>
                                 <%
                                     const address = {
                                         apartment: data.intro.contactInfo.address.apartment,
@@ -164,8 +172,12 @@
                                     const addressString = parts.join(', ');
                                 %>
 
-                                <li><img src="/assets/icons/<%= icons.address %>" class="icon icon-16x16" alt="Address"><strong><%= data.globals.address[lang] %></strong>&nbsp;<a href="https://www.google.ca/maps/place/<%= addressString %>"><%= addressString %></a></li>
-                                <li><img src="/assets/icons/<%= icons.email %>" class="icon icon-16x16" alt="Email"><strong><%= data.globals.email[lang] %></strong>&nbsp;<a href="mailto:<%= data.intro.contactInfo.email.url %>"><%= data.intro.contactInfo.email.name %></a></li>
+                                <% if (data.intro.contactInfo.address.visible) { %>
+                                    <li><img src="/assets/icons/<%= icons.address %>" class="icon icon-16x16" alt="Address"><strong><%= data.globals.address[lang] %></strong>&nbsp;<a href="https://www.google.ca/maps/place/<%= addressString %>"><%= addressString %></a></li>
+                                <% } %>
+                                <% if (data.intro.contactInfo.email.visible) { %>
+                                    <li><img src="/assets/icons/<%= icons.email %>" class="icon icon-16x16" alt="Email"><strong><%= data.globals.email[lang] %></strong>&nbsp;<a href="mailto:<%= data.intro.contactInfo.email.url %>"><%= data.intro.contactInfo.email.name %></a></li>
+                                <% } %>
                                 <% if (data.intro.contactInfo.birthday) { %>
                                     <li><img src="/assets/icons/<%= icons.birthday %>" class="icon icon-16x16" alt="Birthday"><%= data.globals.birthday[lang] %>&nbsp;<%= data.intro.contactInfo.birthday %></li>
                                 <% } %>
