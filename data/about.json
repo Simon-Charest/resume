@@ -1406,6 +1406,18 @@
                     },
                     "values": [
                         {
+                            "en-CA": "Réjean Thiboutot (https://www.linkedin.com/in/rejeanthiboutot/)",
+                            "fr-CA": "Réjean Thiboutot (https://www.linkedin.com/in/rejeanthiboutot)"
+                        },
+                        {
+                            "en-CA": "Patrice Lavigne (https://www.linkedin.com/in/patrice-lavigne-39343724/)",
+                            "fr-CA": "Patrice Lavigne (https://www.linkedin.com/in/patrice-lavigne-39343724/)"
+                        },
+                        {
+                            "en-CA": "Hakim Ouassa (https://www.linkedin.com/in/hakim-ouassa-60423b9b/)",
+                            "fr-CA": "Hakim Ouassa (https://www.linkedin.com/in/hakim-ouassa-60423b9b/)"
+                        },
+                        {
                             "en-CA": "FX Innovation (Recruitment Agency) (https://www.fxinnovation.com/en/)",
                             "fr-CA": "FX Innovation (Agence de recrutement) (https://www.fxinnovation.com/fr/)"
                         }
@@ -1480,6 +1492,46 @@
                             "fr-CA": "Support technique au niveau des technologies de l'information et de la téléphonie"
                         }
                     ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Jacques Chamberland",
+                            "fr-CA": "Jacques Chamberland"
+                        },
+                        {
+                            "en-CA": "Guylaine Bachand",
+                            "fr-CA": "Guylaine Bachand"
+                        },
+                        {
+                            "en-CA": "Alexandre Matte",
+                            "fr-CA": "Alexandre Matte"
+                        },
+                        {
+                            "en-CA": "Lucie Joncas (https://www.linkedin.com/in/lucie-joncas-1683955a/)",
+                            "fr-CA": "Lucie Joncas (https://www.linkedin.com/in/lucie-joncas-1683955a/)"
+                        },
+                        {
+                            "en-CA": "Johanne Dumont",
+                            "fr-CA": "Johanne Dumont"
+                        },
+                        {
+                            "en-CA": "Denys Lessard (https://www.linkedin.com/in/denys-lessard-91b7492b/)",
+                            "fr-CA": "Denys Lessard (https://www.linkedin.com/in/denys-lessard-91b7492b/)"
+                        },
+                        {
+                            "en-CA": "Philippe Lopez-Houle (https://www.linkedin.com/in/philippe-lopez/)",
+                            "fr-CA": "Philippe Lopez-Houle (https://www.linkedin.com/in/philippe-lopez/)"
+                        },
+                        {
+                            "en-CA": "Vincent Maillot (Référent) (https://www.linkedin.com/in/vincent-maillot/)",
+                            "fr-CA": "Vincent Maillot (Referrer) (https://www.linkedin.com/in/vincent-maillot/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -1533,6 +1585,114 @@
                         "fr-CA": "Relations"
                     },
                     "values": [
+                        {
+                            "en-CA": "Lorne Schwartz (https://www.linkedin.com/in/lorneschwartz/)",
+                            "fr-CA": "Lorne Schwartz (https://www.linkedin.com/in/lorneschwartz/)"
+                        },
+                        {
+                            "en-CA": "Shawn Leonard (https://www.linkedin.com/in/shawncleonard/)",
+                            "fr-CA": "Shawn Leonard (https://www.linkedin.com/in/shawncleonard/)"
+                        },
+                        {
+                            "en-CA": "Cindy Goulden (https://www.linkedin.com/in/cindygoulden/)",
+                            "fr-CA": "Cindy Goulden (https://www.linkedin.com/in/cindygoulden/)"
+                        },
+                        {
+                            "en-CA": "Jason Laing (https://www.linkedin.com/in/jasonlaing/)",
+                            "fr-CA": "Jason Laing (https://www.linkedin.com/in/jasonlaing/)"
+                        },
+                        {
+                            "en-CA": "Annie Schein (https://www.linkedin.com/in/annie-schein-741a806b/)",
+                            "fr-CA": "Annie Schein (https://www.linkedin.com/in/annie-schein-741a806b/)"
+                        },
+                        {
+                            "en-CA": "Jean Maurais (https://www.linkedin.com/in/jean-maurais-71b3a733/)",
+                            "fr-CA": "Jean Maurais (https://www.linkedin.com/in/jean-maurais-71b3a733/)"
+                        },
+                        {
+                            "en-CA": "Eric Hogue (https://www.linkedin.com/in/ehogue/)",
+                            "fr-CA": "Eric Hogue (https://www.linkedin.com/in/ehogue/)"
+                        },
+                        {
+                            "en-CA": "Philippe-Daniel Brin (https://www.linkedin.com/in/philippe-daniel-brin-7472621/)",
+                            "fr-CA": "Philippe-Daniel Brin (https://www.linkedin.com/in/philippe-daniel-brin-7472621/)"
+                        },
+                        {
+                            "en-CA": "Wenchao Xue (https://www.linkedin.com/in/wenchaoxue/)",
+                            "fr-CA": "Wenchao Xue (https://www.linkedin.com/in/wenchaoxue/)"
+                        },
+                        {
+                            "en-CA": "Jonathan Poissant (https://www.linkedin.com/in/jpoissant/)",
+                            "fr-CA": "Jonathan Poissant (https://www.linkedin.com/in/jpoissant/)"
+                        },
+                        {
+                            "en-CA": "Benoit Borrel (https://www.linkedin.com/in/benoitborrel/)",
+                            "fr-CA": "Benoit Borrel (https://www.linkedin.com/in/benoitborrel/)"
+                        },
+                        {
+                            "en-CA": "Vincent Maillot (https://www.linkedin.com/in/vincent-maillot/)",
+                            "fr-CA": "Vincent Maillot (https://www.linkedin.com/in/vincent-maillot/)"
+                        },
+                        {
+                            "en-CA": "Stephen Ure (https://www.linkedin.com/in/stephenjure/)",
+                            "fr-CA": "Stephen Ure (https://www.linkedin.com/in/stephenjure/)"
+                        },
+                        {
+                            "en-CA": "Stephane Bakhos (https://www.linkedin.com/in/vincent-maillot/)",
+                            "fr-CA": "Stephane Bakhos (https://www.linkedin.com/in/vincent-maillot/)"
+                        },
+                        {
+                            "en-CA": "Chris Chabilall (https://www.linkedin.com/in/chris-c-942b9a119/)",
+                            "fr-CA": "Chris Chabilall (https://www.linkedin.com/in/chris-c-942b9a119/)"
+                        },
+                        {
+                            "en-CA": "Patricia Casildo (https://www.linkedin.com/in/patriciacasildo/)",
+                            "fr-CA": "Patricia Casildo (https://www.linkedin.com/in/patriciacasildo/)"
+                        },
+                        {
+                            "en-CA": "Chantal Laniel (https://www.linkedin.com/in/chantallaniel/)",
+                            "fr-CA": "Chantal Laniel (https://www.linkedin.com/in/chantallaniel/)"
+                        },
+                        {
+                            "en-CA": "Patrick Galvin (https://www.linkedin.com/in/patrick-galvin-3a81503/)",
+                            "fr-CA": "Patrick Galvin (https://www.linkedin.com/in/patrick-galvin-3a81503/)"
+                        },
+                        {
+                            "en-CA": "Angelica Ricci (https://www.linkedin.com/in/angelica-ricci-036853115/)",
+                            "fr-CA": "Angelica Ricci (https://www.linkedin.com/in/angelica-ricci-036853115/)"
+                        },
+                        {
+                            "en-CA": "Tracey Bourgault (https://www.linkedin.com/in/tracey-bourgault-85b26740/)",
+                            "fr-CA": "Tracey Bourgault (https://www.linkedin.com/in/tracey-bourgault-85b26740/)"
+                        },
+                        {
+                            "en-CA": "Jeremi D. Lanteigne (https://www.linkedin.com/in/jeremi-d-lanteigne-60730777/)",
+                            "fr-CA": "Jeremi D. Lanteigne (https://www.linkedin.com/in/jeremi-d-lanteigne-60730777/)"
+                        },
+                        {
+                            "en-CA": "Emily Benson (https://www.linkedin.com/in/emilybenson/)",
+                            "fr-CA": "Emily Benson (https://www.linkedin.com/in/emilybenson/)"
+                        },
+                        {
+                            "en-CA": "Tamara Hussain (https://www.linkedin.com/in/tamara-hussain-89555258/)",
+                            "fr-CA": "Tamara Hussain (https://www.linkedin.com/in/tamara-hussain-89555258/)"
+                        },
+                        {
+                            "en-CA": "Phaelen Nagley (https://www.linkedin.com/in/phaelen-nagley-54aab468/)",
+                            "fr-CA": "Phaelen Nagley (https://www.linkedin.com/in/phaelen-nagley-54aab468/)"
+                        },
+                        {
+                            "en-CA": "Nuha Elidrissi (https://www.linkedin.com/in/nuha-elidrissi/)",
+                            "fr-CA": "Nuha Elidrissi (https://www.linkedin.com/in/nuha-elidrissi/)"
+                        },
+                        {
+                            "en-CA": "Ian Ruthven (https://www.linkedin.com/in/ianruthven/)",
+                            "fr-CA": "Ian Ruthven (https://www.linkedin.com/in/ianruthven/)"
+                        },
+                        {
+                            "en-CA": "Pierre-Philippe Bédard (Arobas Personnel) (https://www.linkedin.com/in/pierrephilippebedard/)",
+                            "fr-CA": "Pierre-Philippe Bédard (Arobas Personnel) (https://www.linkedin.com/in/pierrephilippebedard/)"
+                        },
                         {
                             "en-CA": "Arobas Personnel (Recruitment Agency) (https://www.arobaspersonnel.com/en/home.html)",
                             "fr-CA": "Arobas Personnel (Agence de recrutement) (https://www.arobaspersonnel.com/fr/accueil.html)"
