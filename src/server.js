@@ -145,19 +145,21 @@ async function main() {
         const jsonData = Object.assign({}, JSON.parse(data), JSON.parse(await fs.promises.readFile(path.join(dataDir, dataPath), 'utf8')));
         const backgroundImage = `background_${res.locals.lang.toLowerCase()}.webp`;
         const profileImage = profileFiles[Math.floor(Math.random() * profileFiles.length)];
-        res.render(view, {
-            route,
-            data: jsonData,
-            icons,
-            images,
-            backgroundImage,
-            profileImage,
-            calculateMonth,
-            calculateLength,
-            formatLength,
-            calculateSize,
-            convertSize
-        });
+        setTimeout(() => {
+            res.render(view, {
+                route,
+                data: jsonData,
+                icons,
+                images,
+                backgroundImage,
+                profileImage,
+                calculateMonth,
+                calculateLength,
+                formatLength,
+                calculateSize,
+                convertSize
+            })
+        }, 10000);
     });
 
     const calculateMonth = (startDate, endDate) => {
