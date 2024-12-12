@@ -2208,6 +2208,18 @@
                             "fr-CA": "PMP"
                         }
                     ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Layla Nasr (https://www.linkedin.com/in/layla-nasr/)",
+                            "fr-CA": "Layla Nasr (https://www.linkedin.com/in/layla-nasr/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -2257,6 +2269,14 @@
                     },
                     "values": [
                         {
+                            "en-CA": "Mario Thibert (Client) (https://www.linkedin.com/in/mario-thibert-237390277/)",
+                            "fr-CA": "Mario Thibert (Client) (https://www.linkedin.com/in/mario-thibert-237390277/)"
+                        },
+                        {
+                            "en-CA": "Nicolas Bastien (Partner) (https://www.linkedin.com/in/nicolas-bastien-3aabb21/)",
+                            "fr-CA": "Nicolas Bastien (Partenaire) (https://www.linkedin.com/in/nicolas-bastien-3aabb21/)"
+                        },
+                        {
                             "en-CA": "Qualicode Software (Partner) (https://qualicodesoftware.com/)",
                             "fr-CA": "Qualicode Logiciel (Partenaire) (https://qualicodelogiciel.com/)"
                         }
@@ -2301,6 +2321,18 @@
                             "fr-CA": "SGBDI"
                         }
                     ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Nicolas Bastien (https://www.linkedin.com/in/nicolas-bastien-3aabb21/)",
+                            "fr-CA": "Nicolas Bastien (https://www.linkedin.com/in/nicolas-bastien-3aabb21/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -2319,17 +2351,36 @@
                 "url": { "en-CA": "https://www.mayrand.ca/en/", "fr-CA": "https://www.mayrand.ca/fr/" }
             },
             "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
-            "startDate": "2003-09-01",
-            "endDate": "2004-12-31",
+            "startDate": "2004-07-01",
+            "endDate": "2005-06-30",
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Pierre Baril (https://www.linkedin.com/in/pierre-baril-923193129/)",
+                            "fr-CA": "Pierre Baril (https://www.linkedin.com/in/pierre-baril-923193129/)"
+                        },
+                        {
+                            "en-CA": "Martial Deslauriers",
+                            "fr-CA": "Martial Deslauriers"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "visible": true,
             "icon": "certen.webp",
-            "title": { "en-CA": "Warehouseman", "fr-CA": "Manutentionnaire" },
+            "title": { "en-CA": "Assistant Operator", "fr-CA": "Assistant-opérateur" },
             "company": {
                 "name": { "en-CA": "Certen | Amdocs", "fr-CA": "Certen | Amdocs" },
                 "url": {
@@ -2338,7 +2389,7 @@
                 }
             },
             "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
-            "startDate": "2003-06-01",
+            "startDate": "2003-07-01",
             "endDate": "2003-08-31",
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
@@ -2354,31 +2405,27 @@
                 "url": { "en-CA": "https://www.metro.ca/en/find-a-grocery/8", "fr-CA": "https://www.metro.ca/trouver-une-epicerie/8" }
             },
             "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
-            "startDate": "2002-02-01",
-            "endDate": "2002-08-31",
+            "startDate": "2002-04-01",
+            "endDate": "2002-11-31",
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            }
-        },
-        {
-            "visible": true,
-            "icon": "couche_tard.webp",
-            "title": { "en-CA": "Sales Clerk", "fr-CA": "Préposé à la vente" },
-            "company": {
-                "name": { "en-CA": "Couche-Tard", "fr-CA": "Couche-Tard" },
-                "url": {
-                    "en-CA": "https://www.couche-tard.com/trouvez-votre-magasin/CA/montreal/800-rue-sauve-est/6000369?lang=en",
-                    "fr-CA": "https://www.couche-tard.com/trouvez-votre-magasin/CA/montreal/800-rue-sauve-est/6000369"
-                }
             },
-            "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
-            "startDate": "2002-01-01",
-            "endDate": "2002-01-31",
-            "location": {
-                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
-                "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            }
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "François Parent",
+                            "fr-CA": "François Parent"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "visible": true,
@@ -2392,8 +2439,8 @@
                 }
             },
             "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
-            "startDate": "2002-01-01",
-            "endDate": "2002-01-05",
+            "startDate": "2002-03-01",
+            "endDate": "2002-03-05",
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
@@ -2402,7 +2449,7 @@
         {
             "visible": true,
             "icon": "csdm.webp",
-            "title": { "en-CA": "Storekeeper - Class II", "fr-CA": "Magasinier - Classe II" },
+            "title": { "en-CA": "Storekeeper - Class II (Temporary)", "fr-CA": "Magasinier - Classe II (Surnuméraire)" },
             "company": {
                 "name": { "en-CA": "Montreal School Service Centre (CSSDM)", "fr-CA": "Centre de services scolaire de Montréal (CSSDM)" },
                 "url": {
@@ -2412,7 +2459,7 @@
             },
             "employmentType": { "en-CA": "Casual / On-call", "fr-CA": "Occasionnel / sur appel" },
             "startDate": "2001-09-01",
-            "endDate": "2001-12-31",
+            "endDate": "2001-09-31",
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
@@ -2425,6 +2472,10 @@
                         "fr-CA": "Relations"
                     },
                     "values": [
+                        {
+                            "en-CA": "Josette Race",
+                            "fr-CA": "Josette Race"
+                        },
                         {
                             "en-CA": "École Gadbois (Client) (https://gadbois.cssdm.gouv.qc.ca/)",
                             "fr-CA": "École Gadbois (Client) (https://gadbois.cssdm.gouv.qc.ca/)"
@@ -2447,7 +2498,60 @@
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Michel Gaboury",
+                            "fr-CA": "Michel Gaboury"
+                        },
+                        {
+                            "en-CA": "Genevieve Gaboury",
+                            "fr-CA": "Genevieve Gaboury"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "icon": "couche_tard.webp",
+            "title": { "en-CA": "Sales Clerk", "fr-CA": "Préposé à la vente" },
+            "company": {
+                "name": { "en-CA": "Couche-Tard", "fr-CA": "Couche-Tard" },
+                "url": {
+                    "en-CA": "https://www.couche-tard.com/trouvez-votre-magasin/CA/montreal/800-rue-sauve-est/6000369?lang=en",
+                    "fr-CA": "https://www.couche-tard.com/trouvez-votre-magasin/CA/montreal/800-rue-sauve-est/6000369"
+                }
+            },
+            "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
+            "startDate": "2000-10-01",
+            "endDate": "2000-10-31",
+            "location": {
+                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
+                "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Daniel Marien",
+                            "fr-CA": "Daniel Marien"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "visible": true,
@@ -2458,12 +2562,27 @@
                 "url": null
             },
             "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
-            "startDate": "2000-06-01",
+            "startDate": "2000-07-01",
             "endDate": "2000-08-31",
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montreal, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Dragos Vaseli",
+                            "fr-CA": "Dragos Vaseli"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "visible": true,
@@ -2474,12 +2593,51 @@
                 "url": null
             },
             "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
-            "startDate": "1998-07-01",
+            "startDate": "1998-08-01",
             "endDate": "1999-12-31",
             "location": {
                 "city": { "en-CA": "Pierrefonds, Quebec, Canada", "fr-CA": "Pierrefonds, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Jean-François Corbeil",
+                            "fr-CA": "Jean-François Corbeil"
+                        },
+                        {
+                            "en-CA": "Karen Hartley (https://www.linkedin.com/in/karen-hartley-2a941960/)",
+                            "fr-CA": "Karen Hartley (https://www.linkedin.com/in/karen-hartley-2a941960/)"
+                        },
+                        {
+                            "en-CA": "Philippe Bitton (https://www.linkedin.com/in/philippe-bitton-b5b49815b/)",
+                            "fr-CA": "Philippe Bitton (https://www.linkedin.com/in/philippe-bitton-b5b49815b/)"
+                        },
+                        {
+                            "en-CA": "Yoon Seok \"Thomas\" Chang",
+                            "fr-CA": "Yoon Seok \"Thomas\" Chang"
+                        },
+                        {
+                            "en-CA": "Étienne Yergeau (https://www.linkedin.com/in/etienne-yergeau-b9424859/)",
+                            "fr-CA": "Étienne Yergeau (https://www.linkedin.com/in/etienne-yergeau-b9424859/)"
+                        },
+                        {
+                            "en-CA": "Jean-Christophe Turcot (https://www.linkedin.com/in/jean-christophe-turcot-a6286160/)",
+                            "fr-CA": "Jean-Christophe Turcot (https://www.linkedin.com/in/jean-christophe-turcot-a6286160/)"
+                        },
+                        {
+                            "en-CA": "Robert Matuch (https://www.linkedin.com/in/robert-matuch-7528b663/)",
+                            "fr-CA": "Robert Matuch (https://www.linkedin.com/in/robert-matuch-7528b663/)"
+                        }
+                    ]
+                }
+            ]
         }
     ],
 
