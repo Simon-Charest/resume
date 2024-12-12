@@ -20,7 +20,7 @@
                 <% if (data.animated) { %>
                     <div class="padding-25px">
                         <p class="animated-text">
-                            <%- data.animated[lang].split('').map(character => character === ' ' ? `<span>&nbsp;</span>` : `<span>${character}</span>`).join('') %>
+                            <%- (data.animated[lang] || '').split('').map(character => character === ' ' ? `<span>&nbsp;</span>` : `<span>${character}</span>`).join('') %>
                         </p>
                     </div>
                 <% } %>
