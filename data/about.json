@@ -369,6 +369,18 @@
                             "fr-CA": "Temu nous espionne? Complots autour de Kate Middleton et un hypertrucage viral | Décrypteurs (https://www.youtube.com/embed/MWix3gLwCOU?start=870)"
                         }
                     ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Paul Laurier (https://www.linkedin.com/in/paul-laurier-m-sc-it-44237626/)",
+                            "fr-CA": "Paul Laurier (https://www.linkedin.com/in/paul-laurier-m-sc-it-44237626/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -445,6 +457,30 @@
                         {
                             "en-CA": "Beer keg support",
                             "fr-CA": "Support aux fûts de bière"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Hubert Pelletier (https://www.linkedin.com/in/hubertpelletier/)",
+                            "fr-CA": "Hubert Pelletier (https://www.linkedin.com/in/hubertpelletier/)"
+                        },
+                        {
+                            "en-CA": "Valérie Lacroix (https://www.linkedin.com/in/val%C3%A9rie-lacroix-b9a71b212/)",
+                            "fr-CA": "Valérie Lacroix (https://www.linkedin.com/in/val%C3%A9rie-lacroix-b9a71b212/)"
+                        },
+                        {
+                            "en-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)",
+                            "fr-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)"
+                        },
+                        {
+                            "en-CA": "Sébastien Corbeil-Couture (https://www.linkedin.com/in/scorbeilcouture/)",
+                            "fr-CA": "Sébastien Corbeil-Couture (https://www.linkedin.com/in/scorbeilcouture/)"
                         }
                     ]
                 }
@@ -851,6 +887,22 @@
                     },
                     "values": [
                         {
+                            "en-CA": "Geneviève Pellerin Lemonde (https://www.linkedin.com/in/genevieveplemonde/)",
+                            "fr-CA": "Geneviève Pellerin Lemonde (https://www.linkedin.com/in/genevieveplemonde/)"
+                        },
+                        {
+                            "en-CA": "Hesham A. Menhem (https://www.linkedin.com/in/hesham-a-menhem-cfa-frm-8473b782/)",
+                            "fr-CA": "Hesham A. Menhem (https://www.linkedin.com/in/hesham-a-menhem-cfa-frm-8473b782/)"
+                        },
+                        {
+                            "en-CA": "Sajida Aithaqi (Suitalent) (https://www.linkedin.com/in/sajida-a-a65abab0/)",
+                            "fr-CA": "Sajida Aithaqi (Suitalent) (https://www.linkedin.com/in/sajida-a-a65abab0/)"
+                        },
+                        {
+                            "en-CA": "Eric Lachance (Procom) (https://www.linkedin.com/in/erlachance/)",
+                            "fr-CA": "Eric Lachance (Procom) (https://www.linkedin.com/in/erlachance/)"
+                        },
+                        {
                             "en-CA": "Suitalent | Logient (Recruitment Agency) (https://logient.com/en/)",
                             "fr-CA": "Suitalent | Logient (Agence de recrutement) (https://logient.com/fr/)"
                         },
@@ -970,6 +1022,54 @@
                             "fr-CA": "Intervention en cas d'incident"
                         }
                     ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Matthieu Chouinard (https://www.linkedin.com/in/matthieuchouinard/)",
+                            "fr-CA": "Matthieu Chouinard (https://www.linkedin.com/in/matthieuchouinard/)"
+                        },
+                        {
+                            "en-CA": "Marlene Lussier (https://www.linkedin.com/in/marlene-lussier-crha-5661575/)",
+                            "fr-CA": "Marlene Lussier (https://www.linkedin.com/in/marlene-lussier-crha-5661575/)"
+                        },
+                        {
+                            "en-CA": "Jean-Sebastien Beaulieu (https://www.linkedin.com/in/jsbeaulieu1/)",
+                            "fr-CA": "Jean-Sebastien Beaulieu (https://www.linkedin.com/in/jsbeaulieu1/)"
+                        },
+                        {
+                            "en-CA": "Benoît Gagnon (https://www.linkedin.com/in/bengagnon/)",
+                            "fr-CA": "Benoît Gagnon (https://www.linkedin.com/in/bengagnon/)"
+                        },
+                        {
+                            "en-CA": "Josiane Rivest (https://www.linkedin.com/in/josiane-rivest-0008021b/)",
+                            "fr-CA": "Josiane Rivest (https://www.linkedin.com/in/josiane-rivest-0008021b/)"
+                        },
+                        {
+                            "en-CA": "Jonathan Papin (https://www.linkedin.com/in/papin/)",
+                            "fr-CA": "Jonathan Papin (https://www.linkedin.com/in/papin/)"
+                        },
+                        {
+                            "en-CA": "Janio André Gutierrez (https://www.linkedin.com/in/janio-andre-gutierrez/)",
+                            "fr-CA": "Janio André Gutierrez (https://www.linkedin.com/in/janio-andre-gutierrez/)"
+                        },
+                        {
+                            "en-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)",
+                            "fr-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)"
+                        },
+                        {
+                            "en-CA": "Sébastien Corbeil-Couture (https://www.linkedin.com/in/scorbeilcouture/)",
+                            "fr-CA": "Sébastien Corbeil-Couture (https://www.linkedin.com/in/scorbeilcouture/)"
+                        },
+                        {
+                            "en-CA": "Jean-Simon Gervais (https://www.linkedin.com/in/jsgerv/)",
+                            "fr-CA": "Jean-Simon Gervais (https://www.linkedin.com/in/jsgerv/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -1021,6 +1121,18 @@
                             "fr-CA": "Redéveloppement complet de l'application DB9 to USB Game Controller Adapter"
                         }
                     ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Francis Gradel (https://www.linkedin.com/in/francis-gradel-b620591a/)",
+                            "fr-CA": "Francis Gradel (https://www.linkedin.com/in/francis-gradel-b620591a/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -1056,6 +1168,30 @@
                         {
                             "en-CA": "Support of an IT intern in the development of an internal software solution.",
                             "fr-CA": "Support d'un stagiaire TI dans le cadre du développement d'une solution logicielle interne."
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Benoît Gagnon (https://www.linkedin.com/in/bengagnon/)",
+                            "fr-CA": "Benoît Gagnon (https://www.linkedin.com/in/bengagnon/)"
+                        },
+                        {
+                            "en-CA": "Marie-Ève Royer Laliberté (https://www.linkedin.com/in/marie-%C3%A8ve-royer-lalibert%C3%A9-990361a7/)",
+                            "fr-CA": "Marie-Ève Royer Laliberté (https://www.linkedin.com/in/marie-%C3%A8ve-royer-lalibert%C3%A9-990361a7/)"
+                        },
+                        {
+                            "en-CA": "Marie-Claude Tétreault (https://www.linkedin.com/in/marie-claude-t%C3%A9treault-crha-3b54aa15a/)",
+                            "fr-CA": "Marie-Claude Tétreault (https://www.linkedin.com/in/marie-claude-t%C3%A9treault-crha-3b54aa15a/)"
+                        },
+                        {
+                            "en-CA": "William Farah-Lajoie (https://www.linkedin.com/in/william-farah-lajoie-3386411b1/)",
+                            "fr-CA": "William Farah-Lajoie (https://www.linkedin.com/in/william-farah-lajoie-3386411b1/)"
                         }
                     ]
                 }
@@ -1117,6 +1253,34 @@
                         "fr-CA": "Relations"
                     },
                     "values": [
+                        {
+                            "en-CA": "Bruno Carignan (https://www.linkedin.com/in/bruno-carignan-a01b7a4/)",
+                            "fr-CA": "Bruno Carignan (https://www.linkedin.com/in/bruno-carignan-a01b7a4/)"
+                        },
+                        {
+                            "en-CA": "Tao Wong (https://www.linkedin.com/in/taowong/)",
+                            "fr-CA": "Tao Wong (https://www.linkedin.com/in/taowong/)"
+                        },
+                        {
+                            "en-CA": "Steven St-Pierre (https://www.linkedin.com/in/stevenonline/)",
+                            "fr-CA": "Steven St-Pierre (https://www.linkedin.com/in/stevenonline/)"
+                        },
+                        {
+                            "en-CA": "Marco Savard (https://www.linkedin.com/in/marco-s-325527176/)",
+                            "fr-CA": "Marco Savard (https://www.linkedin.com/in/marco-s-325527176/)"
+                        },
+                        {
+                            "en-CA": "Christian Bautista (https://www.linkedin.com/in/cbautista/)",
+                            "fr-CA": "Christian Bautista (https://www.linkedin.com/in/cbautista/)"
+                        },
+                        {
+                            "en-CA": "Xavier Peronnaud (https://www.linkedin.com/in/xavierperonnaud/)",
+                            "fr-CA": "Xavier Peronnaud (https://www.linkedin.com/in/xavierperonnaud/)"
+                        },
+                        {
+                            "en-CA": "Sajida Aithaqi (FX Innovation) (https://www.linkedin.com/in/sajida-a-a65abab0/)",
+                            "fr-CA": "Sajida Aithaqi (FX Innovation) (https://www.linkedin.com/in/sajida-a-a65abab0/)"
+                        },
                         {
                             "en-CA": "FX Innovation (Recruitment Agency) (https://www.fxinnovation.com/en/)",
                             "fr-CA": "FX Innovation (Agence de recrutement) (https://www.fxinnovation.com/fr/)"
@@ -2664,7 +2828,7 @@
             { "Excelsior Avocats": "https://www.excelsioravocats.com/" }
         ],
         [ { "Caroline Liard": "https://www.linkedin.com/in/caroline-liard-cpa-44516440/" } ],
-        [ { "Jonathan Papin": "https://www.linkedin.com/in/papin/ " } ],
+        [ { "Jonathan Papin": "https://www.linkedin.com/in/papin/" } ],
         [ { "Guillaume Veck": "https://www.linkedin.com/in/guillaume-veck-a2989136/" } ],
         [ { "Réjean Thiboutot": "https://www.linkedin.com/in/rejeanthiboutot/" } ],
         [ { "Steven St-Pierre": "https://www.linkedin.com/in/stevenonline/" } ],
