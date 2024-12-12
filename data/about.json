@@ -1851,6 +1851,22 @@
                             "fr-CA": "Passé d'un horaire de 35h à 40h, à partir de 2013 (+14.3 %, récurrent)"
                         }
                     ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Robert Lafreniere (https://www.linkedin.com/in/robert-lafreniere-0489708b/)",
+                            "fr-CA": "Robert Lafreniere (https://www.linkedin.com/in/robert-lafreniere-0489708b/)"
+                        },
+                        {
+                            "en-CA": "Pierre Avon (https://www.linkedin.com/in/pierre-avon-8bb4389/)",
+                            "fr-CA": "Pierre Avon (https://www.linkedin.com/in/pierre-avon-8bb4389/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -1952,6 +1968,34 @@
                         {
                             "en-CA": "Permanent Anti-Corruption Unit (Client) (https://upac.gouv.qc.ca/en/)",
                             "fr-CA": "Unité permanente anticorruption (Client) (https://upac.gouv.qc.ca/)"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Abdelaziz \"Azza\" Younsi (https://www.linkedin.com/in/azza-younsi-5270608b/)",
+                            "fr-CA": "Abdelaziz \"Azza\" Younsi (https://www.linkedin.com/in/azza-younsi-5270608b/)"
+                        },
+                        {
+                            "en-CA": "Abderrahim Hemdaoui",
+                            "fr-CA": "Abderrahim Hemdaoui"
+                        },
+                        {
+                            "en-CA": "Patrice Auchu (https://www.linkedin.com/in/patrice-auchu-97840766)",
+                            "fr-CA": "Patrice Auchu (https://www.linkedin.com/in/patrice-auchu-97840766)"
+                        },
+                        {
+                            "en-CA": "Robert Lafreniere (Client) (https://www.linkedin.com/in/robert-lafreniere-0489708b/)",
+                            "fr-CA": "Robert Lafreniere (Client) (https://www.linkedin.com/in/robert-lafreniere-0489708b/)"
+                        },
+                        {
+                            "en-CA": "Pierre Avon (Client) (https://www.linkedin.com/in/pierre-avon-8bb4389/)",
+                            "fr-CA": "Pierre Avon (Client) (https://www.linkedin.com/in/pierre-avon-8bb4389/)"
                         }
                     ]
                 }
@@ -2075,6 +2119,46 @@
                         {
                             "en-CA": "Chief of the TAD",
                             "fr-CA": "Chef de la DAT"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Gary McConnell",
+                            "fr-CA": "Gary McConnell"
+                        },
+                        {
+                            "en-CA": "Richard Despaties",
+                            "fr-CA": "Richard Despaties"
+                        },
+                        {
+                            "en-CA": "Pierre Avon (https://www.linkedin.com/in/pierre-avon-8bb4389/)",
+                            "fr-CA": "Pierre Avon (https://www.linkedin.com/in/pierre-avon-8bb4389/)"
+                        },
+                        {
+                            "en-CA": "Yvan Chaput (https://www.linkedin.com/in/yvan-chaput-b871942a0/)",
+                            "fr-CA": "Yvan Chaput (https://www.linkedin.com/in/yvan-chaput-b871942a0/)"
+                        },
+                        {
+                            "en-CA": "Julie Paquin (https://www.linkedin.com/in/julie-paquin-educ-fin/)",
+                            "fr-CA": "Julie Paquin (https://www.linkedin.com/in/julie-paquin-educ-fin/)"
+                        },
+                        {
+                            "en-CA": "France Morin (https://www.linkedin.com/in/france-morin-m-sc-a36528119/)",
+                            "fr-CA": "France Morin (https://www.linkedin.com/in/france-morin-m-sc-a36528119/)"
+                        },
+                        {
+                            "en-CA": "Nancy Gagné (https://www.linkedin.com/in/nancy-gagn%C3%A9-b40044235/)",
+                            "fr-CA": "Nancy Gagné (https://www.linkedin.com/in/nancy-gagn%C3%A9-b40044235/)"
+                        },
+                        {
+                            "en-CA": "Annie Gauthier (https://www.linkedin.com/in/annie-gauthier-82865712b/)",
+                            "fr-CA": "Annie Gauthier (https://www.linkedin.com/in/annie-gauthier-82865712b/)"
                         }
                     ]
                 }
