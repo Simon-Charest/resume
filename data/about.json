@@ -2145,6 +2145,10 @@
                             "fr-CA": "Yvan Chaput (https://www.linkedin.com/in/yvan-chaput-b871942a0/)"
                         },
                         {
+                            "en-CA": "Danielle Nadeau",
+                            "fr-CA": "Danielle Nadeau"
+                        },
+                        {
                             "en-CA": "Julie Paquin (https://www.linkedin.com/in/julie-paquin-educ-fin/)",
                             "fr-CA": "Julie Paquin (https://www.linkedin.com/in/julie-paquin-educ-fin/)"
                         },
@@ -2238,7 +2242,7 @@
             "icon": "biorunner.webp",
             "title": { "en-CA": "Programmer Analyst", "fr-CA": "Analyste Programmeur" },
             "company": {
-                "name": { "en-CA": "Sytran Technology | Biorunner | Mario Thibert", "fr-CA": "Technologie Sytran | Biorunner | Mario Thibert" },
+                "name": { "en-CA": "Sytran Technology | Biorunner", "fr-CA": "Technologie Sytran | Biorunner" },
                 "url": null
             },
             "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
@@ -2269,16 +2273,16 @@
                     },
                     "values": [
                         {
-                            "en-CA": "Mario Thibert (Client) (https://www.linkedin.com/in/mario-thibert-237390277/)",
-                            "fr-CA": "Mario Thibert (Client) (https://www.linkedin.com/in/mario-thibert-237390277/)"
+                            "en-CA": "Mario Thibert (Sytran Technology | Biorunner) (Client) (https://www.linkedin.com/in/mario-thibert-237390277/)",
+                            "fr-CA": "Mario Thibert (Technologie Sytran | Biorunner) (Client) (https://www.linkedin.com/in/mario-thibert-237390277/)"
                         },
                         {
-                            "en-CA": "Serge Vézina | Vezzion Design (Client)",
-                            "fr-CA": "Serge Vézina | Vezzion Design (Client)"
+                            "en-CA": "Serge Vézina (Vezzion Design) (Client)",
+                            "fr-CA": "Serge Vézina (Vezzion Design) (Client)"
                         },
                         {
-                            "en-CA": "Saadi Naimi (Partner) (https://www.linkedin.com/in/saadi-naimi-443b43126/)",
-                            "fr-CA": "Saadi Naimi (Partenaire) (https://www.linkedin.com/in/saadi-naimi-443b43126/)"
+                            "en-CA": "Saadi Naimi (Collaborator) (https://www.linkedin.com/in/saadi-naimi-443b43126/)",
+                            "fr-CA": "Saadi Naimi (Collaborateur) (https://www.linkedin.com/in/saadi-naimi-443b43126/)"
                         },
                         {
                             "en-CA": "Nicolas Bastien (Partner) (https://www.linkedin.com/in/nicolas-bastien-3aabb21/)",
