@@ -2382,12 +2382,32 @@
                     },
                     "values": [
                         {
+                            "en-CA": "Daniel Le Rossignol (https://www.linkedin.com/in/dlerossignol/)",
+                            "fr-CA": "Daniel Le Rossignol (https://www.linkedin.com/in/dlerossignol/)"
+                        },
+                        {
                             "en-CA": "Pierre Baril (https://www.linkedin.com/in/pierre-baril-923193129/)",
                             "fr-CA": "Pierre Baril (https://www.linkedin.com/in/pierre-baril-923193129/)"
                         },
                         {
+                            "en-CA": "Luigi Santori",
+                            "fr-CA": "Luigi Santori"
+                        },
+                        {
+                            "en-CA": "Martin Bessette",
+                            "fr-CA": "Martin Bessette"
+                        },
+                        {
                             "en-CA": "Martial Deslauriers",
                             "fr-CA": "Martial Deslauriers"
+                        },
+                        {
+                            "en-CA": "Nathalie Dufort",
+                            "fr-CA": "Nathalie Dufort"
+                        },
+                        {
+                            "en-CA": "Nadia Dufort",
+                            "fr-CA": "Nadia Dufort"
                         }
                     ]
                 }
