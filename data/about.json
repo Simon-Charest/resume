@@ -3039,6 +3039,22 @@
         },
         {
             "name": {
+                "en-CA": "100 Days of Code: The Complete Python Pro Bootcamp",
+                "fr-CA": "100 jours de code : le bootcamp professionnel complet en Python"
+            },
+            "organisation" : {
+                "en-CA": "Dr. Angela Yu, Developer and Lead Instructor (Udemy)",
+                "fr-CA": "Dre Angela Yu, développeuse et instructrice principale (Udemy)"
+            },
+            "url": {
+                "en-CA": "https://www.udemy.com/course/100-days-of-code/",
+                "fr-CA": "https://www.udemy.com/course/100-days-of-code/"
+            },
+            "code": null,
+            "startDate": "2022"
+        },
+        {
+            "name": {
                 "en-CA": "Team Kanban Practitioner, in Information Technologies",
                 "fr-CA": "Praticien de l'équipe Kanban, en technologies de l'information"
             },
