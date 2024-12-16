@@ -1801,12 +1801,12 @@
                     },
                     "values": [
                         {
-                            "en-CA": "Development of the Integrated Corruption Information Processing System (SITIC), of the Operations Directorate (DO) - IBM i2 iBase type system",
-                            "fr-CA": "Développement du Système intégré de traitement des informations sur la corruption (SITIC), de la Direction des opérations (DO) - Système de type IBM i2 iBase"
+                            "en-CA": "Development of the Integrated Corruption Information Processing System (SITIC), of the Operations Directorate (DO) - i2 iBase type system",
+                            "fr-CA": "Développement du Système intégré de traitement des informations sur la corruption (SITIC), de la Direction des opérations (DO) - Système de type i2 iBase"
                         },
                         {
-                            "en-CA": "Development of the information bank, the Verification Service (SV) - IBM i2 iBase type system",
-                            "fr-CA": "Développement de la banque de renseignements, du Service de la vérification (SV) - Système de type IBM i2 iBase"
+                            "en-CA": "Development of the information bank, the Verification Service (SV) - i2 iBase type system",
+                            "fr-CA": "Développement de la banque de renseignements, du Service de la vérification (SV) - Système de type i2 iBase"
                         },
                         {
                             "en-CA": "Development of the Records Management System of the Operations Directorate (UDO)",
@@ -3188,8 +3188,8 @@
         },
         {
             "name": {
-                "en-CA": "i2 iBase Designer Workshop, by i2 - i2 Training Certificate",
-                "fr-CA": "Atelier i2 iBase Designer, par i2 - Certificat de formation i2"
+                "en-CA": "iBase Designer Workshop - Training Certificate",
+                "fr-CA": "Atelier iBase Designer - Certificat de formation"
             },
             "organisation" : {
                 "en-CA": "i2",
