@@ -3023,6 +3023,23 @@
     "courses": [
         {
             "name": {
+                "en-CA": "Diagnosis of intellectual giftedness (top 2% of the reference population)",
+                "fr-CA": "Diagnostic de douance intellectuelle (top 2% de la population de référence)"
+            },
+            "organisation" : {
+                "en-CA": "Interphase - Psychology and Neuropsychology Clinic",
+                "fr-CA": "L'interphase - Clinique de psychologie et de neuropsychologie"
+            },
+            "url": {
+                "en-CA": "https://www.linterphasepsychologie.com/",
+                "fr-CA": "https://www.linterphasepsychologie.com/"
+            },
+            "code": null,
+            "startDate": "2024-08-09",
+            "endDate": "2024-09-04"
+        },
+        {
+            "name": {
                 "en-CA": "PyImageSearch Gurus Course",
                 "fr-CA": "Cours PyImageSearch"
             },
@@ -3035,7 +3052,8 @@
                 "fr-CA": "https://pyimagesearch.com/pyimagesearch-gurus/"
             },
             "code": null,
-            "startDate": "2024"
+            "startDate": "2024-02-20",
+            "endDate": "2024-07-16"
         },
         {
             "name": {
