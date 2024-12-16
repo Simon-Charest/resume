@@ -272,6 +272,7 @@
                 "PowerShell",
                 "Bash",
                 "Excel",
+                "ETL",
                 "Windows",
                 "Ubuntu",
                 "Linux"
@@ -411,6 +412,7 @@
                 "Moneris",
                 "Remote Desktop Connection",
                 "Sage",
+                "ETL",
                 "SonicWall",
                 "WBAdmin",
                 "Veritas Backup Exec",
