@@ -3367,7 +3367,11 @@
         [ { "Li You": "https://www.linkedin.com/in/li-you-1a3288118/" } ],
         [ { "Sébastien Corbeil-Couture": "https://www.linkedin.com/in/scorbeilcouture/" } ],
         [ { "Jean-Sebastien Beaulieu": "https://www.linkedin.com/in/jsbeaulieu1/" } ],
-        [ { "Jean-Simon Gervais": "https://www.linkedin.com/in/jsgerv/" } ],
+        [
+            {"Jean-Simon Gervais": "https://www.linkedin.com/in/jsgerv/" },
+            {"Fullblown Security Consulting": "https://www.fullblownsecurity.com/" },
+            {"Breach Commander": "https://www.breachcommander.com/" }
+        ],
         [ { "Edgar Garcia": "https://www.linkedin.com/in/edgar-garcia-1b4a74113/" } ],
         [ { "Annabel Karim": "https://www.linkedin.com/in/annabel-karim/" } ],
         [ { "Innovations & Design Mtl | Produits Utilitaires Mycofab": null } ]
