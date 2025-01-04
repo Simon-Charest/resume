@@ -69,8 +69,8 @@ async function main() {
     const imagesDir = path.join(assetsDir, 'images');
     const profileDir = path.join(imagesDir, 'profile');
 
-    const db = new sqlite3.Database(path.join(dataDir, 'database.db'));
-    db.close();
+    //const db = new sqlite3.Database(path.join(dataDir, 'database.db'));
+    //db.close();
 
     let iconFiles = [];
     let imageFiles = [];
