@@ -51,15 +51,18 @@
         "contactInfo": {
             "profile": {
                 "name": "https://www.linkedin.com/in/simoncharest/",
-                "url": "https://www.linkedin.com/in/simoncharest/"
+                "url": "https://www.linkedin.com/in/simoncharest/",
+                "visible": true
             },
             "email": {
                 "name": "info@slcti.ca",
-                "url": "info@slcti.ca"
+                "url": "info@slcti.ca",
+                "visible": true
             },
             "phone": {
                 "number": "+1 514-653-0623",
-                "type": "Mobile"
+                "type": "Mobile",
+                "visible": false
             },
             "address": {
                 "apartment": null,
@@ -69,19 +72,22 @@
                 "postalCode": "H2A",
                 "city": { "en-CA": "Montreal", "fr-CA": "Montréal" },
                 "province": { "en-CA": "Quebec", "fr-CA": "Québec" },
-                "country": { "en-CA": "Canada", "fr-CA": "Canada" }
+                "country": { "en-CA": "Canada", "fr-CA": "Canada" },
+                "visible": true
             },
             "birthday": null,
             "websites": [
                 {
                     "name": { "en-CA": "SLCIT", "fr-CA": "SLCTI" },
                     "url": "https://www.slcti.ca/",
-                    "type": { "en-CA": "Company", "fr-CA": "Entreprise" }
+                    "type": { "en-CA": "Company", "fr-CA": "Entreprise" },
+                    "visible": true
                 },
                 {
                     "name": { "en-CA": "GitHub", "fr-CA": "GitHub" },
                     "url": "https://github.com/Simon-Charest/",
-                    "type": { "en-CA": "Portfolio", "fr-CA": "Portfolio" }
+                    "type": { "en-CA": "Portfolio", "fr-CA": "Portfolio" },
+                    "visible": true
                 }
             ],
             "instantMessaging": null
@@ -242,6 +248,10 @@
                         {
                             "en-CA": "Development of the company website (https://www.slcti.ca/)",
                             "fr-CA": "Développement du site web d'entreprise (https://www.slcti.ca/)"
+                        },
+                        {
+                            "en-CA": "Cryptocurrency portfolio management",
+                            "fr-CA": "Gestion de portefeuille en cryptomonnaies"
                         }
                     ]
                 }
@@ -249,6 +259,10 @@
             "skills": [
                 "Python",
                 "Node.js",
+                "HTML",
+                "JS",
+                "EJS",
+                "CSS",
                 "SQL",
                 "SQLite",
                 "NoSQL",
@@ -258,6 +272,7 @@
                 "PowerShell",
                 "Bash",
                 "Excel",
+                "ETL",
                 "Windows",
                 "Ubuntu",
                 "Linux"
@@ -297,6 +312,10 @@
                         {
                             "en-CA": "Operations Support",
                             "fr-CA": "Support aux opérations"
+                        },
+                        {
+                            "en-CA": "Seizures",
+                            "fr-CA": "Perquisitions"
                         },
                         {
                             "en-CA": "Investigations",
@@ -355,6 +374,18 @@
                             "fr-CA": "Temu nous espionne? Complots autour de Kate Middleton et un hypertrucage viral | Décrypteurs (https://www.youtube.com/embed/MWix3gLwCOU?start=870)"
                         }
                     ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Paul Laurier (https://www.linkedin.com/in/paul-laurier-m-sc-it-44237626/)",
+                            "fr-CA": "Paul Laurier (https://www.linkedin.com/in/paul-laurier-m-sc-it-44237626/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -385,6 +416,7 @@
                 "Moneris",
                 "Remote Desktop Connection",
                 "Sage",
+                "ETL",
                 "SonicWall",
                 "WBAdmin",
                 "Veritas Backup Exec",
@@ -392,38 +424,6 @@
                 "Ubuntu",
                 "Linux"
             ]
-        },
-        {
-            "visible": true,
-            "icon": "slcti.webp",
-            "title": { "en-CA": "Founder and CEO", "fr-CA": "Fondateur et PDG" },
-            "company": {
-                "name": { "en-CA": "SLCIT", "fr-CA": "SLCTI" },
-                "url": { "en-CA": "https://www.slcti.ca/?lang=en-CA", "fr-CA": "https://www.slcti.ca/?lang=fr-CA" }
-            },
-            "employmentType": { "en-CA": "Self-employed", "fr-CA": "Travailleur autonome" },
-            "startDate": "2018-11-01",
-            "endDate": null,
-            "location": {
-                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
-                "type": { "en-CA": "Remote", "fr-CA": "À distance" }
-            },
-            "descriptions":
-            [
-                {
-                    "key": {
-                        "en-CA": "Responsibilities",
-                        "fr-CA": "Responsabilités"
-                    },
-                    "values": [
-                        {
-                            "en-CA": "Information Technology Consulting Services",
-                            "fr-CA": "Services de consultation en technologies de l'information"
-                        }
-                    ]
-                }
-            ],
-            "skills": null
         },
         {
             "visible": true,
@@ -463,6 +463,78 @@
                         {
                             "en-CA": "Beer keg support",
                             "fr-CA": "Support aux fûts de bière"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Hubert Pelletier (https://www.linkedin.com/in/hubertpelletier/)",
+                            "fr-CA": "Hubert Pelletier (https://www.linkedin.com/in/hubertpelletier/)"
+                        },
+                        {
+                            "en-CA": "Valérie Lacroix (https://www.linkedin.com/in/val%C3%A9rie-lacroix-b9a71b212/)",
+                            "fr-CA": "Valérie Lacroix (https://www.linkedin.com/in/val%C3%A9rie-lacroix-b9a71b212/)"
+                        },
+                        {
+                            "en-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)",
+                            "fr-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)"
+                        },
+                        {
+                            "en-CA": "Sébastien Corbeil-Couture (https://www.linkedin.com/in/scorbeilcouture/)",
+                            "fr-CA": "Sébastien Corbeil-Couture (https://www.linkedin.com/in/scorbeilcouture/)"
+                        },
+                        {
+                            "en-CA": "Maëlle Veilleux (https://www.linkedin.com/in/ma%C3%ABlle-veilleux-53b641242/)",
+                            "fr-CA": "Maëlle Veilleux (https://www.linkedin.com/in/ma%C3%ABlle-veilleux-53b641242/)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "icon": null,
+            "title": { "en-CA": "Co-Liquidator", "fr-CA": "Co-liquidateur" },
+            "company": null,
+            "employmentType": { "en-CA": "Contract Part-time", "fr-CA": " Contrat à temps partiel" },
+            "startDate": "2022-07-24",
+            "endDate": null,
+            "location": {
+                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
+                "type": { "en-CA": "Remote", "fr-CA": "À distance" }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Co-liquidator of the paternal patrimony, jointly with my sister Catherine Charest (https://www.facebook.com/catherineupstyle/)",
+                            "fr-CA": "Co-liquidateur du patrimoine paternel, conjointement avec ma sœur Catherine Charest (https://www.facebook.com/catherineupstyle/)"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Beauchamp Gilbert Notaries (https://www.beauchampgilbert.com/en/)",
+                            "fr-CA": "Beauchamp Gilbert Notaires (https://www.beauchampgilbert.com/fr/)"
+                        },
+                        {
+                            "en-CA": "Excelsior Lawyers (https://www.excelsioravocats.com/)",
+                            "fr-CA": "Excelsior Avocats (https://www.excelsioravocats.com/)"
                         }
                     ]
                 }
@@ -545,14 +617,6 @@
                             "fr-CA": "Pose d'isolation"
                         },
                         {
-                            "en-CA": "Stripping, sanding and cleaning",
-                            "fr-CA": "Décapage, sablage et nettoyage"
-                        },
-                        {
-                            "en-CA": "Sanding and varnishing of hardwood floors",
-                            "fr-CA": "Sablage et vernissage de planchers de bois franc"
-                        },
-                        {
                             "en-CA": "Interior and exterior painting",
                             "fr-CA": "Peinture intérieure et extérieure"
                         },
@@ -611,6 +675,14 @@
                         {
                             "en-CA": "Excavation work",
                             "fr-CA": "Travaux d'excavation"
+                        },
+                        {
+                            "en-CA": "Stripping and cleaning",
+                            "fr-CA": "Décapage et nettoyage"
+                        },
+                        {
+                            "en-CA": "Sanding and varnishing of hardwood floors",
+                            "fr-CA": "Sablage et vernissage de planchers de bois franc"
                         },
                         {
                             "en-CA": "Tiling",
@@ -699,6 +771,10 @@
                         {
                             "en-CA": "Foster Plumbing (https://www.plomberiefoster.com/)",
                             "fr-CA": "Plomberie Foster (https://www.plomberiefoster.com/)"
+                        },
+                        {
+                            "en-CA": "Jonathan Dawe",
+                            "fr-CA": "Jonathan Dawe"
                         },
                         {
                             "en-CA": "Électricité Légaré (https://www.electricitelegare.com/)",
@@ -869,6 +945,22 @@
                     },
                     "values": [
                         {
+                            "en-CA": "Geneviève Pellerin Lemonde (https://www.linkedin.com/in/genevieveplemonde/)",
+                            "fr-CA": "Geneviève Pellerin Lemonde (https://www.linkedin.com/in/genevieveplemonde/)"
+                        },
+                        {
+                            "en-CA": "Hesham A. Menhem (https://www.linkedin.com/in/hesham-a-menhem-cfa-frm-8473b782/)",
+                            "fr-CA": "Hesham A. Menhem (https://www.linkedin.com/in/hesham-a-menhem-cfa-frm-8473b782/)"
+                        },
+                        {
+                            "en-CA": "Sajida Aithaqi (Suitalent) (https://www.linkedin.com/in/sajida-a-a65abab0/)",
+                            "fr-CA": "Sajida Aithaqi (Suitalent) (https://www.linkedin.com/in/sajida-a-a65abab0/)"
+                        },
+                        {
+                            "en-CA": "Eric Lachance (Procom) (https://www.linkedin.com/in/erlachance/)",
+                            "fr-CA": "Eric Lachance (Procom) (https://www.linkedin.com/in/erlachance/)"
+                        },
+                        {
                             "en-CA": "Suitalent | Logient (Recruitment Agency) (https://logient.com/en/)",
                             "fr-CA": "Suitalent | Logient (Agence de recrutement) (https://logient.com/fr/)"
                         },
@@ -988,6 +1080,54 @@
                             "fr-CA": "Intervention en cas d'incident"
                         }
                     ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Matthieu Chouinard (https://www.linkedin.com/in/matthieuchouinard/)",
+                            "fr-CA": "Matthieu Chouinard (https://www.linkedin.com/in/matthieuchouinard/)"
+                        },
+                        {
+                            "en-CA": "Marlene Lussier (https://www.linkedin.com/in/marlene-lussier-crha-5661575/)",
+                            "fr-CA": "Marlene Lussier (https://www.linkedin.com/in/marlene-lussier-crha-5661575/)"
+                        },
+                        {
+                            "en-CA": "Jean-Sebastien Beaulieu (https://www.linkedin.com/in/jsbeaulieu1/)",
+                            "fr-CA": "Jean-Sebastien Beaulieu (https://www.linkedin.com/in/jsbeaulieu1/)"
+                        },
+                        {
+                            "en-CA": "Benoît Gagnon (https://www.linkedin.com/in/bengagnon/)",
+                            "fr-CA": "Benoît Gagnon (https://www.linkedin.com/in/bengagnon/)"
+                        },
+                        {
+                            "en-CA": "Josiane Rivest (https://www.linkedin.com/in/josiane-rivest-0008021b/)",
+                            "fr-CA": "Josiane Rivest (https://www.linkedin.com/in/josiane-rivest-0008021b/)"
+                        },
+                        {
+                            "en-CA": "Jonathan Papin (https://www.linkedin.com/in/papin/)",
+                            "fr-CA": "Jonathan Papin (https://www.linkedin.com/in/papin/)"
+                        },
+                        {
+                            "en-CA": "Janio André Gutierrez (https://www.linkedin.com/in/janio-andre-gutierrez/)",
+                            "fr-CA": "Janio André Gutierrez (https://www.linkedin.com/in/janio-andre-gutierrez/)"
+                        },
+                        {
+                            "en-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)",
+                            "fr-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)"
+                        },
+                        {
+                            "en-CA": "Sébastien Corbeil-Couture (https://www.linkedin.com/in/scorbeilcouture/)",
+                            "fr-CA": "Sébastien Corbeil-Couture (https://www.linkedin.com/in/scorbeilcouture/)"
+                        },
+                        {
+                            "en-CA": "Jean-Simon Gervais (https://www.linkedin.com/in/jsgerv/)",
+                            "fr-CA": "Jean-Simon Gervais (https://www.linkedin.com/in/jsgerv/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -1039,6 +1179,18 @@
                             "fr-CA": "Redéveloppement complet de l'application DB9 to USB Game Controller Adapter"
                         }
                     ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Francis Gradel (https://www.linkedin.com/in/francis-gradel-b620591a/)",
+                            "fr-CA": "Francis Gradel (https://www.linkedin.com/in/francis-gradel-b620591a/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -1074,6 +1226,30 @@
                         {
                             "en-CA": "Support of an IT intern in the development of an internal software solution.",
                             "fr-CA": "Support d'un stagiaire TI dans le cadre du développement d'une solution logicielle interne."
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Benoît Gagnon (https://www.linkedin.com/in/bengagnon/)",
+                            "fr-CA": "Benoît Gagnon (https://www.linkedin.com/in/bengagnon/)"
+                        },
+                        {
+                            "en-CA": "Marie-Ève Royer Laliberté (https://www.linkedin.com/in/marie-%C3%A8ve-royer-lalibert%C3%A9-990361a7/)",
+                            "fr-CA": "Marie-Ève Royer Laliberté (https://www.linkedin.com/in/marie-%C3%A8ve-royer-lalibert%C3%A9-990361a7/)"
+                        },
+                        {
+                            "en-CA": "Marie-Claude Tétreault (https://www.linkedin.com/in/marie-claude-t%C3%A9treault-crha-3b54aa15a/)",
+                            "fr-CA": "Marie-Claude Tétreault (https://www.linkedin.com/in/marie-claude-t%C3%A9treault-crha-3b54aa15a/)"
+                        },
+                        {
+                            "en-CA": "William Farah-Lajoie (https://www.linkedin.com/in/william-farah-lajoie-3386411b1/)",
+                            "fr-CA": "William Farah-Lajoie (https://www.linkedin.com/in/william-farah-lajoie-3386411b1/)"
                         }
                     ]
                 }
@@ -1135,6 +1311,34 @@
                         "fr-CA": "Relations"
                     },
                     "values": [
+                        {
+                            "en-CA": "Bruno Carignan (https://www.linkedin.com/in/bruno-carignan-a01b7a4/)",
+                            "fr-CA": "Bruno Carignan (https://www.linkedin.com/in/bruno-carignan-a01b7a4/)"
+                        },
+                        {
+                            "en-CA": "Tao Wong (https://www.linkedin.com/in/taowong/)",
+                            "fr-CA": "Tao Wong (https://www.linkedin.com/in/taowong/)"
+                        },
+                        {
+                            "en-CA": "Steven St-Pierre (https://www.linkedin.com/in/stevenonline/)",
+                            "fr-CA": "Steven St-Pierre (https://www.linkedin.com/in/stevenonline/)"
+                        },
+                        {
+                            "en-CA": "Marco Savard (https://www.linkedin.com/in/marco-s-325527176/)",
+                            "fr-CA": "Marco Savard (https://www.linkedin.com/in/marco-s-325527176/)"
+                        },
+                        {
+                            "en-CA": "Christian Bautista (https://www.linkedin.com/in/cbautista/)",
+                            "fr-CA": "Christian Bautista (https://www.linkedin.com/in/cbautista/)"
+                        },
+                        {
+                            "en-CA": "Xavier Peronnaud (https://www.linkedin.com/in/xavierperonnaud/)",
+                            "fr-CA": "Xavier Peronnaud (https://www.linkedin.com/in/xavierperonnaud/)"
+                        },
+                        {
+                            "en-CA": "Sajida Aithaqi (FX Innovation) (https://www.linkedin.com/in/sajida-a-a65abab0/)",
+                            "fr-CA": "Sajida Aithaqi (FX Innovation) (https://www.linkedin.com/in/sajida-a-a65abab0/)"
+                        },
                         {
                             "en-CA": "FX Innovation (Recruitment Agency) (https://www.fxinnovation.com/en/)",
                             "fr-CA": "FX Innovation (Agence de recrutement) (https://www.fxinnovation.com/fr/)"
@@ -1260,6 +1464,23 @@
                     },
                     "values": [
                         {
+                            "en-CA": "Réjean Thiboutot (https://www.linkedin.com/in/rejeanthiboutot/)",
+                            "fr-CA": "Réjean Thiboutot (https://www.linkedin.com/in/rejeanthiboutot)"
+                        },
+                        {
+                            "en-CA": "Patrice Lavigne (https://www.linkedin.com/in/patrice-lavigne-39343724/)",
+                            "fr-CA": "Patrice Lavigne (https://www.linkedin.com/in/patrice-lavigne-39343724/)"
+                        },
+                        {
+                            "en-CA": "Hakim Ouassa (https://www.linkedin.com/in/hakim-ouassa-60423b9b/)",
+                            "fr-CA": "Hakim Ouassa (https://www.linkedin.com/in/hakim-ouassa-60423b9b/)"
+                        },
+                        {
+                            "en-CA": "Jean-François Régis (https://www.linkedin.com/in/jean-francoisregis/)",
+                            "fr-CA": "Jean-François Régis (https://www.linkedin.com/in/jean-francoisregis/)"
+                            
+                        },
+                        {
                             "en-CA": "FX Innovation (Recruitment Agency) (https://www.fxinnovation.com/en/)",
                             "fr-CA": "FX Innovation (Agence de recrutement) (https://www.fxinnovation.com/fr/)"
                         }
@@ -1334,6 +1555,46 @@
                             "fr-CA": "Support technique au niveau des technologies de l'information et de la téléphonie"
                         }
                     ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Jacques Chamberland",
+                            "fr-CA": "Jacques Chamberland"
+                        },
+                        {
+                            "en-CA": "Guylaine Bachand",
+                            "fr-CA": "Guylaine Bachand"
+                        },
+                        {
+                            "en-CA": "Alexandre Matte",
+                            "fr-CA": "Alexandre Matte"
+                        },
+                        {
+                            "en-CA": "Lucie Joncas (https://www.linkedin.com/in/lucie-joncas-1683955a/)",
+                            "fr-CA": "Lucie Joncas (https://www.linkedin.com/in/lucie-joncas-1683955a/)"
+                        },
+                        {
+                            "en-CA": "Johanne Dumont",
+                            "fr-CA": "Johanne Dumont"
+                        },
+                        {
+                            "en-CA": "Denys Lessard (https://www.linkedin.com/in/denys-lessard-91b7492b/)",
+                            "fr-CA": "Denys Lessard (https://www.linkedin.com/in/denys-lessard-91b7492b/)"
+                        },
+                        {
+                            "en-CA": "Philippe Lopez-Houle (https://www.linkedin.com/in/philippe-lopez/)",
+                            "fr-CA": "Philippe Lopez-Houle (https://www.linkedin.com/in/philippe-lopez/)"
+                        },
+                        {
+                            "en-CA": "Vincent Maillot (Referrer) (https://www.linkedin.com/in/vincent-maillot/)",
+                            "fr-CA": "Vincent Maillot (Référent) (https://www.linkedin.com/in/vincent-maillot/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -1387,6 +1648,114 @@
                         "fr-CA": "Relations"
                     },
                     "values": [
+                        {
+                            "en-CA": "Lorne Schwartz (https://www.linkedin.com/in/lorneschwartz/)",
+                            "fr-CA": "Lorne Schwartz (https://www.linkedin.com/in/lorneschwartz/)"
+                        },
+                        {
+                            "en-CA": "Shawn Leonard (https://www.linkedin.com/in/shawncleonard/)",
+                            "fr-CA": "Shawn Leonard (https://www.linkedin.com/in/shawncleonard/)"
+                        },
+                        {
+                            "en-CA": "Cindy Goulden (https://www.linkedin.com/in/cindygoulden/)",
+                            "fr-CA": "Cindy Goulden (https://www.linkedin.com/in/cindygoulden/)"
+                        },
+                        {
+                            "en-CA": "Jason Laing (https://www.linkedin.com/in/jasonlaing/)",
+                            "fr-CA": "Jason Laing (https://www.linkedin.com/in/jasonlaing/)"
+                        },
+                        {
+                            "en-CA": "Annie Schein (https://www.linkedin.com/in/annie-schein-741a806b/)",
+                            "fr-CA": "Annie Schein (https://www.linkedin.com/in/annie-schein-741a806b/)"
+                        },
+                        {
+                            "en-CA": "Jean Maurais (https://www.linkedin.com/in/jean-maurais-71b3a733/)",
+                            "fr-CA": "Jean Maurais (https://www.linkedin.com/in/jean-maurais-71b3a733/)"
+                        },
+                        {
+                            "en-CA": "Eric Hogue (https://www.linkedin.com/in/ehogue/)",
+                            "fr-CA": "Eric Hogue (https://www.linkedin.com/in/ehogue/)"
+                        },
+                        {
+                            "en-CA": "Philippe-Daniel Brin (https://www.linkedin.com/in/philippe-daniel-brin-7472621/)",
+                            "fr-CA": "Philippe-Daniel Brin (https://www.linkedin.com/in/philippe-daniel-brin-7472621/)"
+                        },
+                        {
+                            "en-CA": "Wenchao Xue (https://www.linkedin.com/in/wenchaoxue/)",
+                            "fr-CA": "Wenchao Xue (https://www.linkedin.com/in/wenchaoxue/)"
+                        },
+                        {
+                            "en-CA": "Jonathan Poissant (https://www.linkedin.com/in/jpoissant/)",
+                            "fr-CA": "Jonathan Poissant (https://www.linkedin.com/in/jpoissant/)"
+                        },
+                        {
+                            "en-CA": "Benoit Borrel (https://www.linkedin.com/in/benoitborrel/)",
+                            "fr-CA": "Benoit Borrel (https://www.linkedin.com/in/benoitborrel/)"
+                        },
+                        {
+                            "en-CA": "Vincent Maillot (https://www.linkedin.com/in/vincent-maillot/)",
+                            "fr-CA": "Vincent Maillot (https://www.linkedin.com/in/vincent-maillot/)"
+                        },
+                        {
+                            "en-CA": "Stephen Ure (https://www.linkedin.com/in/stephenjure/)",
+                            "fr-CA": "Stephen Ure (https://www.linkedin.com/in/stephenjure/)"
+                        },
+                        {
+                            "en-CA": "Stephane Bakhos (https://www.linkedin.com/in/vincent-maillot/)",
+                            "fr-CA": "Stephane Bakhos (https://www.linkedin.com/in/vincent-maillot/)"
+                        },
+                        {
+                            "en-CA": "Chris Chabilall (https://www.linkedin.com/in/chris-c-942b9a119/)",
+                            "fr-CA": "Chris Chabilall (https://www.linkedin.com/in/chris-c-942b9a119/)"
+                        },
+                        {
+                            "en-CA": "Patricia Casildo (https://www.linkedin.com/in/patriciacasildo/)",
+                            "fr-CA": "Patricia Casildo (https://www.linkedin.com/in/patriciacasildo/)"
+                        },
+                        {
+                            "en-CA": "Chantal Laniel (https://www.linkedin.com/in/chantallaniel/)",
+                            "fr-CA": "Chantal Laniel (https://www.linkedin.com/in/chantallaniel/)"
+                        },
+                        {
+                            "en-CA": "Patrick Galvin (https://www.linkedin.com/in/patrick-galvin-3a81503/)",
+                            "fr-CA": "Patrick Galvin (https://www.linkedin.com/in/patrick-galvin-3a81503/)"
+                        },
+                        {
+                            "en-CA": "Angelica Ricci (https://www.linkedin.com/in/angelica-ricci-036853115/)",
+                            "fr-CA": "Angelica Ricci (https://www.linkedin.com/in/angelica-ricci-036853115/)"
+                        },
+                        {
+                            "en-CA": "Tracey Bourgault (https://www.linkedin.com/in/tracey-bourgault-85b26740/)",
+                            "fr-CA": "Tracey Bourgault (https://www.linkedin.com/in/tracey-bourgault-85b26740/)"
+                        },
+                        {
+                            "en-CA": "Jeremi D. Lanteigne (https://www.linkedin.com/in/jeremi-d-lanteigne-60730777/)",
+                            "fr-CA": "Jeremi D. Lanteigne (https://www.linkedin.com/in/jeremi-d-lanteigne-60730777/)"
+                        },
+                        {
+                            "en-CA": "Emily Benson (https://www.linkedin.com/in/emilybenson/)",
+                            "fr-CA": "Emily Benson (https://www.linkedin.com/in/emilybenson/)"
+                        },
+                        {
+                            "en-CA": "Tamara Hussain (https://www.linkedin.com/in/tamara-hussain-89555258/)",
+                            "fr-CA": "Tamara Hussain (https://www.linkedin.com/in/tamara-hussain-89555258/)"
+                        },
+                        {
+                            "en-CA": "Phaelen Nagley (https://www.linkedin.com/in/phaelen-nagley-54aab468/)",
+                            "fr-CA": "Phaelen Nagley (https://www.linkedin.com/in/phaelen-nagley-54aab468/)"
+                        },
+                        {
+                            "en-CA": "Nuha Elidrissi (https://www.linkedin.com/in/nuha-elidrissi/)",
+                            "fr-CA": "Nuha Elidrissi (https://www.linkedin.com/in/nuha-elidrissi/)"
+                        },
+                        {
+                            "en-CA": "Ian Ruthven (https://www.linkedin.com/in/ianruthven/)",
+                            "fr-CA": "Ian Ruthven (https://www.linkedin.com/in/ianruthven/)"
+                        },
+                        {
+                            "en-CA": "Pierre-Philippe Bédard (Arobas Personnel) (https://www.linkedin.com/in/pierrephilippebedard/)",
+                            "fr-CA": "Pierre-Philippe Bédard (Arobas Personnel) (https://www.linkedin.com/in/pierrephilippebedard/)"
+                        },
                         {
                             "en-CA": "Arobas Personnel (Recruitment Agency) (https://www.arobaspersonnel.com/en/home.html)",
                             "fr-CA": "Arobas Personnel (Agence de recrutement) (https://www.arobaspersonnel.com/fr/accueil.html)"
@@ -1445,12 +1814,12 @@
                     },
                     "values": [
                         {
-                            "en-CA": "Development of the Integrated Corruption Information Processing System (SITIC), of the Operations Directorate (DO) - IBM i2 iBase type system",
-                            "fr-CA": "Développement du Système intégré de traitement des informations sur la corruption (SITIC), de la Direction des opérations (DO) - Système de type IBM i2 iBase"
+                            "en-CA": "Development of the Integrated Corruption Information Processing System (SITIC), of the Operations Directorate (DO) - i2 iBase type system",
+                            "fr-CA": "Développement du Système intégré de traitement des informations sur la corruption (SITIC), de la Direction des opérations (DO) - Système de type i2 iBase"
                         },
                         {
-                            "en-CA": "Development of the information bank, the Verification Service (SV) - IBM i2 iBase type system",
-                            "fr-CA": "Développement de la banque de renseignements, du Service de la vérification (SV) - Système de type IBM i2 iBase"
+                            "en-CA": "Development of the information bank, the Verification Service (SV) - i2 iBase type system",
+                            "fr-CA": "Développement de la banque de renseignements, du Service de la vérification (SV) - Système de type i2 iBase"
                         },
                         {
                             "en-CA": "Development of the Records Management System of the Operations Directorate (UDO)",
@@ -1543,6 +1912,22 @@
                         {
                             "en-CA": "Increased from a 35-hour to a 40-hour workweek starting in 2013 (+14.3%, recurring)",
                             "fr-CA": "Passé d'un horaire de 35h à 40h, à partir de 2013 (+14.3 %, récurrent)"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Robert Lafreniere (https://www.linkedin.com/in/robert-lafreniere-0489708b/)",
+                            "fr-CA": "Robert Lafreniere (https://www.linkedin.com/in/robert-lafreniere-0489708b/)"
+                        },
+                        {
+                            "en-CA": "Pierre Avon (https://www.linkedin.com/in/pierre-avon-8bb4389/)",
+                            "fr-CA": "Pierre Avon (https://www.linkedin.com/in/pierre-avon-8bb4389/)"
                         }
                     ]
                 }
@@ -1646,6 +2031,34 @@
                         {
                             "en-CA": "Permanent Anti-Corruption Unit (Client) (https://upac.gouv.qc.ca/en/)",
                             "fr-CA": "Unité permanente anticorruption (Client) (https://upac.gouv.qc.ca/)"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Abdelaziz \"Azza\" Younsi (https://www.linkedin.com/in/azza-younsi-5270608b/)",
+                            "fr-CA": "Abdelaziz \"Azza\" Younsi (https://www.linkedin.com/in/azza-younsi-5270608b/)"
+                        },
+                        {
+                            "en-CA": "Abderrahim Hemdaoui",
+                            "fr-CA": "Abderrahim Hemdaoui"
+                        },
+                        {
+                            "en-CA": "Patrice Auchu (https://www.linkedin.com/in/patrice-auchu-97840766)",
+                            "fr-CA": "Patrice Auchu (https://www.linkedin.com/in/patrice-auchu-97840766)"
+                        },
+                        {
+                            "en-CA": "Robert Lafreniere (Client) (https://www.linkedin.com/in/robert-lafreniere-0489708b/)",
+                            "fr-CA": "Robert Lafreniere (Client) (https://www.linkedin.com/in/robert-lafreniere-0489708b/)"
+                        },
+                        {
+                            "en-CA": "Pierre Avon (Client) (https://www.linkedin.com/in/pierre-avon-8bb4389/)",
+                            "fr-CA": "Pierre Avon (Client) (https://www.linkedin.com/in/pierre-avon-8bb4389/)"
                         }
                     ]
                 }
@@ -1771,6 +2184,54 @@
                             "fr-CA": "Chef de la DAT"
                         }
                     ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Gary McConnell",
+                            "fr-CA": "Gary McConnell"
+                        },
+                        {
+                            "en-CA": "Richard Despaties",
+                            "fr-CA": "Richard Despaties"
+                        },
+                        {
+                            "en-CA": "Pierre Avon (https://www.linkedin.com/in/pierre-avon-8bb4389/)",
+                            "fr-CA": "Pierre Avon (https://www.linkedin.com/in/pierre-avon-8bb4389/)"
+                        },
+                        {
+                            "en-CA": "Yvan Chaput (https://www.linkedin.com/in/yvan-chaput-b871942a0/)",
+                            "fr-CA": "Yvan Chaput (https://www.linkedin.com/in/yvan-chaput-b871942a0/)"
+                        },
+                        {
+                            "en-CA": "Danielle Nadeau",
+                            "fr-CA": "Danielle Nadeau"
+                        },
+                        {
+                            "en-CA": "Julie Paquin (https://www.linkedin.com/in/julie-paquin-educ-fin/)",
+                            "fr-CA": "Julie Paquin (https://www.linkedin.com/in/julie-paquin-educ-fin/)"
+                        },
+                        {
+                            "en-CA": "Francis Fortin (https://www.linkedin.com/in/francis-f-a9a17939/)",
+                            "fr-CA": "Francis Fortin (https://www.linkedin.com/in/francis-f-a9a17939/)"
+                        },
+                        {
+                            "en-CA": "Nancy Gagné (https://www.linkedin.com/in/nancy-gagn%C3%A9-b40044235/)",
+                            "fr-CA": "Nancy Gagné (https://www.linkedin.com/in/nancy-gagn%C3%A9-b40044235/)"
+                        },
+                        {
+                            "en-CA": "France Morin (https://www.linkedin.com/in/france-morin-m-sc-a36528119/)",
+                            "fr-CA": "France Morin (https://www.linkedin.com/in/france-morin-m-sc-a36528119/)"
+                        },
+                        {
+                            "en-CA": "Annie Gauthier (https://www.linkedin.com/in/annie-gauthier-82865712b/)",
+                            "fr-CA": "Annie Gauthier (https://www.linkedin.com/in/annie-gauthier-82865712b/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -1818,6 +2279,18 @@
                             "fr-CA": "PMP"
                         }
                     ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Layla Nasr (https://www.linkedin.com/in/layla-nasr/)",
+                            "fr-CA": "Layla Nasr (https://www.linkedin.com/in/layla-nasr/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -1836,7 +2309,7 @@
             "icon": "biorunner.webp",
             "title": { "en-CA": "Programmer Analyst", "fr-CA": "Analyste Programmeur" },
             "company": {
-                "name": { "en-CA": "Sytran Technology | Biorunner | Mario Thibert", "fr-CA": "Technologie Sytran | Biorunner | Mario Thibert" },
+                "name": { "en-CA": "Sytran Technology | Biorunner", "fr-CA": "Technologie Sytran | Biorunner" },
                 "url": null
             },
             "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
@@ -1866,6 +2339,22 @@
                         "fr-CA": "Relations"
                     },
                     "values": [
+                        {
+                            "en-CA": "Mario Thibert (Sytran Technology | Biorunner) (Client) (https://www.linkedin.com/in/mario-thibert-237390277/)",
+                            "fr-CA": "Mario Thibert (Technologie Sytran | Biorunner) (Client) (https://www.linkedin.com/in/mario-thibert-237390277/)"
+                        },
+                        {
+                            "en-CA": "Serge Vézina (Vezzion Design) (Client)",
+                            "fr-CA": "Serge Vézina (Vezzion Design) (Client)"
+                        },
+                        {
+                            "en-CA": "Saadi Naimi (Collaborator) (https://www.linkedin.com/in/saadi-naimi-443b43126/)",
+                            "fr-CA": "Saadi Naimi (Collaborateur) (https://www.linkedin.com/in/saadi-naimi-443b43126/)"
+                        },
+                        {
+                            "en-CA": "Nicolas Bastien (Partner) (https://www.linkedin.com/in/nicolas-bastien-3aabb21/)",
+                            "fr-CA": "Nicolas Bastien (Partenaire) (https://www.linkedin.com/in/nicolas-bastien-3aabb21/)"
+                        },
                         {
                             "en-CA": "Qualicode Software (Partner) (https://qualicodesoftware.com/)",
                             "fr-CA": "Qualicode Logiciel (Partenaire) (https://qualicodelogiciel.com/)"
@@ -1911,6 +2400,18 @@
                             "fr-CA": "SGBDI"
                         }
                     ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Nicolas Bastien (https://www.linkedin.com/in/nicolas-bastien-3aabb21/)",
+                            "fr-CA": "Nicolas Bastien (https://www.linkedin.com/in/nicolas-bastien-3aabb21/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -1930,16 +2431,55 @@
             },
             "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
             "startDate": "2004-07-01",
-            "endDate": "2004-12-31",
+            "endDate": "2005-06-30",
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Daniel Le Rossignol (https://www.linkedin.com/in/dlerossignol/)",
+                            "fr-CA": "Daniel Le Rossignol (https://www.linkedin.com/in/dlerossignol/)"
+                        },
+                        {
+                            "en-CA": "Pierre Baril (https://www.linkedin.com/in/pierre-baril-923193129/)",
+                            "fr-CA": "Pierre Baril (https://www.linkedin.com/in/pierre-baril-923193129/)"
+                        },
+                        {
+                            "en-CA": "Luigi Santori",
+                            "fr-CA": "Luigi Santori"
+                        },
+                        {
+                            "en-CA": "Martin Bessette",
+                            "fr-CA": "Martin Bessette"
+                        },
+                        {
+                            "en-CA": "Martial Deslauriers",
+                            "fr-CA": "Martial Deslauriers"
+                        },
+                        {
+                            "en-CA": "Nathalie Dufort",
+                            "fr-CA": "Nathalie Dufort"
+                        },
+                        {
+                            "en-CA": "Nadia Dufort",
+                            "fr-CA": "Nadia Dufort"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "visible": true,
             "icon": "certen.webp",
-            "title": { "en-CA": "Warehouseman", "fr-CA": "Manutentionnaire" },
+            "title": { "en-CA": "Assistant Operator", "fr-CA": "Assistant-opérateur" },
             "company": {
                 "name": { "en-CA": "Certen | Amdocs", "fr-CA": "Certen | Amdocs" },
                 "url": {
@@ -1948,7 +2488,7 @@
                 }
             },
             "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
-            "startDate": "2003-06-01",
+            "startDate": "2003-07-01",
             "endDate": "2003-08-31",
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
@@ -1964,31 +2504,27 @@
                 "url": { "en-CA": "https://www.metro.ca/en/find-a-grocery/8", "fr-CA": "https://www.metro.ca/trouver-une-epicerie/8" }
             },
             "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
-            "startDate": "2002-02-01",
-            "endDate": "2002-08-31",
+            "startDate": "2002-04-01",
+            "endDate": "2002-11-31",
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            }
-        },
-        {
-            "visible": true,
-            "icon": "couche_tard.webp",
-            "title": { "en-CA": "Sales Clerk", "fr-CA": "Préposé à la vente" },
-            "company": {
-                "name": { "en-CA": "Couche-Tard", "fr-CA": "Couche-Tard" },
-                "url": {
-                    "en-CA": "https://www.couche-tard.com/trouvez-votre-magasin/CA/montreal/800-rue-sauve-est/6000369?lang=en",
-                    "fr-CA": "https://www.couche-tard.com/trouvez-votre-magasin/CA/montreal/800-rue-sauve-est/6000369"
-                }
             },
-            "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
-            "startDate": "2002-01-01",
-            "endDate": "2002-01-31",
-            "location": {
-                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
-                "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            }
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "François Parent",
+                            "fr-CA": "François Parent"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "visible": true,
@@ -2002,8 +2538,8 @@
                 }
             },
             "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
-            "startDate": "2002-01-01",
-            "endDate": "2002-01-05",
+            "startDate": "2002-03-01",
+            "endDate": "2002-03-05",
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
@@ -2012,7 +2548,7 @@
         {
             "visible": true,
             "icon": "csdm.webp",
-            "title": { "en-CA": "Storekeeper - Class II", "fr-CA": "Magasinier - Classe II" },
+            "title": { "en-CA": "Storekeeper - Class II (Temporary)", "fr-CA": "Magasinier - Classe II (Surnuméraire)" },
             "company": {
                 "name": { "en-CA": "Montreal School Service Centre (CSSDM)", "fr-CA": "Centre de services scolaire de Montréal (CSSDM)" },
                 "url": {
@@ -2022,7 +2558,7 @@
             },
             "employmentType": { "en-CA": "Casual / On-call", "fr-CA": "Occasionnel / sur appel" },
             "startDate": "2001-09-01",
-            "endDate": "2001-12-31",
+            "endDate": "2001-09-31",
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
@@ -2035,6 +2571,10 @@
                         "fr-CA": "Relations"
                     },
                     "values": [
+                        {
+                            "en-CA": "Josette Race",
+                            "fr-CA": "Josette Race"
+                        },
                         {
                             "en-CA": "École Gadbois (Client) (https://gadbois.cssdm.gouv.qc.ca/)",
                             "fr-CA": "École Gadbois (Client) (https://gadbois.cssdm.gouv.qc.ca/)"
@@ -2057,7 +2597,60 @@
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Michel Gaboury",
+                            "fr-CA": "Michel Gaboury"
+                        },
+                        {
+                            "en-CA": "Genevieve Gaboury",
+                            "fr-CA": "Genevieve Gaboury"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "icon": "couche_tard.webp",
+            "title": { "en-CA": "Sales Clerk", "fr-CA": "Préposé à la vente" },
+            "company": {
+                "name": { "en-CA": "Couche-Tard", "fr-CA": "Couche-Tard" },
+                "url": {
+                    "en-CA": "https://www.couche-tard.com/trouvez-votre-magasin/CA/montreal/800-rue-sauve-est/6000369?lang=en",
+                    "fr-CA": "https://www.couche-tard.com/trouvez-votre-magasin/CA/montreal/800-rue-sauve-est/6000369"
+                }
+            },
+            "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
+            "startDate": "2000-10-01",
+            "endDate": "2000-10-31",
+            "location": {
+                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
+                "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Daniel Marien",
+                            "fr-CA": "Daniel Marien"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "visible": true,
@@ -2068,12 +2661,27 @@
                 "url": null
             },
             "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
-            "startDate": "2000-06-01",
+            "startDate": "2000-07-01",
             "endDate": "2000-08-31",
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montreal, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Dragos Vaseli",
+                            "fr-CA": "Dragos Vaseli"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "visible": true,
@@ -2084,12 +2692,51 @@
                 "url": null
             },
             "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
-            "startDate": "1998-07-01",
+            "startDate": "1998-08-01",
             "endDate": "1999-12-31",
             "location": {
                 "city": { "en-CA": "Pierrefonds, Quebec, Canada", "fr-CA": "Pierrefonds, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Jean-François Corbeil",
+                            "fr-CA": "Jean-François Corbeil"
+                        },
+                        {
+                            "en-CA": "Karen Hartley (https://www.linkedin.com/in/karen-hartley-2a941960/)",
+                            "fr-CA": "Karen Hartley (https://www.linkedin.com/in/karen-hartley-2a941960/)"
+                        },
+                        {
+                            "en-CA": "Philippe Bitton (https://www.linkedin.com/in/philippe-bitton-b5b49815b/)",
+                            "fr-CA": "Philippe Bitton (https://www.linkedin.com/in/philippe-bitton-b5b49815b/)"
+                        },
+                        {
+                            "en-CA": "Yoon Seok \"Thomas\" Chang",
+                            "fr-CA": "Yoon Seok \"Thomas\" Chang"
+                        },
+                        {
+                            "en-CA": "Étienne Yergeau (https://www.linkedin.com/in/etienne-yergeau-b9424859/)",
+                            "fr-CA": "Étienne Yergeau (https://www.linkedin.com/in/etienne-yergeau-b9424859/)"
+                        },
+                        {
+                            "en-CA": "Jean-Christophe Turcot (https://www.linkedin.com/in/jean-christophe-turcot-a6286160/)",
+                            "fr-CA": "Jean-Christophe Turcot (https://www.linkedin.com/in/jean-christophe-turcot-a6286160/)"
+                        },
+                        {
+                            "en-CA": "Robert Matuch (https://www.linkedin.com/in/robert-matuch-7528b663/)",
+                            "fr-CA": "Robert Matuch (https://www.linkedin.com/in/robert-matuch-7528b663/)"
+                        }
+                    ]
+                }
+            ]
         }
     ],
 
@@ -2391,6 +3038,23 @@
     "courses": [
         {
             "name": {
+                "en-CA": "Diagnosis of intellectual giftedness (top 2% of the reference population)",
+                "fr-CA": "Diagnostic de douance intellectuelle (top 2% de la population de référence)"
+            },
+            "organisation" : {
+                "en-CA": "Interphase - Psychology and Neuropsychology Clinic",
+                "fr-CA": "L'interphase - Clinique de psychologie et de neuropsychologie"
+            },
+            "url": {
+                "en-CA": "https://www.linterphasepsychologie.com/",
+                "fr-CA": "https://www.linterphasepsychologie.com/"
+            },
+            "code": null,
+            "startDate": "2024-08-09",
+            "endDate": "2024-09-04"
+        },
+        {
+            "name": {
                 "en-CA": "PyImageSearch Gurus Course",
                 "fr-CA": "Cours PyImageSearch"
             },
@@ -2403,7 +3067,24 @@
                 "fr-CA": "https://pyimagesearch.com/pyimagesearch-gurus/"
             },
             "code": null,
-            "startDate": "2024"
+            "startDate": "2024-02-20",
+            "endDate": "2024-07-16"
+        },
+        {
+            "name": {
+                "en-CA": "100 Days of Code: The Complete Python Pro Bootcamp",
+                "fr-CA": "100 jours de code : le bootcamp professionnel complet en Python"
+            },
+            "organisation" : {
+                "en-CA": "Dr. Angela Yu, Developer and Lead Instructor (Udemy)",
+                "fr-CA": "Dre Angela Yu, développeuse et instructrice principale (Udemy)"
+            },
+            "url": {
+                "en-CA": "https://www.udemy.com/course/100-days-of-code/",
+                "fr-CA": "https://www.udemy.com/course/100-days-of-code/"
+            },
+            "code": null,
+            "startDate": "2022"
         },
         {
             "name": {
@@ -2505,7 +3186,7 @@
         {
             "name": {
                 "en-CA": "Introduction to C# Programming with Microsoft .NET",
-                "fr-CA": "Introduction à la programmation C# avec Microsoft.NET"
+                "fr-CA": "Introduction à la programmation C# avec Microsoft .NET"
             },
             "organisation" : {
                 "en-CA": "Versalys Training",
@@ -2520,8 +3201,8 @@
         },
         {
             "name": {
-                "en-CA": "i2 iBase Designer Workshop, by i2 - i2 Training Certificate",
-                "fr-CA": "Atelier i2 iBase Designer, par i2 - Certificat de formation i2"
+                "en-CA": "iBase Designer Workshop - Training Certificate",
+                "fr-CA": "Atelier iBase Designer - Certificat de formation"
             },
             "organisation" : {
                 "en-CA": "i2",
@@ -2638,6 +3319,10 @@
             { "Vigiteck": "https://www.vigiteck.com/" }
         ],
         [
+            { "Catherine Charest": null },
+            { "Catherine Charest styliste": "https://www.facebook.com/catherineupstyle/" }
+        ],
+        [
             { "Francis Gradel": "https://www.linkedin.com/in/francis-gradel-b620591a/" },
             { "Retronic Design": "https://www.retronicdesign.com/" }
         ],
@@ -2645,6 +3330,10 @@
         [
             { "Laurent Côté": "https://www.linkedin.com/in/laurent-cote/" },
             { "ASDF": null }
+        ],
+        [
+            { "Francis Etheridge": "https://www.linkedin.com/in/francis-etheridge-ph-d-909a9b91/" },
+            { "Connectologie ": "https://www.connectologie.ca/" }
         ],
         [ { "Pierre-Philippe Bédard": "https://www.linkedin.com/in/pierrephilippebedard/" } ],
         [
@@ -2674,15 +3363,20 @@
             { "Excelsior Avocats": "https://www.excelsioravocats.com/" }
         ],
         [ { "Caroline Liard": "https://www.linkedin.com/in/caroline-liard-cpa-44516440/" } ],
-        [ { "Jonathan Papin": "https://www.linkedin.com/in/papin/ " } ],
+        [ { "Jonathan Papin": "https://www.linkedin.com/in/papin/" } ],
         [ { "Guillaume Veck": "https://www.linkedin.com/in/guillaume-veck-a2989136/" } ],
+        [ { "Jonathan Dawe": null } ],
         [ { "Réjean Thiboutot": "https://www.linkedin.com/in/rejeanthiboutot/" } ],
         [ { "Steven St-Pierre": "https://www.linkedin.com/in/stevenonline/" } ],
         [ { "Janio André Gutierrez": "https://www.linkedin.com/in/janio-andre-gutierrez/" } ],
         [ { "Li You": "https://www.linkedin.com/in/li-you-1a3288118/" } ],
         [ { "Sébastien Corbeil-Couture": "https://www.linkedin.com/in/scorbeilcouture/" } ],
         [ { "Jean-Sebastien Beaulieu": "https://www.linkedin.com/in/jsbeaulieu1/" } ],
-        [ { "Jean-Simon Gervais": "https://www.linkedin.com/in/jsgerv/" } ],
+        [
+            {"Jean-Simon Gervais": "https://www.linkedin.com/in/jsgerv/" },
+            {"Fullblown Security Consulting": "https://www.fullblownsecurity.com/" },
+            {"Breach Commander": "https://www.breachcommander.com/" }
+        ],
         [ { "Edgar Garcia": "https://www.linkedin.com/in/edgar-garcia-1b4a74113/" } ],
         [ { "Annabel Karim": "https://www.linkedin.com/in/annabel-karim/" } ],
         [ { "Innovations & Design Mtl | Produits Utilitaires Mycofab": null } ]

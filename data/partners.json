@@ -19,7 +19,8 @@
                 "en-CA": "https://www.vigiteck.com/",
                 "fr-CA": "https://www.vigiteck.com/"
             },
-            "url": "https://www.vigiteck.com/"
+            "url": "https://www.vigiteck.com/",
+            "visible": true
         }
     ]
 }
