@@ -134,3 +134,4 @@ public/*.zip
 *.pem
 config.json
 deploy.ps1
+deploy.sh
