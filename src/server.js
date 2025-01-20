@@ -6,7 +6,7 @@ const fs = require('fs');
 const http = require('http');
 const https = require('https');
 const path = require('path');
-const sqlite3 = require('sqlite3').verbose();
+//const sqlite3 = require('sqlite3').verbose();
 const winston = require('winston');
 
 // Create a custom logger using Winston
@@ -72,18 +72,41 @@ async function main() {
     //const db = new sqlite3.Database(path.join(dataDir, 'database.db'));
     //db.close();
 
+    // Error-safe file operations
     let iconFiles = [];
     let imageFiles = [];
     let profileFiles = [];
     let data = '';
 
-    // Read files in parallel and add error handling
-    [iconFiles, imageFiles, profileFiles] = await Promise.all([
-        fs.promises.readdir(iconsDir),
-        fs.promises.readdir(imagesDir),
-        fs.promises.readdir(profileDir)
-    ]);
-    data = await fs.promises.readFile(path.join(dataDir, 'data.json'), 'utf8');
+    try {
+        [iconFiles, imageFiles, profileFiles] = await Promise.all([
+            fs.promises.readdir(iconsDir).catch(err => {
+                logger.error(`Failed to read icons directory: ${err.message}`);
+                
+                return [];
+            }),
+            fs.promises.readdir(imagesDir).catch(err => {
+                logger.error(`Failed to read images directory: ${err.message}`);
+
+                return [];
+            }),
+            fs.promises.readdir(profileDir).catch(err => {
+                logger.error(`Failed to read profile directory: ${err.message}`);
+
+                return [];
+            })
+        ]);
+
+        data = await fs.promises.readFile(path.join(dataDir, 'data.json'), 'utf8').catch(err => {
+            logger.error(`Failed to read data file: ${err.message}`);
+
+            return '{}';
+        });
+    }
+    
+    catch (err) {
+        logger.error(`Unexpected error during file operations: ${err.message}`);
+    }
 
     // Create an object mapping filenames for icons and images
     const icons = iconFiles.reduce((acc, file) => {
@@ -137,8 +160,14 @@ async function main() {
     app.use('/favicon.ico', express.static(path.join(iconsDir, 'favicon_16x16.ico')));
     app.use('/robots.txt', express.static(path.join(publicDir, 'robots.txt')));
 
+    function asyncHandler(fn) {
+        return (req, res, next) => {
+            Promise.resolve(fn(req, res, next)).catch(next);
+        };
+    }    
+
     // Route
-    app.get('/:route?', cors(), async (req, res) => {
+    app.get('/:route?', cors(), asyncHandler(async (req, res) => {
         const route = ROUTES.includes(req.params.route) ? req.params.route : "index";
         const view = "body";
         const dataPath = !ROUTES.includes(req.params.route) && req.params.route !== undefined ? "404.json" : `${route}.json`;
@@ -158,16 +187,31 @@ async function main() {
             calculateSize,
             convertSize
         });
-    });
+    }));
 
+    // Validate calculateMonth inputs
     const calculateMonth = (startDate, endDate) => {
-        const start = new Date(startDate);
-        const end = endDate == null ? new Date() : new Date(endDate);
-        const yearDiff = end.getFullYear() - start.getFullYear();
-        const monthDiff = end.getMonth() - start.getMonth();
-        const totalMonth = yearDiff * 12 + monthDiff;
-
-        return totalMonth;
+        try {
+            const start = new Date(startDate);
+            
+            if (isNaN(start)) throw new Error('Invalid startDate');
+            
+            const end = endDate == null ? new Date() : new Date(endDate);
+            
+            if (isNaN(end)) throw new Error('Invalid endDate');
+            
+            const yearDiff = end.getFullYear() - start.getFullYear();
+            const monthDiff = end.getMonth() - start.getMonth();
+            
+            return yearDiff * 12 + monthDiff;
+        }
+        
+        catch (err) {
+            // Default fallback
+            logger.error(`calculateMonth error: ${err.message}`);
+            
+            return 0;
+        }
     };
 
     const calculateLength = (startDate, endDate) => {
@@ -233,21 +277,22 @@ async function main() {
     }
 
     function convertSize(byte, unit = '', round = null) {
-        switch (unit) {
-            case '': size = byte; break;
-            case 'K': size = byte / 1024; break;
-            case 'M': size = byte / (1024 ** 2); break;
-            case 'G': size = byte / (1024 ** 3); break;
-            case 'T': size = byte / (1024 ** 4); break;
-        }
+        const validUnits = ['', 'K', 'M', 'G', 'T'];
 
-        if (round !== null) {
-            size = Math.round(size * 10 ** round) / 10 ** round;
+        if (!validUnits.includes(unit)) {
+            // Default to bytes
+            logger.error(`Invalid unit passed to convertSize: ${unit}`);
+
+            return `${byte} B`;
         }
+    
+        let size = byte / (1024 ** validUnits.indexOf(unit));
+
+        if (round !== null) size = Math.round(size * 10 ** round) / 10 ** round;
 
         return `${size} ${unit}B`;
     }
-
+    
     // General Error Handling Middleware
     app.use((err, req, res, next) => {
         logger.error(`Error occurred: ${err.message}\nStack: ${err.stack}`);
