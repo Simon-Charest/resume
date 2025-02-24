@@ -154,7 +154,7 @@ async function main() {
     });
 
     // Serve static files from the .well-known/acme-challenge directory
-    app.use('/.well-known/acme-challenge', express.static(path.join(__dirname, '.well-known', 'acme-challenge')));
+    app.use('/.well-known/acme-challenge', express.static(path.join(__dirname, '.well-known/acme-challenge')));
     
     app.use('/public', express.static(publicDir));
     app.use('/favicon.ico', express.static(path.join(iconsDir, 'favicon_16x16.ico')));
@@ -302,15 +302,13 @@ async function main() {
     // Load SSL certificates (only in production)
     let options = {};
 
-    /*
     if (config.environment === 'production') {
         options = {
-            key: await fs.promises.readFile(path.join(config.certificates, 'privkey.pem')),
-            cert: await fs.promises.readFile(path.join(config.certificates, 'cert.pem')),
-            ca: await fs.promises.readFile(path.join(config.certificates, 'fullchain.pem'))
+            cert: await fs.promises.readFile(path.join(config.certificates, 'slcti_ca.crt')),
+            ca: await fs.promises.readFile(path.join(config.certificates, 'slcti_ca.ca-bundle')),
+            key: await fs.promises.readFile(path.join(config.certificates, 'slcti_ca.p7b'))
         };
     }
-    */
 
     // Start the server using HTTPS or HTTP
     if (config.environment === 'production') {
