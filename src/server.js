@@ -172,7 +172,7 @@ async function main() {
         const view = "body";
         const dataPath = !ROUTES.includes(req.params.route) && req.params.route !== undefined ? "404.json" : `${route}.json`;
         const jsonData = Object.assign({}, JSON.parse(data), JSON.parse(await fs.promises.readFile(path.join(dataDir, dataPath), 'utf8')));
-        const backgroundImage = `background_${res.locals.lang.toLowerCase()}.webp`;
+        const backgroundImage = `background_${String(res.locals.lang).toLowerCase()}.webp`;
         const profileImage = profileFiles[Math.floor(Math.random() * profileFiles.length)];
         res.render(view, {
             route,
