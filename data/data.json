@@ -32,7 +32,7 @@
     "geekyStuff": { "en-CA": "Geeky Stuff", "fr-CA": "Trucs de geeks" },
     "websiteSize": { "en-CA": "Website Size:", "fr-CA": "Taille du site web :" },
 
-    "poweredBy": {"en-CA": "Powered by Ubuntu, Node.js, Let's Encrypt and Namecheap.", "fr-CA": "Propulsé par Ubuntu, Node.js, Let's Encrypt et Namecheap."},
+    "poweredBy": {"en-CA": "Powered by Ubuntu, Node.js, Sectigo and Namecheap.", "fr-CA": "Propulsé par Ubuntu, Node.js, Sectigo et Namecheap."},
     "copyright": {"en-CA": "© SLCIT. All rights reserved.", "fr-CA": "© SLCTI. Tous droits réservés."},
     "privacy": {"en-CA": "This site does not store any data about its visitors.", "fr-CA": "Ce site ne conserve aucune donnée sur ses visiteurs."}
 }
