@@ -2654,6 +2654,37 @@
         },
         {
             "visible": true,
+            "icon": "coty.webp",
+            "title": { "en-CA": "Sender / Receiver", "fr-CA": "Expéditeur / récepteur" },
+            "company": {
+                "name": { "en-CA": "Coty", "fr-CA": "Coty" },
+                "url": null
+            },
+            "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
+            "startDate": "2000-09-01",
+            "endDate": "2000-09-30",
+            "location": {
+                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montreal, Québec, Canada" },
+                "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Thomson Tremblay (Recruitment Agency) (https://www.thomson-tremblay.com/tt/en/)",
+                            "fr-CA": "Thomson Tremblay (Agence de recrutement) (https://www.thomson-tremblay.com/tt/fr/)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "visible": true,
             "icon": "ecolux.webp",
             "title": { "en-CA": "Sender / Receiver", "fr-CA": "Expéditeur / récepteur" },
             "company": {
@@ -2678,6 +2709,10 @@
                         {
                             "en-CA": "Dragos Vaseli",
                             "fr-CA": "Dragos Vaseli"
+                        },
+                        {
+                            "en-CA": "Thomson Tremblay (Recruitment Agency) (https://www.thomson-tremblay.com/tt/en/)",
+                            "fr-CA": "Thomson Tremblay (Agence de recrutement) (https://www.thomson-tremblay.com/tt/fr/)"
                         }
                     ]
                 }
@@ -3351,7 +3386,11 @@
         ],
         [
             { "Keila Penner": null },
-            { "Cleanera": "https://www.cleanera.ca/" }
+            { "Cleanera": "https://www.cleanera.ca/" },
+            { "Cleanera (LI)": "https://www.linkedin.com/company/cleanera/" },
+            { "Cleanera (LI)": "https://www.linkedin.com/in/cleanera-cleaning-services-ba5030329/" },
+            { "Cleanera (FB)": "https://www.facebook.com/cleaneraservices" },
+            { "Cleanera (IG)": "https://www.instagram.com/cleaneraservices/" }
         ],
         [
             { "Me Julie Plante": "https://www.linkedin.com/in/julie-plante-68b36a280/" },
