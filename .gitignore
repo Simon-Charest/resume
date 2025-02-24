@@ -135,3 +135,5 @@ public/*.zip
 config.json
 deploy.ps1
 deploy.sh
+!.gitkeep
+.well-known/acme-challenge/*
