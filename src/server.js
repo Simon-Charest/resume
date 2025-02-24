@@ -299,16 +299,16 @@ async function main() {
         res.status(500).json({ message: 'Internal Server Error', error: err.message });
     });
 
-        // Load SSL certificates (only in production)
-        let options = {};
+    // Load SSL certificates (only in production)
+    let options = {};
 
-        if (config.environment === 'production') {
-            options = {
-                cert: await fs.promises.readFile(path.join(config.certificates, 'slcti_ca.crt')),
-                ca: await fs.promises.readFile(path.join(config.certificates, 'slcti_ca.ca-bundle')),
-                key: await fs.promises.readFile(path.join(config.certificates, 'slcti_ca.key'))
-            };
-        }
+    if (config.environment === 'production') {
+        options = {
+            cert: await fs.promises.readFile(path.join(config.certificates, 'slcti_ca.crt')),
+            ca: await fs.promises.readFile(path.join(config.certificates, 'slcti_ca.ca-bundle')),
+            key: await fs.promises.readFile(path.join(config.certificates, 'slcti_ca.key'))
+        };
+    }
 
     // Start the server using HTTPS or HTTP
     if (config.environment === 'production') {
