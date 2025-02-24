@@ -302,6 +302,7 @@ async function main() {
     // Load SSL certificates (only in production)
     let options = {};
 
+    /*
     if (config.environment === 'production') {
         options = {
             key: await fs.promises.readFile(path.join(config.certificates, 'privkey.pem')),
@@ -309,6 +310,7 @@ async function main() {
             ca: await fs.promises.readFile(path.join(config.certificates, 'fullchain.pem'))
         };
     }
+    */
 
     // Start the server using HTTPS or HTTP
     if (config.environment === 'production') {
