@@ -14,7 +14,7 @@ type $env:USERPROFILE\.ssh\id_rsa.pub | ssh USERNAME@HOST "cat >> ~/.ssh/authori
 ssh USERNAME@HOST
 
 # Grant permissions
-chmod 700 ~/.ssh 
+chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
 
 # Grant the user permission to run the specified systemctl commands without needing to enter their password
