@@ -562,8 +562,16 @@
                     },
                     "values": [
                         {
+                            "en-CA": "Julie Plante (https://www.linkedin.com/in/julie-plante-68b36a280/)",
+                            "fr-CA": "Me Julie Plante (https://www.linkedin.com/in/julie-plante-68b36a280/)"
+                        },
+                        {
                             "en-CA": "Beauchamp Gilbert Notaries (https://www.beauchampgilbert.com/en/)",
                             "fr-CA": "Beauchamp Gilbert Notaires (https://www.beauchampgilbert.com/fr/)"
+                        },
+                        {
+                            "en-CA": "Sarah Holloway (https://www.linkedin.com/in/sarah-holloway-60a2a4138/)",
+                            "fr-CA": "Me Sarah Holloway (https://www.linkedin.com/in/sarah-holloway-60a2a4138/)"
                         },
                         {
                             "en-CA": "Excelsior Lawyers (https://www.excelsioravocats.com/)",
