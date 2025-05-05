@@ -222,6 +222,14 @@
                     },
                     "values": [
                         {
+                            "en-CA": "CTO on demand",
+                            "fr-CA": "Directeur technologique sur demande"
+                        },
+                        {
+                            "en-CA": "Acquisitions",
+                            "fr-CA": "Acquisitions"
+                        },
+                        {
                             "en-CA": "Information Technology Consulting Services",
                             "fr-CA": "Services de consultation en technologies de l'information"
                         },
@@ -236,6 +244,14 @@
                         {
                             "en-CA": "Documentation and training",
                             "fr-CA": "Documentation et formation"
+                        },
+                        {
+                            "en-CA": "Investigations",
+                            "fr-CA": "Enquêtes"
+                        },
+                        {
+                            "en-CA": "Intelligence",
+                            "fr-CA": "Renseignement"
                         },
                         {
                             "en-CA": "Analysis",
