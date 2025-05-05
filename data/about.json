@@ -754,6 +754,10 @@
                     },
                     "values": [
                         {
+                            "en-CA": "Construction of a double garage with a living space above and a rooftop terrace",
+                            "fr-CA": "Construction d’un garage double avec un étage habitable au-dessus et une terrasse sur le toit"
+                        },
+                        {
                             "en-CA": "Crack repair",
                             "fr-CA": "Réparation de fissures"
                         },
@@ -786,6 +790,10 @@
                             "fr-CA": "Fissure de Béton Alain Grenier"
                         },
                         {
+                            "en-CA": "Jeremy Brassard",
+                            "fr-CA": "Jeremy Brassard"
+                        },
+                        {
                             "en-CA": "Sablage Renaud Cloutier (https://sablagerenaudcloutier.com/)",
                             "fr-CA": "Sablage Renaud Cloutier (https://sablagerenaudcloutier.com/)"
                         },
@@ -812,10 +820,6 @@
                         {
                             "en-CA": "Foster Plumbing (https://www.plomberiefoster.com/)",
                             "fr-CA": "Plomberie Foster (https://www.plomberiefoster.com/)"
-                        },
-                        {
-                            "en-CA": "Jonathan Dawe",
-                            "fr-CA": "Jonathan Dawe"
                         },
                         {
                             "en-CA": "Électricité Légaré (https://www.electricitelegare.com/)",
