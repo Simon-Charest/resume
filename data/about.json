@@ -270,6 +270,38 @@
                             "fr-CA": "Gestion de portefeuille en cryptomonnaies"
                         }
                     ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Paul Laurier (https://www.linkedin.com/in/paul-laurier-m-sc-it-44237626/)",
+                            "fr-CA": "Paul Laurier (https://www.linkedin.com/in/paul-laurier-m-sc-it-44237626/)"
+                        },
+                        {
+                            "en-CA": "Vigiteck (https://www.vigiteck.com/)",
+                            "fr-CA": "Vigiteck (https://www.vigiteck.com/)"
+                        },
+                        {
+                            "en-CA": "Alain Roy (https://www.linkedin.com/in/alainroy28/)",
+                            "fr-CA": "Alain Roy (https://www.linkedin.com/in/alainroy28/)"
+                        },
+                        {
+                            "en-CA": "Sacha-Lewis Dmytruk (https://www.linkedin.com/in/sacha-lewis/)",
+                            "fr-CA": "Sacha-Lewis Dmytruk (https://www.linkedin.com/in/sacha-lewis/)"
+                        },
+                        {
+                            "en-CA": "undoLogic (https://www.undologic.com/en)",
+                            "fr-CA": "undoLogic (https://www.undologic.com/fr)"
+                        },
+                        {
+                            "en-CA": "Groupe Central (https://www.linkedin.com/company/groupe-central/)",
+                            "fr-CA": "Groupe Central (https://www.linkedin.com/company/groupe-central/)"
+                        }
+                    ]
                 }
             ],
             "skills": [
@@ -294,38 +326,6 @@
                 "Linux",
                 "TP-Link Archer C7",
                 "SonicWall"
-            ]
-        },
-        {
-            "key": {
-                "en-CA": "Relationships",
-                "fr-CA": "Relations"
-            },
-            "values": [
-                {
-                    "en-CA": "Paul Laurier (https://www.linkedin.com/in/paul-laurier-m-sc-it-44237626/)",
-                    "fr-CA": "Paul Laurier (https://www.linkedin.com/in/paul-laurier-m-sc-it-44237626/)"
-                },
-                {
-                    "en-CA": "Vigiteck (https://www.vigiteck.com/)",
-                    "fr-CA": "Vigiteck (https://www.vigiteck.com/)"
-                },
-                {
-                    "en-CA": "Alain Roy (https://www.linkedin.com/in/alainroy28/)",
-                    "fr-CA": "Alain Roy (https://www.linkedin.com/in/alainroy28/)"
-                },
-                {
-                    "en-CA": "Sacha-Lewis Dmytruk (https://www.linkedin.com/in/sacha-lewis/)",
-                    "fr-CA": "Sacha-Lewis Dmytruk (https://www.linkedin.com/in/sacha-lewis/)"
-                },
-                {
-                    "en-CA": "undoLogic (https://www.undologic.com/en)",
-                    "fr-CA": "undoLogic (https://www.undologic.com/fr)"
-                },
-                {
-                    "en-CA": "Groupe Central (https://www.linkedin.com/company/groupe-central/)",
-                    "fr-CA": "Groupe Central (https://www.linkedin.com/company/groupe-central/)"
-                }
             ]
         },
         {
