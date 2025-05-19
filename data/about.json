@@ -322,148 +322,6 @@
         },
         {
             "visible": true,
-            "icon": "slcti.webp",
-            "title": { "en-CA": "Founder and CEO", "fr-CA": "Fondateur et PDG" },
-            "company": {
-                "name": { "en-CA": "SLCIT", "fr-CA": "SLCTI" },
-                "url": { "en-CA": "https://www.slcti.ca/?lang=en-CA", "fr-CA": "https://www.slcti.ca/?lang=fr-CA" }
-            },
-            "employmentType": { "en-CA": "Self-employed", "fr-CA": "Travailleur autonome" },
-            "startDate": "2018-11-01",
-            "endDate": null,
-            "location": {
-                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
-                "type": { "en-CA": "Remote", "fr-CA": "À distance" }
-            },
-            "descriptions":
-            [
-                {
-                    "key": {
-                        "en-CA": "Responsibilities",
-                        "fr-CA": "Responsabilités"
-                    },
-                    "values": [
-                        {
-                            "en-CA": "CTO on demand",
-                            "fr-CA": "Directeur technologique sur demande"
-                        },
-                        {
-                            "en-CA": "Acquisitions",
-                            "fr-CA": "Acquisitions"
-                        },
-                        {
-                            "en-CA": "Information Technology Consulting Services",
-                            "fr-CA": "Services de consultation en technologies de l'information"
-                        },
-                        {
-                            "en-CA": "Application, web and database development",
-                            "fr-CA": "Développement applicatif, web et de bases de données"
-                        },
-                        {
-                            "en-CA": "Code review, quality assurance, and debugging",
-                            "fr-CA": "Revue de code, assurance qualité et débogage"
-                        },
-                        {
-                            "en-CA": "Documentation and training",
-                            "fr-CA": "Documentation et formation"
-                        },
-                        {
-                            "en-CA": "Investigations",
-                            "fr-CA": "Enquêtes"
-                        },
-                        {
-                            "en-CA": "Intelligence",
-                            "fr-CA": "Renseignement"
-                        },
-                        {
-                            "en-CA": "Analysis",
-                            "fr-CA": "Analyse"
-                        },
-                        {
-                            "en-CA": "Support",
-                            "fr-CA": "Support"
-                        },
-                        {
-                            "en-CA": "Development of the company website (https://www.slcti.ca/)",
-                            "fr-CA": "Développement du site web d'entreprise (https://www.slcti.ca/)"
-                        },
-                        {
-                            "en-CA": "Cryptocurrency portfolio management",
-                            "fr-CA": "Gestion de portefeuille en cryptomonnaies"
-                        }
-                    ]
-                },
-                {
-                    "key": {
-                        "en-CA": "Relationships",
-                        "fr-CA": "Relations"
-                    },
-                    "values": [
-                        {
-                            "en-CA": "Paul Laurier (https://www.linkedin.com/in/paul-laurier-m-sc-it-44237626/)",
-                            "fr-CA": "Paul Laurier (https://www.linkedin.com/in/paul-laurier-m-sc-it-44237626/)"
-                        },
-                        {
-                            "en-CA": "Vigiteck (https://www.vigiteck.com/)",
-                            "fr-CA": "Vigiteck (https://www.vigiteck.com/)"
-                        },
-                        {
-                            "en-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)",
-                            "fr-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)"
-                        },
-                        {
-                            "en-CA": "Hélène Giard (https://www.linkedin.com/in/helenegiard2/)",
-                            "fr-CA": "Hélène Giard (https://www.linkedin.com/in/helenegiard2/)"
-                        },
-                        {
-                            "en-CA": "Giard CPA (https://giardcpa.com/)",
-                            "fr-CA": "Giard CPA (https://giardcpa.com/)"
-                        },
-                        {
-                            "en-CA": "Alain Roy (https://www.linkedin.com/in/alainroy28/)",
-                            "fr-CA": "Alain Roy (https://www.linkedin.com/in/alainroy28/)"
-                        },
-                        {
-                            "en-CA": "Sacha-Lewis Dmytruk (https://www.linkedin.com/in/sacha-lewis/)",
-                            "fr-CA": "Sacha-Lewis Dmytruk (https://www.linkedin.com/in/sacha-lewis/)"
-                        },
-                        {
-                            "en-CA": "undoLogic (https://www.undologic.com/en)",
-                            "fr-CA": "undoLogic (https://www.undologic.com/fr)"
-                        },
-                        {
-                            "en-CA": "Groupe Central (https://www.linkedin.com/company/groupe-central/)",
-                            "fr-CA": "Groupe Central (https://www.linkedin.com/company/groupe-central/)"
-                        }
-                    ]
-                }
-            ],
-            "skills": [
-                "Python",
-                "Node.js",
-                "HTML",
-                "JS",
-                "EJS",
-                "CSS",
-                "SQL",
-                "SQLite",
-                "NoSQL",
-                "JSON",
-                "CSV",
-                "Git",
-                "PowerShell",
-                "Bash",
-                "Excel",
-                "ETL",
-                "Windows",
-                "Ubuntu",
-                "Linux",
-                "TP-Link Archer C7",
-                "SonicWall"
-            ]
-        },
-        {
-            "visible": true,
             "icon": "vigiteck.webp",
             "title": { "en-CA": "Partner and CTO", "fr-CA": "Partenaire et directeur technologique" },
             "company": {
@@ -745,6 +603,148 @@
                         }
                     ]
                 }
+            ]
+        },
+        {
+            "visible": true,
+            "icon": "slcti.webp",
+            "title": { "en-CA": "Founder and CEO", "fr-CA": "Fondateur et PDG" },
+            "company": {
+                "name": { "en-CA": "SLCIT", "fr-CA": "SLCTI" },
+                "url": { "en-CA": "https://www.slcti.ca/?lang=en-CA", "fr-CA": "https://www.slcti.ca/?lang=fr-CA" }
+            },
+            "employmentType": { "en-CA": "Self-employed", "fr-CA": "Travailleur autonome" },
+            "startDate": "2018-11-01",
+            "endDate": null,
+            "location": {
+                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
+                "type": { "en-CA": "Remote", "fr-CA": "À distance" }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "CTO on demand",
+                            "fr-CA": "Directeur technologique sur demande"
+                        },
+                        {
+                            "en-CA": "Acquisitions",
+                            "fr-CA": "Acquisitions"
+                        },
+                        {
+                            "en-CA": "Information Technology Consulting Services",
+                            "fr-CA": "Services de consultation en technologies de l'information"
+                        },
+                        {
+                            "en-CA": "Application, web and database development",
+                            "fr-CA": "Développement applicatif, web et de bases de données"
+                        },
+                        {
+                            "en-CA": "Code review, quality assurance, and debugging",
+                            "fr-CA": "Revue de code, assurance qualité et débogage"
+                        },
+                        {
+                            "en-CA": "Documentation and training",
+                            "fr-CA": "Documentation et formation"
+                        },
+                        {
+                            "en-CA": "Investigations",
+                            "fr-CA": "Enquêtes"
+                        },
+                        {
+                            "en-CA": "Intelligence",
+                            "fr-CA": "Renseignement"
+                        },
+                        {
+                            "en-CA": "Analysis",
+                            "fr-CA": "Analyse"
+                        },
+                        {
+                            "en-CA": "Support",
+                            "fr-CA": "Support"
+                        },
+                        {
+                            "en-CA": "Development of the company website (https://www.slcti.ca/)",
+                            "fr-CA": "Développement du site web d'entreprise (https://www.slcti.ca/)"
+                        },
+                        {
+                            "en-CA": "Cryptocurrency portfolio management",
+                            "fr-CA": "Gestion de portefeuille en cryptomonnaies"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Paul Laurier (https://www.linkedin.com/in/paul-laurier-m-sc-it-44237626/)",
+                            "fr-CA": "Paul Laurier (https://www.linkedin.com/in/paul-laurier-m-sc-it-44237626/)"
+                        },
+                        {
+                            "en-CA": "Vigiteck (https://www.vigiteck.com/)",
+                            "fr-CA": "Vigiteck (https://www.vigiteck.com/)"
+                        },
+                        {
+                            "en-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)",
+                            "fr-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)"
+                        },
+                        {
+                            "en-CA": "Hélène Giard (https://www.linkedin.com/in/helenegiard2/)",
+                            "fr-CA": "Hélène Giard (https://www.linkedin.com/in/helenegiard2/)"
+                        },
+                        {
+                            "en-CA": "Giard CPA (https://giardcpa.com/)",
+                            "fr-CA": "Giard CPA (https://giardcpa.com/)"
+                        },
+                        {
+                            "en-CA": "Alain Roy (https://www.linkedin.com/in/alainroy28/)",
+                            "fr-CA": "Alain Roy (https://www.linkedin.com/in/alainroy28/)"
+                        },
+                        {
+                            "en-CA": "Sacha-Lewis Dmytruk (https://www.linkedin.com/in/sacha-lewis/)",
+                            "fr-CA": "Sacha-Lewis Dmytruk (https://www.linkedin.com/in/sacha-lewis/)"
+                        },
+                        {
+                            "en-CA": "undoLogic (https://www.undologic.com/en)",
+                            "fr-CA": "undoLogic (https://www.undologic.com/fr)"
+                        },
+                        {
+                            "en-CA": "Groupe Central (https://www.linkedin.com/company/groupe-central/)",
+                            "fr-CA": "Groupe Central (https://www.linkedin.com/company/groupe-central/)"
+                        }
+                    ]
+                }
+            ],
+            "skills": [
+                "Python",
+                "Node.js",
+                "HTML",
+                "JS",
+                "EJS",
+                "CSS",
+                "SQL",
+                "SQLite",
+                "NoSQL",
+                "JSON",
+                "CSV",
+                "Git",
+                "PowerShell",
+                "Bash",
+                "Excel",
+                "ETL",
+                "Windows",
+                "Ubuntu",
+                "Linux",
+                "TP-Link Archer C7",
+                "SonicWall"
             ]
         },
         {
