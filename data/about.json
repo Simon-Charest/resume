@@ -200,6 +200,128 @@
     "experiences": [
         {
             "visible": true,
+            "icon": "paramed.webp",
+            "title": { "en-CA": "CTO", "fr-CA": "Directeur technologique" },
+            "company": {
+                "name": { "en-CA": "Paramed Specialities", "fr-CA": "Spécialités Paramed" },
+                "url": { "en-CA": "https://www.nfdc.info/en", "fr-CA": "https://www.nfdc.info/fr" }
+            },
+            "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
+            "startDate": "2024-09-25",
+            "endDate": null,
+            "location": {
+                "city": { "en-CA": "Longueuil, Quebec, Canada", "fr-CA": "Longueuil, Québec, Canada" },
+                "type": { "en-CA": "Hybrid", "fr-CA": "Hybride" }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Securing the premises",
+                            "fr-CA": "Sécurisation des lieux"
+                        },
+                        {
+                            "en-CA": "Securing IT infrastructure",
+                            "fr-CA": "Sécurisation de l'infrastructure informatique"
+                        },
+                        {
+                            "en-CA": "Router/Firewall Security",
+                            "fr-CA": "Sécurisation du routeur / pare-feu"
+                        },
+                        {
+                            "en-CA": "Setting up a VPN solution",
+                            "fr-CA": "Mise en place d'une solution VPN"
+                        },
+                        {
+                            "en-CA": "IT Monitoring",
+                            "fr-CA": "Surveillance informatique"
+                        },
+                        {
+                            "en-CA": "Upgrading of the computer equipment",
+                            "fr-CA": "Rehaussement du parc informatique"
+                        },
+                        {
+                            "en-CA": "Updates",
+                            "fr-CA": "Mises à jour"
+                        },
+                        {
+                            "en-CA": "Setting up Microsoft 365",
+                            "fr-CA": "Mise en place de Microsoft 365"
+                        },
+                        {
+                            "en-CA": "Backup",
+                            "fr-CA": "Copie de sécurité"
+                        },
+                        {
+                            "en-CA": "Development of an ETL solution",
+                            "fr-CA": "Développement d'une solution ETL"
+                        },
+                        {
+                            "en-CA": "Development of an OCR solution",
+                            "fr-CA": "Développement d'une solution OCR"
+                        },
+                        {
+                            "en-CA": "Counsel",
+                            "fr-CA": "Conseil"
+                        },
+                        {
+                            "en-CA": "Purchases",
+                            "fr-CA": "Achats"
+                        },
+                        {
+                            "en-CA": "Technical support",
+                            "fr-CA": "Support technique"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Vincent Dostie (https://www.linkedin.com/in/vincent-dostie-mount-murray-emerging-markets-public-equity/)",
+                            "fr-CA": "Vincent Dostie (https://www.linkedin.com/in/vincent-dostie-mount-murray-emerging-markets-public-equity/)"
+                        },
+                        {
+                            "en-CA": "Dino Mastroianni (https://www.linkedin.com/in/dino-mastroianni-6507705/)",
+                            "fr-CA": "Dino Mastroianni (https://www.linkedin.com/in/dino-mastroianni-6507705/)"
+                        },
+                        {
+                            "en-CA": "Bianca Tremblay (https://www.linkedin.com/in/bianca-tremblay-a3255393/)",
+                            "fr-CA": "Bianca Tremblay (https://www.linkedin.com/in/bianca-tremblay-a3255393/)"
+                        },
+                        {
+                            "en-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)",
+                            "fr-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)"
+                        }
+                    ]
+                }
+            ],
+            "skills": [
+                "PowerShell",
+                "Python",
+                "PHP",
+                "SQL",
+                "SQL Server",
+                "MySQL",
+                "CSV",
+                "Microsoft 365",
+                "Git",
+                "SonicWall",
+                "iPhone",
+                "Android",
+                "Windows"
+            ]
+        },
+        {
+            "visible": true,
             "icon": "slcti.webp",
             "title": { "en-CA": "Founder and CEO", "fr-CA": "Fondateur et PDG" },
             "company": {
