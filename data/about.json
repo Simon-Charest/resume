@@ -246,16 +246,16 @@
                             "fr-CA": "Rehaussement du parc informatique"
                         },
                         {
-                            "en-CA": "Updates",
-                            "fr-CA": "Mises à jour"
+                            "en-CA": "Installing software updates",
+                            "fr-CA": "Installation des mises à jour logicielles"
                         },
                         {
                             "en-CA": "Setting up Microsoft 365",
                             "fr-CA": "Mise en place de Microsoft 365"
                         },
                         {
-                            "en-CA": "Backup",
-                            "fr-CA": "Copie de sécurité"
+                            "en-CA": "Backup system setup",
+                            "fr-CA": "Mise en place d'un système de copie de sécurité"
                         },
                         {
                             "en-CA": "Development of an ETL solution",
@@ -266,12 +266,12 @@
                             "fr-CA": "Développement d'une solution OCR"
                         },
                         {
-                            "en-CA": "Counsel",
-                            "fr-CA": "Conseil"
+                            "en-CA": "Counsel on IT",
+                            "fr-CA": "Conseil en matière de technologies de l'informatique"
                         },
                         {
-                            "en-CA": "Purchases",
-                            "fr-CA": "Achats"
+                            "en-CA": "Purchases of computer equipment",
+                            "fr-CA": "Achats du matériel informatique"
                         },
                         {
                             "en-CA": "Technical support",
@@ -307,16 +307,29 @@
             "skills": [
                 "PowerShell",
                 "Python",
+                "pandas",
                 "PHP",
+                "ETL",
+                "Sage 300",
                 "SQL",
                 "SQL Server",
-                "MySQL",
+                "MariaDB",
                 "CSV",
-                "Microsoft 365",
                 "Git",
                 "SonicWall",
+                "Remote Desktop Connection",
+                "Global VPN Client (GVC)",
+                "cPanel",
+                "Microsoft 365",
+                "Microsoft Entra ID",
+                "Active Directory",
+                "Excel",
+                "VBA",
+                "WBAdmin",
+                "Veritas Backup Exec",
                 "iPhone",
                 "Android",
+                "Lorex Network Video Recorder (NVR)",
                 "Windows"
             ]
         },
@@ -458,7 +471,7 @@
                 "Uniview EZView",
                 "Moneris",
                 "Remote Desktop Connection",
-                "Sage",
+                "Sage 300",
                 "ETL",
                 "TP-Link Archer C7",
                 "Helix",
