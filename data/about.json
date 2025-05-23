@@ -246,6 +246,14 @@
                             "fr-CA": "Rehaussement du parc informatique"
                         },
                         {
+                            "en-CA": "Managing software licences",
+                            "fr-CA": "Gestion des licences logicielles"
+                        },
+                        {
+                            "en-CA": "Managing domain names",
+                            "fr-CA": "Gestion des noms de domaines"
+                        },
+                        {
                             "en-CA": "Installing software updates",
                             "fr-CA": "Installation des mises à jour logicielles"
                         },
