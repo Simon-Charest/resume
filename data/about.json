@@ -345,6 +345,7 @@
                 "CSV",
                 "Git",
                 "SonicWall",
+                "FortiGate",
                 "Remote Desktop Connection",
                 "Global VPN Client (GVC)",
                 "cPanel",
