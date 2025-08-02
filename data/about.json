@@ -359,8 +359,10 @@
                 "Veritas Backup Exec",
                 "iPhone",
                 "Android",
+                "Uniview EZView",
                 "Lorex Network Video Recorder (NVR)",
-                "Windows"
+                "Windows",
+                "Moneris"
             ]
         },
         {
@@ -490,24 +492,15 @@
                 "OpenCV",
                 "Microsoft 365",
                 "Microsoft Entra ID",
-                "Active Directory",
                 "Excel",
                 "Java",
                 "Graph",
                 "Neo4j",
                 "WordPress",
-                "cPanel",
-                "Lorex Network Video Recorder (NVR)",
-                "Uniview EZView",
-                "Moneris",
                 "Remote Desktop Connection",
-                "Sage 300",
-                "ETL",
                 "TP-Link Archer C7",
                 "Helix",
-                "SonicWall",
                 "WBAdmin",
-                "Veritas Backup Exec",
                 "Windows",
                 "Ubuntu",
                 "Linux"
@@ -806,8 +799,7 @@
                 "Windows",
                 "Ubuntu",
                 "Linux",
-                "TP-Link Archer C7",
-                "SonicWall"
+                "TP-Link Archer C7"
             ]
         },
         {
