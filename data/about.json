@@ -2857,6 +2857,40 @@
         },
         {
             "visible": true,
+            "icon": "couche_tard.webp",
+            "title": { "en-CA": "Sales Clerk", "fr-CA": "Préposé à la vente" },
+            "company": {
+                "name": { "en-CA": "Couche-Tard", "fr-CA": "Couche-Tard" },
+                "url": {
+                    "en-CA": "https://www.couche-tard.com/trouvez-votre-magasin/CA/montreal/800-rue-sauve-est/6000369?lang=en",
+                    "fr-CA": "https://www.couche-tard.com/trouvez-votre-magasin/CA/montreal/800-rue-sauve-est/6000369"
+                }
+            },
+            "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
+            "startDate": "2001-10-01",
+            "endDate": "2001-10-31",
+            "location": {
+                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
+                "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Daniel Marien",
+                            "fr-CA": "Daniel Marien"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "visible": true,
             "icon": "csdm.webp",
             "title": { "en-CA": "Storekeeper - Class II (Temporary)", "fr-CA": "Magasinier - Classe II (Surnuméraire)" },
             "company": {
@@ -2923,40 +2957,6 @@
                         {
                             "en-CA": "Genevieve Gaboury",
                             "fr-CA": "Genevieve Gaboury"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "visible": true,
-            "icon": "couche_tard.webp",
-            "title": { "en-CA": "Sales Clerk", "fr-CA": "Préposé à la vente" },
-            "company": {
-                "name": { "en-CA": "Couche-Tard", "fr-CA": "Couche-Tard" },
-                "url": {
-                    "en-CA": "https://www.couche-tard.com/trouvez-votre-magasin/CA/montreal/800-rue-sauve-est/6000369?lang=en",
-                    "fr-CA": "https://www.couche-tard.com/trouvez-votre-magasin/CA/montreal/800-rue-sauve-est/6000369"
-                }
-            },
-            "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
-            "startDate": "2001-10-01",
-            "endDate": "2001-10-31",
-            "location": {
-                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
-                "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            },
-            "descriptions":
-            [
-                {
-                    "key": {
-                        "en-CA": "Relationships",
-                        "fr-CA": "Relations"
-                    },
-                    "values": [
-                        {
-                            "en-CA": "Daniel Marien",
-                            "fr-CA": "Daniel Marien"
                         }
                     ]
                 }
