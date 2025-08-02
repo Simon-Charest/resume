@@ -2940,8 +2940,8 @@
                 }
             },
             "employmentType": { "en-CA": "Permanent Full-time", "fr-CA": "Permanent à temps plein" },
-            "startDate": "2000-10-01",
-            "endDate": "2000-10-31",
+            "startDate": "2001-10-01",
+            "endDate": "2001-10-31",
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
