@@ -204,7 +204,7 @@
             "title": { "en-CA": "CTO", "fr-CA": "Directeur technologique" },
             "company": {
                 "name": { "en-CA": "Paramed Specialities", "fr-CA": "Spécialités Paramed" },
-                "url": { "en-CA": "https://www.nfdc.info/en", "fr-CA": "https://www.nfdc.info/fr" }
+                "url": { "en-CA": "https://paramedinc.com/en/", "fr-CA": "https://paramedinc.com/fr/" }
             },
             "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
             "startDate": "2024-09-25",
