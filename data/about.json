@@ -246,6 +246,10 @@
                             "fr-CA": "Rehaussement du parc informatique"
                         },
                         {
+                            "en-CA": "Internet link enhancement",
+                            "fr-CA": "Rehaussement du lien Internet"
+                        },
+                        {
                             "en-CA": "Managing software licences",
                             "fr-CA": "Gestion des licences logicielles"
                         },
@@ -254,16 +258,12 @@
                             "fr-CA": "Gestion des noms de domaines"
                         },
                         {
-                            "en-CA": "Installing software updates",
-                            "fr-CA": "Installation des mises à jour logicielles"
-                        },
-                        {
                             "en-CA": "Setting up Microsoft 365",
                             "fr-CA": "Mise en place de Microsoft 365"
                         },
                         {
-                            "en-CA": "Backup system setup",
-                            "fr-CA": "Mise en place d'un système de copie de sécurité"
+                            "en-CA": "Installing software updates",
+                            "fr-CA": "Installation des mises à jour logicielles"
                         },
                         {
                             "en-CA": "Development of an ETL solution",
@@ -280,6 +280,10 @@
                         {
                             "en-CA": "Purchases of computer equipment",
                             "fr-CA": "Achats du matériel informatique"
+                        },
+                        {
+                            "en-CA": "Backup system setup",
+                            "fr-CA": "Mise en place d'un système de copie de sécurité"
                         },
                         {
                             "en-CA": "Technical support",
