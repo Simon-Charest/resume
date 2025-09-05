@@ -516,7 +516,7 @@
             },
             "employmentType": { "en-CA": "Casual / On-call", "fr-CA": "Occasionnel / sur appel" },
             "startDate": "2023-03-11",
-            "endDate": null,
+            "endDate": "2025-05-03",
             "location": {
                 "city": { "en-CA": "Sherbrooke, Quebec, Canada", "fr-CA": "Sherbrooke, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
