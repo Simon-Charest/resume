@@ -383,7 +383,30 @@
             "location": {
                 "city": { "en-CA": "Longueuil, Quebec, Canada", "fr-CA": "Longueuil, Québec, Canada" },
                 "type": { "en-CA": "Hybrid", "fr-CA": "Hybride" }
-            }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Francine Breton Dostie",
+                            "fr-CA": "Francine Breton Dostie"
+                        },
+                        {
+                            "en-CA": "Vincent Dostie (https://www.linkedin.com/in/vincent-dostie-mount-murray-emerging-markets-public-equity/)",
+                            "fr-CA": "Vincent Dostie (https://www.linkedin.com/in/vincent-dostie-mount-murray-emerging-markets-public-equity/)"
+                        },
+                        {
+                            "en-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)",
+                            "fr-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "visible": true,
