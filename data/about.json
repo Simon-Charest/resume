@@ -3002,8 +3002,8 @@
                     },
                     "values": [
                         {
-                            "en-CA": "Thomson Tremblay (Recruitment Agency) (https://www.thomson-tremblay.com/tt/en/)",
-                            "fr-CA": "Thomson Tremblay (Agence de recrutement) (https://www.thomson-tremblay.com/tt/fr/)"
+                            "en-CA": "Quantum (Recruitment Agency) (https://www.quantum.ca/home.php)",
+                            "fr-CA": "Quantum (Agence de recrutement) (https://www.quantum.ca/)"
                         }
                     ]
                 }
@@ -3026,7 +3026,22 @@
             "location": {
                 "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Quantum (Recruitment Agency) (https://www.quantum.ca/home.php)",
+                            "fr-CA": "Quantum (Agence de recrutement) (https://www.quantum.ca/)"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "visible": true,
