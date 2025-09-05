@@ -204,7 +204,7 @@
             "title": { "en-CA": "CTO", "fr-CA": "Directeur technologique" },
             "company": {
                 "name": { "en-CA": "Paramed Specialities", "fr-CA": "Spécialités Paramed" },
-                "url": { "en-CA": "https://paramedinc.com/en/", "fr-CA": "https://paramedinc.com/fr/" }
+                "url": { "en-CA": "https://paramedinc.com/en", "fr-CA": "https://paramedinc.com/fr" }
             },
             "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
             "startDate": "2024-09-25",
@@ -310,6 +310,10 @@
                             "fr-CA": "Bianca Tremblay (https://www.linkedin.com/in/bianca-tremblay-a3255393/)"
                         },
                         {
+                            "en-CA": "Kateryna Revchyna (https://www.linkedin.com/in/kateryna-revchyna/)",
+                            "fr-CA": "Kateryna Revchyna (https://www.linkedin.com/in/kateryna-revchyna/)"
+                        },
+                        {
                             "en-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)",
                             "fr-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)"
                         },
@@ -364,6 +368,22 @@
                 "Windows",
                 "Moneris"
             ]
+        },
+        {
+            "visible": true,
+            "icon": "nfdc.webp",
+            "title": { "en-CA": "CTO", "fr-CA": "Directeur technologique" },
+            "company": {
+                "name": { "en-CA": "National Food Distribution Centre", "fr-CA": "National Food Distribution Centre" },
+                "url": { "en-CA": "https://www.nfdc.info/en", "fr-CA": "https://www.nfdc.info/fr" }
+            },
+            "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
+            "startDate": "2024-09-25",
+            "endDate": null,
+            "location": {
+                "city": { "en-CA": "Longueuil, Quebec, Canada", "fr-CA": "Longueuil, Québec, Canada" },
+                "type": { "en-CA": "Hybrid", "fr-CA": "Hybride" }
+            }
         },
         {
             "visible": true,
