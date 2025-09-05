@@ -2788,22 +2788,38 @@
         },
         {
             "visible": true,
-            "icon": "certen.webp",
-            "title": { "en-CA": "Assistant Operator", "fr-CA": "Assistant-opérateur" },
+            "icon": "ecolux.webp",
+            "title": { "en-CA": "Sender / Receiver", "fr-CA": "Expéditeur / récepteur" },
             "company": {
-                "name": { "en-CA": "Certen | Amdocs", "fr-CA": "Certen | Amdocs" },
-                "url": {
-                    "en-CA": "https://www.amdocs.com/",
-                    "fr-CA": "https://www.amdocs.com/"
-                }
+                "name": { "en-CA": "Ecolux | GELcore", "fr-CA": "Ecolux | GELcore" },
+                "url": null
             },
             "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
             "startDate": "2003-07-01",
             "endDate": "2003-08-31",
             "location": {
-                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
+                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montreal, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Dragos Vaseli",
+                            "fr-CA": "Dragos Vaseli"
+                        },
+                        {
+                            "en-CA": "Thomson Tremblay (Recruitment Agency) (https://www.thomson-tremblay.com/tt/en/)",
+                            "fr-CA": "Thomson Tremblay (Agence de recrutement) (https://www.thomson-tremblay.com/tt/fr/)"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "visible": true,
@@ -2995,38 +3011,22 @@
         },
         {
             "visible": true,
-            "icon": "ecolux.webp",
-            "title": { "en-CA": "Sender / Receiver", "fr-CA": "Expéditeur / récepteur" },
+            "icon": "certen.webp",
+            "title": { "en-CA": "Assistant Operator", "fr-CA": "Assistant-opérateur" },
             "company": {
-                "name": { "en-CA": "Ecolux | GELcore", "fr-CA": "Ecolux | GELcore" },
-                "url": null
+                "name": { "en-CA": "Certen | Amdocs", "fr-CA": "Certen | Amdocs" },
+                "url": {
+                    "en-CA": "https://www.amdocs.com/",
+                    "fr-CA": "https://www.amdocs.com/"
+                }
             },
             "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
             "startDate": "2000-07-01",
             "endDate": "2000-08-31",
             "location": {
-                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montreal, Québec, Canada" },
+                "city": { "en-CA": "Montreal, Quebec, Canada", "fr-CA": "Montréal, Québec, Canada" },
                 "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            },
-            "descriptions":
-            [
-                {
-                    "key": {
-                        "en-CA": "Relationships",
-                        "fr-CA": "Relations"
-                    },
-                    "values": [
-                        {
-                            "en-CA": "Dragos Vaseli",
-                            "fr-CA": "Dragos Vaseli"
-                        },
-                        {
-                            "en-CA": "Thomson Tremblay (Recruitment Agency) (https://www.thomson-tremblay.com/tt/en/)",
-                            "fr-CA": "Thomson Tremblay (Agence de recrutement) (https://www.thomson-tremblay.com/tt/fr/)"
-                        }
-                    ]
-                }
-            ]
+            }
         },
         {
             "visible": true,
