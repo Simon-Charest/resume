@@ -266,6 +266,10 @@
                             "fr-CA": "Installation des mises à jour logicielles"
                         },
                         {
+                            "en-CA": "Data analysis",
+                            "fr-CA": "Analyse de données"
+                        },
+                        {
                             "en-CA": "Development of an ETL solution",
                             "fr-CA": "Développement d'une solution ETL"
                         },
@@ -280,6 +284,10 @@
                         {
                             "en-CA": "Purchases of computer equipment",
                             "fr-CA": "Achats du matériel informatique"
+                        },
+                        {
+                            "en-CA": "Disaster recovery management",
+                            "fr-CA": "Gestion de la reprise après sinistre"
                         },
                         {
                             "en-CA": "Backup system setup",
