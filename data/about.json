@@ -378,7 +378,7 @@
             "icon": "nfdc.webp",
             "title": { "en-CA": "CTO", "fr-CA": "Directeur technologique" },
             "company": {
-                "name": { "en-CA": "National Food Distribution Centre", "fr-CA": "National Food Distribution Centre" },
+                "name": { "en-CA": "National Food Distribution Centre (NFDC)", "fr-CA": "Centre National de Distribution d'Aliments (NFDC)" },
                 "url": { "en-CA": "https://www.nfdc.info/en", "fr-CA": "https://www.nfdc.info/fr" }
             },
             "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
