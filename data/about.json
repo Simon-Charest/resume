@@ -583,85 +583,6 @@
         },
         {
             "visible": true,
-            "icon": "console.webp",
-            "title": { "en-CA": "Volunteer", "fr-CA": "Bénévole" },
-            "company": {
-                "name": { "en-CA": "La Console qui Console", "fr-CA": "La Console qui Console" },
-                "url": { "en-CA": "https://www.laconsolequiconsole.com/", "fr-CA": "https://www.laconsolequiconsole.com/" }
-            },
-            "employmentType": { "en-CA": "Casual / On-call", "fr-CA": "Occasionnel / sur appel" },
-            "startDate": "2023-03-11",
-            "endDate": "2025-05-03",
-            "location": {
-                "city": { "en-CA": "Sherbrooke, Quebec, Canada", "fr-CA": "Sherbrooke, Québec, Canada" },
-                "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
-            },
-            "descriptions":
-            [
-                {
-                    "key": {
-                        "en-CA": "Responsibilities",
-                        "fr-CA": "Responsabilités"
-                    },
-                    "values": [
-                        {
-                            "en-CA": "Room layout",
-                            "fr-CA": "Aménagement des salles"
-                        },
-                        {
-                            "en-CA": "Technical support",
-                            "fr-CA": "Support technique"
-                        },
-                        {
-                            "en-CA": "Shopping and transportation",
-                            "fr-CA": "Achats et transport"
-                        },
-                        {
-                            "en-CA": "Beer keg support",
-                            "fr-CA": "Support aux fûts de bière"
-                        }
-                    ]
-                },
-                {
-                    "key": {
-                        "en-CA": "Relationships",
-                        "fr-CA": "Relations"
-                    },
-                    "values": [
-                        {
-                            "en-CA": "Hubert Pelletier (https://www.linkedin.com/in/hubertpelletier/)",
-                            "fr-CA": "Hubert Pelletier (https://www.linkedin.com/in/hubertpelletier/)"
-                        },
-                        {
-                            "en-CA": "Valérie Lacroix (https://www.linkedin.com/in/val%C3%A9rie-lacroix-b9a71b212/)",
-                            "fr-CA": "Valérie Lacroix (https://www.linkedin.com/in/val%C3%A9rie-lacroix-b9a71b212/)"
-                        },
-                        {
-                            "en-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)",
-                            "fr-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)"
-                        },
-                        {
-                            "en-CA": "Sébastien Corbeil-Couture (https://www.linkedin.com/in/scorbeilcouture/)",
-                            "fr-CA": "Sébastien Corbeil-Couture (https://www.linkedin.com/in/scorbeilcouture/)"
-                        },
-                        {
-                            "en-CA": "Maëlle Veilleux (https://www.linkedin.com/in/ma%C3%ABlle-veilleux-53b641242/)",
-                            "fr-CA": "Maëlle Veilleux (https://www.linkedin.com/in/ma%C3%ABlle-veilleux-53b641242/)"
-                        },
-                        {
-                            "en-CA": "Leucan Estrie (https://www.leucan.qc.ca/en/)",
-                            "fr-CA": "Leucan Estrie (https://www.leucan.qc.ca/fr/)"
-                        },
-                        {
-                            "en-CA": "Centre d'hébergement alternatif de Sherbrooke (CHAS) (https://www.chasherbrooke.com/english-services/)",
-                            "fr-CA": "Centre d'hébergement alternatif de Sherbrooke (CHAS) (https://www.chasherbrooke.com/)"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "visible": true,
             "icon": null,
             "title": { "en-CA": "Co-Liquidator", "fr-CA": "Co-liquidateur" },
             "company": null,
@@ -1157,6 +1078,85 @@
                 }
             ],
             "skills": null
+        },
+        {
+            "visible": true,
+            "icon": "console.webp",
+            "title": { "en-CA": "Volunteer", "fr-CA": "Bénévole" },
+            "company": {
+                "name": { "en-CA": "La Console qui Console", "fr-CA": "La Console qui Console" },
+                "url": { "en-CA": "https://www.laconsolequiconsole.com/", "fr-CA": "https://www.laconsolequiconsole.com/" }
+            },
+            "employmentType": { "en-CA": "Casual / On-call", "fr-CA": "Occasionnel / sur appel" },
+            "startDate": "2023-03-11",
+            "endDate": "2025-05-03",
+            "location": {
+                "city": { "en-CA": "Sherbrooke, Quebec, Canada", "fr-CA": "Sherbrooke, Québec, Canada" },
+                "type": { "en-CA": "On-site", "fr-CA": "Sur site" }
+            },
+            "descriptions":
+            [
+                {
+                    "key": {
+                        "en-CA": "Responsibilities",
+                        "fr-CA": "Responsabilités"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Room layout",
+                            "fr-CA": "Aménagement des salles"
+                        },
+                        {
+                            "en-CA": "Technical support",
+                            "fr-CA": "Support technique"
+                        },
+                        {
+                            "en-CA": "Shopping and transportation",
+                            "fr-CA": "Achats et transport"
+                        },
+                        {
+                            "en-CA": "Beer keg support",
+                            "fr-CA": "Support aux fûts de bière"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Relationships",
+                        "fr-CA": "Relations"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "Hubert Pelletier (https://www.linkedin.com/in/hubertpelletier/)",
+                            "fr-CA": "Hubert Pelletier (https://www.linkedin.com/in/hubertpelletier/)"
+                        },
+                        {
+                            "en-CA": "Valérie Lacroix (https://www.linkedin.com/in/val%C3%A9rie-lacroix-b9a71b212/)",
+                            "fr-CA": "Valérie Lacroix (https://www.linkedin.com/in/val%C3%A9rie-lacroix-b9a71b212/)"
+                        },
+                        {
+                            "en-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)",
+                            "fr-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)"
+                        },
+                        {
+                            "en-CA": "Sébastien Corbeil-Couture (https://www.linkedin.com/in/scorbeilcouture/)",
+                            "fr-CA": "Sébastien Corbeil-Couture (https://www.linkedin.com/in/scorbeilcouture/)"
+                        },
+                        {
+                            "en-CA": "Maëlle Veilleux (https://www.linkedin.com/in/ma%C3%ABlle-veilleux-53b641242/)",
+                            "fr-CA": "Maëlle Veilleux (https://www.linkedin.com/in/ma%C3%ABlle-veilleux-53b641242/)"
+                        },
+                        {
+                            "en-CA": "Leucan Estrie (https://www.leucan.qc.ca/en/)",
+                            "fr-CA": "Leucan Estrie (https://www.leucan.qc.ca/fr/)"
+                        },
+                        {
+                            "en-CA": "Centre d'hébergement alternatif de Sherbrooke (CHAS) (https://www.chasherbrooke.com/english-services/)",
+                            "fr-CA": "Centre d'hébergement alternatif de Sherbrooke (CHAS) (https://www.chasherbrooke.com/)"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "visible": true,
