@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Usage: ./deploy.sh
+
 # Variables
 MESSAGE="Automated deployment"
 USER=""
@@ -15,7 +17,8 @@ git push
 # Remote SSH Deployment Commands
 ssh "$USER@$HOST_" "
 cd $DIRECTORY &&
-git pull &&
+git reset --hard origin/main &&
 npm install &&
+npm audit fix &&
 sudo systemctl daemon-reload &&
 sudo systemctl restart $COMMAND"
