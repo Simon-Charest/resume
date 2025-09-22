@@ -18,6 +18,7 @@ git push
 ssh "$USER@$HOST_" "
 cd $DIRECTORY &&
 git reset --hard origin/main &&
+git pull &&
 npm install &&
 npm audit fix &&
 sudo systemctl daemon-reload &&
