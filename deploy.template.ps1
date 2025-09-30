@@ -6,9 +6,10 @@
 [int] $SECONDS = 1
 [string] $REMOTE = "origin"
 [string] $BRANCH = "main"
-[string] $USER = "scharest"
+[string] $USER = ""
 [string] $HOST_ = "www.slcti.ca"
 [string] $DIRECTORY = "~/source/resume"
+[string] $PASSWORD = ""
 [string] $COMMAND = "resume.service"
 
 # Local Git Commands
@@ -40,7 +41,7 @@ git pull &&
 npm install &&
 npm audit fix --force &&
 rm -rf .next .cache dist tmp 2>/dev/null || true &&
-echo \"$SUDO_PASSWORD\" | sudo -S systemctl daemon-reload &&
-echo \"$SUDO_PASSWORD\" | sudo -S systemctl restart \"$COMMAND\" &&
-echo \"$SUDO_PASSWORD\" | sudo -S systemctl status \"$COMMAND\" --no-pager
+echo \"$PASSWORD\" | sudo -S systemctl daemon-reload &&
+echo \"$PASSWORD\" | sudo -S systemctl restart \"$COMMAND\" &&
+echo \"$PASSWORD\" | sudo -S systemctl status \"$COMMAND\" --no-pager
 "@
