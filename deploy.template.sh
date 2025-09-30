@@ -20,13 +20,13 @@ git push
 LATEST_COMMIT=$(git rev-parse HEAD)
 
 for i in {1..10}; do
-  REMOTE_COMMIT=$(git ls-remote $REMOTE refs/heads/$BRANCH | cut -f1)
+    REMOTE_COMMIT=$(git ls-remote $REMOTE refs/heads/$BRANCH | cut -f1)
 
-  if [ "$LATEST_COMMIT" == "$REMOTE_COMMIT" ]; then
-    break
-  fi
+    if [ "$LATEST_COMMIT" == "$REMOTE_COMMIT" ]; then
+        break
+    fi
 
-  sleep 1
+    sleep 1
 done
 
 # Remote SSH Deployment Commands
@@ -37,7 +37,6 @@ git reset --hard origin/main &&
 git pull &&
 npm install &&
 npm audit fix --force &&
-npm run build &&
 sudo systemctl daemon-reload &&
 sudo systemctl restart '"$COMMAND"' &&
 sudo systemctl status '"$COMMAND"' --no-pager
