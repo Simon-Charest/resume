@@ -2,6 +2,8 @@
 
 # Variables
 [string] $MESSAGE = "Automated deployment"
+[string] $REMOTE = "origin"
+[string] $BRANCH = "main"
 [string] $USER = ""
 [string] $HOST_ = ""
 [string] $DIRECTORY = ""
@@ -13,11 +15,24 @@ git commit -m "$MESSAGE"
 git push
 
 # Pause
-Start-Sleep -Seconds 2
+$Attempt = 0
+
+do {
+    Start-Sleep -Seconds $DelaySeconds
+    $RemoteCommitLine = git ls-remote $REMOTE "refs/heads/$BRANCH"
+    $RemoteCommit = $RemoteCommitLine.Split("`t")[0]
+    $Attempt++
+    Write-Host "Tentative $Attempt/$MaxAttempts → Commit distant : $RemoteCommit"
+
+    if ($RemoteCommit -eq $LocalCommit) {
+        break
+    }
+
+} while ($Attempt -lt $MaxAttempts)
 
 # Remote SSH Deployment Commands
-ssh "$USER@$HOST_" 'bash -c "
-cd '"$DIRECTORY"' &&
+ssh "$USER@$HOST_" @"
+cd $DIRECTORY &&
 git fetch origin &&
 git reset --hard origin/main &&
 git pull &&
@@ -25,6 +40,5 @@ npm install &&
 npm audit fix --force &&
 npm run build &&
 sudo systemctl daemon-reload &&
-sudo systemctl restart '"$COMMAND"' &&
-sudo systemctl status '"$COMMAND"' --no-pager
-"'
+sudo systemctl restart $COMMAND
+"@
