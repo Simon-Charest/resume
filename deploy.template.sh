@@ -37,6 +37,8 @@ git reset --hard origin/main &&
 git pull &&
 npm install &&
 npm audit fix --force &&
+npm run build &&
+rm -rf .next .cache dist tmp 2>/dev/null || true &&
 sudo systemctl daemon-reload &&
 sudo systemctl restart '"$COMMAND"' &&
 sudo systemctl status '"$COMMAND"' --no-pager
