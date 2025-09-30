@@ -7,16 +7,17 @@
 [string] $COMMAND = ""
 
 # Local Git Commands
-git add *
-git commit -m $MESSAGE
+git add .
+git commit -m "$MESSAGE"
 git push
 
 # Remote SSH Deployment Commands
-ssh $USER@$HOST_ "
-cd $DIRECTORY &&
+ssh "$USER@$HOST_" 'bash -c "
+cd '"$DIRECTORY"' &&
 git reset --hard origin/main &&
 git pull &&
 npm install &&
 npm audit fix &&
 sudo systemctl daemon-reload &&
-sudo systemctl restart $COMMAND"
+sudo systemctl restart '"$COMMAND"'"
+'
