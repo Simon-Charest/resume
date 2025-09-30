@@ -1,5 +1,6 @@
 # Usage: .\deploy.ps1
 
+# Variables
 [string] $MESSAGE = "Automated deployment"
 [string] $USER = ""
 [string] $HOST_ = ""
