@@ -39,7 +39,6 @@ git reset --hard origin/main &&
 git pull &&
 npm install &&
 npm audit fix --force &&
-npm run build &&
 sudo systemctl daemon-reload &&
 sudo systemctl restart $COMMAND
 "@
