@@ -2,12 +2,14 @@
 
 # Variables
 [string] $MESSAGE = "Automated deployment"
+[int] $MAX_ATTEMPT = 10
+[int] $SECONDS = 1
 [string] $REMOTE = "origin"
 [string] $BRANCH = "main"
-[string] $USER = ""
-[string] $HOST_ = ""
-[string] $DIRECTORY = ""
-[string] $COMMAND = ""
+[string] $USER = "scharest"
+[string] $HOST_ = "www.slcti.ca"
+[string] $DIRECTORY = "~/source/resume"
+[string] $COMMAND = "resume.service"
 
 # Local Git Commands
 git add .
@@ -15,20 +17,19 @@ git commit -m "$MESSAGE"
 git push
 
 # Pause
-$Attempt = 0
+[int] $Attempt = 0
 
 do {
-    Start-Sleep -Seconds $DelaySeconds
+    Start-Sleep -Seconds $SECONDS
     $RemoteCommitLine = git ls-remote $REMOTE "refs/heads/$BRANCH"
     $RemoteCommit = $RemoteCommitLine.Split("`t")[0]
-    $Attempt++
-    Write-Host "Tentative $Attempt/$MaxAttempts → Commit distant : $RemoteCommit"
+    $Attempt ++
 
     if ($RemoteCommit -eq $LocalCommit) {
         break
     }
 
-} while ($Attempt -lt $MaxAttempts)
+} while ($Attempt -lt $MAX_ATTEMPT)
 
 # Remote SSH Deployment Commands
 ssh "$USER@$HOST_" @"

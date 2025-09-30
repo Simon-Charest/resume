@@ -23,7 +23,6 @@ for i in {1..10}; do
   REMOTE_COMMIT=$(git ls-remote $REMOTE refs/heads/$BRANCH | cut -f1)
 
   if [ "$LATEST_COMMIT" == "$REMOTE_COMMIT" ]; then
-    echo "✅ Commit trouvé sur le serveur distant."
     break
   fi
 
