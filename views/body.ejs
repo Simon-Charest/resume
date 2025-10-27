@@ -57,7 +57,7 @@
                             <br><%= media.date %>
                             <br><%= media.description[lang] %>
                             <% if (media.hashtags && media.hashtags[lang]) { %>
-                                <br><%= [...new Set(media.hashtags[lang].map(h => h.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()))].join(', ') %>
+                                <p style="font-size: xx-small;"><%= [...new Set(media.hashtags[lang].map(h => h.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()))].join(', ') %><p></p>
                             <% } %>
                             <% if (index < data.medias.length - 1) { %>
                                 <hr>
