@@ -13,8 +13,8 @@
                 "fr-CA": "L'entreprise chinoise Temu est en train de se tailler une place de choix parmi les géants du commerce en ligne. Mais derrière ce succès planétaire, des inquiétudes font surface et la méfiance prend de l'ampleur. L'équipe des Décrypteurs décortique son succès planétaire et relativise certaines craintes liées à nos données personnelles malgré de vraies polémiques. Et pour aller au fond des choses on a demandé à des experts leur avis sur l'application Temu et sa fiabilité."
             },
             "hashtags": {
-                "en-CA": ["#application", "#China", "#cybersecurity", "@Decrypters", "data", "#personaldata", "#Chinesecompany", "#experts", "#reliability", "@PaulLaurier", "@PLaurier", "@RadioCanada", "@RadioCanadaInfo", "@RDI", "@SCharest", "@SimonCharest", "#globalsuccess", "test", "@Temu", "@YouTube"],
-                "fr-CA": ["#application", "#Chine", "#cybersécurité", "@Décrypteurs", "données", "#donnéespersonnelles", "#entreprisechinoise", "#experts", "#fiabilité", "@PaulLaurier", "@PLaurier", "@RadioCanada", "@RadioCanadaInfo", "@RDI", "@SCharest", "@SimonCharest", "#succèsplanétaire", "test", "@Temu", "@YouTube"]
+                "en-CA": ["@Amazon", "#application", "@Canada", "@China", "#onlinecommerce", "#cybersecurity", "@Decrypters", "#data", "#personaldata", "#Chinesecompany", "#espionage", "#experts", "#reliability", "@PaulLaurier", "@PLaurier", "@RadioCanada", "@RadioCanadaInfo", "@RDI", "@SCharest", "@SimonCharest", "#globalsuccess", "test", "@Temu", "@YouTube"],
+                "fr-CA": ["@Amazon", "#application", "@Canada", "@Chine", "#commerceenligne", "#cybersécurité", "@Décrypteurs", "#données", "#donnéespersonnelles", "#entreprisechinoise", "#espionnage", "#experts", "#fiabilité", "@PaulLaurier", "@PLaurier", "@RadioCanada", "@RadioCanadaInfo", "@RDI", "@SCharest", "@SimonCharest", "#succèsplanétaire", "test", "@Temu", "@YouTube"]
             }
         },
         {
@@ -26,8 +26,12 @@
                 "fr-CA": "Temu nous espionne? Complots autour de Kate Middleton et un hypertrucage viral | Décrypteurs"
             },
             "description": {
-                "en-CA": "This week, Temu, Kate Middleton and a viral video that deceived many people on social networks. The Chinese company Temu is becoming more and more established in the world of e-commerce. A competitor to Amazon, the app is now the most downloaded in Canada. The Decryptors dissect its global success and relativize certain fears related to the spying on our personal data, despite real controversies. A viral video of an alleged influencer was quickly labeled this week as 100% AI-generated. And a video of Princess Kate Middleton suffered the same fate. In both cases, this is false! The team shares their thoughts on this subject.",
-                "fr-CA": "Cette semaine, Temu, Kate Middleton et une vidéo virale qui a trompé bien du monde sur les réseaux sociaux. L'entreprise chinoise Temu s'impose de plus en plus dans l'univers du commerce en ligne. Concurrente d'Amazon, l'application est aujourd'hui la plus téléchargée au Canada. Les Décrypteurs décortiquent son succès planétaire et relativisent certaines craintes liées à l'''espionnage de nos données personnelles, malgré de vraies polémiques. Une vidéo virale d'une prétendue influenceuse a rapidement été étiquetée cette semaine comme étant générée à 100 % par IA. Et une vidéo de la princesse Kate Middleton a subi le même sort. Dans les deux cas, c'est faux ! L'équipe vous fait part de ses réflexions à ce sujet."
+                "en-CA": "This week, Temu [...]. The Chinese company Temu is becoming more and more established in the world of e-commerce. A competitor to Amazon, the app is now the most downloaded in Canada. The Decryptors dissect its global success and relativize certain fears related to the spying on our personal data, despite real controversies. [...] The team shares their thoughts on this subject.",
+                "fr-CA": "Cette semaine, Temu [...]. L'entreprise chinoise Temu s'impose de plus en plus dans l'univers du commerce en ligne. Concurrente d'Amazon, l'application est aujourd'hui la plus téléchargée au Canada. [...] L'équipe vous fait part de ses réflexions à ce sujet."
+            },
+            "hashtags": {
+                "en-CA": ["@Amazon", "#application", "@Canada", "@China", "#onlinecommerce", "#cybersecurity", "@Decrypters", "#data", "#personaldata", "#Chinesecompany", "#espionage", "#experts", "#reliability", "@PaulLaurier", "@PLaurier", "@RadioCanada", "@RadioCanadaInfo", "@RDI", "@SCharest", "@SimonCharest", "#globalsuccess", "test", "@Temu", "@YouTube"],
+                "fr-CA": ["@Amazon", "#application", "@Canada", "@Chine", "#commerceenligne", "#cybersécurité", "@Décrypteurs", "#données", "#donnéespersonnelles", "#entreprisechinoise", "#espionnage", "#experts", "#fiabilité", "@PaulLaurier", "@PLaurier", "@RadioCanada", "@RadioCanadaInfo", "@RDI", "@SCharest", "@SimonCharest", "#succèsplanétaire", "test", "@Temu", "@YouTube"]
             }
         }
     ]
