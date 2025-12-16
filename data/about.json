@@ -1108,12 +1108,20 @@
                             "fr-CA": "Maçonnerie MBC (https://maconneriemcb.godaddysites.com/)"
                         },
                         {
+                            "en-CA": "Fenêtres Jalmo (https://fenetresjalmo.com/en/)",
+                            "fr-CA": "Fenêtres Jalmo (https://fenetresjalmo.com/fr/)"
+                        },
+                        {
                             "en-CA": "Thermobec (https://www.thermobec.ca/)",
                             "fr-CA": "Thermobec (https://www.thermobec.ca/)"
                         },
                         {
                             "en-CA": "Panzo Construction (https://www.panzoconstruction.ca/)",
                             "fr-CA": "Panzo Construction (https://www.panzoconstruction.ca/)"
+                        },
+                        {
+                            "en-CA": "Balcon Expert (https://balconxpert.ca/)",
+                            "fr-CA": "Balcon Expert (https://balconxpert.ca/)"
                         }
                     ]
                 }
