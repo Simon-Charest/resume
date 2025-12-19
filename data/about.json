@@ -296,6 +296,10 @@
                         {
                             "en-CA": "Technical support",
                             "fr-CA": "Support technique"
+                        },
+                        {
+                            "en-CA": "Warehouse support",
+                            "fr-CA": "Support à l'entrepôt"
                         }
                     ]
                 },
@@ -431,7 +435,7 @@
             "icon": "nfdc.webp",
             "title": { "en-CA": "CTO", "fr-CA": "Directeur technologique" },
             "company": {
-                "name": { "en-CA": "National Food Distribution Centre (NFDC)", "fr-CA": "Centre National de Distribution d'Aliments (NFDC)" },
+                "name": { "en-CA": "National Food Distribution Centre (NFDC)", "fr-CA": "Centre National de Distribution d'Aliments (CNDA)" },
                 "url": { "en-CA": "https://www.nfdc.info/en", "fr-CA": "https://www.nfdc.info/fr" }
             },
             "employmentType": { "en-CA": "Contract Full-time", "fr-CA": "Contrat à temps plein" },
