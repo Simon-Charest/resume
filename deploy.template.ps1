@@ -1,8 +1,3 @@
-# ==========================
-# Automated Deployment Script
-# Usage: .\deploy.ps1
-# ==========================
-
 $ErrorActionPreference = "Stop"
 
 # -------- Variables --------
@@ -10,26 +5,24 @@ $MESSAGE      = "Automated deployment"
 $MAX_ATTEMPTS = 10
 $SECONDS      = 1
 
-$REMOTE   = "origin"
-$BRANCH   = "main"
+$REMOTE = "origin"
+$BRANCH = "main"
 
-$USER     = ""
-$HOST     = "www.slcti.ca"
-$APP_DIR  = "~/source/resume"
+$USER    = ""
+$HOST    = "www.slcti.ca"
+$APP_DIR = "~/source/resume"
 
-$SERVICE  = "resume.service"
+$SERVICE = "resume.service"
 
 # -------- Local Git --------
-Write-Host "📦 Committing changes..."
+Write-Host "Committing changes..."
 
 git add .
 
-if (-not (git status --porcelain)) {
-    Write-Host "✔ No changes to commit"
-}
-
-else {
+if (git status --porcelain) {
     git commit -m $MESSAGE
+} else {
+    Write-Host "No changes to commit"
 }
 
 git push $REMOTE $BRANCH
@@ -37,7 +30,7 @@ git push $REMOTE $BRANCH
 $LocalCommit = git rev-parse HEAD
 
 # -------- Wait for Remote --------
-Write-Host "⏳ Waiting for remote to update..."
+Write-Host "Waiting for remote update..."
 
 $Attempt = 0
 do {
@@ -47,33 +40,31 @@ do {
 } while ($RemoteCommit -ne $LocalCommit -and $Attempt -lt $MAX_ATTEMPTS)
 
 if ($RemoteCommit -ne $LocalCommit) {
-    throw "❌ Remote did not update after $MAX_ATTEMPTS attempts"
+    throw "Remote did not update"
 }
 
-Write-Host "✔ Remote updated"
+Write-Host "Remote updated"
 
 # -------- Remote Deploy --------
-Write-Host "🚀 Deploying on server..."
+Write-Host "Deploying on server..."
 
-ssh "$USER@$HOST" @"
-set -e
+ssh "$USER@$HOST" @'
+cd /home/youruser/source/resume || exit 1
 
-cd $APP_DIR
-
-echo "📥 Updating code..."
+echo "Updating code..."
 git fetch origin
-git reset --hard origin/$BRANCH
+git reset --hard origin/main
 
-echo "📦 Installing dependencies..."
+echo "Installing dependencies..."
 npm install
 
-echo "🧹 Cleaning build artifacts..."
+echo "Cleaning build artifacts..."
 rm -rf .next .cache dist tmp || true
 
-echo "🔄 Restarting service..."
+echo "Restarting service..."
 sudo systemctl daemon-reload
-sudo systemctl restart $SERVICE
-sudo systemctl status $SERVICE --no-pager
-"@
+sudo systemctl restart resume.service
+sudo systemctl status resume.service --no-pager
+'@
 
-Write-Host "✅ Deployment complete!"
+Write-Host "Deployment complete"
