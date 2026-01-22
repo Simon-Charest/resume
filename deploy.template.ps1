@@ -9,7 +9,7 @@ $REMOTE = "origin"
 $BRANCH = "main"
 
 $USER    = ""
-$HOST    = "www.slcti.ca"
+$HOST_    = "www.slcti.ca"
 $APP_DIR = "~/source/resume"
 
 $SERVICE = "resume.service"
@@ -48,8 +48,8 @@ Write-Host "Remote updated"
 # -------- Remote Deploy --------
 Write-Host "Deploying on server..."
 
-ssh "$USER@$HOST" @'
-cd /home/youruser/source/resume || exit 1
+ssh "$USER@$HOST_" @'
+cd ~/source/resume || exit 1
 
 echo "Updating code..."
 git fetch origin
