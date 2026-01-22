@@ -3562,8 +3562,25 @@
     "courses": [
         {
             "name": {
-                "en-CA": "Diagnosis of intellectual giftedness (top 2% of the reference population)",
-                "fr-CA": "Diagnostic de douance intellectuelle (top 2% de la population de référence)"
+                "en-CA": "Exhibitor for Retronic Design at the Vintage Computer Federation (VCF) Montreal 2026",
+                "fr-CA": "Exposant pour Retronic Design au Vintage Computer Federation (VCF) Montréal 2026"
+            },
+            "organisation" : {
+                "en-CA": "Vintage Computer Federation (VCF)",
+                "fr-CA": "Vintage Computer Federation (VCF)"
+            },
+            "url": {
+                "en-CA": "https://vcfed.org/vcf-montreal/#english",
+                "fr-CA": "https://vcfed.org/vcf-montreal/#francais"
+            },
+            "code": null,
+            "startDate": "2026-01-23",
+            "endDate": "2026-01-25"
+        },
+        {
+            "name": {
+                "en-CA": "Diagnosis of High Intellectual Potential (HPI)",
+                "fr-CA": "Diagnostic d'Haut Potentiel Intellectuel (HPI)"
             },
             "organisation" : {
                 "en-CA": "Interphase - Psychology and Neuropsychology Clinic",
