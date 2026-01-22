@@ -237,7 +237,7 @@ async function main() {
             string += `${month} ${month > 1 ? (lang === 'en-CA' ? 'months' : 'mois') : (lang === 'en-CA' ? 'month' : 'mois')}`;
         }
 
-        return string.length === 0 ? '0 months' : string;
+        return string.length === 0 ? '' : string;
     };
 
     // Function to calculate the size of a directory recursively, excluding certain directories
