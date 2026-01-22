@@ -335,9 +335,10 @@
                                         -
                                         <%= course.endDate.slice(0, 7) %>
                                     <% } %>
-                                    <% if (course.endDate) { %>
+                                    <%= length = formatLength(calculateLength(course.startDate, course.endDate), lang) %>
+                                    <% if (course.endDate && length) { %>
                                         ·
-                                        <%= formatLength(calculateLength(course.startDate, course.endDate), lang) %>
+                                        <%= length %>
                                     <% } %>
                                 </span>
                                 <% if (index < data.courses.length - 1) { %>
