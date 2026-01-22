@@ -424,8 +424,11 @@
                 "Veritas Backup Exec",
                 "iPhone",
                 "Android",
+                "Uniview XVR",
                 "Uniview EZView",
+                "Uniview EZStation",
                 "Lorex Network Video Recorder (NVR)",
+                "Kantech",
                 "Windows",
                 "Moneris"
             ]
@@ -3570,7 +3573,7 @@
                 "fr-CA": "Vintage Computer Federation (VCF)"
             },
             "url": {
-                "en-CA": "https://vcfed.org/vcf-montreal/#english",
+                "en-CA": "https://vcfed.org/",
                 "fr-CA": "https://vcfed.org/vcf-montreal/#francais"
             },
             "code": null,
