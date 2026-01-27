@@ -3685,14 +3685,14 @@
                 "fr-CA": "Habilitation sécuritaire"
             },
             "organisation" : {
-                "en-CA": "Laval Police Department",
-                "fr-CA": "Service de police de la Ville de Laval"
+                "en-CA": "Laval Police Department (SPL)",
+                "fr-CA": "Service de police de la Ville de Laval (SPL)"
             },
             "url": {
                 "en-CA": "https://www.laval.ca/police/Pages/En/home.aspx",
                 "fr-CA": "https://www.laval.ca/police/"
             },
-            "code": "SPL",
+            "code": null,
             "startDate": "2019-04-02"
         },
         {
@@ -3734,14 +3734,14 @@
                 "fr-CA": "Habilitation sécuritaire"
             },
             "organisation" : {
-                "en-CA": "Permanent Anti-Corruption Unit",
-                "fr-CA": "Unité permanente anticorruption"
+                "en-CA": "Permanent Anti-Corruption Unit (UPAC)",
+                "fr-CA": "Unité permanente anticorruption (UPAC)"
             },
             "url": {
                 "en-CA": "https://upac.gouv.qc.ca/en/",
                 "fr-CA": "https://upac.gouv.qc.ca/"
             },
-            "code": "UPAC",
+            "code": null,
             "startDate": "2011-09-01"
         },
         {
@@ -3798,8 +3798,8 @@
                 "fr-CA": "Habilitation sécuritaire"
             },
             "organisation" : {
-                "en-CA": "Quebec Provincial Police",
-                "fr-CA": "Sûreté du Québec"
+                "en-CA": "Quebec Provincial Police (SQ)",
+                "fr-CA": "Sûreté du Québec (SQ)"
             },
             "url": {
                 "en-CA": "https://www.sq.gouv.qc.ca/en/",
