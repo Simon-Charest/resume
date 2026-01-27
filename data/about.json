@@ -3565,25 +3565,25 @@
     "courses": [
         {
             "name": {
-                "en-CA": "Exhibitor for Retronic Design at the Vintage Computer Federation (VCF) Montreal 2026",
-                "fr-CA": "Exposant pour Retronic Design au Vintage Computer Federation (VCF) Montréal 2026"
+                "en-CA": "Exhibitor for Retronic Design at the Vintage Computer Federation Montreal 2026",
+                "fr-CA": "Exposant pour Retronic Design au Vintage Computer Federation Montréal 2026"
             },
             "organisation" : {
-                "en-CA": "Vintage Computer Federation (VCF)",
-                "fr-CA": "Vintage Computer Federation (VCF)"
+                "en-CA": "Vintage Computer Federation",
+                "fr-CA": "Vintage Computer Federation"
             },
             "url": {
                 "en-CA": "https://vcfed.org/",
                 "fr-CA": "https://vcfed.org/"
             },
-            "code": null,
+            "code": "VCF",
             "startDate": "2026-01-23",
             "endDate": "2026-01-25"
         },
         {
             "name": {
-                "en-CA": "Diagnosis of High Intellectual Potential (HPI)",
-                "fr-CA": "Diagnostic d'Haut Potentiel Intellectuel (HPI)"
+                "en-CA": "Diagnosis of High Intellectual Potential",
+                "fr-CA": "Diagnostic d'Haut Potentiel Intellectuel"
             },
             "organisation" : {
                 "en-CA": "Interphase - Psychology and Neuropsychology Clinic",
@@ -3593,7 +3593,7 @@
                 "en-CA": "https://www.linterphasepsychologie.com/",
                 "fr-CA": "https://www.linterphasepsychologie.com/"
             },
-            "code": null,
+            "code": "HPI",
             "startDate": "2024-08-09",
             "endDate": "2024-09-04"
         },
@@ -3665,34 +3665,50 @@
         },
         {
             "name": {
+                "en-CA": "Member of the Club des collectioneurs de jeux vidéos du Québec",
+                "fr-CA": "Membre du Club des collectioneurs de jeux vidéos du Québec"
+            },
+            "organisation" : {
+                "en-CA": "Club des collectioneurs de jeux vidéos du Québec",
+                "fr-CA": "Club des collectioneurs de jeux vidéos du Québec"
+            },
+            "url": {
+                "en-CA": "https://www.ccjvq.com/",
+                "fr-CA": "https://www.ccjvq.com/"
+            },
+            "code": "CCJVQ",
+            "startDate": "2020-09-14"
+        },
+        {
+            "name": {
                 "en-CA": "Security clearance",
                 "fr-CA": "Habilitation sécuritaire"
             },
             "organisation" : {
-                "en-CA": "Laval Police Department (SPL)",
-                "fr-CA": "Service de police de la Ville de Laval (SPL)"
+                "en-CA": "Laval Police Department",
+                "fr-CA": "Service de police de la Ville de Laval"
             },
             "url": {
                 "en-CA": "https://www.laval.ca/police/Pages/En/home.aspx",
                 "fr-CA": "https://www.laval.ca/police/"
             },
-            "code": null,
+            "code": "SPL",
             "startDate": "2019-04-02"
         },
         {
             "name": {
-                "en-CA": "Exhibitor for Retronic Design at the Montreal Expo Gaming Arcade (MEGA)",
-                "fr-CA": "Exposant pour Retronic Design au Montreal Expo Gaming Arcade (MEGA)"
+                "en-CA": "Exhibitor for Retronic Design at the Montreal Expo Gaming Arcade",
+                "fr-CA": "Exposant pour Retronic Design au Montreal Expo Gaming Arcade"
             },
             "organisation" : {
-                "en-CA": "Montreal Expo Gaming Arcade (MEGA)",
-                "fr-CA": "Montreal Expo Gaming Arcade (MEGA)"
+                "en-CA": "Montreal Expo Gaming Arcade",
+                "fr-CA": "Montreal Expo Gaming Arcade"
             },
             "url": {
                 "en-CA": "https://migs.biz/en/",
                 "fr-CA": "https://migs.biz/fr/"
             },
-            "code": null,
+            "code": "MEGA",
             "startDate": "2018-11-09",
             "endDate": "2018-11-11"
         },
@@ -3718,14 +3734,14 @@
                 "fr-CA": "Habilitation sécuritaire"
             },
             "organisation" : {
-                "en-CA": "Permanent Anti-Corruption Unit (UPAC)",
-                "fr-CA": "Unité permanente anticorruption (UPAC)"
+                "en-CA": "Permanent Anti-Corruption Unit",
+                "fr-CA": "Unité permanente anticorruption"
             },
             "url": {
                 "en-CA": "https://upac.gouv.qc.ca/en/",
                 "fr-CA": "https://upac.gouv.qc.ca/"
             },
-            "code": null,
+            "code": "UPAC",
             "startDate": "2011-09-01"
         },
         {
