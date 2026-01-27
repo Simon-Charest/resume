@@ -3308,7 +3308,7 @@
             "visible": true,
             "icon": "cvm.webp",
             "title": { "en-CA": "Information Technologies", "fr-CA": "Technologies de l'information" },
-            "degree": { "en-CA": "College Studies Diploma", "fr-CA": "Diplôme d'études collégiales" },
+            "degree": { "en-CA": "College Studies Diploma (DEC)", "fr-CA": "Diplôme d'études collégiales (DEC)" },
             "higherEducation": true,
             "school": {
                 "name": { "en-CA": "Old Montreal College", "fr-CA": "Cégep du Vieux-Montréal" },
@@ -3342,7 +3342,7 @@
             "visible": true,
             "icon": "ahuntsic.webp",
             "title": { "en-CA": "Information Technologies", "fr-CA": "Technologies de l'information" },
-            "degree": { "en-CA": "College Studies Certificate", "fr-CA": "Attestation d'études collégiales" },
+            "degree": { "en-CA": "College Studies Certificate (AEC)", "fr-CA": "Attestation d'études collégiales (AEC)" },
             "higherEducation": true,
             "school": {
                 "name": { "en-CA": "Ahuntsic College", "fr-CA": "Collège Ahuntsic" },
@@ -3374,7 +3374,7 @@
             "visible": true,
             "icon": "jean_xxiii.webp",
             "title": { "en-CA": "International Enriched Program", "fr-CA": "Programme enrichi international" },
-            "degree": { "en-CA": "Highschool Studies Diploma", "fr-CA": "Diplôme d'études secondaires" },
+            "degree": { "en-CA": "Highschool Studies Diploma (DES)", "fr-CA": "Diplôme d'études secondaires (DES)" },
             "higherEducation": false,
             "school": {
                 "name": { "en-CA": "Dorval-John-XXIII Highschool", "fr-CA": "École secondaire Dorval-Jean-XXIII" },
