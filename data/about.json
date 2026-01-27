@@ -3681,6 +3681,23 @@
         },
         {
             "name": {
+                "en-CA": "Exhibitor for Retronic Design at the Montreal Expo Gaming Arcade (MEGA)",
+                "fr-CA": "Exposant pour Retronic Design au Montreal Expo Gaming Arcade (MEGA)"
+            },
+            "organisation" : {
+                "en-CA": "Montreal Expo Gaming Arcade (MEGA)",
+                "fr-CA": "Montreal Expo Gaming Arcade (MEGA)"
+            },
+            "url": {
+                "en-CA": "https://migs.biz/en/",
+                "fr-CA": "https://migs.biz/fr/"
+            },
+            "code": null,
+            "startDate": "2018-11-09",
+            "endDate": "2018-11-11"
+        },
+        {
+            "name": {
                 "en-CA": "Administering Microsoft SQL Server 2012 Databases",
                 "fr-CA": "Administration des bases de données Microsoft SQL Server 2012"
             },

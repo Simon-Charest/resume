@@ -11,7 +11,6 @@ $BRANCH = "main"
 $USER    = ""
 $HOST_    = "www.slcti.ca"
 $APP_DIR = "~/source/resume"
-
 $SERVICE = "resume.service"
 
 # -------- Local Git --------
@@ -21,7 +20,9 @@ git add .
 
 if (git status --porcelain) {
     git commit -m $MESSAGE
-} else {
+}
+
+else {
     Write-Host "No changes to commit"
 }
 
