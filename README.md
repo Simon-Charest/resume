@@ -100,6 +100,14 @@ echo "0 0,12 * * * root /opt/certbot/bin/python -c 'import random; import time; 
 exit
 ```
 
+#### Create new SSL certificate
+```bash
+sudo openssl req -new -newkey rsa:2048 -nodes -keyout /etc/ssl/private/slcti.key -out /etc/ssl/certs/slcti.csr
+sudo chmod 600 /etc/ssl/private/slcti.key
+sudo chown root:root /etc/ssl/private/slcti.key
+cat /etc/ssl/certs/slcti.csr
+```
+
 ## Contact
 ### SLCIT
 - Simon Charest, Founder and CEO :
