@@ -129,11 +129,12 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-*.pem
+# SLCTI
+.ssl/
+.well-known/acme-challenge/*
+public/*.zip
 !.gitkeep
+*.pem
 config.json
 deploy.ps1
 deploy.sh
-.ssl
-.well-known/acme-challenge/*
-public/*.zip
