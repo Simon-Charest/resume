@@ -112,9 +112,9 @@ cat /etc/ssl/certs/slcti.csr
 ### SLCIT
 - Simon Charest, Founder and CEO :
     - [Website](https://www.slcti.ca/);
-    - [LinkedIn](https://www.linkedin.com/in/simoncharest/);
-    - [Gmail](mailto:simoncharest@gmail.com);
-    - [GitHub](https://github.com/Simon-Charest/).
+    - [Email](mailto:info@slcti.ca);
+    - [GitHub](https://github.com/slcti/);
+    - [LinkedIn](https://www.linkedin.com/in/simoncharest/).
 
 ## Acknowledgments
 - [ChatGPT](https://chat.openai.com/).

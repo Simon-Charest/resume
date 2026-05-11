@@ -41,10 +41,10 @@
                 "fr-CA": "Téléphone :"
             },
             "value": {
-                "en-CA": "+1 514-653-0623",
-                "fr-CA": "+1 514-653-0623"
+                "en-CA": null,
+                "fr-CA": null
             },
-            "url": "tel:+15146530623",
+            "url": null,
             "visible": false
         },
         {
@@ -57,6 +57,18 @@
                 "fr-CA": "https://www.slcti.ca/"
             },
             "url": "https://www.slcti.ca/",
+            "visible": true
+        },
+        {
+            "key": {
+                "en-CA": "GitHub:",
+                "fr-CA": "GitHub :"
+            },
+            "value": {
+                "en-CA": "https://github.com/slcti/",
+                "fr-CA": "https://github.com/slcti/"
+            },
+            "url": "https://github.com/slcti/",
             "visible": true
         },
         {
