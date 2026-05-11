@@ -9,6 +9,9 @@ const path = require('path');
 //const sqlite3 = require('sqlite3').verbose();
 const winston = require('winston');
 
+const logsDir = path.join(__dirname, '..', 'logs');
+fs.mkdirSync(logsDir, { recursive: true });
+
 // Create a custom logger using Winston
 const logger = winston.createLogger({
     level: 'info', // Default log level
@@ -29,7 +32,7 @@ const logger = winston.createLogger({
 
         // Log to a file for general logs
         new winston.transports.File({
-            filename: 'logs/combined.log',
+            filename: path.join(logsDir, 'combined.log'),
             level: 'info',  // Log all levels to the combined log
             maxsize: 5242880, // 5MB max size per log file
             maxFiles: 5, // Keep only 5 log files
@@ -41,7 +44,7 @@ const logger = winston.createLogger({
         
         // Log only errors to a separate error log file
         new winston.transports.File({
-            filename: 'logs/error.log',
+            filename: path.join(logsDir, 'error.log'),
             level: 'error', // Log only 'error' level logs to this file
             maxsize: 5242880, // 5MB max size per log file
             maxFiles: 5, // Keep only 5 log files
@@ -59,6 +62,7 @@ async function main() {
     const HOSTNAME = '0.0.0.0';
     const PORT = process.env.PORT || 3000;
     const DEFAULT_LANGUAGE = 'fr-CA';
+    const LANGUAGES = ['fr-CA', 'en-CA'];
     const ROUTES = ['index', 'about', 'partners', 'media', 'contact', 'geekyStuff'];
 
     const dataDir = path.join(__dirname, '..', 'data');
@@ -124,6 +128,8 @@ async function main() {
     }, {});
 
     const app = express();
+
+    app.disable('x-powered-by');
     
     // Enable compression
     app.use(compression());
@@ -132,6 +138,14 @@ async function main() {
 
     // Use the CORS middleware to allow requests from any origin
     app.use(cors());
+
+    app.use((req, res, next) => {
+        res.setHeader('X-Content-Type-Options', 'nosniff');
+        res.setHeader('X-Frame-Options', 'SAMEORIGIN');
+        res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
+        res.setHeader('Permissions-Policy', 'camera=(), microphone=(), geolocation=()');
+        next();
+    });
 
     // Serve static files from the assets directory
     app.use('/assets', express.static(assetsDir));
@@ -143,6 +157,8 @@ async function main() {
     // Middleware to set the language
     app.use((req, res, next) => {
         let lang = req.query.lang || req.cookies.lang || DEFAULT_LANGUAGE;
+        if (!LANGUAGES.includes(lang)) lang = DEFAULT_LANGUAGE;
+
         res.cookie('lang', lang, {
             maxAge: 900000,
             httpOnly: true,
@@ -170,10 +186,14 @@ async function main() {
     app.get('/:route?', cors(), asyncHandler(async (req, res) => {
         const route = ROUTES.includes(req.params.route) ? req.params.route : "index";
         const view = "body";
-        const dataPath = !ROUTES.includes(req.params.route) && req.params.route !== undefined ? "404.json" : `${route}.json`;
+        const isNotFound = !ROUTES.includes(req.params.route) && req.params.route !== undefined;
+        const dataPath = isNotFound ? "404.json" : `${route}.json`;
         const jsonData = Object.assign({}, JSON.parse(data), JSON.parse(await fs.promises.readFile(path.join(dataDir, dataPath), 'utf8')));
         const backgroundImage = `background_${String(res.locals.lang).toLowerCase()}.webp`;
-        const profileImage = profileFiles[Math.floor(Math.random() * profileFiles.length)];
+        const profileImage = profileFiles.length > 0 ? profileFiles[Math.floor(Math.random() * profileFiles.length)] : '';
+
+        if (isNotFound) res.status(404);
+
         res.render(view, {
             route,
             data: jsonData,
@@ -296,7 +316,10 @@ async function main() {
     // General Error Handling Middleware
     app.use((err, req, res, next) => {
         logger.error(`Error occurred: ${err.message}\nStack: ${err.stack}`);
-        res.status(500).json({ message: 'Internal Server Error', error: err.message });
+        const response = { message: 'Internal Server Error' };
+        if (config.environment !== 'production') response.error = err.message;
+
+        res.status(500).json(response);
     });
 
     // Load SSL certificates (only in production)

@@ -1,5 +1,6 @@
 .ssl/
 .well-known/acme-challenge/*
+logs/
 public/*.zip
 !.gitkeep
 *.pem

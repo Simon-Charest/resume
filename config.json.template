@@ -1,4 +1,4 @@
 {
-    "environment": "production"
+    "environment": "production",
     "certificates": "~/source/resume/.ssl"
 }
