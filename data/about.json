@@ -350,6 +350,10 @@
                             "fr-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)"
                         },
                         {
+                            "en-CA": "Romain Cordier (http://www.cedreetneige.ca/)",
+                            "fr-CA": "Romain Cordier (http://www.cedreetneige.ca/)"
+                        },
+                        {
                             "en-CA": "Steven Mc Lean (https://www.linkedin.com/in/steven-mc-lean-80a41613a/)",
                             "fr-CA": "Steven Mc Lean (https://www.linkedin.com/in/steven-mc-lean-80a41613a/)"
                         },
@@ -526,6 +530,50 @@
                         {
                             "en-CA": "Analysis",
                             "fr-CA": "Analyse"
+                        }
+                    ]
+                },
+                {
+                    "key": {
+                        "en-CA": "Customers",
+                        "fr-CA": "Clients"
+                    },
+                    "values": [
+                        {
+                            "en-CA": "ACC-260122",
+                            "fr-CA": "ACC-260122"
+                        },
+                        {
+                            "en-CA": "CDP-240702",
+                            "fr-CA": "CDP-240702"
+                        },
+                        {
+                            "en-CA": "DGC-241217",
+                            "fr-CA": "DGC-241217"
+                        },
+                        {
+                            "en-CA": "EKO-240801",
+                            "fr-CA": "EKO-240801"
+                        },
+                        {
+                            "en-CA": "MBM-251223",
+                            "fr-CA": "MBM-251223"
+                        },
+                        {
+                            "en-CA": "MEH-250209",
+                            "fr-CA": "MEH-250209"
+                        },
+                        {
+                            "en-CA": "PAT-250115",
+                            "fr-CA": "PAT-250115"
+                        },
+                        {
+                            "en-CA": "PAT-240319",
+                            "fr-CA": "PAT-240319"
+                        },
+                        {
+                            "en-CA": "PAR-240925",
+                            "fr-CA": "PAR-240925"
                         }
                     ]
                 },
@@ -3961,6 +4009,8 @@
         [ { "Annabel Karim": "https://www.linkedin.com/in/annabel-karim/" } ],
         [ { "Angela Karim": "https://www.linkedin.com/in/angela-k-7a9b31156/" } ],
         [ { "Ange Elenge": "https://www.linkedin.com/in/angeelenge/" } ],
+        [ { "Nolwenn Allais": "https://ca.linkedin.com/in/nolwenn-allais" } ],
+        [ { "Romain Cordier": "http://www.cedreetneige.ca/" } ],
         [ { "Innovations & Design Mtl | Produits Utilitaires Mycofab": null } ]
     ]
 }
