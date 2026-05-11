@@ -3700,6 +3700,22 @@
         },
         {
             "name": {
+                "en-CA": "Come Brew",
+                "fr-CA": "Venez Brasser"
+            },
+            "organisation" : {
+                "en-CA": "Institut Brassicole du Québec",
+                "fr-CA": "Institut Brassicole du Québec"
+            },
+            "url": {
+                "en-CA": "https://www.ibq.quebec/venez-brasser",
+                "fr-CA": "https://www.ibq.quebec/venez-brasser"
+            },
+            "code": "IBQ",
+            "startDate": "2021-08-28"
+        },
+        {
+            "name": {
                 "en-CA": "Security Screening Certificate and Briefing Form - Level II (Secret)",
                 "fr-CA": "Certificat d'enquête de sécurité et profil de sécurité - Niveau II (Secret)"
             },
