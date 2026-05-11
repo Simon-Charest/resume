@@ -332,11 +332,9 @@
                                 <span class="gray">
                                     <%= course.startDate.slice(0, 7) %>
                                     <% if (course.endDate && course.endDate > course.startDate) { %>
+                                        <%= length = formatLength(calculateLength(course.startDate, course.endDate), lang) %>
                                         -
                                         <%= course.endDate.slice(0, 7) %>
-                                    <% } %>
-                                    <%= length = formatLength(calculateLength(course.startDate, course.endDate), lang) %>
-                                    <% if (course.endDate && length) { %>
                                         ·
                                         <%= length %>
                                     <% } %>
