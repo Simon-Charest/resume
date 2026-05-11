@@ -350,8 +350,8 @@
                             "fr-CA": "Li You (https://www.linkedin.com/in/li-you-1a3288118/)"
                         },
                         {
-                            "en-CA": "Romain Cordier (http://www.cedreetneige.ca/)",
-                            "fr-CA": "Romain Cordier (http://www.cedreetneige.ca/)"
+                            "en-CA": "Romain Cordier (https://www.linkedin.com/in/romain-cordier-8ab91b153/)",
+                            "fr-CA": "Romain Cordier (https://www.linkedin.com/in/romain-cordier-8ab91b153/)"
                         },
                         {
                             "en-CA": "Steven Mc Lean (https://www.linkedin.com/in/steven-mc-lean-80a41613a/)",
@@ -4010,7 +4010,10 @@
         [ { "Angela Karim": "https://www.linkedin.com/in/angela-k-7a9b31156/" } ],
         [ { "Ange Elenge": "https://www.linkedin.com/in/angeelenge/" } ],
         [ { "Nolwenn Allais": "https://ca.linkedin.com/in/nolwenn-allais" } ],
-        [ { "Romain Cordier": "http://www.cedreetneige.ca/" } ],
+        [
+            { "Romain Cordier": "https://www.linkedin.com/in/romain-cordier-8ab91b153/" },
+            { "Cédre et Neige": "http://www.cedreetneige.ca/" }
+        ],
         [ { "Innovations & Design Mtl | Produits Utilitaires Mycofab": null } ]
     ]
 }
