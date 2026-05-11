@@ -329,11 +329,15 @@
                                 <br>
                                 <a href="<%= course.url[lang] %>" target=_blank><%= course.organisation[lang] %></a>
                                 <br>
+                                <%
+                                    const courseStartDate = course.startDate.slice(0, 7);
+                                    const courseEndDate = course.endDate ? course.endDate.slice(0, 7) : null;
+                                %>
                                 <span class="gray">
-                                    <%= course.startDate.slice(0, 7) %>
-                                    <% if (course.endDate && course.endDate.slice(0, 7) > course.startDate.slice(0, 7)) { %>
+                                    <%= courseStartDate %>
+                                    <% if (courseEndDate && courseEndDate > courseStartDate) { %>
                                         -
-                                        <%= course.endDate.slice(0, 7) %>
+                                        <%= courseEndDate %>
                                         ·
                                         <%= formatLength(calculateLength(course.startDate, course.endDate), lang) %>
                                     <% } %>
