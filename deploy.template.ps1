@@ -63,9 +63,9 @@ echo "Cleaning build artifacts..."
 rm -rf .next .cache dist tmp || true
 
 echo "Restarting service..."
-systemctl daemon-reload
-systemctl restart resume.service
-systemctl status resume.service --no-pager
+sudo systemctl daemon-reload
+sudo systemctl restart resume.service
+sudo systemctl status resume.service --no-pager
 '@
 
 Write-Host "Deployment complete"
