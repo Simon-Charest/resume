@@ -38,23 +38,23 @@
         },
         {
             "en-CA": "Network: Intel Corporation Ethernet Connection I219-V and Wireless 8265 / 8275 (rev 78)",
-            "fr-CA": "Réseau: Intel Corporation Ethernet Connection I219-V et Wireless 8265 / 8275 (rev 78)"
+            "fr-CA": "Réseau : Intel Corporation Ethernet Connection I219-V et Wireless 8265 / 8275 (rev 78)"
         },
         {
             "en-CA": "Router: TP-Link Archer C7",
-            "fr-CA": "Router: TP-Link Archer C7"
+            "fr-CA": "Routeur : TP-Link Archer C7"
         },
         {
-            "en-CA": "Modem: Hitron CDA-RES",
-            "fr-CA": "Modem: Hitron CDA-RES"
+            "en-CA": "Modem: Nokia XS-010X-D",
+            "fr-CA": "Modem : Nokia XS-010X-D"
         },
         {
             "en-CA": "Operating System: Ubuntu 24.10 (64-bit)",
-            "fr-CA": "Système d'exploitation: Ubuntu 24.10 (64-bit)"
+            "fr-CA": "Système d'exploitation : Ubuntu 24.10 (64-bit)"
         },
         {
-            "en-CA": "Internet: Cable 100/30 Mbps",
-            "fr-CA": "Internet : Câble 100/30 Mbps"
+            "en-CA": "Internet: Optical Fiber 1000/750 Mbps",
+            "fr-CA": "Internet : Fibre optique 1000/750 Mbps"
         },
         {
             "en-CA": "Web Service: Node.js",
@@ -73,5 +73,5 @@
             "fr-CA": "Enregistrement : https://www.whois.com/whois/slcti.ca"
         }
     ],
-    "geek": true
+    "enable": true
 }

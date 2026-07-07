@@ -29,7 +29,7 @@
     
     "contact": { "en-CA": "Contact", "fr-CA": "Contact" },
 
-    "geekyStuff": { "en-CA": "Geeky Stuff", "fr-CA": "Trucs de geeks" },
+    "infrastructure": { "en-CA": "Infrastructure", "fr-CA": "Infrastructure" },
     "websiteSize": { "en-CA": "Website Size:", "fr-CA": "Taille du site web :" },
 
     "poweredBy": {"en-CA": "Powered by Ubuntu, Node.js, Sectigo and Namecheap.", "fr-CA": "Propulsé par Ubuntu, Node.js, Sectigo et Namecheap."},

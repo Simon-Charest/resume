@@ -63,7 +63,7 @@ async function main() {
     const PORT = process.env.PORT || 3000;
     const DEFAULT_LANGUAGE = 'fr-CA';
     const LANGUAGES = ['fr-CA', 'en-CA'];
-    const ROUTES = ['index', 'about', 'partners', 'media', 'contact', 'geekyStuff'];
+    const ROUTES = ['index', 'about', 'partners', 'media', 'contact', 'infrastructure'];
 
     const dataDir = path.join(__dirname, '..', 'data');
     const publicDir = path.join(__dirname, '..', 'public');
